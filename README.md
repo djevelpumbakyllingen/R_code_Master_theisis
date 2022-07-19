@@ -27,3 +27,8 @@
 -	Sub_data/LORFs_fasta/
 -	Sub_data/long_list_all_CDS_prokka_filtered_LORFs.fasta
 -	Sub_data/IPScan_results_GFF/
+
+#### Kallisto_index.Rmd
+-	Sub_data/all.fasta.tbl_subset.RData
+-	Sub_data/Super.GFF.tbl_kallisto_index_subset.RData
+-	Sub_data/blastn_LMGT4071genesvsrefgenes_270322_subset.txt
