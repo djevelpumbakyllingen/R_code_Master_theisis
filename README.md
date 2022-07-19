@@ -1,23 +1,23 @@
 # R_code_Master_thesis
 
-Div:
+### Div:
 - Code for saving data is commented out
 - Code for printing to console and plotting is not commented out
 
 
 
 
-Folders and files for each Rmarkdown file:
+### Folders and files for each Rmarkdown file:
 
-Downloading_Refseq_genomes.Rmd
+#### Downloading_Refseq_genomes.Rmd
 -	Sub_data/prokaryotes.csv
 
-fastq_check_and_filter_assembled_contigs.Rmd
+#### fastq_check_and_filter_assembled_contigs.Rmd
 -	Sub_data/Staphylococcus_haemolyticus_LMGT4071_R1_subset.fq
 -	Sub_data/Staphylococcus_haemolyticus_LMGT4071_R2_subset.fq
 -	Sub_data/wt_contigs_subset.fa
 
-Gene_annotation_pan_genome_tree.Rmd
+#### Gene_annotation_pan_genome_tree.Rmd
 -	Sub_data/Prokka_results_GFF/
 -	Sub_data/gene_presence_absence.Rtab
 -	Sub_data/refseq_assembly_tbl.txt
