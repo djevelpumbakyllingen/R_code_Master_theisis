@@ -1,0 +1,115 @@
+---
+title: "Prepare index (gene sequences) to Kallisto"
+author: "Kristin Kleivan Solberg"
+date: '2022-07-18'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Loading packages
+```{r}
+library(tidyverse)
+library(microseq)
+```
+
+
+Loading data - GFF table for LMGT4071 and the refseq genomes and merged fasta files
+```{r}
+# Subsets for both
+load("Sub_data/all.fasta.tbl_subset.RData")
+load("Sub_data/Super.GFF.tbl_kallisto_index_subset.RData")
+```
+
+Extracting gene sequences 
+```{r}
+# Altering the header in the merged fasta file
+all.fasta.tbl_subset %>% 
+  mutate(Header2 = str_replace(Header, pattern = "NODE_.*", str_c("LMGT_4071_", word(Header, 2, 2, sep = "_")))) %>% 
+  mutate(Level1 = str_extract(Header, pattern = "plasmid|chromosome")) %>% 
+  mutate(Level2 = str_replace(str_extract(Header, pattern = "complete sequence|complete genome"), pattern = " ", "_")) -> all.fasta.tbl2
+
+all.fasta.tbl2[is.na(all.fasta.tbl2)] <- ""
+
+all.fasta.tbl2 %>% 
+  mutate(Header3 = str_replace_all(str_c(word(Header2, 1, 1, sep = " "), 
+                         "_", Level1,
+                         "_", Level2), 
+                         pattern = "__", "_")) %>% 
+  mutate(Header3 = ifelse(substring(Header3,nchar(Header3)) == "_",
+                          substr(Header3,1,nchar(Header3)-1), 
+                          Header3)) %>% 
+  select(Header = Header3, Sequence) -> all.fasta.tbl3
+
+# Number of bases in the assembled LMGT4071
+all.fasta.tbl3 %>% 
+  filter(str_detect(Header, pattern = ".*LMGT_4071.*")) %>% 
+  mutate(contig_length = str_length(Sequence))-> LMGT4071.contigs
+sum(LMGT4071.contigs$contig_length)
+
+# Number of bases in each genome and plasmid
+all.fasta.tbl3 %>% 
+  mutate(genome = word(Header, 1, 2, sep = "_")) %>% 
+  mutate(contig_length = str_length(Sequence)) %>% 
+  group_by(genome) %>% 
+  summarise(genome_size = sum(contig_length)) -> sum.tbl
+
+# Combining results from prokka/LORFs with interproscan, using Start and End from prokka/LORFs
+Super.GFF.tbl_subset %>% 
+  mutate(Source = str_c(Source, " ", Source_ipscan), Type = str_c(Type, " ", Type_ipscan), 
+         Score = NA, Phase = NA) %>% 
+  select(Seqid, Source, Type, Start, End, 
+         Score, Strand, Phase, Attributes) %>% 
+  mutate(Seqid = str_remove_all(Seqid, pattern = "Seqid=|;.*")) -> sub.Super.gff
+
+# Altering seqid column to match the header column in the fasta files
+for(ID in 1:nrow(sub.Super.gff)) {
+  
+  sub.Super.gff$Seqid2[ID] <- all.fasta.tbl3$Header[which(str_detect(all.fasta.tbl3$Header, pattern = sub.Super.gff$Seqid[ID]))]
+  
+}
+
+sub.Super.gff %>% 
+  mutate(Seqid = Seqid2) %>% 
+  select(-Seqid2) -> sub.Super.gff2
+
+# Extracting the gene sequences
+all.genes.seq <- gff2fasta(sub.Super.gff2, all.fasta.tbl3)
+
+# Keep only the first of the duplicated headers
+all.genes.seq %>% 
+  filter(!duplicated(Header)) -> all.genes.seq.filt
+
+# Only genes from LMGT4071, only unique sequences
+all.genes.seq.filt %>%
+  filter(str_detect(Header, pattern = ".*LMGT_4071.*")) %>% 
+  filter(!duplicated(Sequence)) -> genes.seq.4071.tbl
+
+# Save file
+#writeFasta(genes.seq.4071.tbl, "/mnt/users/krisolbe/Master/Index_files_for_kallisto/genes_seqs_4071.fasta")
+
+# All other genes sequences (from the RefSeq genomes) 
+all.genes.seq.filt %>% 
+  filter(!(Header %in% genes.seq.4071.tbl$Header)) %>% 
+  filter(!duplicated(Sequence))-> other.genes
+
+# Save file
+#writeFasta(other.genes, "/mnt/users/krisolbe/Master/Index_files_for_kallisto/genes_seqs_refs.fasta")
+```
+
+The gene sequences from the RefSeq genomes were matched with the gene sequences from LMGT4071 through BLAST - The ones with no match were saved
+```{r}
+#Subset
+blast.tbl3 <- read_delim("Sub_data/blastn_LMGT4071genesvsrefgenes_270322_subset.txt", delim = "\t",
+                        col_names = c("Qseqid", "Sseqid", "Pident", "Length",
+                                      "Mismatch", "Gapopen", "Qstart", "Qend", 
+                                      "Sstart", "Send", "Evalue", "Bitscore"))
+
+other.genes %>% 
+  filter(!(Header %in% blast.tbl3$Qseqid)) -> ref.not.hit
+
+# writeFasta(ref.not.hit, "/mnt/users/krisolbe/Master/Index_files_for_kallisto/genes_seqs_refs_not_hit_270322.fasta")
+```
