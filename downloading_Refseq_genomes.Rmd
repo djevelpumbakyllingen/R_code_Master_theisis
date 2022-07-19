@@ -1,0 +1,42 @@
+---
+title: "Downloading the Refseq genomes from NCBI"
+author: "Kristin Kleivan Solberg"
+date: '2022-07-18'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Loading the package needed
+```{r}
+library(tidyverse)
+```
+
+
+### Downloading the assembled contigs for the 19 RefSeq genomes
+
+10.12.21: Downloaded table from:
+https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/1141/
+The table and website is updated at NCBI after downloading
+
+18.07.22: Link to new genome table: https://www.ncbi.nlm.nih.gov/data-hub/genome/?taxon=1283&assembly_level=3%3A3
+
+<br>
+
+The code for downloading the fasta files are commented out to prevent unwanted download.
+```{r}
+read_delim("Sub_data/prokaryotes.csv", delim = ",") %>% 
+  mutate(file_prefix = basename(`RefSeq FTP`)) %>% 
+  drop_na(`RefSeq FTP`)-> sh.19.complete.tbl
+
+# Downloading the DNA
+# for(i in 1:nrow(sh.19.complete.tbl)){
+#   
+#   fna.file <- str_c(sh.19.complete.tbl$file_prefix[i], "_genomic.fna.gz")
+#   download.file(file.path(sh.19.complete.tbl$`RefSeq FTP`[i], fna.file),
+#                 destfile = file.path("Sub_data/fasta_RefSeq_genomes/", fna.file))
+# 
+# }
+```
