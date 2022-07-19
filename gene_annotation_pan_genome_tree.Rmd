@@ -1,0 +1,416 @@
+---
+title: "Gene annotation: Prokka & Pan genome analysis, finding LORFs, preparing input to InterProScan"
+author: "Kristin Kleivan Solberg"
+date: '2022-07-01'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Loading packages
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(microseq)
+library(ape) 
+library(ggtree) 
+library(micropan) 
+```
+
+<br>
+<br>
+<br>
+
+## Prokka
+
+Some results from Prokka (subset data), LMGT4071 wt and references
+```{r warning=FALSE, message=FALSE}
+# All GFF file paths
+prokka.results.files <- list.files("Sub_data/Prokka_results_GFF/", pattern = "*.gff" ,full.names = TRUE)
+
+# Reading in the GFF files - making a table of all
+prokka.gff.tbl <- NULL
+
+for (sti in 1:length(prokka.results.files)) {
+  GFF <- readGFF(prokka.results.files[sti])
+  prokka.gff.tbl %>% 
+    bind_rows(GFF) -> prokka.gff.tbl
+}
+
+
+head(prokka.gff.tbl)
+cat("Number of all predicted genes:", nrow(prokka.gff.tbl))
+
+# Plotting number of coding and non coding genes for all unique Seqids (excluding plasmid)
+prokka.gff.tbl %>% 
+  mutate(Seqid = if_else(str_detect(Seqid, pattern = "NODE"), "LMGT4071 wt", Seqid)) %>% 
+  mutate(Type = if_else(Type != "CDS", "non coding genes", "CDS")) %>% 
+  group_by(Seqid, Type) %>% 
+  summarize(num_genes = n()) %>% 
+  arrange(Type, desc(num_genes)) -> genes.per.genome
+
+chromosomes <- genes.per.genome$Seqid[1:20]
+
+genes.per.genome %>%
+  filter(Seqid %in% chromosomes) %>% 
+  ggplot() +
+  geom_col(aes(x = reorder(Seqid, num_genes), y = num_genes, fill = Type)) + 
+  labs(x = "Sequence ID", y = "Number of genes") +
+  ggtitle("Number of coding and non-coding genes for the LMGT4071 wt and RefSeq genomes") +
+  theme(legend.title=element_blank()) +
+  coord_flip() -> fig.1
+print(fig.1)
+```
+
+<br>
+<br>
+<br>
+
+### Pan genome tree from results of pan genome analysis by Roary
+
+GFFs from Prokka used as input to Roary
+
+
+Output file from ROARY
+```{r}
+pan.tbl <- read_delim("Sub_data/gene_presence_absence.Rtab", delim = "\t")
+```
+
+To get species and strain names on the leafs:
+
+Meta data of genomes from RefSeq NCBI: https://www.ncbi.nlm.nih.gov/datasets/genomes/?taxon=1283
+```{r}
+# Filter and renaming columns
+read_delim("Sub_data/refseq_assembly_tbl.txt", delim = "\t") %>%  
+  select(Assembly_Name = `Assembly Name`, 
+         Assembly_Accession = `Assembly Accession`, 
+         Strain = `Organism Infraspecific Names Strain`, 
+         Seq_length = `Assembly Stats Total Sequence Length`) %>%
+  filter(Assembly_Accession %in% c("GCA_000972725.1", word(colnames(pan.tbl)[2:20], 1, 2, sep = "_"))) %>% 
+  mutate(Org_name = str_c("S. haemolyticus ", Strain)) -> assembly_info
+
+# Change accession due to change in NCBI
+assembly_info$Assembly_Accession[which(assembly_info$Assembly_Accession == "GCA_000972725.1")] <- "GCF_000972725.1"
+
+# Reorder rows to match the order of assembly accession in pan.tbl
+assembly_info <- assembly_info[match(word(colnames(pan.tbl)[2:20], 1, 2, sep = "_"), assembly_info$Assembly_Accession), ]
+
+# Add info about LMGT4071 wt and column for coloring 
+assembly_info %>% 
+  select(Org_name, Assembly_Name, Assembly_Accession, Strain, Seq_length) %>% 
+  rbind(c("S. haemolyticus LMGT4071", " ", " ", "LMGT4071", 2379000)) %>% 
+  mutate(color_col = c(rep("ref", 19), "LMGT4071")) -> meta.data
+```
+
+
+Table with information for each strain
+```{r}
+meta.data %>% 
+  select(Strain, `RefSeq accession` = Assembly_Accession, `Assembly name` = Assembly_Name, `Number of bases` = Seq_length) -> meta.data.sub
+knitr::kable(meta.data.sub, format = "simple")
+```
+
+
+Pan-genome tree
+```{r}
+# Use strain name as leaf
+colnames(pan.tbl) <- c("Gene", meta.data$Org_name)
+
+# Transposed matrix
+pan.tbl %>%  
+  select(-Gene) %>% 
+  as.matrix() %>% 
+  t() %>% 
+  magrittr::set_colnames(pan.tbl$Gene) -> pan.matrix
+
+# Computing Manhattan distances
+pan.mat.dist <- distManhattan(pan.matrix)
+
+# Making tree from the Manhattan distances
+pan.mat.tree <- nj(pan.mat.dist)
+
+# Plotting the tree
+fig2 <- ggtree(pan.mat.tree, layout = "rect") %<+% meta.data +
+  geom_tiplab(aes(color = color_col), size = 6, hjust = -0.01) +
+  geom_tippoint(aes(color = color_col), size = 3) +
+  geom_treescale(width = 300) +
+  ggplot2::xlim(0, 4000) +
+  scale_color_manual(values=c("seagreen", "black")) +
+  theme(legend.position="none")
+print(fig2)
+
+# Save pan genome tree
+#ggsave(fig2, filename = "Sub_data/pan_genome_tree_250622.png", width = 14, height = 8)
+```
+
+<br>
+<br>
+<br>
+
+## LORFs and Hmmer results
+
+Collecting the LORFs
+```{r}
+# Collecting LORFs from the RefSeq genomes
+ref_files <- list.files("Sub_data/fasta_files/", pattern = "GCF*", full.names = TRUE)
+
+refs.lorfs.gff <- NULL
+
+# Combining GFF with LORFs from all genomes and saving fasta file with LORFs for each genome individually
+for (ref in 1:length(ref_files)) {
+  
+  ref.name <- str_remove(basename(ref_files[ref]), pattern = "_genomic.fna.gz")
+  ref.contigs <- readFasta(ref_files[ref])
+  
+  ref.contigs %>% 
+    findOrfs() %>% 
+    lorfs() %>% 
+    mutate(Length = orfLength(., aa = T)) %>% 
+    filter(Length >= 50) %>% 
+    filter(Attributes == "Truncated=00") -> ref.orf.tbl
+  
+  refs.lorfs.gff %>% 
+    bind_rows(ref.orf.tbl) -> refs.lorfs.gff
+  
+  gff2fasta(ref.orf.tbl, ref.contigs) %>%
+    mutate(Sequence = translate(Sequence)) %>%
+    mutate(Header1 = ifelse(str_detect(Header, pattern = "\\+"),
+                            str_remove_all(Header, pattern = "Start=[0-9]+;"),
+                            str_remove_all(Header, pattern = "End=.+;"))) %>%
+    select(Header = Header1, Sequence) -> ref.LORFs
+  
+  #writeFasta(ref.LORFs, str_c("/mnt/users/krisolbe/Master/LORFs_Sh/", "LORFs_", ref.name, ".fasta"))
+} 
+
+
+# Collecting LORFs from the wt
+wt.contigs <- readFasta("Sub_data/fasta_files/wt_contigs_filtered.fasta")
+
+wt.contigs %>% 
+  findOrfs() %>% 
+  lorfs() %>% 
+  mutate(Length = orfLength(., aa = T)) %>% 
+  filter(Length >= 50) %>% 
+  filter(Attributes == "Truncated=00") -> wt.lorf.gff
+
+gff2fasta(wt.lorf.gff, wt.contigs) %>% 
+  mutate(Sequence = translate(Sequence)) %>% 
+  mutate(Header1 = ifelse(str_detect(Header, pattern = "\\+"),
+                           str_remove_all(Header, pattern = "Start=[0-9]+;"),
+                           str_remove_all(Header, pattern = "End=.+;"))) %>% 
+  select(Header = Header1, Sequence) -> wt.LORFs 
+  
+  
+#writeFasta(wt.LORFs, "/mnt/users/krisolbe/Master/LORFs_Sh/LORFs_wt.fasta")
+```
+
+
+Some results from collecting the LORFs
+```{r}
+head(refs.lorfs.gff)
+head(wt.lorf.gff)
+
+cat("Total number of LORFs:", nrow(refs.lorfs.gff) + nrow(wt.lorf.gff))
+```
+
+
+Some results from the LORFs scanned against the Pfam database:
+
+original txt files from results from Hmmer were read by readHmmer(). Subsets of the txt files were saved with write_delim() and read in by read_delim().
+```{r message=FALSE, warning=FALSE}
+# Subset data
+hmmer.results.files <- list.files("Sub_data/Hmmer_results_txt/", pattern = "*.txt", full.names = TRUE)
+
+# Combining all hmmer results
+hmmr.results.tbl <- NULL
+
+for (sti in 1:length(hmmer.results.files)) {
+  
+  txt <- read_delim(hmmer.results.files[sti], delim = "\t") 
+  hmmr.results.tbl %>% 
+    bind_rows(txt) -> hmmr.results.tbl
+}
+
+# Code from reading in the original txt files from Hmmer with readHmmer()
+# for (sti in 1:length(hmmer.results.files)) {
+#   
+#   txt <- readHmmer(hmmer.results.files[sti]) 
+#   hmmr.results.tbl %>% 
+#     bind_rows(txt) -> hmmr.results.tbl
+# }
+
+#save(hmmr.results.tbl, file = "/mnt/users/krisolbe/Master/Files_to_transfer/txt_hmmer_results.RData")
+
+# Random matches
+knitr::kable(hmmr.results.tbl[c(1, 10, 100, 1000, 10000, 20000), c("Query", "Start", "Stop", "Description")], "simple")
+
+cat("Number of total hits:", nrow(hmmr.results.tbl))
+
+# Plotting number of hits for each genome and plasmids
+hmmr.results.tbl %>% 
+  mutate(Query = if_else(str_detect(Query, pattern = "NODE"), "LMGT4071 wt", word(Query, 1, 1, sep = ";"))) %>% 
+  group_by(Query, Description) %>% 
+  summarize(num_genes = n()) %>% 
+  arrange(desc(num_genes))-> hits.per.genome
+
+hits.per.genome %>% 
+  ggplot() +
+  geom_col(aes(x = reorder(Query, num_genes), y = num_genes)) + 
+  labs(x = "Query") +
+  coord_flip() -> fig.2
+print(fig.2)
+
+cat("Number of unique descriptions:", length(unique(hmmr.results.tbl$Description)))
+```
+
+<br>
+<br>
+<br>
+
+### InterProScan - preparing input files
+
+Data from prokka results, LORFs and hmmer results 
+```{r}
+# Subdata Hmmer results
+hmmer.results.files <- list.files("Sub_data/Hmmer_results_txt/", pattern = "*[0-9].txt", full.names = TRUE)[c(1, 12, 14, 15, 16, 17, 18, 19, 20, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13)]
+
+# Original file - all LORFs
+LORFs.fasta.files <- list.files("Sub_data/LORFs_fasta/", pattern = "*.fasta", full.names = TRUE)
+
+# Subsets Prokka results
+prokka.results.files <- list.files("Sub_data/Prokka_results_GFF/", pattern = "*.gff" ,full.names = TRUE)
+
+# Fasta files RefSeq genomes + LMGT4071 wt
+fna.ref.files <- list.files("Sub_data/fasta_files/", pattern = "GCF*", full.names = TRUE)
+
+all.contigs <- c(fna.ref.files, "Sub_data/fasta_files/wt_contigs_filtered.fasta")
+```
+
+
+Making a "long list" fasta file with translated coding genes predicted with prokka/prodigal and LORFs with hits against Pfam. 
+```{r, message=FALSE, warning=FALSE}
+long.list <- NULL
+
+for(sti in 1:length(all.contigs)){
+  
+  # Prokka result GFF -> fasta with gene sequences
+  fna <- readFasta(all.contigs[sti])
+  readGFF(prokka.results.files[sti]) %>% 
+    filter(Type == "CDS") %>% 
+    gff2fasta(fna) %>% 
+    mutate(Sequence = translate(Sequence)) %>% 
+    mutate(Header1 = ifelse(str_detect(Header, pattern = "\\+"),
+                            str_remove_all(Header, pattern = "Start=[0-9]+;"),
+                            str_remove_all(Header, pattern = "End=.+;"))) %>%
+    select(Header = Header1, Sequence) -> CDS.fasta
+  
+  # Code for subdata - reading Hmmer results
+  hmmer.file <- read_delim(hmmer.results.files[sti], delim = "\t")
+  
+  LORFs.file <- readFasta(LORFs.fasta.files[sti])
+  LORFs.file %>% 
+    filter(Header %in% hmmer.file$Query) -> hit.LORFs
+  
+  CDS.fasta %>% 
+    bind_rows(hit.LORFs) -> combined.list
+  
+  long.list %>% 
+    bind_rows(combined.list) -> long.list
+  
+}
+
+# Only unique header for input in InterProScan
+long.list.filt <- long.list[!duplicated(long.list$Header), ]
+
+#writeFasta(long.list.filt, "/mnt/users/krisolbe/Master/Input_files_interproscan/long_list_all_CDS_prokka_filtered_LORFs.fasta")
+```
+
+Looking at the filtered long list
+```{r message=FALSE, warning=FALSE}
+# Subdata
+long.list.filt <- readFasta("Sub_data/long_list_all_CDS_prokka_filtered_LORFs.fasta")
+
+head(long.list.filt)
+cat("Number of sequences:", nrow(long.list.filt))
+
+# Number of sequences for each genome + plasmids
+long.list.filt %>% 
+  mutate(Header = if_else(str_detect(Header, pattern = "NODE"), "LMGT4071 wt", word(Header, 1, 1, sep = ";"))) %>% 
+  group_by(Header) %>% 
+  summarize(num_seq = n()) %>% 
+  arrange(desc(num_seq))-> seq.per.genome
+
+seq.per.genome %>% 
+  ggplot() +
+  geom_col(aes(x = reorder(Header, num_seq), y = num_seq)) + 
+  labs(x = "Seqid") +
+  coord_flip() -> fig.3
+print(fig.3)
+```
+
+
+Splitting the translated predicted coding genes for input to InterProScan (need to run under 1000 sequences each run)
+```{r eval=FALSE}
+long_list_genes <- readFasta("Sub_data/long_list_all_CDS_prokka_filtered_LORFs.fasta")
+
+chunk.size <- 990
+
+n.chunks <- ceiling(nrow(long_list_genes) / chunk.size)
+
+out_dir_prefix <- "Sub_data/test_chunk_ipscan/protein_chunk"
+
+for (i in 1:n.chunks) {
+  first <- (i -1) * chunk.size + 1
+  last <- min(first + chunk.size - 1, nrow(long_list_genes))
+  out_file <- str_c(out_dir_prefix, "_", i, ".faa")
+  long_list_genes %>% 
+    slice(first:last) #%>% 
+  # Commented out to prevent saving
+    #writeFasta(out.file = out_file)
+}
+```
+
+
+Some results from interproscan
+```{r, message=FALSE, warning=FALSE}
+# Subset
+interproscan.files <- list.files("Sub_data/IPScan_results_GFF/", pattern = "*.gff", full.names = TRUE)
+
+# Combining all GFFs from interproscan
+interproscan.gffs <- NULL
+
+for (sti in 1:length(interproscan.files)) {
+  GFF <- readGFF(interproscan.files[sti])
+  interproscan.gffs %>% 
+    bind_rows(GFF) -> interproscan.gffs
+}
+
+interproscan.gffs %>% 
+  select(-Phase) %>% 
+  head()
+
+cat("Number of total hits, interproscan:", nrow(interproscan.gffs))
+# Amino acid sequences -> no minus strand
+cat("unique values in the Strand column:", unique(interproscan.gffs$Strand))
+
+# Number of sequences for each genome (excluding plasmids)
+interproscan.gffs %>% 
+  mutate(Seqid = if_else(str_detect(Seqid, pattern = "NODE"), "LMGT4071 wt", str_remove_all(Seqid, pattern = "Seqid|End.*|Start.*"))) %>% 
+  group_by(Seqid, Type) %>% 
+  summarize(num_hits = n()) %>% 
+  arrange(Type, desc(num_hits))-> hits.per.genome
+
+chromosomes <- hits.per.genome$Seqid[1:20]
+
+hits.per.genome %>% 
+  filter(Seqid %in% chromosomes) %>% 
+  ggplot() +
+  geom_col(aes(x = reorder(Seqid, num_hits), y = num_hits, fill = Type)) +
+  labs(x = "Sequence ID", y = "Number of hits") +
+  ggtitle("Number of matches for the LMGT4071 wt and RefSeq genomes") +
+  theme(legend.title=element_blank()) +
+  coord_flip() -> fig.4
+print(fig.4)
+```
