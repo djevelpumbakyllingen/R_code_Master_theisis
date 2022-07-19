@@ -1,0 +1,114 @@
+---
+title: "LMGT4071 WT FastQ-files; check the raw reads and the assembled contigs"
+author: "Kristin Kleivan Solberg"
+date: '2022-07-01'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Loading packages 
+```{r}
+library(tidyverse)
+library(microseq)
+```
+
+
+### Inspecting the fastq files - raw reads
+
+Subsets of the fastq files
+```{r}
+# wild type
+wt.R1 <- readFastq("Sub_data/Staphylococcus_haemolyticus_LMGT4071_R1_subset.fq")
+wt.R2 <- readFastq("Sub_data/Staphylococcus_haemolyticus_LMGT4071_R2_subset.fq")
+```
+
+
+Number of reads, read length, read coverage and kmer coverage
+
+The genome size used for calculating the coverage is taken from the chromosome S. haemolyticus SGAir0252 (accession CP025031): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5946035/
+```{r}
+# Number of reads for wild type
+nrow(wt.R1)
+nrow(wt.R2)
+
+# Length of reads in wild type
+wt.R1 %>% 
+  mutate(Length = str_length(Sequence)) -> length.wt.R1
+unique(length.wt.R1$Length)
+
+wt.R2 %>% 
+  mutate(Length = str_length(Sequence)) -> length.wt.R2
+unique(length.wt.R2$Length)
+
+# Read coverage for wild type raw data
+L.wt <- unique(length.wt.R1$Length)
+N.wt <- nrow(wt.R1) + nrow(wt.R2)
+G.wt <- 2632932
+read.cov.wt <- (L.wt*N.wt)/G.wt
+
+# K-mer coverage for wild type raw data
+K.wt <- 15
+Kmer.cov.wt <- read.cov.wt * ((L.wt - K.wt + 1) / L.wt)
+```
+
+Results from original fastq files:
+5 576 956 read pairs
+All read length = 150
+Read coverage around 635
+K-mer coverage (K = 15) = 576
+
+<br>
+<br>
+<br>
+
+### Filter the contigs generated from SPAdes 
+
+
+Subset of contigs 
+```{r}
+wt_contigs <- readFasta("Sub_data/wt_contigs_subset.fa")
+```
+
+
+Plotting the Kmer coverage against the contig length
+```{r}
+wt_contigs %>% 
+  mutate(Length = as.numeric(word(Header, 4, 4, sep = "_"))) %>% 
+  mutate(Kmer.cov = as.numeric(word(Header, 6, 6, sep = "_"))) -> wt_contigs
+
+wt_contigs %>% 
+  ggplot(aes(Length, Kmer.cov)) +
+  geom_point() +
+  coord_flip() +
+  scale_x_log10() +
+  scale_y_log10()
+```
+
+
+Contigs with length less than 500 bases and kmer coverage less than 50 are discarded
+```{r}
+wt_contigs %>% 
+  filter(Length > 500) %>% 
+  filter(Kmer.cov > 50) -> wt_contigs.filt
+
+# Plotting the filtered contigs
+wt_contigs.filt %>% 
+  ggplot(aes(Length, Kmer.cov)) +
+  geom_point() +
+  coord_flip() +
+  scale_x_log10() +
+  scale_y_log10()
+```
+
+
+Write the filtered contigs to new fasta file
+```{r}
+wt_contigs.filt <- wt_contigs.filt[c("Header", "Sequence")]  
+
+# wt_contigs.filt %>% 
+# writeFasta("Sub_data/wt_contigs_filtered.fasta")
+```
