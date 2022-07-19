@@ -1,6 +1,7 @@
 # R_code_Master_thesis
 
 ### Div:
+- NB: four Rmd files with associated data have not been commited yet...
 - Code for saving data is commented out
 - Code for printing to console and plotting is not commented out
 
@@ -32,3 +33,5 @@
 -	Sub_data/all.fasta.tbl_subset.RData
 -	Sub_data/Super.GFF.tbl_kallisto_index_subset.RData
 -	Sub_data/blastn_LMGT4071genesvsrefgenes_270322_subset.txt
+
+
