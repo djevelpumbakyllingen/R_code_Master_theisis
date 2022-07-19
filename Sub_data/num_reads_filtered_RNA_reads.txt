@@ -1,0 +1,17 @@
+"Category"	"Unique Reads"	"Duplicate Reads"
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | m_1 | A2_1"	1164065	9790609
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | m_1 | A2_2"	1518547	9436127
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | m_2 | B2_1"	1080856	10917444
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | m_2 | B2_2"	1502110	10496190
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | m_add_1 | A4_1"	1468338	8024059
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | m_add_1 | A4_2"	1864570	7627827
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | m_add_2 | B4_1"	1574178	8760787
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | m_add_2 | B4_2"	1905178	8429787
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | wt_1 | A1_1"	1079125	9248839
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | wt_1 | A1_2"	1454390	8873574
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | wt_2 | B1_1"	1135492	11181884
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | wt_2 | B1_2"	1627301	10690075
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | wt_add_1 | A3_1"	1062129	8826701
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | wt_add_1 | A3_2"	1533318	8355512
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | wt_add_2 | B3_1"	1082819	9701997
+"mnt | users | krisolbe | Master | RNAseq_analysis_LMGT4071 | Kallisto_2_try | FastQC_280322 | wt_add_2 | B3_2"	1611274	9173542

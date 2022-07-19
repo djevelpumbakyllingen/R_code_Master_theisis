@@ -1,0 +1,1001 @@
+Query	Hit	Evalue	Score	Start	Stop	Description
+Seqid=NODE_9_length_73269_cov_171.361365;Start=20098;Strand=-	PF01795.21	0.051	13.2	65	128	MraW methylase family
+Seqid=NODE_19_length_43567_cov_252.384180;End=33778;Strand=+	PF00111.29	0.0043	17.1	11	71	2Fe-2S iron-sulfur cluster binding domain
+Seqid=NODE_18_length_46896_cov_243.824217;Start=2797;Strand=-	PF16956.7	0.085	12.4	9	43	Putative general bacterial porin
+Seqid=NODE_20_length_42920_cov_245.749691;End=37005;Strand=+	PF03446.17	8.1e-7	29.4	24	108	NAD binding domain of 6-phosphogluconate dehydrogenase
+Seqid=NODE_19_length_43567_cov_252.384180;Start=13535;Strand=-	PF03653.15	0.083	13.3	7	61	Uncharacterised protein family (UPF0093)
+Seqid=NODE_45_length_6111_cov_231.502154;Start=1402;Strand=-	PF01047.24	8.8e-5	22.4	47	90	MarR family
+Seqid=NODE_23_length_38294_cov_259.278044;Start=27139;Strand=-	PF11023.10	0.26	11.5	15	49	Zinc-ribbon containing domain
+Seqid=NODE_13_length_53028_cov_297.847047;End=51362;Strand=+	PF00324.23	6.7e-39	133.9	38	450	Amino acid permease
+Seqid=NODE_16_length_48124_cov_200.183425;End=25348;Strand=+	PF01926.25	0.3	11.3	41	66	50S ribosome-binding GTPase
+Seqid=NODE_22_length_38496_cov_261.159739;Start=21339;Strand=-	PF01883.21	0.044	14.1	33	77	Iron-sulfur cluster assembly protein
+Seqid=NODE_1_length_311834_cov_211.387574;Start=212386;Strand=-	PF08442.12	0.28	10.9	672	716	ATP-grasp domain
+Seqid=NODE_37_length_13437_cov_176.831512;End=4517;Strand=+	PF08704.12	0.0024	17.7	41	151	tRNA methyltransferase complex GCD14 subunit
+Seqid=NODE_2_length_208019_cov_274.767661;End=50851;Strand=+	PF09723.12	0.0046	17.1	196	231	Zinc ribbon domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=8643;Strand=+	PF01556.20	5.4e-45	153.2	117	334	DnaJ C terminal domain
+Seqid=NODE_24_length_37923_cov_335.358083;Start=11842;Strand=-	PF01479.27	6.5e-10	38.7	1	47	S4 domain
+Seqid=NODE_10_length_69782_cov_362.884972;Start=53872;Strand=-	PF12844.9	1.4e-9	38	4	61	Helix-turn-helix domain
+Seqid=NODE_11_length_67393_cov_348.837364;End=16715;Strand=+	PF07722.15	3.5e-9	36.8	72	174	Peptidase C26
+Seqid=NODE_6_length_97827_cov_271.807059;End=66229;Strand=+	PF19592.1	0.33	11.3	101	144	Family of unknown function (DUF6097)
+Seqid=NODE_11_length_67393_cov_348.837364;End=21893;Strand=+	PF07342.13	2.4e-35	121.1	8	108	Protein of unknown function (DUF1474)
+Seqid=NODE_20_length_42920_cov_245.749691;End=14762;Strand=+	PF00881.26	6.8e-11	42.6	16	185	Nitroreductase family
+Seqid=NODE_1_length_311834_cov_211.387574;End=19479;Strand=+	PF15050.8	0.53	10.8	64	108	SCIMP protein
+Seqid=NODE_3_length_175266_cov_403.750869;End=3170;Strand=+	PF07553.13	7.3e-12	45.3	220	267	Host cell surface-exposed lipoprotein
+Seqid=NODE_1_length_311834_cov_211.387574;End=34631;Strand=+	PF07991.14	0.0051	16.5	2	89	Acetohydroxy acid isomeroreductase, NADPH-binding domain
+Seqid=NODE_13_length_53028_cov_297.847047;Start=45607;Strand=-	PF13085.8	0.24	11.6	18	49	2Fe-2S iron-sulfur cluster binding domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=46909;Strand=+	PF00004.31	0.38	11.3	366	527	ATPase family associated with various cellular activities (AAA)
+Seqid=NODE_23_length_38294_cov_259.278044;Start=1767;Strand=-	PF00006.27	0.022	14.5	31	72	ATP synthase alpha/beta family, nucleotide-binding domain
+Seqid=NODE_6_length_97827_cov_271.807059;End=72293;Strand=+	PF08792.12	0.0068	16.2	63	91	A2L zinc ribbon domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=60343;Strand=+	PF13091.8	1.8e-14	53.9	48	176	PLD-like domain
+Seqid=NODE_31_length_21906_cov_324.067754;Start=15655;Strand=-	PF16988.7	0.065	12.7	20	47	Vacuolar protein sorting 36 NZF-N zinc-finger domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=143132;Strand=+	PF02562.18	0.15	11.6	29	60	PhoH-like protein
+Seqid=NODE_18_length_46896_cov_243.824217;Start=19373;Strand=-	PF04101.18	1.8e-8	34.7	225	349	Glycosyltransferase family 28 C-terminal domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=1764;Strand=-	PF01168.22	3.8e-40	137.9	10	224	Alanine racemase, N-terminal domain
+Seqid=NODE_37_length_13437_cov_176.831512;End=2566;Strand=+	PF02737.20	1.9e-5	24.7	3	73	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Seqid=NODE_43_length_6813_cov_314.029691;Start=1065;Strand=-	PF04545.18	0.071	12.7	160	197	Sigma-70, region 4
+Seqid=NODE_2_length_208019_cov_274.767661;End=169140;Strand=+	PF13508.9	6.7e-14	52.1	43	120	Acetyltransferase (GNAT) domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=229448;Strand=-	PF07889.14	0.24	11.5	25	86	Protein of unknown function (DUF1664)
+Seqid=NODE_5_length_98151_cov_292.248894;End=54548;Strand=+	PF13555.8	5.8e-6	26.1	67	99	P-loop containing region of AAA domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=84967;Strand=-	PF11145.10	0.046	11.7	11	78	Protein of unknown function (DUF2921)
+Seqid=NODE_7_length_93468_cov_171.223747;End=61548;Strand=+	PF07992.16	6.3e-62	209.6	31	358	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_12_length_53464_cov_183.604379;Start=16073;Strand=-	PF01367.22	2.5e-33	114.7	197	290	5'-3' exonuclease, C-terminal SAM fold
+Seqid=NODE_1_length_311834_cov_211.387574;Start=155380;Strand=-	PF12840.9	0.061	13.4	201	233	Helix-turn-helix domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=62180;Strand=+	PF02463.21	5.7e-17	62	3	348	RecF/RecN/SMC N terminal domain
+Seqid=NODE_21_length_39472_cov_184.953420;End=14384;Strand=+	PF09851.11	0.01	15.6	269	288	Short C-terminal domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=206241;Strand=-	PF03475.16	4.5e-4	20.2	173	202	3-alpha domain
+Seqid=NODE_14_length_52631_cov_224.782148;End=19270;Strand=+	PF13718.8	0.033	13.7	61	124	GNAT acetyltransferase 2
+Seqid=NODE_1_length_311834_cov_211.387574;Start=236491;Strand=-	PF08478.12	1.6e-15	57.3	198	265	POTRA domain, FtsQ-type
+Seqid=NODE_23_length_38294_cov_259.278044;Start=9387;Strand=-	PF00158.28	5.8e-7	29.5	603	712	Sigma-54 interaction domain
+Seqid=NODE_34_length_17192_cov_220.014841;Start=8615;Strand=-	PF09972.11	0.046	12.6	6	69	Predicted membrane protein (DUF2207)
+Seqid=NODE_7_length_93468_cov_171.223747;End=66414;Strand=+	PF06081.13	7.3e-44	149.4	8	147	Aromatic acid exporter family member 1
+Seqid=NODE_14_length_52631_cov_224.782148;End=8645;Strand=+	PF06267.14	0.31	10.8	90	123	Family of unknown function (DUF1028)
+Seqid=NODE_2_length_208019_cov_274.767661;End=88198;Strand=+	PF03909.19	0.17	12	138	165	BSD domain
+Seqid=NODE_17_length_47207_cov_349.657798;Start=9684;Strand=-	PF00158.28	0.22	11.3	14	48	Sigma-54 interaction domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=54548;Strand=+	PF13304.8	6.1e-7	29.6	74	118	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NODE_9_length_73269_cov_171.361365;Start=50885;Strand=-	PF00004.31	1.2e-18	67.9	56	180	ATPase family associated with various cellular activities (AAA)
+Seqid=NODE_3_length_175266_cov_403.750869;End=20141;Strand=+	PF13555.8	0.0018	18.1	347	374	P-loop containing region of AAA domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=32351;Strand=-	PF04389.19	0.002	17.9	184	309	Peptidase family M28
+Seqid=NODE_15_length_48715_cov_207.370307;End=15072;Strand=+	PF16473.7	3.8e-14	53.1	44	195	3' exoribonuclease, RNase T-like
+Seqid=NODE_2_length_208019_cov_274.767661;End=168713;Strand=+	PF12831.9	6.3e-5	22.5	8	45	FAD dependent oxidoreductase
+Seqid=NODE_2_length_208019_cov_274.767661;Start=97799;Strand=-	PF19983.1	0.13	12.4	23	52	Family of unknown function (DUF6419)
+Seqid=NODE_12_length_53464_cov_183.604379;Start=18947;Strand=-	PF02518.28	8.7e-24	84.3	454	560	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=185676;Strand=-	PF19890.1	0.09	12.5	72	96	Domain of unknown function (DUF6363)
+Seqid=NODE_8_length_83912_cov_236.777313;End=13131;Strand=+	PF13353.8	9.8e-6	26.2	23	128	4Fe-4S single cluster domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=53020;Strand=-	PF06858.16	0.13	12.1	241	288	Nucleolar GTP-binding protein 1 (NOG1)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=178587;Strand=-	PF13476.8	0.29	11.7	15	113	AAA domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=17263;Strand=-	PF02492.21	5.3e-4	19.7	6	46	CobW/HypB/UreG, nucleotide-binding domain
+Seqid=NODE_13_length_53028_cov_297.847047;Start=21178;Strand=-	PF02826.21	3.1e-48	163.6	112	300	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Seqid=NODE_25_length_34213_cov_188.178140;End=29526;Strand=+	PF00092.30	1.9e-5	25.1	439	594	von Willebrand factor type A domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=176264;Strand=-	PF04464.16	1.8e-44	152.3	227	531	CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+Seqid=NODE_6_length_97827_cov_271.807059;Start=2246;Strand=-	PF01926.25	0.14	12.3	43	164	50S ribosome-binding GTPase
+Seqid=NODE_15_length_48715_cov_207.370307;Start=24959;Strand=-	PF02402.18	0.13	12	5	22	Lysis protein
+Seqid=NODE_19_length_43567_cov_252.384180;Start=18441;Strand=-	PF01380.24	2.3e-9	37.2	125	206	SIS domain
+Seqid=NODE_18_length_46896_cov_243.824217;Start=43034;Strand=-	PF12192.10	0.23	11.8	261	290	Fungal calcium binding protein
+Seqid=NODE_31_length_21906_cov_324.067754;Start=18734;Strand=-	PF05690.16	8e-9	35.3	195	257	Thiazole biosynthesis protein ThiG
+Seqid=NODE_2_length_208019_cov_274.767661;End=16732;Strand=+	PF13303.8	1.8e-42	145.7	31	332	Phosphotransferase system, EIIC
+Seqid=NODE_18_length_46896_cov_243.824217;End=24255;Strand=+	PF16658.7	2.8e-45	153.5	382	507	Class II release factor RF3, C-terminal domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=43637;Strand=-	PF13191.8	0.11	12.9	128	166	AAA ATPase domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=156318;Strand=+	PF12182.10	0.6	10.7	43	87	Bacterial lipoprotein
+Seqid=NODE_2_length_208019_cov_274.767661;End=205131;Strand=+	PF11677.10	0.51	9.7	22	84	Protein of unknown function (DUF3273)
+Seqid=NODE_22_length_38496_cov_261.159739;Start=22087;Strand=-	PF17050.7	0.18	12.7	253	301	Altered inheritance of mitochondria 5
+Seqid=NODE_14_length_52631_cov_224.782148;End=43425;Strand=+	PF13245.8	0.12	12.7	146	177	AAA domain
+Seqid=NODE_15_length_48715_cov_207.370307;End=4422;Strand=+	PF16111.7	0.29	12	9	64	Domain of unknown function (DUF4829)
+Seqid=NODE_29_length_25401_cov_728.240404;Start=8886;Strand=-	PF13304.8	6.7e-4	19.6	328	346	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NODE_1_length_311834_cov_211.387574;Start=242743;Strand=-	PF18898.2	0.084	13	45	66	Family of unknown function (DUF5654)
+Seqid=NODE_6_length_97827_cov_271.807059;End=83384;Strand=+	PF14489.8	1.2e-32	112	66	144	QueF-like protein
+Seqid=NODE_9_length_73269_cov_171.361365;Start=9123;Strand=-	PF08282.14	0.15	11.8	98	122	haloacid dehalogenase-like hydrolase
+Seqid=NODE_37_length_13437_cov_176.831512;End=5486;Strand=+	PF05214.14	0.41	10.4	64	158	Baculovirus P33
+Seqid=NODE_15_length_48715_cov_207.370307;Start=16987;Strand=-	PF03602.17	4.8e-6	26.4	311	417	Conserved hypothetical protein 95
+Seqid=NODE_14_length_52631_cov_224.782148;End=30835;Strand=+	PF19103.2	0.11	13.1	15	95	Family of unknown function (DUF5790)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=106274;Strand=-	PF13173.8	0.0028	17.8	596	693	AAA domain
+Seqid=NODE_11_length_67393_cov_348.837364;Start=30962;Strand=-	PF13673.9	7.9e-13	48.6	42	137	Acetyltransferase (GNAT) domain
+Seqid=NODE_20_length_42920_cov_245.749691;End=35627;Strand=+	PF02776.20	2.4e-52	177.1	40	199	Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+Seqid=NODE_17_length_47207_cov_349.657798;Start=30596;Strand=-	PF03193.18	0.0047	16.9	10	51	RsgA GTPase
+Seqid=NODE_7_length_93468_cov_171.223747;End=8643;Strand=+	PF00226.33	1.8e-27	95.3	7	68	DnaJ domain
+Seqid=NODE_14_length_52631_cov_224.782148;End=31658;Strand=+	PF06325.15	4.5e-10	39.5	95	183	Ribosomal protein L11 methyltransferase (PrmA)
+Seqid=NODE_21_length_39472_cov_184.953420;Start=35657;Strand=-	PF19974.1	0.0017	17.6	150	183	Ternary complex associated domain 9
+Seqid=NODE_6_length_97827_cov_271.807059;Start=54824;Strand=-	PF20008.1	0.037	14.1	260	280	Domain of unknown function (DUF6429)
+Seqid=NODE_17_length_47207_cov_349.657798;Start=30596;Strand=-	PF02463.21	0.026	14	24	406	RecF/RecN/SMC N terminal domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=88294;Strand=-	PF05175.16	0.21	11.3	167	238	Methyltransferase small domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=269396;Strand=-	PF01783.25	2.6e-27	94.9	2	57	Ribosomal L32p protein family
+Seqid=NODE_28_length_29582_cov_183.620200;Start=25742;Strand=-	PF16917.7	0.012	15.2	134	244	Biotin/lipoate A/B protein ligase family
+Seqid=NODE_2_length_208019_cov_274.767661;Start=121944;Strand=-	PF07795.13	0.48	10.4	62	136	Protein of unknown function (DUF1635)
+Seqid=NODE_24_length_37923_cov_335.358083;Start=14904;Strand=-	PF14814.8	0.0053	16.8	141	183	Bifunctional transglycosylase second domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=12625;Strand=-	PF02785.21	4.7e-35	120	334	443	Biotin carboxylase C-terminal domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=187992;Strand=+	PF13476.8	0.014	16	24	67	AAA domain
+Seqid=NODE_30_length_24760_cov_181.758984;Start=3386;Strand=-	PF07564.13	2.4e-18	66.1	1853	1929	Domain of Unknown Function (DUF1542)
+Seqid=NODE_4_length_114657_cov_314.622369;Start=16658;Strand=-	PF00501.30	5e-83	279.2	21	423	AMP-binding enzyme
+Seqid=NODE_9_length_73269_cov_171.361365;Start=50885;Strand=-	PF13238.8	0.025	15.2	56	82	AAA domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=53020;Strand=-	PF16897.7	0.062	13.4	279	332	C-terminal region of MMR_HSR1 domain
+Seqid=NODE_32_length_21705_cov_241.590947;End=18699;Strand=+	PF10237.11	0.009	15.9	252	337	Probable N6-adenine methyltransferase
+Seqid=NODE_31_length_21906_cov_324.067754;Start=10577;Strand=-	PF06068.15	0.087	12.1	86	125	TIP49 P-loop domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=195346;Strand=-	PF02367.19	0.13	12.3	151	185	Threonylcarbamoyl adenosine biosynthesis protein TsaE
+Seqid=NODE_10_length_69782_cov_362.884972;Start=54147;Strand=-	PF13800.8	0.4	11	7	39	Sigma factor regulator N-terminal
+Seqid=NODE_21_length_39472_cov_184.953420;Start=26505;Strand=-	PF17227.4	0.093	13.8	333	351	Family of unknown function (DUF5302)
+Seqid=NODE_21_length_39472_cov_184.953420;Start=4416;Strand=-	PF13242.8	1.5e-11	44.3	286	370	HAD-hyrolase-like
+Seqid=NODE_11_length_67393_cov_348.837364;End=7318;Strand=+	PF00881.26	6.8e-16	58.9	10	164	Nitroreductase family
+Seqid=NODE_1_length_311834_cov_211.387574;Start=66915;Strand=-	PF00977.23	0.029	14	191	235	Histidine biosynthesis protein
+Seqid=NODE_9_length_73269_cov_171.361365;Start=8022;Strand=-	PF04548.18	0.044	13.2	163	235	AIG1 family
+Seqid=NODE_1_length_311834_cov_211.387574;End=287752;Strand=+	PF12670.9	0.0024	18.1	14	67	Protein of unknown function (DUF3792)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=168370;Strand=-	PF05621.13	0.062	12.8	107	149	Bacterial TniB protein
+Seqid=NODE_30_length_24760_cov_181.758984;Start=22841;Strand=-	PF07992.16	2.7e-6	26.9	2	211	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_3_length_175266_cov_403.750869;End=20141;Strand=+	PF01580.20	0.51	9.8	350	376	FtsK/SpoIIIE family
+Seqid=NODE_4_length_114657_cov_314.622369;Start=11944;Strand=-	PF01326.21	3.7e-10	39.7	17	64	Pyruvate phosphate dikinase, AMP/ATP-binding domain
+Seqid=NODE_11_length_67393_cov_348.837364;End=62036;Strand=+	PF00128.26	7.4e-124	413.8	28	371	Alpha amylase, catalytic domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=178906;Strand=-	PF01583.22	0.072	13.1	180	225	Adenylylsulphate kinase
+Seqid=NODE_31_length_21906_cov_324.067754;Start=5117;Strand=-	PF09190.13	3.1e-13	50.1	361	421	DALR domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=56638;Strand=+	PF11559.10	0.027	14.7	13	77	Afadin- and alpha -actinin-Binding
+Seqid=NODE_7_length_93468_cov_171.223747;Start=49653;Strand=-	PF06480.17	0.08	13.4	32	57	FtsH Extracellular
+Seqid=NODE_10_length_69782_cov_362.884972;End=14702;Strand=+	PF07992.16	8.7e-58	196	4	312	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_18_length_46896_cov_243.824217;End=15160;Strand=+	PF00291.27	0.067	12.7	33	98	Pyridoxal-phosphate dependent enzyme
+Seqid=NODE_17_length_47207_cov_349.657798;Start=32899;Strand=-	PF00797.19	8.2e-69	232.1	21	256	N-acetyltransferase
+Seqid=NODE_3_length_175266_cov_403.750869;End=20141;Strand=+	PF13555.8	0.1	12.4	16	46	P-loop containing region of AAA domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=32949;Strand=+	PF00081.24	2.8e-35	120.7	3	88	Iron/manganese superoxide dismutases, alpha-hairpin domain
+Seqid=NODE_22_length_38496_cov_261.159739;Start=29488;Strand=-	PF01266.26	0.018	14.7	3	83	FAD dependent oxidoreductase
+Seqid=NODE_3_length_175266_cov_403.750869;Start=143199;Strand=-	PF06979.14	0.37	10.7	358	431	TMEM70/TMEM186/TMEM223 protein family
+Seqid=NODE_8_length_83912_cov_236.777313;End=38742;Strand=+	PF16446.7	0.12	12.3	35	88	Domain of unknown function (DUF5043)
+Seqid=NODE_2_length_208019_cov_274.767661;Start=121944;Strand=-	PF01456.19	0.1	12.7	31	111	Mucin-like glycoprotein
+Seqid=NODE_2_length_208019_cov_274.767661;End=79443;Strand=+	PF13304.8	0.015	15.2	32	52	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NODE_6_length_97827_cov_271.807059;End=86734;Strand=+	PF00781.26	1.3e-25	89.5	14	141	Diacylglycerol kinase catalytic domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=63627;Strand=+	PF16363.7	0.022	14.3	10	81	GDP-mannose 4,6 dehydratase
+Seqid=NODE_24_length_37923_cov_335.358083;Start=35138;Strand=-	PF05729.14	0.0049	16.9	8	34	NACHT domain
+Seqid=NODE_23_length_38294_cov_259.278044;Start=9387;Strand=-	PF00004.31	3.1e-10	40.7	605	723	ATPase family associated with various cellular activities (AAA)
+Seqid=NODE_11_length_67393_cov_348.837364;End=63987;Strand=+	PF00583.27	5.4e-12	46.1	79	148	Acetyltransferase (GNAT) family
+Seqid=NODE_43_length_6813_cov_314.029691;Start=1065;Strand=-	PF14493.8	0.026	15.1	169	193	Helix-turn-helix domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=93027;Strand=-	PF16124.7	5.7e-9	36.7	333	394	RecQ zinc-binding
+Seqid=NODE_4_length_114657_cov_314.622369;Start=81434;Strand=-	PF16912.7	8.2e-5	22.2	185	361	Glucose dehydrogenase C-terminus
+Seqid=NODE_3_length_175266_cov_403.750869;End=108411;Strand=+	PF01297.19	4.6e-64	216.5	40	325	Zinc-uptake complex component A periplasmic
+Seqid=NODE_1_length_311834_cov_211.387574;Start=199192;Strand=-	PF13353.8	8.2e-4	20	120	198	4Fe-4S single cluster domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=100643;Strand=+	PF12351.10	0.3	11.1	144	203	Ca2+ regulator and membrane fusion protein Fig1
+Seqid=NODE_32_length_21705_cov_241.590947;Start=13304;Strand=-	PF13476.8	0.013	16.2	18	49	AAA domain
+Seqid=NODE_3_length_175266_cov_403.750869;Start=52135;Strand=-	PF01209.20	0.0032	16.9	69	183	ubiE/COQ5 methyltransferase family
+Seqid=NODE_10_length_69782_cov_362.884972;End=672;Strand=+	PF04978.14	0.0092	16.5	29	82	Protein of unknown function (DUF664)
+Seqid=NODE_35_length_16646_cov_337.315589;End=5103;Strand=+	PF02518.28	1.5e-4	22.4	248	296	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Seqid=NODE_1_length_311834_cov_211.387574;End=50066;Strand=+	PF02660.17	1.5e-52	178.1	9	191	Glycerol-3-phosphate acyltransferase
+Seqid=NODE_4_length_114657_cov_314.622369;Start=25941;Strand=-	PF13738.8	0.0037	16.7	205	274	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_10_length_69782_cov_362.884972;End=60133;Strand=+	PF00701.24	0.16	10.7	297	350	Dihydrodipicolinate synthetase family
+Seqid=NODE_1_length_311834_cov_211.387574;Start=83171;Strand=-	PF12730.9	1.2e-4	22.2	8	177	ABC-2 family transporter protein
+Seqid=NODE_8_length_83912_cov_236.777313;Start=13972;Strand=-	PF04080.15	0.27	10.9	116	257	Per1-like family
+Seqid=NODE_37_length_13437_cov_176.831512;End=4517;Strand=+	PF01234.19	0.14	11.4	121	154	NNMT/PNMT/TEMT family
+Seqid=NODE_22_length_38496_cov_261.159739;Start=36732;Strand=-	PF07361.13	0.0052	17.5	76	117	Cytochrome b562
+Seqid=NODE_3_length_175266_cov_403.750869;End=129383;Strand=+	PF08242.14	9.5e-10	39.2	45	135	Methyltransferase domain
+Seqid=NODE_22_length_38496_cov_261.159739;Start=33778;Strand=-	PF06197.15	0.078	12.7	5	133	Protein of unknown function (DUF998)
+Seqid=NODE_5_length_98151_cov_292.248894;End=89608;Strand=+	PF00931.24	0.17	11.1	365	403	NB-ARC domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=202645;Strand=+	PF12710.9	0.21	12.1	10	38	haloacid dehalogenase-like hydrolase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=252126;Strand=-	PF13370.8	0.0064	17.1	180	220	4Fe-4S single cluster domain of Ferredoxin I
+Seqid=NODE_2_length_208019_cov_274.767661;End=79443;Strand=+	PF02463.21	0.13	11.7	29	49	RecF/RecN/SMC N terminal domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=196419;Strand=-	PF03793.21	4.8e-14	52.1	373	435	PASTA domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=124507;Strand=-	PF05193.23	2.1e-21	76.9	182	363	Peptidase M16 inactive domain
+Seqid=NODE_44_length_6183_cov_208.341140;End=2881;Strand=+	PF00392.23	2.2e-16	59.4	69	131	Bacterial regulatory proteins, gntR family
+Seqid=NODE_17_length_47207_cov_349.657798;End=44140;Strand=+	PF00005.29	2.2e-33	115.8	20	176	ABC transporter
+Seqid=NODE_4_length_114657_cov_314.622369;Start=15267;Strand=-	PF14502.8	0.016	14.7	14	53	Helix-turn-helix domain
+Seqid=NODE_37_length_13437_cov_176.831512;End=7562;Strand=+	PF01264.23	5.7e-115	383.6	1	362	Chorismate synthase
+Seqid=NODE_14_length_52631_cov_224.782148;End=7960;Strand=+	PF09250.13	0.016	15.7	27	86	Bifunctional DNA primase/polymerase, N-terminal
+Seqid=NODE_1_length_311834_cov_211.387574;Start=198443;Strand=-	PF00481.23	1e-13	51.7	43	156	Protein phosphatase 2C
+Seqid=NODE_6_length_97827_cov_271.807059;Start=43637;Strand=-	PF02603.18	3.9e-39	133.7	3	125	HPr Serine kinase N terminus
+Seqid=NODE_20_length_42920_cov_245.749691;End=17072;Strand=+	PF04932.17	0.32	10.7	91	159	O-Antigen ligase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=274479;Strand=-	PF11744.10	0.0099	14.8	8	131	Aluminium activated malate transporter
+Seqid=NODE_1_length_311834_cov_211.387574;Start=122385;Strand=-	PF12844.9	3.3e-6	27.2	11	77	Helix-turn-helix domain
+Seqid=NODE_19_length_43567_cov_252.384180;Start=21012;Strand=-	PF13404.8	0.3	11.1	13	42	AsnC-type helix-turn-helix domain
+Seqid=NODE_8_length_83912_cov_236.777313;Start=13972;Strand=-	PF12832.9	2.1e-5	23.6	40	173	MFS_1 like family
+Seqid=NODE_3_length_175266_cov_403.750869;Start=54855;Strand=-	PF00009.29	0.32	10.6	307	367	Elongation factor Tu GTP binding domain
+Seqid=NODE_8_length_83912_cov_236.777313;End=37787;Strand=+	PF00410.21	8.3e-53	177.7	5	132	Ribosomal protein S8
+Seqid=NODE_23_length_38294_cov_259.278044;End=17301;Strand=+	PF13738.8	3.8e-11	42.9	70	277	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_7_length_93468_cov_171.223747;End=56638;Strand=+	PF07870.13	0.088	12.8	15	33	Protein of unknown function (DUF1657)
+Seqid=NODE_2_length_208019_cov_274.767661;End=147946;Strand=+	PF13426.9	0.49	10.8	27	104	PAS domain
+Seqid=NODE_16_length_48124_cov_200.183425;End=5905;Strand=+	PF13604.8	0.055	13.3	27	59	AAA domain
+Seqid=NODE_4_length_114657_cov_314.622369;End=15625;Strand=+	PF15617.8	0.082	12.1	6	50	C-C_Bond_Lyase of the TIM-Barrel fold
+Seqid=NODE_8_length_83912_cov_236.777313;End=6073;Strand=+	PF14163.8	0.94	9	189	215	Super-infection exclusion protein B
+Seqid=NODE_27_length_31933_cov_317.774925;End=2154;Strand=+	PF10294.11	4.3e-4	20.1	71	125	Lysine methyltransferase
+Seqid=NODE_24_length_37923_cov_335.358083;Start=6388;Strand=-	PF01078.23	0.046	13.2	201	219	Magnesium chelatase, subunit ChlI
+Seqid=NODE_4_length_114657_cov_314.622369;Start=45845;Strand=-	PF12685.9	0.0019	18.2	65	136	SpoIIIAH-like protein
+Seqid=NODE_45_length_6111_cov_231.502154;Start=2591;Strand=-	PF04703.14	0.47	11	42	86	FaeA-like protein
+Seqid=NODE_5_length_98151_cov_292.248894;End=54548;Strand=+	PF00005.29	3.3e-36	124.9	63	210	ABC transporter
+Seqid=NODE_3_length_175266_cov_403.750869;Start=54855;Strand=-	PF09439.12	0.054	13	236	293	Signal recognition particle receptor beta subunit
+Seqid=NODE_31_length_21906_cov_324.067754;Start=3447;Strand=-	PF00148.21	0.089	11.6	89	118	Nitrogenase component 1 type Oxidoreductase
+Seqid=NODE_1_length_311834_cov_211.387574;End=217157;Strand=+	PF06954.13	0.073	13.7	2	24	Resistin
+Seqid=NODE_9_length_73269_cov_171.361365;Start=25150;Strand=-	PF13086.8	0.35	10.7	448	490	AAA domain
+Seqid=NODE_3_length_175266_cov_403.750869;Start=37246;Strand=-	PF13673.9	0.002	18.2	52	159	Acetyltransferase (GNAT) domain
+Seqid=NODE_36_length_15694_cov_236.416277;Start=7246;Strand=-	PF14584.8	0.1	12.7	11	77	Protein of unknown function (DUF4446)
+Seqid=NODE_18_length_46896_cov_243.824217;End=46620;Strand=+	PF01978.21	0.0088	16	28	80	Sugar-specific transcriptional regulator TrmB
+Seqid=NODE_18_length_46896_cov_243.824217;Start=19373;Strand=-	PF06925.13	1.5e-42	145.6	19	179	Monogalactosyldiacylglycerol (MGDG) synthase
+Seqid=NODE_41_length_7036_cov_347.769938;End=1806;Strand=+	PF00117.30	2.2e-4	21.2	53	112	Glutamine amidotransferase class-I
+Seqid=NODE_2_length_208019_cov_274.767661;End=93369;Strand=+	PF00528.24	1.2e-19	70.9	42	211	Binding-protein-dependent transport system inner membrane component
+Seqid=NODE_7_length_93468_cov_171.223747;End=40781;Strand=+	PF13555.8	1.2e-6	28.3	117	161	P-loop containing region of AAA domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=61548;Strand=+	PF13738.8	3.1e-9	36.6	34	342	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_8_length_83912_cov_236.777313;End=3564;Strand=+	PF00583.27	5.3e-7	30	136	243	Acetyltransferase (GNAT) family
+Seqid=NODE_1_length_311834_cov_211.387574;Start=83912;Strand=-	PF13304.8	5.8e-9	36.2	89	180	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NODE_30_length_24760_cov_181.758984;Start=22841;Strand=-	PF13738.8	0.82	9	133	259	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_16_length_48124_cov_200.183425;End=16298;Strand=+	PF03874.18	0.28	11.6	8	57	RNA polymerase Rpb4
+Seqid=NODE_28_length_29582_cov_183.620200;End=29242;Strand=+	PF05966.14	0.0099	15.3	20	60	Chordopoxvirus A33R protein
+Seqid=NODE_25_length_34213_cov_188.178140;End=2255;Strand=+	PF19077.2	0.12	13	471	528	Bacterial Ig-like domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=87895;Strand=+	PF00672.27	2.2e-14	53.6	194	245	HAMP domain
+Seqid=NODE_14_length_52631_cov_224.782148;End=43425;Strand=+	PF00910.24	0.23	12	153	176	RNA helicase
+Seqid=NODE_18_length_46896_cov_243.824217;End=39670;Strand=+	PF00425.20	3.1e-66	223.7	191	439	chorismate binding enzyme
+Seqid=NODE_10_length_69782_cov_362.884972;End=49387;Strand=+	PF07022.15	2.4e-6	27.6	20	69	Bacteriophage CI repressor helix-turn-helix domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=176078;Strand=+	PF13508.9	7.5e-8	32.7	62	149	Acetyltransferase (GNAT) domain
+Seqid=NODE_41_length_7036_cov_347.769938;Start=3534;Strand=-	PF13589.8	0.0045	17	288	342	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Seqid=NODE_12_length_53464_cov_183.604379;Start=10281;Strand=-	PF05970.16	0.074	12.2	149	185	PIF1-like helicase
+Seqid=NODE_13_length_53028_cov_297.847047;Start=47505;Strand=-	PF02552.18	0.015	15.2	190	237	CO dehydrogenase beta subunit/acetyl-CoA synthase epsilon subunit
+Seqid=NODE_11_length_67393_cov_348.837364;End=7318;Strand=+	PF12022.10	0.39	11.1	2	47	Domain of unknown function (DUF3510)
+Seqid=NODE_12_length_53464_cov_183.604379;Start=31221;Strand=-	PF03959.15	0.19	11.4	146	274	Serine hydrolase (FSH1)
+Seqid=NODE_20_length_42920_cov_245.749691;End=28700;Strand=+	PF13304.8	0.0019	18.1	432	507	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NODE_5_length_98151_cov_292.248894;Start=6440;Strand=-	PF01266.26	3.7e-8	33.4	44	337	FAD dependent oxidoreductase
+Seqid=NODE_7_length_93468_cov_171.223747;End=23866;Strand=+	PF00772.23	3.6e-4	20.6	463	559	DnaB-like helicase N terminal domain
+Seqid=NODE_52_length_2643_cov_333.065082;Start=202;Strand=-	PF05207.15	0.06	13.2	40	51	CSL zinc finger
+Seqid=NODE_22_length_38496_cov_261.159739;End=38404;Strand=+	PF00575.25	1.2e-12	48.1	6	76	S1 RNA binding domain
+Seqid=NODE_10_length_69782_cov_362.884972;Start=5711;Strand=-	PF14676.8	0.1	12.9	1	63	FANCI solenoid 2
+Seqid=NODE_7_length_93468_cov_171.223747;Start=49653;Strand=-	PF01741.20	0.14	12.6	26	51	Large-conductance mechanosensitive channel, MscL
+Seqid=NODE_3_length_175266_cov_403.750869;Start=54855;Strand=-	PF10396.11	7.6e-39	132.7	17	136	GTP-binding protein TrmE N-terminus
+Seqid=NODE_6_length_97827_cov_271.807059;Start=74697;Strand=-	PF13555.8	1.7e-5	24.5	22	51	P-loop containing region of AAA domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=63904;Strand=+	PF13460.8	6.4e-7	29.5	9	122	NAD(P)H-binding
+Seqid=NODE_6_length_97827_cov_271.807059;End=64733;Strand=+	PF00990.23	1.8e-35	122.2	189	347	Diguanylate cyclase, GGDEF domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=14279;Strand=+	PF14960.8	0.053	13.1	9	40	ATP synthase regulation
+Seqid=NODE_27_length_31933_cov_317.774925;Start=17769;Strand=-	PF06832.14	0.062	13.4	21	59	Penicillin-Binding Protein C-terminus Family
+Seqid=NODE_7_length_93468_cov_171.223747;End=82565;Strand=+	PF11626.10	0.37	11	127	151	TRF2-interacting telomeric protein/Rap1 - C terminal domain
+Seqid=NODE_1_length_311834_cov_211.387574;End=50533;Strand=+	PF00564.26	0.051	13.6	49	74	PB1 domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=12321;Strand=+	PF00266.21	1.9e-6	27.2	79	200	Aminotransferase class-V
+Seqid=NODE_12_length_53464_cov_183.604379;Start=10281;Strand=-	PF05673.15	0.041	13.1	124	228	Protein of unknown function (DUF815)
+Seqid=NODE_10_length_69782_cov_362.884972;End=48538;Strand=+	PF02517.18	0.0036	17.7	133	163	Type II CAAX prenyl endopeptidase Rce1-like
+Seqid=NODE_4_length_114657_cov_314.622369;Start=83595;Strand=-	PF15978.7	0.047	12.8	3	57	Tn7-like transposition protein D
+Seqid=NODE_38_length_11048_cov_282.202261;End=7919;Strand=+	PF06508.15	2.1e-85	285.6	10	216	Queuosine biosynthesis protein QueC
+Seqid=NODE_21_length_39472_cov_184.953420;End=23774;Strand=+	PF10643.11	0.0082	15.8	73	144	Photosystem P840 reaction-centre cytochrome c-551
+Seqid=NODE_7_length_93468_cov_171.223747;End=12002;Strand=+	PF09212.12	0.0081	16.5	7	50	Carbohydrate binding module 27
+Seqid=NODE_2_length_208019_cov_274.767661;End=163274;Strand=+	PF01638.19	0.0048	16.8	62	106	HxlR-like helix-turn-helix
+Seqid=NODE_1_length_311834_cov_211.387574;Start=260619;Strand=-	PF14520.8	4.9e-6	27.1	101	155	Helix-hairpin-helix domain
+Seqid=NODE_36_length_15694_cov_236.416277;End=15524;Strand=+	PF13457.8	2e-4	22	898	968	GW (Gly-Tryp) dipeptide domain
+Seqid=NODE_19_length_43567_cov_252.384180;Start=39782;Strand=-	PF09685.12	7.2e-19	68	22	141	Domain of unknown function (DUF4870)
+Seqid=NODE_32_length_21705_cov_241.590947;End=11177;Strand=+	PF01808.20	2.5e-109	365.6	133	426	AICARFT/IMPCHase bienzyme
+Seqid=NODE_46_length_4648_cov_171.154014;End=2316;Strand=+	PF01003.21	0.15	11.9	11	43	Flavivirus capsid protein C
+Seqid=NODE_1_length_311834_cov_211.387574;Start=84967;Strand=-	PF05767.14	0.23	11.7	14	72	Poxvirus virion envelope protein A14
+Seqid=NODE_2_length_208019_cov_274.767661;End=64977;Strand=+	PF07687.16	4.1000000000000003e-23	81.5	176	297	Peptidase dimerisation domain
+Seqid=NODE_6_length_97827_cov_271.807059;End=35183;Strand=+	PF07993.14	0.65	9.2	49	131	Male sterility protein
+Seqid=NODE_19_length_43567_cov_252.384180;Start=26165;Strand=-	PF19482.1	0.017	15.1	53	91	Family of unknown function (DUF6018)
+Seqid=NODE_10_length_69782_cov_362.884972;End=24593;Strand=+	PF00890.26	4e-7	29.6	18	50	FAD binding domain
+Seqid=NODE_4_length_114657_cov_314.622369;Start=25941;Strand=-	PF01266.26	0.35	10.5	8	40	FAD dependent oxidoreductase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=291312;Strand=-	PF16020.7	0.28	11.1	104	126	Deltamethrin resistance
+Seqid=NODE_1_length_311834_cov_211.387574;Start=230183;Strand=-	PF01479.27	2.7e-11	43.1	208	252	S4 domain
+Seqid=NODE_37_length_13437_cov_176.831512;End=4517;Strand=+	PF05175.16	0.012	15.4	42	121	Methyltransferase small domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=40781;Strand=+	PF01637.20	0.01	15.8	116	164	ATPase domain predominantly from Archaea
+Seqid=NODE_10_length_69782_cov_362.884972;End=5742;Strand=+	PF03807.19	0.034	14.9	16	67	NADP oxidoreductase coenzyme F420-dependent
+Seqid=NODE_6_length_97827_cov_271.807059;Start=3519;Strand=-	PF13728.8	0.027	14.4	5	78	F plasmid transfer operon protein
+Seqid=NODE_2_length_208019_cov_274.767661;End=79443;Strand=+	PF02463.21	9.5e-4	18.8	129	195	RecF/RecN/SMC N terminal domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=17432;Strand=+	PF00702.28	8.9e-14	52.4	8	192	haloacid dehalogenase-like hydrolase
+Seqid=NODE_8_length_83912_cov_236.777313;End=77022;Strand=+	PF04307.16	4.1e-31	107.8	1	153	LexA-binding, inner membrane-associated putative hydrolase
+Seqid=NODE_4_length_114657_cov_314.622369;Start=75182;Strand=-	PF14187.8	0.042	13.6	171	197	Domain of unknown function (DUF4310)
+Seqid=NODE_5_length_98151_cov_292.248894;End=46909;Strand=+	PF13238.8	0.72	10.5	367	399	AAA domain
+Seqid=NODE_19_length_43567_cov_252.384180;End=33778;Strand=+	PF00384.24	1.6e-76	258.1	317	740	Molybdopterin oxidoreductase
+Seqid=NODE_7_length_93468_cov_171.223747;End=58246;Strand=+	PF01316.23	2.8e-27	94.4	35	103	Arginine repressor, DNA binding domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=3921;Strand=-	PF00633.25	3.6e-7	29.8	186	212	Helix-hairpin-helix motif
+Seqid=NODE_2_length_208019_cov_274.767661;Start=109219;Strand=-	PF00324.23	4.9e-100	335.5	13	447	Amino acid permease
+Seqid=NODE_1_length_311834_cov_211.387574;End=193992;Strand=+	PF00830.21	3.6e-19	68.7	4	59	Ribosomal L28 family
+Seqid=NODE_10_length_69782_cov_362.884972;End=4945;Strand=+	PF07690.18	3.2e-12	46.2	246	426	Major Facilitator Superfamily
+Seqid=NODE_3_length_175266_cov_403.750869;Start=8401;Strand=-	PF13384.8	0.042	13.8	130	155	Homeodomain-like domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=62127;Strand=+	PF15336.8	0.19	11.9	18	47	Autism susceptibility gene 2 protein
+Seqid=NODE_3_length_175266_cov_403.750869;End=133393;Strand=+	PF13191.8	0.099	13.1	60	111	AAA ATPase domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=189693;Strand=+	PF20008.1	0.23	11.5	76	109	Domain of unknown function (DUF6429)
+Seqid=NODE_3_length_175266_cov_403.750869;Start=49745;Strand=-	PF09339.12	0.45	10.4	28	48	IclR helix-turn-helix domain
+Seqid=NODE_24_length_37923_cov_335.358083;Start=6388;Strand=-	PF13238.8	0.28	11.8	201	223	AAA domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=88294;Strand=-	PF13602.8	2.4e-7	31.9	212	326	Zinc-binding dehydrogenase
+Seqid=NODE_31_length_21906_cov_324.067754;Start=12165;Strand=-	PF01695.19	0.062	12.9	541	561	IstB-like ATP binding protein
+Seqid=NODE_6_length_97827_cov_271.807059;Start=147;Strand=-	PF07554.15	0.12	13.2	9	63	FIVAR domain
+Seqid=NODE_29_length_25401_cov_728.240404;End=11585;Strand=+	PF01926.25	0.26	11.5	32	111	50S ribosome-binding GTPase
+Seqid=NODE_9_length_73269_cov_171.361365;Start=72449;Strand=-	PF14794.8	0.1	12.5	50	100	Domain of unknown function (DUF4479)
+Seqid=NODE_24_length_37923_cov_335.358083;Start=6388;Strand=-	PF13671.8	0.006	16.9	201	240	AAA domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=22942;Strand=-	PF08840.13	0.0021	18.3	76	223	BAAT / Acyl-CoA thioester hydrolase C terminal
+Seqid=NODE_31_length_21906_cov_324.067754;Start=12165;Strand=-	PF05729.14	0.2	11.7	205	232	NACHT domain
+Seqid=NODE_8_length_83912_cov_236.777313;End=2148;Strand=+	PF01156.21	2.9e-50	171.7	4	301	Inosine-uridine preferring nucleoside hydrolase
+Seqid=NODE_32_length_21705_cov_241.590947;End=9117;Strand=+	PF00586.26	1.5e-19	70.5	65	168	AIR synthase related protein, N-terminal domain
+Seqid=NODE_11_length_67393_cov_348.837364;End=62794;Strand=+	PF14502.8	0.019	14.5	29	63	Helix-turn-helix domain
+Seqid=NODE_18_length_46896_cov_243.824217;Start=18199;Strand=-	PF13347.8	0.25	10	23	132	MFS/sugar transport protein
+Seqid=NODE_7_length_93468_cov_171.223747;End=17959;Strand=+	PF08477.15	0.022	15.1	10	125	Ras of Complex, Roc, domain of DAPkinase
+Seqid=NODE_2_length_208019_cov_274.767661;End=30929;Strand=+	PF11313.10	0.32	11	73	106	Protein of unknown function (DUF3116)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=28086;Strand=-	PF00728.24	0.28	10.5	142	213	Glycosyl hydrolase family 20, catalytic domain
+Seqid=NODE_3_length_175266_cov_403.750869;Start=54855;Strand=-	PF00350.25	0.029	14.5	237	271	Dynamin family
+Seqid=NODE_14_length_52631_cov_224.782148;End=11620;Strand=+	PF07831.15	8.8e-28	95.9	345	417	Pyrimidine nucleoside phosphorylase C-terminal domain
+Seqid=NODE_1_length_311834_cov_211.387574;End=289428;Strand=+	PF06335.14	1.1e-76	257.2	6	202	Protein of unknown function (DUF1054)
+Seqid=NODE_10_length_69782_cov_362.884972;Start=14808;Strand=-	PF17124.7	4.8e-7	29.9	23	164	ThiJ/PfpI family-like
+Seqid=NODE_7_length_93468_cov_171.223747;End=30560;Strand=+	PF13514.8	0.017	14.8	34	64	AAA domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=84546;Strand=+	PF01280.22	0.6	10.2	100	136	Ribosomal protein L19e
+Seqid=NODE_34_length_17192_cov_220.014841;Start=9135;Strand=-	PF07850.16	0.3	11.8	146	218	Renin receptor-like protein
+Seqid=NODE_2_length_208019_cov_274.767661;End=151808;Strand=+	PF09716.12	0.3	11.3	12	38	Malarial early transcribed membrane protein (ETRAMP)
+Seqid=NODE_3_length_175266_cov_403.750869;End=82877;Strand=+	PF12860.9	0.0036	17.5	268	314	PAS fold
+Seqid=NODE_32_length_21705_cov_241.590947;End=1696;Strand=+	PF00731.22	2.3e-65	218.8	25	171	AIR carboxylase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=231347;Strand=-	PF10351.11	0.16	10.9	6	143	Golgi-body localisation protein domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=20521;Strand=-	PF17849.3	0.032	14.3	158	225	Dis3-like cold-shock domain 2 (CSD2)
+Seqid=NODE_3_length_175266_cov_403.750869;End=75558;Strand=+	PF06550.13	0.015	14.9	13	87	Signal-peptide peptidase, presenilin aspartyl protease
+Seqid=NODE_15_length_48715_cov_207.370307;Start=5158;Strand=-	PF19745.1	0.0099	14.8	51	213	Alpha-(1,6)-fucosyltransferase N- and catalytic domains
+Seqid=NODE_8_length_83912_cov_236.777313;End=48385;Strand=+	PF01416.22	1e-28	100.1	147	245	tRNA pseudouridine synthase
+Seqid=NODE_24_length_37923_cov_335.358083;Start=11426;Strand=-	PF02163.24	0.031	13.6	14	79	Peptidase family M50
+Seqid=NODE_7_length_93468_cov_171.223747;Start=77365;Strand=-	PF09894.11	0.31	10.7	14	72	Uncharacterized protein conserved in archaea (DUF2121)
+Seqid=NODE_29_length_25401_cov_728.240404;End=7927;Strand=+	PF08281.14	0.31	10.8	144	182	Sigma-70, region 4
+Seqid=NODE_9_length_73269_cov_171.361365;Start=43489;Strand=-	PF10141.11	2.4e-52	177.7	573	762	Single-strand DNA-specific exonuclease, C terminal domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=153997;Strand=-	PF16242.7	3.2e-16	59.3	10	126	Pyridoxamine 5'-phosphate oxidase like
+Seqid=NODE_17_length_47207_cov_349.657798;Start=36135;Strand=-	PF13413.8	0.01	15.7	4	38	Helix-turn-helix domain
+Seqid=NODE_16_length_48124_cov_200.183425;End=5905;Strand=+	PF13479.8	0.13	12.1	29	47	AAA domain
+Seqid=NODE_24_length_37923_cov_335.358083;End=6710;Strand=+	PF17204.5	0.33	11.3	58	98	Sid-5 family
+Seqid=NODE_14_length_52631_cov_224.782148;End=43425;Strand=+	PF13401.8	0.36	11.2	153	190	AAA domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=36917;Strand=+	PF00528.24	0.0071	16.2	2	75	Binding-protein-dependent transport system inner membrane component
+Seqid=NODE_23_length_38294_cov_259.278044;Start=2704;Strand=-	PF02463.21	9.1e-5	22.1	37	231	RecF/RecN/SMC N terminal domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=62127;Strand=+	PF00326.23	4e-6	26.6	195	320	Prolyl oligopeptidase family
+Seqid=NODE_2_length_208019_cov_274.767661;End=45559;Strand=+	PF01408.24	0.081	13.7	24	99	Oxidoreductase family, NAD-binding Rossmann fold
+Seqid=NODE_6_length_97827_cov_271.807059;Start=74697;Strand=-	PF09818.11	0.26	10.1	24	48	Predicted ATPase of the ABC class
+Seqid=NODE_24_length_37923_cov_335.358083;Start=32359;Strand=-	PF06005.14	0.41	11.2	8	60	Cell division protein ZapB
+Seqid=NODE_1_length_311834_cov_211.387574;Start=295888;Strand=-	PF08402.12	2.9e-8	33.8	273	341	TOBE domain
+Seqid=NODE_20_length_42920_cov_245.749691;End=28700;Strand=+	PF03193.18	0.006	16.6	354	386	RsgA GTPase
+Seqid=NODE_2_length_208019_cov_274.767661;End=168713;Strand=+	PF01266.26	0.018	14.7	8	42	FAD dependent oxidoreductase
+Seqid=NODE_6_length_97827_cov_271.807059;Start=44909;Strand=-	PF13191.8	0.0069	16.8	634	660	AAA ATPase domain
+Seqid=NODE_33_length_17260_cov_202.581447;End=1561;Strand=+	PF04100.14	0.044	12.8	16	52	Vps53-like, N-terminal
+Seqid=NODE_41_length_7036_cov_347.769938;Start=4676;Strand=-	PF00486.30	4.1e-15	55.7	125	195	Transcriptional regulatory protein, C terminal
+Seqid=NODE_3_length_175266_cov_403.750869;Start=153364;Strand=-	PF08280.13	0.043	13.9	3	49	M protein trans-acting positive regulator (MGA) HTH domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=109705;Strand=-	PF11016.10	0.55	10.2	16	119	Protein of unknown function (DUF2854)
+Seqid=NODE_2_length_208019_cov_274.767661;End=143645;Strand=+	PF04879.18	0.26	11.4	41	96	Molybdopterin oxidoreductase Fe4S4 domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=2527;Strand=-	PF13602.8	2.3e-5	25.5	223	341	Zinc-binding dehydrogenase
+Seqid=NODE_23_length_38294_cov_259.278044;Start=9387;Strand=-	PF07728.16	7.6e-4	19.6	202	281	AAA domain (dynein-related subfamily)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=97968;Strand=-	PF12146.10	6.6e-49	166.4	29	286	Serine aminopeptidase, S33
+Seqid=NODE_14_length_52631_cov_224.782148;End=38409;Strand=+	PF00137.23	2.8e-14	53.3	4	66	ATP synthase subunit C
+Seqid=NODE_9_length_73269_cov_171.361365;Start=14454;Strand=-	PF11116.10	0.3	12	173	205	Protein of unknown function (DUF2624)
+Seqid=NODE_30_length_24760_cov_181.758984;Start=3386;Strand=-	PF07564.13	9.3e-15	54.6	1315	1389	Domain of Unknown Function (DUF1542)
+Seqid=NODE_6_length_97827_cov_271.807059;Start=74697;Strand=-	PF07728.16	0.34	11	32	59	AAA domain (dynein-related subfamily)
+Seqid=NODE_4_length_114657_cov_314.622369;Start=60347;Strand=-	PF02826.21	0.23	10.9	7	61	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=27590;Strand=-	PF13432.8	2.5e-4	21.6	185	235	Tetratricopeptide repeat
+Seqid=NODE_13_length_53028_cov_297.847047;Start=10827;Strand=-	PF06645.15	0.75	10	257	313	Microsomal signal peptidase 12 kDa subunit (SPC12)
+Seqid=NODE_37_length_13437_cov_176.831512;End=3805;Strand=+	PF09245.12	0.063	12.9	26	135	Mycoplasma arthritidis-derived mitogen
+Seqid=NODE_12_length_53464_cov_183.604379;Start=1606;Strand=-	PF05697.15	3.5e-46	157.1	1	144	Bacterial trigger factor protein (TF)
+Seqid=NODE_9_length_73269_cov_171.361365;Start=12625;Strand=-	PF01071.21	0.004	17	114	217	Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+Seqid=NODE_26_length_32943_cov_298.148938;Start=26536;Strand=-	PF03721.16	0.035	13.8	164	205	UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=291312;Strand=-	PF01010.21	0.065	13	30	84	NADH-dehyrogenase subunit F, TMs, (complex I) C-terminus
+Seqid=NODE_39_length_10348_cov_289.411352;Start=5264;Strand=-	PF00294.26	3.4e-57	194.2	11	280	pfkB family carbohydrate kinase
+Seqid=NODE_40_length_8100_cov_232.960613;End=8012;Strand=+	PF13344.8	0.057	13.6	29	69	Haloacid dehalogenase-like hydrolase
+Seqid=NODE_8_length_83912_cov_236.777313;End=6679;Strand=+	PF00004.31	0.68	10.5	30	48	ATPase family associated with various cellular activities (AAA)
+Seqid=NODE_2_length_208019_cov_274.767661;End=17421;Strand=+	PF07464.13	0.25	11.5	168	218	Apolipophorin-III precursor (apoLp-III)
+Seqid=NODE_3_length_175266_cov_403.750869;End=131892;Strand=+	PF06143.13	0.49	10.1	268	308	Baculovirus 11 kDa family
+Seqid=NODE_10_length_69782_cov_362.884972;End=1841;Strand=+	PF13460.8	0.0069	16.4	26	70	NAD(P)H-binding
+Seqid=NODE_46_length_4648_cov_171.154014;End=4550;Strand=+	PF13509.8	0.7	10.2	292	325	S1 domain
+Seqid=NODE_33_length_17260_cov_202.581447;End=11706;Strand=+	PF13191.8	0.27	11.7	374	533	AAA ATPase domain
+Seqid=NODE_11_length_67393_cov_348.837364;End=58439;Strand=+	PF03486.16	1.8e-4	20.5	154	188	HI0933-like protein
+Seqid=NODE_20_length_42920_cov_245.749691;Start=21915;Strand=-	PF12728.9	0.33	11.3	8	30	Helix-turn-helix domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=151808;Strand=+	PF02706.17	0.17	12.3	15	51	Chain length determinant protein
+Seqid=NODE_24_length_37923_cov_335.358083;Start=26668;Strand=-	PF01751.24	5.6e-5	23.4	6	73	Toprim domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=87515;Strand=-	PF01053.22	0.011	14.3	86	191	Cys/Met metabolism PLP-dependent enzyme
+Seqid=NODE_4_length_114657_cov_314.622369;Start=55639;Strand=-	PF04277.15	0.025	15.2	19	69	Oxaloacetate decarboxylase, gamma chain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=156175;Strand=-	PF13521.8	0.084	13.2	62	127	AAA domain
+Seqid=NODE_29_length_25401_cov_728.240404;Start=8886;Strand=-	PF13173.8	0.48	10.5	34	76	AAA domain
+Seqid=NODE_23_length_38294_cov_259.278044;Start=9387;Strand=-	PF13245.8	0.35	11.2	198	282	AAA domain
+Seqid=NODE_10_length_69782_cov_362.884972;End=36122;Strand=+	PF05729.14	1.7e-4	21.6	253	363	NACHT domain
+Seqid=NODE_20_length_42920_cov_245.749691;End=28700;Strand=+	PF08477.15	7.7e-4	19.8	358	416	Ras of Complex, Roc, domain of DAPkinase
+Seqid=NODE_2_length_208019_cov_274.767661;End=121320;Strand=+	PF02683.17	0.29	11.1	100	203	Cytochrome C biogenesis protein transmembrane region
+Seqid=NODE_3_length_175266_cov_403.750869;Start=147837;Strand=-	PF04650.19	3.5e-10	39.6	7	31	YSIRK type signal peptide
+Seqid=NODE_32_length_21705_cov_241.590947;End=21618;Strand=+	PF03328.16	0.091	12.1	382	459	HpcH/HpaI aldolase/citrate lyase family
+Seqid=NODE_7_length_93468_cov_171.223747;End=54268;Strand=+	PF07478.15	2.5e-9	37	143	291	D-ala D-ala ligase C-terminus
+Seqid=NODE_3_length_175266_cov_403.750869;Start=93354;Strand=-	PF06983.15	9.2e-6	26.3	27	135	3-demethylubiquinone-9 3-methyltransferase
+Seqid=NODE_1_length_311834_cov_211.387574;End=287752;Strand=+	PF12725.9	0.36	10.2	11	60	Protein of unknown function (DUF3810)
+Seqid=NODE_5_length_98151_cov_292.248894;End=17432;Strand=+	PF08645.13	0.008	16	125	181	Polynucleotide kinase 3 phosphatase
+Seqid=NODE_22_length_38496_cov_261.159739;Start=15623;Strand=-	PF00193.19	0.1	13.1	24	79	Extracellular link domain
+Seqid=NODE_3_length_175266_cov_403.750869;Start=102734;Strand=-	PF12802.9	0.089	12.9	34	66	MarR family
+Seqid=NODE_1_length_311834_cov_211.387574;Start=205857;Strand=-	PF13561.8	0.0018	17.9	217	300	Enoyl-(Acyl carrier protein) reductase
+Seqid=NODE_6_length_97827_cov_271.807059;End=16922;Strand=+	PF18159.3	0.001	18.6	7	93	SMODS-associating 4TM effector domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=42783;Strand=+	PF01926.25	0.05	13.8	35	62	50S ribosome-binding GTPase
+Seqid=NODE_15_length_48715_cov_207.370307;Start=38680;Strand=-	PF05048.15	0.11	11.9	189	327	Periplasmic copper-binding protein (NosD)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=218857;Strand=-	PF00860.22	7e-109	364.2	31	403	Permease family
+Seqid=NODE_7_length_93468_cov_171.223747;End=8643;Strand=+	PF18551.3	0.016	15	182	213	Thaumarchaeal output domain 1
+Seqid=NODE_11_length_67393_cov_348.837364;End=15000;Strand=+	PF00478.27	2e-160	533.5	16	481	IMP dehydrogenase / GMP reductase domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=50885;Strand=-	PF06068.15	0.2	10.9	28	81	TIP49 P-loop domain
+Seqid=NODE_12_length_53464_cov_183.604379;Start=1606;Strand=-	PF05698.16	4.4e-45	153.7	264	420	Bacterial trigger factor protein (TF) C-terminus
+Seqid=NODE_37_length_13437_cov_176.831512;End=1552;Strand=+	PF04548.18	4.1e-7	29.7	178	279	AIG1 family
+Seqid=NODE_6_length_97827_cov_271.807059;End=2491;Strand=+	PF16212.7	0.0053	16.7	10	45	Phospholipid-translocating P-type ATPase C-terminal
+Seqid=NODE_39_length_10348_cov_289.411352;Start=1169;Strand=-	PF00571.30	2.2e-4	21.7	219	273	CBS domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=164365;Strand=+	PF06473.14	0.86	9.4	10	68	FGF binding protein 1 (FGF-BP1)
+Seqid=NODE_9_length_73269_cov_171.361365;Start=53020;Strand=-	PF02421.20	9e-8	31.9	164	324	Ferrous iron transport protein B
+Seqid=NODE_1_length_311834_cov_211.387574;End=14482;Strand=+	PF00528.24	2.1e-19	70.1	100	305	Binding-protein-dependent transport system inner membrane component
+Seqid=NODE_40_length_8100_cov_232.960613;End=7086;Strand=+	PF13604.8	0.084	12.7	32	168	AAA domain
+Seqid=NODE_32_length_21705_cov_241.590947;Start=13304;Strand=-	PF03266.17	0.027	14.4	281	307	NTPase
+Seqid=NODE_4_length_114657_cov_314.622369;Start=54042;Strand=-	PF04932.17	0.057	13.1	14	78	O-Antigen ligase
+Seqid=NODE_21_length_39472_cov_184.953420;Start=20373;Strand=-	PF19645.1	0.16	12.1	11	69	Family of unknown function (DUF6148)
+Seqid=NODE_2_length_208019_cov_274.767661;End=30929;Strand=+	PF13463.8	9e-11	42.3	38	100	Winged helix DNA-binding domain
+Seqid=NODE_12_length_53464_cov_183.604379;Start=186;Strand=-	PF07724.16	1e-47	162.5	109	305	AAA domain (Cdc48 subfamily)
+Seqid=NODE_2_length_208019_cov_274.767661;End=77748;Strand=+	PF02517.18	2.4e-4	21.5	157	247	Type II CAAX prenyl endopeptidase Rce1-like
+Seqid=NODE_13_length_53028_cov_297.847047;Start=28275;Strand=-	PF13738.8	0.0016	17.9	2	41	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_6_length_97827_cov_271.807059;End=85190;Strand=+	PF05875.14	0.077	12.5	225	312	Ceramidase
+Seqid=NODE_5_length_98151_cov_292.248894;End=46909;Strand=+	PF03600.18	0.0092	15.3	14	81	Citrate transporter
+Seqid=NODE_2_length_208019_cov_274.767661;End=205131;Strand=+	PF02694.17	1.8e-42	144	6	113	Uncharacterised BCR, YnfA/UPF0060 family
+Seqid=NODE_12_length_53464_cov_183.604379;Start=12588;Strand=-	PF08271.14	0.043	13.4	12	30	TFIIB zinc-binding
+Seqid=NODE_5_length_98151_cov_292.248894;End=41936;Strand=+	PF04464.16	2.1e-41	142.2	50	371	CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+Seqid=NODE_20_length_42920_cov_245.749691;End=28700;Strand=+	PF00004.31	0.0053	17.3	360	380	ATPase family associated with various cellular activities (AAA)
+Seqid=NODE_3_length_175266_cov_403.750869;End=117652;Strand=+	PF03215.17	0.018	15	5	57	Rad17 P-loop domain
+Seqid=NODE_14_length_52631_cov_224.782148;End=29009;Strand=+	PF01197.20	6.5e-27	93.6	1	79	Ribosomal protein L31
+Seqid=NODE_3_length_175266_cov_403.750869;End=158209;Strand=+	PF13604.8	0.066	13	28	59	AAA domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=94820;Strand=-	PF08477.15	1	9.7	347	389	Ras of Complex, Roc, domain of DAPkinase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=64289;Strand=-	PF05979.14	6.5e-32	109.3	11	72	Bacterial protein of unknown function (DUF896)
+Seqid=NODE_5_length_98151_cov_292.248894;End=83678;Strand=+	PF07262.13	0.98	9.4	2	41	CDI immunity protein
+Seqid=NODE_15_length_48715_cov_207.370307;Start=5158;Strand=-	PF00335.22	0.35	10.6	31	91	Tetraspanin family
+Seqid=NODE_5_length_98151_cov_292.248894;End=76461;Strand=+	PF01709.22	3.4e-80	269	4	235	Transcriptional regulator
+Seqid=NODE_3_length_175266_cov_403.750869;Start=39359;Strand=-	PF12773.9	7.5e-5	22.7	3	26	Double zinc ribbon
+Seqid=NODE_1_length_311834_cov_211.387574;End=305365;Strand=+	PF00180.22	0.072	12.4	10	51	Isocitrate/isopropylmalate dehydrogenase
+Seqid=NODE_32_length_21705_cov_241.590947;End=3775;Strand=+	PF18273.3	0.056	13.9	18	79	Type III R-M EcoP15I C-terminal domain
+Seqid=NODE_24_length_37923_cov_335.358083;Start=28159;Strand=-	PF08264.15	4.8e-9	36.4	397	536	Anticodon-binding domain of tRNA ligase
+Seqid=NODE_23_length_38294_cov_259.278044;End=33862;Strand=+	PF03009.19	5.3e-47	160.8	71	314	Glycerophosphoryl diester phosphodiesterase family
+Seqid=NODE_11_length_67393_cov_348.837364;End=24837;Strand=+	PF05019.15	0.043	13.2	31	81	Coenzyme Q (ubiquinone) biosynthesis protein Coq4
+Seqid=NODE_8_length_83912_cov_236.777313;End=37357;Strand=+	PF19474.1	0.061	13	19	30	Family of unknown function (DUF6011)
+Seqid=NODE_20_length_42920_cov_245.749691;End=3054;Strand=+	PF16965.7	0.31	10	5	83	Ceramide synthase regulator
+Seqid=NODE_1_length_311834_cov_211.387574;End=16390;Strand=+	PF01637.20	0.21	11.6	69	92	ATPase domain predominantly from Archaea
+Seqid=NODE_8_length_83912_cov_236.777313;End=46781;Strand=+	PF05621.13	0.24	10.9	36	61	Bacterial TniB protein
+Seqid=NODE_34_length_17192_cov_220.014841;Start=13078;Strand=-	PF08245.14	7.7e-43	146.8	111	294	Mur ligase middle domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=97968;Strand=-	PF00326.23	0.0011	18.7	185	303	Prolyl oligopeptidase family
+Seqid=NODE_21_length_39472_cov_184.953420;Start=37755;Strand=-	PF07687.16	0.09	12.8	141	250	Peptidase dimerisation domain
+Seqid=NODE_17_length_47207_cov_349.657798;Start=36483;Strand=-	PF13545.8	0.29	11.2	26	60	Crp-like helix-turn-helix domain
+Seqid=NODE_17_length_47207_cov_349.657798;Start=34486;Strand=-	PF00154.23	0.013	15	30	89	recA bacterial DNA recombination protein
+Seqid=NODE_1_length_311834_cov_211.387574;Start=255864;Strand=-	PF19239.1	0.19	11.5	31	59	GIY-YIG domain-containing protein
+Seqid=NODE_18_length_46896_cov_243.824217;End=15160;Strand=+	PF02826.21	0.26	10.7	6	58	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=184949;Strand=-	PF13460.8	0.16	11.9	10	74	NAD(P)H-binding
+Seqid=NODE_17_length_47207_cov_349.657798;Start=9684;Strand=-	PF13401.8	3.6e-4	20.9	28	190	AAA domain
+Seqid=NODE_18_length_46896_cov_243.824217;Start=6848;Strand=-	PF01152.23	1.2e-26	93.3	6	118	Bacterial-like globin
+Seqid=NODE_25_length_34213_cov_188.178140;End=18826;Strand=+	PF18851.3	0.33	10.9	134	211	Bacterial archaeo-eukaryotic release factor family 8
+Seqid=NODE_12_length_53464_cov_183.604379;Start=10281;Strand=-	PF00308.20	4.6e-7	30	153	227	Bacterial dnaA protein
+Seqid=NODE_25_length_34213_cov_188.178140;End=2255;Strand=+	PF17802.3	0.73	10	297	321	Prealbumin-like fold domain
+Seqid=NODE_14_length_52631_cov_224.782148;End=48310;Strand=+	PF06012.14	0.25	10.9	26	158	Domain of Unknown Function (DUF908)
+Seqid=NODE_25_length_34213_cov_188.178140;End=15383;Strand=+	PF19553.1	0.046	13.6	71	126	Family of unknown function (DUF6076)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=285619;Strand=-	PF16325.7	0.045	14.1	231	273	Peptidase family U32 C-terminal domain
+Seqid=NODE_10_length_69782_cov_362.884972;End=46459;Strand=+	PF13411.8	3.4e-16	59.2	1	66	MerR HTH family regulatory protein
+Seqid=NODE_14_length_52631_cov_224.782148;Start=17419;Strand=-	PF17919.3	0.53	10.5	61	89	RNase H-like domain found in reverse transcriptase
+Seqid=NODE_13_length_53028_cov_297.847047;Start=46766;Strand=-	PF06115.13	0.14	12	79	120	Domain of unknown function (DUF956)
+Seqid=NODE_9_length_73269_cov_171.361365;Start=54465;Strand=-	PF01016.21	3.2e-34	116.9	15	94	Ribosomal L27 protein
+Seqid=NODE_1_length_311834_cov_211.387574;Start=5795;Strand=-	PF12327.10	0.065	13.6	36	84	FtsZ family, C-terminal domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=177191;Strand=-	PF01926.25	0.1	12.8	104	228	50S ribosome-binding GTPase
+Seqid=NODE_3_length_175266_cov_403.750869;Start=37953;Strand=-	PF14155.8	0.17	11.8	79	136	Domain of unknown function (DUF4307)
+Seqid=NODE_3_length_175266_cov_403.750869;End=158209;Strand=+	PF02463.21	0.0023	17.5	32	211	RecF/RecN/SMC N terminal domain
+Seqid=NODE_15_length_48715_cov_207.370307;Start=11549;Strand=-	PF01965.26	0.0083	16	31	102	DJ-1/PfpI family
+Seqid=NODE_24_length_37923_cov_335.358083;Start=34775;Strand=-	PF06153.13	8.3e-55	183.7	1	109	Cyclic-di-AMP receptor
+Seqid=NODE_1_length_311834_cov_211.387574;Start=97968;Strand=-	PF00975.22	0.068	13.4	84	116	Thioesterase domain
+Seqid=NODE_20_length_42920_cov_245.749691;Start=21915;Strand=-	PF13542.8	0.3	10.6	5	24	Helix-turn-helix domain of transposase family ISL3
+Seqid=NODE_18_length_46896_cov_243.824217;End=15160;Strand=+	PF14163.8	0.054	13.1	4	69	Super-infection exclusion protein B
+Seqid=NODE_27_length_31933_cov_317.774925;Start=1013;Strand=-	PF04625.15	0.93	8.5	44	86	DEC-1 protein, N-terminal region
+Seqid=NODE_5_length_98151_cov_292.248894;Start=2807;Strand=-	PF10975.10	0.19	12	155	189	Protein of unknown function (DUF2802)
+Seqid=NODE_24_length_37923_cov_335.358083;Start=11426;Strand=-	PF04999.15	0.0093	16	38	103	Cell division protein FtsL
+Seqid=NODE_2_length_208019_cov_274.767661;End=207748;Strand=+	PF06026.16	5.4e-58	195.5	53	222	Ribose 5-phosphate isomerase A (phosphoriboisomerase A)
+Seqid=NODE_14_length_52631_cov_224.782148;End=19270;Strand=+	PF13302.9	0.59	10.9	186	270	Acetyltransferase (GNAT) domain
+Seqid=NODE_16_length_48124_cov_200.183425;Start=41699;Strand=-	PF12681.9	0.13	12.3	51	80	Glyoxalase-like domain
+Seqid=NODE_10_length_69782_cov_362.884972;End=36453;Strand=+	PF03819.19	6.8e-6	26.3	3	101	MazG nucleotide pyrophosphohydrolase domain
+Seqid=NODE_29_length_25401_cov_728.240404;Start=3593;Strand=-	PF07127.13	0.78	10.2	105	128	Late nodulin protein
+Seqid=NODE_3_length_175266_cov_403.750869;Start=124548;Strand=-	PF13191.8	0.016	15.7	28	82	AAA ATPase domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=94820;Strand=-	PF13555.8	0.14	12.1	343	361	P-loop containing region of AAA domain
+Seqid=NODE_3_length_175266_cov_403.750869;Start=54855;Strand=-	PF03193.18	0.31	11	308	389	RsgA GTPase
+Seqid=NODE_5_length_98151_cov_292.248894;End=15373;Strand=+	PF02989.16	0.18	11.7	32	110	Lyme disease proteins of unknown function
+Seqid=NODE_1_length_311834_cov_211.387574;Start=231952;Strand=-	PF19924.1	0.14	11.8	9	139	Family of unknown function (DUF6387)
+Seqid=NODE_10_length_69782_cov_362.884972;End=40151;Strand=+	PF14989.8	0.0015	18.7	196	281	Coiled-coil domain containing 32
+Seqid=NODE_2_length_208019_cov_274.767661;End=150008;Strand=+	PF07690.18	3.2e-44	151.4	15	342	Major Facilitator Superfamily
+Seqid=NODE_3_length_175266_cov_403.750869;Start=39359;Strand=-	PF03353.17	1.5e-5	24.8	43	154	Ras-mediated vulval-induction antagonist
+Seqid=NODE_3_length_175266_cov_403.750869;End=139059;Strand=+	PF01242.21	1.1e-17	64.2	25	137	6-pyruvoyl tetrahydropterin synthase
+Seqid=NODE_8_length_83912_cov_236.777313;End=58457;Strand=+	PF02402.18	0.24	11.2	6	25	Lysis protein
+Seqid=NODE_13_length_53028_cov_297.847047;End=20712;Strand=+	PF13419.8	0.27	11.4	632	711	Haloacid dehalogenase-like hydrolase
+Seqid=NODE_36_length_15694_cov_236.416277;End=1851;Strand=+	PF08428.12	0.0092	16.8	56	123	Rib domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=272055;Strand=-	PF04378.15	0.15	11.4	43	123	Ribosomal RNA large subunit methyltransferase D, RlmJ
+Seqid=NODE_4_length_114657_cov_314.622369;Start=6889;Strand=-	PF14277.8	0.0096	15.8	94	127	Domain of unknown function (DUF4364)
+Seqid=NODE_8_length_83912_cov_236.777313;End=63693;Strand=+	PF06664.14	0.059	12.7	3	77	Wnt-binding factor required for Wnt secretion
+Seqid=NODE_2_length_208019_cov_274.767661;Start=4710;Strand=-	PF01408.24	0.042	14.7	45	141	Oxidoreductase family, NAD-binding Rossmann fold
+Seqid=NODE_3_length_175266_cov_403.750869;End=95645;Strand=+	PF03050.16	0.001	18.7	19	97	Transposase IS66 family
+Seqid=NODE_1_length_311834_cov_211.387574;Start=278930;Strand=-	PF16576.7	0.14	11.4	1113	1150	Barrel-sandwich domain of CusB or HlyD membrane-fusion
+Seqid=NODE_3_length_175266_cov_403.750869;End=86058;Strand=+	PF12706.9	4.6e-19	68.8	54	226	Beta-lactamase superfamily domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=146432;Strand=+	PF05327.13	0.16	10.6	121	160	RNA polymerase I specific transcription initiation factor RRN3
+Seqid=NODE_39_length_10348_cov_289.411352;Start=3285;Strand=-	PF02302.19	9.9e-17	61.5	191	280	PTS system, Lactose/Cellobiose specific IIB subunit
+Seqid=NODE_15_length_48715_cov_207.370307;End=38521;Strand=+	PF00800.20	4.2e-42	144.1	4	177	Prephenate dehydratase
+Seqid=NODE_16_length_48124_cov_200.183425;End=16298;Strand=+	PF17319.4	0.23	11.4	4	38	Family of unknown function (DUF5362)
+Seqid=NODE_19_length_43567_cov_252.384180;End=41692;Strand=+	PF06854.13	0.067	13.3	112	182	Bacteriophage Gp15 protein
+Seqid=NODE_1_length_311834_cov_211.387574;Start=291312;Strand=-	PF04515.14	0.76	9.1	94	133	Plasma-membrane choline transporter
+Seqid=NODE_12_length_53464_cov_183.604379;Start=32214;Strand=-	PF00899.23	0.028	13.7	180	215	ThiF family
+Seqid=NODE_1_length_311834_cov_211.387574;End=80901;Strand=+	PF02517.18	0.16	12.4	10	59	Type II CAAX prenyl endopeptidase Rce1-like
+Seqid=NODE_39_length_10348_cov_289.411352;Start=6187;Strand=-	PF07848.14	0.033	14.5	22	55	PaaX-like protein
+Seqid=NODE_11_length_67393_cov_348.837364;Start=51386;Strand=-	PF03466.22	1e-9	38.2	92	274	LysR substrate binding domain
+Seqid=NODE_45_length_6111_cov_231.502154;Start=2233;Strand=-	PF17255.4	0.014	15.7	38	105	EbsA-like protein
+Seqid=NODE_27_length_31933_cov_317.774925;End=11205;Strand=+	PF00177.23	2e-66	222.4	1	149	Ribosomal protein S7p/S5e
+Seqid=NODE_27_length_31933_cov_317.774925;End=14797;Strand=+	PF03193.18	0.36	10.8	96	155	RsgA GTPase
+Seqid=NODE_37_length_13437_cov_176.831512;End=1552;Strand=+	PF00350.25	0.036	14.2	6	35	Dynamin family
+Seqid=NODE_31_length_21906_cov_324.067754;Start=1109;Strand=-	PF00298.21	7.4e-28	97	74	142	Ribosomal protein L11, RNA binding domain
+Seqid=NODE_8_length_83912_cov_236.777313;End=46781;Strand=+	PF12775.9	0.012	15.3	26	61	P-loop containing dynein motor region
+Seqid=NODE_16_length_48124_cov_200.183425;End=10822;Strand=+	PF00206.22	4.2e-112	374.7	11	340	Lyase
+Seqid=NODE_1_length_311834_cov_211.387574;End=19479;Strand=+	PF09972.11	0.2	10.5	64	102	Predicted membrane protein (DUF2207)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=61734;Strand=-	PF13314.8	0.22	11.6	9	33	Domain of unknown function (DUF4083)
+Seqid=NODE_9_length_73269_cov_171.361365;Start=56040;Strand=-	PF07558.13	0.38	10.7	76	97	Shugoshin N-terminal coiled-coil region
+Seqid=NODE_1_length_311834_cov_211.387574;Start=156175;Strand=-	PF02367.19	0.27	11.3	57	85	Threonylcarbamoyl adenosine biosynthesis protein TsaE
+Seqid=NODE_16_length_48124_cov_200.183425;End=5905;Strand=+	PF01078.23	0.073	12.5	20	70	Magnesium chelatase, subunit ChlI
+Seqid=NODE_5_length_98151_cov_292.248894;End=91266;Strand=+	PF13401.8	0.14	12.6	359	381	AAA domain
+Seqid=NODE_4_length_114657_cov_314.622369;End=111438;Strand=+	PF13384.8	0.32	11	21	50	Homeodomain-like domain
+Seqid=NODE_10_length_69782_cov_362.884972;Start=43509;Strand=-	PF09084.13	2.5e-57	194.3	13	230	NMT1/THI5 like
+Seqid=NODE_16_length_48124_cov_200.183425;Start=45960;Strand=-	PF01873.19	0.18	11.8	85	155	Domain found in IF2B/IF5
+Seqid=NODE_27_length_31933_cov_317.774925;End=2154;Strand=+	PF04816.14	5.9e-4	19.5	73	167	tRNA (adenine(22)-N(1))-methyltransferase
+Seqid=NODE_4_length_114657_cov_314.622369;Start=37554;Strand=-	PF02132.17	0.22	11.2	338	355	RecR protein
+Seqid=NODE_4_length_114657_cov_314.622369;Start=15267;Strand=-	PF00126.29	2.1e-18	66.1	4	62	Bacterial regulatory helix-turn-helix protein, lysR family
+Seqid=NODE_3_length_175266_cov_403.750869;End=20141;Strand=+	PF03193.18	0.12	12.4	19	64	RsgA GTPase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=285619;Strand=-	PF00025.23	0.0015	18.1	61	174	ADP-ribosylation factor family
+Seqid=NODE_33_length_17260_cov_202.581447;End=15928;Strand=+	PF01488.22	0.0034	17.6	136	220	Shikimate / quinate 5-dehydrogenase
+Seqid=NODE_20_length_42920_cov_245.749691;Start=523;Strand=-	PF08020.13	1.9e-38	132.1	7	137	Protein of unknown function (DUF1706)
+Seqid=NODE_38_length_11048_cov_282.202261;End=9056;Strand=+	PF13660.8	0.29	10.7	58	113	Domain of unknown function (DUF4147)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=81474;Strand=-	PF08281.14	0.01	15.6	152	176	Sigma-70, region 4
+Seqid=NODE_3_length_175266_cov_403.750869;Start=39359;Strand=-	PF13248.8	3.4e-5	23.2	2	24	zinc-ribbon domain
+Seqid=NODE_17_length_47207_cov_349.657798;End=43090;Strand=+	PF13379.8	7.7e-5	22.6	66	245	NMT1-like family
+Seqid=NODE_2_length_208019_cov_274.767661;End=168713;Strand=+	PF01262.23	0.049	13	6	47	Alanine dehydrogenase/PNT, C-terminal domain
+Seqid=NODE_35_length_16646_cov_337.315589;Start=2041;Strand=-	PF11611.10	4.5e-9	36.7	11	109	Domain of unknown function (DUF4352)
+Seqid=NODE_5_length_98151_cov_292.248894;End=25283;Strand=+	PF15638.8	0.1	12.4	94	152	Metallopeptidase toxin 2
+Seqid=NODE_27_length_31933_cov_317.774925;End=24513;Strand=+	PF04321.19	4.7e-12	45.6	3	156	RmlD substrate binding domain
+Seqid=NODE_17_length_47207_cov_349.657798;Start=32899;Strand=-	PF07934.14	0.011	15.9	180	259	8-oxoguanine DNA glycosylase, N-terminal domain
+Seqid=NODE_13_length_53028_cov_297.847047;End=13849;Strand=+	PF06983.15	1e-9	39	5	138	3-demethylubiquinone-9 3-methyltransferase
+Seqid=NODE_1_length_311834_cov_211.387574;End=16390;Strand=+	PF13479.8	0.19	11.5	71	94	AAA domain
+Seqid=NODE_25_length_34213_cov_188.178140;End=16991;Strand=+	PF12770.9	0.014	14.9	203	250	CHAT domain
+Seqid=NODE_4_length_114657_cov_314.622369;Start=61681;Strand=-	PF07993.14	6.9e-14	51.7	34	187	Male sterility protein
+Seqid=NODE_31_length_21906_cov_324.067754;Start=12165;Strand=-	PF00004.31	5.4e-14	52.8	205	334	ATPase family associated with various cellular activities (AAA)
+Seqid=NODE_19_length_43567_cov_252.384180;End=36775;Strand=+	PF03721.16	0.3	10.7	1	29	UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Seqid=NODE_6_length_97827_cov_271.807059;End=16922;Strand=+	PF17555.4	0.27	10.7	11	57	Type VI secretion system, TssN
+Seqid=NODE_3_length_175266_cov_403.750869;End=4246;Strand=+	PF08140.13	0.17	12	3	27	Crustacean cuticle protein repeat
+Seqid=NODE_37_length_13437_cov_176.831512;Start=7262;Strand=-	PF15844.7	0.098	12.7	14	54	Transmembrane and coiled-coil domain-containing protein 2
+Seqid=NODE_14_length_52631_cov_224.782148;End=43425;Strand=+	PF00005.29	0.045	14.4	147	197	ABC transporter
+Seqid=NODE_14_length_52631_cov_224.782148;Start=29429;Strand=-	PF00432.23	0.11	12.4	20	37	Prenyltransferase and squalene oxidase repeat
+Seqid=NODE_31_length_21906_cov_324.067754;Start=5117;Strand=-	PF01921.20	0.16	10.9	39	110	tRNA synthetases class I (K)
+Seqid=NODE_12_length_53464_cov_183.604379;End=25862;Strand=+	PF03845.15	1.6e-4	20.7	21	283	Spore germination protein
+Seqid=NODE_2_length_208019_cov_274.767661;End=50036;Strand=+	PF12695.9	0.029	14.2	97	164	Alpha/beta hydrolase family
+Seqid=NODE_8_length_83912_cov_236.777313;End=41880;Strand=+	PF03297.17	0.13	12.5	165	196	S25 ribosomal protein
+Seqid=NODE_2_length_208019_cov_274.767661;Start=57894;Strand=-	PF02583.19	0.16	12.5	12	46	Metal-sensitive transcriptional repressor
+Seqid=NODE_6_length_97827_cov_271.807059;Start=94820;Strand=-	PF13521.8	0.057	13.7	346	381	AAA domain
+Seqid=NODE_12_length_53464_cov_183.604379;End=25862;Strand=+	PF13520.8	1.3e-44	152.9	16	433	Amino acid permease
+Seqid=NODE_17_length_47207_cov_349.657798;Start=10303;Strand=-	PF07728.16	0.22	11.6	60	79	AAA domain (dynein-related subfamily)
+Seqid=NODE_6_length_97827_cov_271.807059;Start=20521;Strand=-	PF00575.25	1.5e-15	57.4	632	712	S1 RNA binding domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=74697;Strand=-	PF13238.8	0.048	14.3	32	77	AAA domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=160630;Strand=-	PF13022.8	0.026	14.8	19	54	Helix-turn-helix of insertion element transposase
+Seqid=NODE_16_length_48124_cov_200.183425;End=41567;Strand=+	PF02487.19	0.057	12.6	7	78	CLN3 protein
+Seqid=NODE_5_length_98151_cov_292.248894;End=89608;Strand=+	PF02224.20	0.25	11.1	366	385	Cytidylate kinase
+Seqid=NODE_9_length_73269_cov_171.361365;Start=8022;Strand=-	PF03308.18	0.29	10.2	89	159	Methylmalonyl Co-A mutase-associated GTPase MeaB
+Seqid=NODE_33_length_17260_cov_202.581447;End=9140;Strand=+	PF00633.25	1.5e-5	24.7	99	128	Helix-hairpin-helix motif
+Seqid=NODE_15_length_48715_cov_207.370307;End=15072;Strand=+	PF01612.22	4.3e-5	23.4	43	175	3'-5' exonuclease
+Seqid=NODE_1_length_311834_cov_211.387574;Start=97968;Strand=-	PF07819.15	0.045	13.6	101	121	PGAP1-like protein
+Seqid=NODE_11_length_67393_cov_348.837364;End=28107;Strand=+	PF07544.15	0.06	13.5	19	87	RNA polymerase II transcription mediator complex subunit 9
+Seqid=NODE_11_length_67393_cov_348.837364;End=40581;Strand=+	PF00326.23	1.7e-5	24.5	37	240	Prolyl oligopeptidase family
+Seqid=NODE_2_length_208019_cov_274.767661;Start=150724;Strand=-	PF13412.8	1.4e-4	21.4	39	83	Winged helix-turn-helix DNA-binding
+Seqid=NODE_5_length_98151_cov_292.248894;End=89608;Strand=+	PF13555.8	0.0041	16.9	357	394	P-loop containing region of AAA domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=210987;Strand=-	PF00156.29	2.8e-15	56.1	49	156	Phosphoribosyl transferase domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=30441;Strand=+	PF01899.18	8.2e-32	110	8	158	Na+/H+ ion antiporter subunit
+Seqid=NODE_3_length_175266_cov_403.750869;Start=102734;Strand=-	PF13412.8	0.52	10	28	59	Winged helix-turn-helix DNA-binding
+Seqid=NODE_39_length_10348_cov_289.411352;End=10249;Strand=+	PF03479.17	2.2e-23	82.8	12	121	Plants and Prokaryotes Conserved (PCC) domain
+Seqid=NODE_37_length_13437_cov_176.831512;End=11221;Strand=+	PF14559.8	0.0029	18.1	163	197	Tetratricopeptide repeat
+Seqid=NODE_9_length_73269_cov_171.361365;End=34285;Strand=+	PF00308.20	0.82	9.6	44	204	Bacterial dnaA protein
+Seqid=NODE_3_length_175266_cov_403.750869;Start=160118;Strand=-	PF13241.8	0.093	13.3	26	99	Putative NAD(P)-binding
+Seqid=NODE_3_length_175266_cov_403.750869;End=21241;Strand=+	PF19581.1	0.0031	17.6	11	129	Glyoxalase superfamily protein
+Seqid=NODE_5_length_98151_cov_292.248894;End=68398;Strand=+	PF18977.2	0.072	13.5	376	434	Family of unknown function (DUF5713)
+Seqid=NODE_10_length_69782_cov_362.884972;Start=66101;Strand=-	PF17370.4	0.12	12.6	10	59	Family of unknown function (DUF5392)
+Seqid=NODE_9_length_73269_cov_171.361365;Start=53020;Strand=-	PF01018.24	7.4e-60	201.2	6	160	GTP1/OBG
+Seqid=NODE_29_length_25401_cov_728.240404;Start=22191;Strand=-	PF00403.28	4.5e-14	52.7	12	68	Heavy-metal-associated domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=9586;Strand=+	PF08242.14	2e-5	25.4	204	293	Methyltransferase domain
+Seqid=NODE_3_length_175266_cov_403.750869;Start=249;Strand=-	PF01566.20	0.16	11	15	76	Natural resistance-associated macrophage protein
+Seqid=NODE_6_length_97827_cov_271.807059;Start=44909;Strand=-	PF13191.8	0.37	11.2	27	73	AAA ATPase domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=20026;Strand=-	PF01668.20	3.5e-60	202.2	13	153	SmpB protein
+Seqid=NODE_23_length_38294_cov_259.278044;Start=22900;Strand=-	PF13245.8	0.2	11.9	10	231	AAA domain
+Seqid=NODE_45_length_6111_cov_231.502154;Start=1402;Strand=-	PF12802.9	5.9e-6	26.3	30	88	MarR family
+Seqid=NODE_27_length_31933_cov_317.774925;End=18747;Strand=+	PF00293.30	2.9e-19	69.5	6	113	NUDIX domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=189693;Strand=+	PF13404.8	0.016	15.1	44	76	AsnC-type helix-turn-helix domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=167487;Strand=+	PF11070.10	2.8e-44	150.8	16	145	Protein of unknown function (DUF2871)
+Seqid=NODE_5_length_98151_cov_292.248894;End=43494;Strand=+	PF02569.17	0.021	14.1	9	52	Pantoate-beta-alanine ligase
+Seqid=NODE_9_length_73269_cov_171.361365;End=34285;Strand=+	PF16193.7	6.2e-25	87.4	177	255	AAA C-terminal domain
+Seqid=NODE_29_length_25401_cov_728.240404;End=7927;Strand=+	PF13518.8	0.046	14	156	186	Helix-turn-helix domain
+Seqid=NODE_1_length_311834_cov_211.387574;End=16390;Strand=+	PF13604.8	0.29	10.9	70	95	AAA domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=267027;Strand=-	PF01409.22	1.3e-108	362.2	95	343	tRNA synthetases class II core domain (F)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=159221;Strand=-	PF03486.16	0.088	11.6	4	33	HI0933-like protein
+Seqid=NODE_14_length_52631_cov_224.782148;End=25453;Strand=+	PF13601.8	0.012	15.9	25	93	Winged helix DNA-binding domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=54548;Strand=+	PF02456.17	0.32	9.8	73	92	Adenovirus IVa2 protein
+Seqid=NODE_9_length_73269_cov_171.361365;Start=25150;Strand=-	PF03215.17	0.037	14	320	380	Rad17 P-loop domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=66519;Strand=+	PF01580.20	0.82	9.1	43	61	FtsK/SpoIIIE family
+Seqid=NODE_6_length_97827_cov_271.807059;Start=39848;Strand=-	PF01946.19	2e-5	24.1	5	41	Thi4 family
+Seqid=NODE_24_length_37923_cov_335.358083;Start=9377;Strand=-	PF01171.22	1.3e-60	204.3	15	196	PP-loop family
+Seqid=NODE_8_length_83912_cov_236.777313;End=32631;Strand=+	PF00276.22	8e-31	106.3	5	86	Ribosomal protein L23
+Seqid=NODE_15_length_48715_cov_207.370307;Start=34975;Strand=-	PF02057.17	0.082	12.2	258	310	Glycosyl hydrolase family 59
+Seqid=NODE_19_length_43567_cov_252.384180;End=33778;Strand=+	PF01568.23	1.1e-17	64.2	824	935	Molydopterin dinucleotide binding domain
+Seqid=NODE_25_length_34213_cov_188.178140;End=27624;Strand=+	PF13401.8	0.055	13.8	26	58	AAA domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=17263;Strand=-	PF03308.18	0.011	14.8	3	39	Methylmalonyl Co-A mutase-associated GTPase MeaB
+Seqid=NODE_6_length_97827_cov_271.807059;Start=94820;Strand=-	PF02492.21	0.2	11.3	347	366	CobW/HypB/UreG, nucleotide-binding domain
+Seqid=NODE_32_length_21705_cov_241.590947;End=18699;Strand=+	PF10672.11	1e-23	84	150	356	S-adenosylmethionine-dependent methyltransferase
+Seqid=NODE_7_length_93468_cov_171.223747;End=37634;Strand=+	PF14559.8	0.22	12.1	431	480	Tetratricopeptide repeat
+Seqid=NODE_5_length_98151_cov_292.248894;End=63904;Strand=+	PF01370.23	4.9e-5	23	5	115	NAD dependent epimerase/dehydratase family
+Seqid=NODE_25_length_34213_cov_188.178140;End=27624;Strand=+	PF20030.1	2.2e-6	27	3	206	MoxR domain in the MoxR-vWA-beta-propeller ternary systems
+Seqid=NODE_31_length_21906_cov_324.067754;Start=15655;Strand=-	PF09388.12	0.05	13.6	144	170	Spo0E like sporulation regulatory protein
+Seqid=NODE_12_length_53464_cov_183.604379;Start=1606;Strand=-	PF17959.3	0.29	11.5	385	426	EF-hand domain
+Seqid=NODE_5_length_98151_cov_292.248894;Start=2807;Strand=-	PF08279.14	0.18	11.9	178	194	HTH domain
+Seqid=NODE_4_length_114657_cov_314.622369;End=16217;Strand=+	PF02737.20	0.0036	17.3	30	96	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Seqid=NODE_6_length_97827_cov_271.807059;End=16922;Strand=+	PF07695.13	0.003	17.6	10	62	7TM diverse intracellular signalling
+Seqid=NODE_12_length_53464_cov_183.604379;End=35910;Strand=+	PF17027.7	0.013	15.8	12	47	Histone-fold protein
+Seqid=NODE_17_length_47207_cov_349.657798;Start=10303;Strand=-	PF08352.14	0.25	12	240	263	Oligopeptide/dipeptide transporter, C-terminal region
+Seqid=NODE_2_length_208019_cov_274.767661;End=166239;Strand=+	PF04234.14	2.8e-17	63.6	33	127	CopC domain
+Seqid=NODE_4_length_114657_cov_314.622369;Start=100305;Strand=-	PF03606.17	1.7e-163	544.5	29	526	C4-dicarboxylate anaerobic carrier
+Seqid=NODE_4_length_114657_cov_314.622369;End=111073;Strand=+	PF17454.4	0.0041	17.2	1	18	Honey bee toxin
+Seqid=NODE_25_length_34213_cov_188.178140;End=20184;Strand=+	PF02518.28	1.7e-23	83.3	348	451	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Seqid=NODE_6_length_97827_cov_271.807059;End=5700;Strand=+	PF13899.8	4.4e-4	20.5	13	39	Thioredoxin-like
+Seqid=NODE_17_length_47207_cov_349.657798;End=38041;Strand=+	PF00892.22	1.7e-16	60.7	15	154	EamA-like transporter family
+Seqid=NODE_41_length_7036_cov_347.769938;Start=111;Strand=-	PF01638.19	8.1e-31	105.8	39	128	HxlR-like helix-turn-helix
+Seqid=NODE_35_length_16646_cov_337.315589;Start=8289;Strand=-	PF07517.16	4.4e-101	338.1	20	396	SecA DEAD-like domain
+Seqid=NODE_11_length_67393_cov_348.837364;Start=64646;Strand=-	PF10706.11	0.085	12.7	21	49	Aminoglycoside-2''-adenylyltransferase
+Seqid=NODE_7_length_93468_cov_171.223747;End=39755;Strand=+	PF16661.7	3.2e-4	20.3	18	72	Metallo-beta-lactamase superfamily domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=94741;Strand=-	PF13167.8	5.9e-29	100.7	36	123	GTP-binding GTPase N-terminal
+Seqid=NODE_7_length_93468_cov_171.223747;Start=88849;Strand=-	PF12838.9	0.012	16.3	5	39	4Fe-4S dicluster domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=267027;Strand=-	PF17759.3	0.016	14.7	95	303	Phenylalanyl tRNA synthetase beta chain CLM domain
+Seqid=NODE_12_length_53464_cov_183.604379;Start=23036;Strand=-	PF00285.23	9e-127	423.1	21	369	Citrate synthase, C-terminal domain
+Seqid=NODE_4_length_114657_cov_314.622369;Start=35419;Strand=-	PF03600.18	1.5e-46	159.1	41	401	Citrate transporter
+Seqid=NODE_17_length_47207_cov_349.657798;Start=36135;Strand=-	PF13443.8	3.7e-6	27.4	4	63	Cro/C1-type HTH DNA-binding domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=109192;Strand=-	PF07155.14	1.4e-4	22	3	153	ECF-type riboflavin transporter, S component
+Seqid=NODE_2_length_208019_cov_274.767661;End=194078;Strand=+	PF13533.8	4.6e-8	32.8	43	75	Biotin-lipoyl like
+Seqid=NODE_3_length_175266_cov_403.750869;Start=101442;Strand=-	PF00939.21	0.011	14.9	161	423	Sodium:sulfate symporter transmembrane region
+Seqid=NODE_29_length_25401_cov_728.240404;End=25318;Strand=+	PF00462.26	2e-10	40.8	18	67	Glutaredoxin
+Seqid=NODE_16_length_48124_cov_200.183425;End=13655;Strand=+	PF14493.8	0.39	11.3	167	195	Helix-turn-helix domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=50851;Strand=+	PF12728.9	0.041	14.2	7	44	Helix-turn-helix domain
+Seqid=NODE_40_length_8100_cov_232.960613;End=8012;Strand=+	PF05116.15	1.6e-8	34.5	198	285	Sucrose-6F-phosphate phosphohydrolase
+Seqid=NODE_10_length_69782_cov_362.884972;End=49387;Strand=+	PF15943.7	0.0053	16.8	20	41	Putative antitoxin of bacterial toxin-antitoxin system, YdaS/YdaT
+Seqid=NODE_1_length_311834_cov_211.387574;Start=298169;Strand=-	PF03486.16	1.4e-5	24.1	11	42	HI0933-like protein
+Seqid=NODE_3_length_175266_cov_403.750869;End=155437;Strand=+	PF13384.8	0.13	12.3	27	50	Homeodomain-like domain
+Seqid=NODE_18_length_46896_cov_243.824217;End=32591;Strand=+	PF12717.9	0.25	11.4	97	189	non-SMC mitotic condensation complex subunit 1
+Seqid=NODE_9_length_73269_cov_171.361365;Start=25150;Strand=-	PF01443.20	0.00093000000000000005	19.1	666	726	Viral (Superfamily 1) RNA helicase
+Seqid=NODE_14_length_52631_cov_224.782148;End=38164;Strand=+	PF16101.7	0.63	10.2	24	53	Proline-rich membrane anchor 1
+Seqid=NODE_21_length_39472_cov_184.953420;Start=32005;Strand=-	PF14595.8	1.7e-5	24.7	7	78	Thioredoxin
+Seqid=NODE_1_length_311834_cov_211.387574;Start=93483;Strand=-	PF00155.23	0.003	16.9	78	267	Aminotransferase class I and II
+Seqid=NODE_5_length_98151_cov_292.248894;Start=22893;Strand=-	PF05255.13	0.24	11	113	174	Uncharacterised protein family (UPF0220)
+Seqid=NODE_10_length_69782_cov_362.884972;End=22951;Strand=+	PF02817.19	1.5e-10	41.3	139	174	e3 binding domain
+Seqid=NODE_16_length_48124_cov_200.183425;End=37322;Strand=+	PF01370.23	0.0063	16.1	48	123	NAD dependent epimerase/dehydratase family
+Seqid=NODE_48_length_4110_cov_236.906521;End=858;Strand=+	PF00482.25	0.066	13.3	2	62	Type II secretion system (T2SS), protein F
+Seqid=NODE_10_length_69782_cov_362.884972;End=968;Strand=+	PF13460.8	3.8e-5	23.7	9	47	NAD(P)H-binding
+Seqid=NODE_3_length_175266_cov_403.750869;End=126749;Strand=+	PF01926.25	0.5	10.6	8	41	50S ribosome-binding GTPase
+Seqid=NODE_24_length_37923_cov_335.358083;Start=23010;Strand=-	PF19661.1	0.079	13.2	41	115	Family of unknown function (DUF6164)
+Seqid=NODE_3_length_175266_cov_403.750869;End=134021;Strand=+	PF05496.14	0.05	13.5	36	57	Holliday junction DNA helicase RuvB P-loop domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=12863;Strand=+	PF00633.25	0.044	13.8	129	147	Helix-hairpin-helix motif
+Seqid=NODE_29_length_25401_cov_728.240404;End=7178;Strand=+	PF00581.22	6.5e-12	46	359	439	Rhodanese-like domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=14001;Strand=-	PF01551.24	0.15	12.4	92	113	Peptidase family M23
+Seqid=NODE_30_length_24760_cov_181.758984;End=15942;Strand=+	PF08241.14	0.082	13.7	26	75	Methyltransferase domain
+Seqid=NODE_14_length_52631_cov_224.782148;End=28632;Strand=+	PF05729.14	1.4e-5	25.2	194	284	NACHT domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=17886;Strand=-	PF16325.7	1.2e-23	83.3	338	418	Peptidase family U32 C-terminal domain
+Seqid=NODE_10_length_69782_cov_362.884972;End=28191;Strand=+	PF09855.11	1.6e-28	98.7	11	73	Nucleic-acid-binding protein containing Zn-ribbon domain (DUF2082)
+Seqid=NODE_19_length_43567_cov_252.384180;Start=36870;Strand=-	PF03446.17	0.0082	16.4	150	258	NAD binding domain of 6-phosphogluconate dehydrogenase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=65875;Strand=-	PF14504.8	3.5e-32	111.2	70	204	CAP-associated N-terminal
+Seqid=NODE_9_length_73269_cov_171.361365;Start=17263;Strand=-	PF13245.8	0.017	15.4	3	29	AAA domain
+Seqid=NODE_8_length_83912_cov_236.777313;End=23361;Strand=+	PF03547.20	0.46	8.9	209	262	Membrane transport protein
+Seqid=NODE_10_length_69782_cov_362.884972;End=36122;Strand=+	PF00265.20	0.058	13.3	291	361	Thymidine kinase
+Seqid=NODE_29_length_25401_cov_728.240404;End=25318;Strand=+	PF05768.16	0.014	15.9	16	59	Glutaredoxin-like domain (DUF836)
+Seqid=NODE_3_length_175266_cov_403.750869;Start=167305;Strand=-	PF04235.14	5.2e-32	111.1	234	386	Protein of unknown function (DUF418)
+Seqid=NODE_9_length_73269_cov_171.361365;Start=61371;Strand=-	PF04102.14	0.61	10.8	810	843	SlyX
+Seqid=NODE_22_length_38496_cov_261.159739;End=29284;Strand=+	PF14539.8	1.4e-4	22.1	6	118	Domain of unknown function (DUF4442)
+Seqid=NODE_11_length_67393_cov_348.837364;End=28107;Strand=+	PF04102.14	0.49	11.1	8	43	SlyX
+Seqid=NODE_1_length_311834_cov_211.387574;Start=99184;Strand=-	PF05834.14	0.41	9.7	21	51	Lycopene cyclase protein
+Seqid=NODE_1_length_311834_cov_211.387574;Start=152430;Strand=-	PF00696.30	2.7e-26	92.8	32	241	Amino acid kinase family
+Seqid=NODE_17_length_47207_cov_349.657798;Start=36483;Strand=-	PF01047.24	2.8e-5	24	16	59	MarR family
+Seqid=NODE_1_length_311834_cov_211.387574;Start=109192;Strand=-	PF09512.12	4.8e-53	179.4	6	154	Thiamine-precursor transporter protein (ThiW)
+Seqid=NODE_14_length_52631_cov_224.782148;End=32785;Strand=+	PF01300.20	1.3e-56	191	30	206	Telomere recombination
+Seqid=NODE_4_length_114657_cov_314.622369;Start=60347;Strand=-	PF00984.21	2.4e-23	82.2	203	290	UDP-glucose/GDP-mannose dehydrogenase family, central domain
+Seqid=NODE_30_length_24760_cov_181.758984;End=23107;Strand=+	PF08857.13	0.11	12.7	3	55	Putative ParB-like nuclease
+Seqid=NODE_5_length_98151_cov_292.248894;End=62127;Strand=+	PF13800.8	0.12	12.8	8	57	Sigma factor regulator N-terminal
+Seqid=NODE_34_length_17192_cov_220.014841;Start=9135;Strand=-	PF03703.16	0.028	14.7	424	482	Bacterial PH domain
+Seqid=NODE_27_length_31933_cov_317.774925;End=2154;Strand=+	PF03602.17	6.1e-5	22.8	94	190	Conserved hypothetical protein 95
+Seqid=NODE_1_length_311834_cov_211.387574;End=56528;Strand=+	PF04547.14	0.052	12.5	26	101	Calcium-activated chloride channel
+Seqid=NODE_6_length_97827_cov_271.807059;Start=47751;Strand=-	PF13481.8	0.064	12.8	6	53	AAA domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=156175;Strand=-	PF00158.28	0.048	13.5	56	94	Sigma-54 interaction domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=86942;Strand=+	PF10069.11	0.1	12.5	16	59	Sensory domain in DIguanylate Cyclases and Two-component system
+Seqid=NODE_2_length_208019_cov_274.767661;End=101992;Strand=+	PF01370.23	9.1e-9	35.2	3	202	NAD dependent epimerase/dehydratase family
+Seqid=NODE_2_length_208019_cov_274.767661;Start=39591;Strand=-	PF01494.21	0.18	11.1	25	82	FAD binding domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=123803;Strand=-	PF13561.8	7.8e-37	127.2	11	230	Enoyl-(Acyl carrier protein) reductase
+Seqid=NODE_7_length_93468_cov_171.223747;End=37634;Strand=+	PF14853.8	0.058	13.7	442	482	Fis1 C-terminal tetratricopeptide repeat
+Seqid=NODE_20_length_42920_cov_245.749691;End=9210;Strand=+	PF14185.8	0.62	10.1	110	141	Antitoxin SpoIISB, type II toxin-antitoxin system
+Seqid=NODE_13_length_53028_cov_297.847047;End=41728;Strand=+	PF03060.17	0.46	9.9	272	321	Nitronate monooxygenase
+Seqid=NODE_4_length_114657_cov_314.622369;Start=33661;Strand=-	PF16118.7	0.09	13.8	7	64	Domain of unknown function (DUF4834)
+Seqid=NODE_22_length_38496_cov_261.159739;End=9203;Strand=+	PF01070.20	2.3e-5	23.7	149	259	FMN-dependent dehydrogenase
+Seqid=NODE_2_length_208019_cov_274.767661;Start=113165;Strand=-	PF08241.14	6.8e-17	62	46	145	Methyltransferase domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=7372;Strand=+	PF00012.22	2.7e-29	101.9	4	76	Hsp70 protein
+Seqid=NODE_1_length_311834_cov_211.387574;Start=215552;Strand=-	PF07722.15	7.9e-4	19.3	286	335	Peptidase C26
+Seqid=NODE_1_length_311834_cov_211.387574;Start=205857;Strand=-	PF03853.17	0.48	10.4	208	237	YjeF-related protein N-terminus
+Seqid=NODE_16_length_48124_cov_200.183425;End=41567;Strand=+	PF15048.8	0.28	11.3	11	67	Organic solute transporter subunit beta protein
+Seqid=NODE_23_length_38294_cov_259.278044;Start=9387;Strand=-	PF01637.20	0.099	12.6	253	351	ATPase domain predominantly from Archaea
+Seqid=NODE_20_length_42920_cov_245.749691;Start=30104;Strand=-	PF00583.27	5.7e-16	58.9	22	129	Acetyltransferase (GNAT) family
+Seqid=NODE_3_length_175266_cov_403.750869;End=108411;Strand=+	PF08032.14	0.14	12.6	241	283	RNA 2'-O ribose methyltransferase substrate binding
+Seqid=NODE_1_length_311834_cov_211.387574;Start=74229;Strand=-	PF13458.8	0.099	12.5	70	113	Periplasmic binding protein
+Seqid=NODE_10_length_69782_cov_362.884972;End=46459;Strand=+	PF09278.13	9.4e-5	23	44	107	MerR, DNA binding
+Seqid=NODE_2_length_208019_cov_274.767661;Start=196270;Strand=-	PF14812.8	0.43	11	30	55	Transmembrane domain of transglycosylase PBP1 at N-terminal
+Seqid=NODE_15_length_48715_cov_207.370307;Start=16987;Strand=-	PF01555.20	0.023	14.5	297	351	DNA methylase
+Seqid=NODE_6_length_97827_cov_271.807059;Start=47751;Strand=-	PF00225.25	0.0076	15.3	7	66	Kinesin motor domain
+Seqid=NODE_24_length_37923_cov_335.358083;Start=31476;Strand=-	PF05971.14	0.0015	18.1	33	135	RNA methyltransferase
+Seqid=NODE_3_length_175266_cov_403.750869;End=172470;Strand=+	PF03600.18	1.4e-25	90.2	15	351	Citrate transporter
+Seqid=NODE_18_length_46896_cov_243.824217;Start=6848;Strand=-	PF01804.20	0.13	11.3	41	89	Penicillin amidase
+Seqid=NODE_3_length_175266_cov_403.750869;End=94792;Strand=+	PF08220.14	2.4e-5	24.1	17	59	DeoR-like helix-turn-helix domain
+Seqid=NODE_16_length_48124_cov_200.183425;End=45528;Strand=+	PF07332.13	0.46	10.6	68	144	Putative Actinobacterial Holin-X, holin superfamily III
+Seqid=NODE_22_length_38496_cov_261.159739;End=18607;Strand=+	PF00501.30	2.3e-67	227.5	13	386	AMP-binding enzyme
+Seqid=NODE_12_length_53464_cov_183.604379;Start=25980;Strand=-	PF00534.22	0.078	12.6	185	226	Glycosyl transferases group 1
+Seqid=NODE_19_length_43567_cov_252.384180;End=8689;Strand=+	PF02979.18	0.14	11.7	24	79	Nitrile hydratase, alpha chain
+Seqid=NODE_11_length_67393_cov_348.837364;End=28107;Strand=+	PF14712.8	0.56	10.8	17	85	Snapin/Pallidin
+Seqid=NODE_8_length_83912_cov_236.777313;End=45921;Strand=+	PF13604.8	0.63	9.8	36	188	AAA domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=3392;Strand=-	PF18771.3	0.12	12.6	70	110	APOBEC3
+Seqid=NODE_21_length_39472_cov_184.953420;Start=11825;Strand=-	PF01479.27	1.2e-6	28.2	357	400	S4 domain
+Seqid=NODE_23_length_38294_cov_259.278044;Start=19230;Strand=-	PF13245.8	1.4e-20	74.1	23	447	AAA domain
+Seqid=NODE_20_length_42920_cov_245.749691;End=4095;Strand=+	PF11518.10	0.002	18.5	118	153	Protein of unknown function (DUF3221)
+Seqid=NODE_16_length_48124_cov_200.183425;Start=45960;Strand=-	PF08281.14	0.012	15.3	119	150	Sigma-70, region 4
+Seqid=NODE_1_length_311834_cov_211.387574;Start=83912;Strand=-	PF00350.25	0.8	9.8	31	57	Dynamin family
+Seqid=NODE_10_length_69782_cov_362.884972;Start=9570;Strand=-	PF02737.20	0.12	12.3	4	39	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Seqid=NODE_33_length_17260_cov_202.581447;End=11706;Strand=+	PF02463.21	2.2e-7	30.6	345	557	RecF/RecN/SMC N terminal domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=142457;Strand=+	PF06422.14	0.071	13.1	215	253	CDR ABC transporter
+Seqid=NODE_39_length_10348_cov_289.411352;Start=1169;Strand=-	PF01528.18	0.43	9.5	7	146	Herpesvirus glycoprotein M
+Seqid=NODE_29_length_25401_cov_728.240404;Start=22191;Strand=-	PF13344.8	0.13	12.4	612	657	Haloacid dehalogenase-like hydrolase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=123803;Strand=-	PF02254.20	0.028	14.8	5	63	TrkA-N domain
+Seqid=NODE_4_length_114657_cov_314.622369;Start=102244;Strand=-	PF19496.1	0.047	13.6	74	104	Family of unknown function (DUF6031)
+Seqid=NODE_13_length_53028_cov_297.847047;End=9752;Strand=+	PF01154.19	4.4e-20	72.4	2	167	Hydroxymethylglutaryl-coenzyme A synthase N terminal
+Seqid=NODE_42_length_6907_cov_213.034700;Start=2376;Strand=-	PF13738.8	1.4e-7	31.2	109	169	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=160552;Strand=-	PF13155.8	0.094	13.1	52	104	Toprim-like
+Seqid=NODE_5_length_98151_cov_292.248894;End=42997;Strand=+	PF04869.16	0.098	11.9	225	314	Uso1 / p115 like vesicle tethering protein, head region
+Seqid=NODE_12_length_53464_cov_183.604379;Start=10281;Strand=-	PF13086.8	0.18	11.7	160	183	AAA domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=51268;Strand=-	PF13561.8	1.2e-33	116.8	13	184	Enoyl-(Acyl carrier protein) reductase
+Seqid=NODE_3_length_175266_cov_403.750869;End=42783;Strand=+	PF03193.18	7.3e-5	22.8	14	61	RsgA GTPase
+Seqid=NODE_9_length_73269_cov_171.361365;Start=22221;Strand=-	PF02829.16	0.42	11	762	831	3H domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=28463;Strand=-	PF06508.15	0.045	13.3	8	36	Queuosine biosynthesis protein QueC
+Seqid=NODE_1_length_311834_cov_211.387574;Start=303352;Strand=-	PF08614.13	0.026	14.8	86	204	Autophagy protein 16 (ATG16)
+Seqid=NODE_25_length_34213_cov_188.178140;End=27624;Strand=+	PF01078.23	0.022	14.3	25	50	Magnesium chelatase, subunit ChlI
+Seqid=NODE_31_length_21906_cov_324.067754;Start=12165;Strand=-	PF02861.22	2.6e-14	53.1	93	143	Clp amino terminal domain, pathogenicity island component
+Seqid=NODE_25_length_34213_cov_188.178140;End=5654;Strand=+	PF11974.10	0.0034	17.5	66	108	Bacterial alpha-2-macroglobulin MG3 domain
+Seqid=NODE_1_length_311834_cov_211.387574;End=12049;Strand=+	PF17783.3	7.4e-22	77	231	288	CvfB-like winged helix domain
+Seqid=NODE_21_length_39472_cov_184.953420;Start=35657;Strand=-	PF02958.22	4.9e-6	26.2	132	203	Ecdysteroid kinase-like family
+Seqid=NODE_7_length_93468_cov_171.223747;End=79139;Strand=+	PF05368.15	0.032	13.8	8	67	NmrA-like family
+Seqid=NODE_13_length_53028_cov_297.847047;Start=42927;Strand=-	PF11683.10	4.3e-4	20.5	32	123	Protein of unknown function (DUF3278)
+Seqid=NODE_1_length_311834_cov_211.387574;End=191816;Strand=+	PF00608.19	0.031	14.2	20	39	Adenoviral fibre protein (repeat/shaft region)
+Seqid=NODE_2_length_208019_cov_274.767661;Start=184099;Strand=-	PF13581.8	0.049	13.7	356	450	Histidine kinase-like ATPase domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=20141;Strand=+	PF13476.8	0.24	12	19	306	AAA domain
+Seqid=NODE_29_length_25401_cov_728.240404;Start=1385;Strand=-	PF08220.14	0.058	13.2	4	19	DeoR-like helix-turn-helix domain
+Seqid=NODE_17_length_47207_cov_349.657798;Start=10303;Strand=-	PF13604.8	0.57	10	54	204	AAA domain
+Seqid=NODE_14_length_52631_cov_224.782148;End=4224;Strand=+	PF05368.15	2.7e-9	37	4	155	NmrA-like family
+Seqid=NODE_17_length_47207_cov_349.657798;Start=36135;Strand=-	PF13545.8	0.085	13	14	31	Crp-like helix-turn-helix domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=95645;Strand=+	PF07618.13	0.18	11.5	34	53	Protein of unknown function (DUF1580)
+Seqid=NODE_48_length_4110_cov_236.906521;End=1166;Strand=+	PF08428.12	7.7e-4	20.2	24	119	Rib domain
+Seqid=NODE_27_length_31933_cov_317.774925;End=2154;Strand=+	PF12847.9	2.2e-8	34.3	70	182	Methyltransferase domain
+Seqid=NODE_17_length_47207_cov_349.657798;Start=36135;Strand=-	PF02954.21	0.025	14.4	11	30	Bacterial regulatory protein, Fis family
+Seqid=NODE_3_length_175266_cov_403.750869;End=167215;Strand=+	PF05656.16	3.3e-18	66.1	20	178	Protein of unknown function (DUF805)
+Seqid=NODE_5_length_98151_cov_292.248894;End=66519;Strand=+	PF10443.11	0.053	12.4	39	84	RNA12 protein
+Seqid=NODE_19_length_43567_cov_252.384180;End=41692;Strand=+	PF00070.29	0.44	11.2	2	42	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_3_length_175266_cov_403.750869;Start=54855;Strand=-	PF08477.15	0.0051	17.1	237	350	Ras of Complex, Roc, domain of DAPkinase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=252126;Strand=-	PF12838.9	0.53	11	236	253	4Fe-4S dicluster domain
+Seqid=NODE_4_length_114657_cov_314.622369;Start=53111;Strand=-	PF01926.25	0.01	16	35	63	50S ribosome-binding GTPase
+Seqid=NODE_35_length_16646_cov_337.315589;End=3423;Strand=+	PF17314.4	0.049	13.8	12	60	Family of unknown function (DUF5360)
+Seqid=NODE_46_length_4648_cov_171.154014;End=1176;Strand=+	PF00070.29	5.7e-7	30.1	159	227	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_5_length_98151_cov_292.248894;End=16628;Strand=+	PF01032.20	3.4e-65	220.2	12	312	FecCD transport family
+Seqid=NODE_14_length_52631_cov_224.782148;End=25453;Strand=+	PF07381.13	0.88	9.5	63	94	Winged helix DNA-binding domain (DUF1495)
+Seqid=NODE_2_length_208019_cov_274.767661;Start=160630;Strand=-	PF17931.3	0.1	12.8	116	171	Tetracyclin repressor-like, C-terminal domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=16628;Strand=+	PF00950.19	4.1e-6	26.6	50	303	ABC 3 transport family
+Seqid=NODE_1_length_311834_cov_211.387574;End=15404;Strand=+	PF16944.7	0.041	13.7	12	53	Fungal potassium channel
+Seqid=NODE_1_length_311834_cov_211.387574;Start=64646;Strand=-	PF15013.8	0.083	13.2	29	60	CCSMST1 family
+Seqid=NODE_2_length_208019_cov_274.767661;End=99212;Strand=+	PF07690.18	5.1e-13	48.8	280	457	Major Facilitator Superfamily
+Seqid=NODE_11_length_67393_cov_348.837364;End=15000;Strand=+	PF01081.21	0.0096	15.5	224	304	KDPG and KHG aldolase
+Seqid=NODE_22_length_38496_cov_261.159739;Start=36732;Strand=-	PF11619.10	0.54	10.4	9	45	Transcription factor P53 - C terminal domain
+Seqid=NODE_20_length_42920_cov_245.749691;End=38558;Strand=+	PF00682.21	1.1e-92	310.4	8	275	HMGL-like
+Seqid=NODE_3_length_175266_cov_403.750869;Start=8401;Strand=-	PF17761.3	0.1	12.9	139	210	DUF1016 N-terminal domain
+Seqid=NODE_46_length_4648_cov_171.154014;End=3060;Strand=+	PF14415.8	0.016	14.6	44	120	Domain of unknown function (DUF4424)
+Seqid=NODE_50_length_3353_cov_232.220085;End=2528;Strand=+	PF13091.8	2.1e-13	50.4	147	259	PLD-like domain
+Seqid=NODE_11_length_67393_cov_348.837364;End=16715;Strand=+	PF01507.21	0.16	12.1	222	292	Phosphoadenosine phosphosulfate reductase family
+Seqid=NODE_21_length_39472_cov_184.953420;Start=32005;Strand=-	PF00085.22	1e-16	60.9	11	91	Thioredoxin
+Seqid=NODE_6_length_97827_cov_271.807059;End=35183;Strand=+	PF07993.14	0.0034	16.7	6	38	Male sterility protein
+Seqid=NODE_3_length_175266_cov_403.750869;End=42783;Strand=+	PF01637.20	0.027	14.5	31	56	ATPase domain predominantly from Archaea
+Seqid=NODE_25_length_34213_cov_188.178140;End=23271;Strand=+	PF18829.3	0.081	13.3	509	578	Importin repeat 6
+Seqid=NODE_2_length_208019_cov_274.767661;End=113053;Strand=+	PF14526.8	4.1e-20	72.6	7	158	Integron-associated effector binding protein
+Seqid=NODE_46_length_4648_cov_171.154014;End=1176;Strand=+	PF00743.21	0.0061	15.1	215	287	Flavin-binding monooxygenase-like
+Seqid=NODE_44_length_6183_cov_208.341140;End=3777;Strand=+	PF13099.8	0.17	11.8	190	206	Domain of unknown function (DUF3944)
+Seqid=NODE_50_length_3353_cov_232.220085;Start=346;Strand=-	PF00403.28	0.0069	16.9	7	64	Heavy-metal-associated domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=62197;Strand=-	PF02780.22	6.6e-9	35.8	547	655	Transketolase, C-terminal domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=3519;Strand=-	PF00462.26	0.032	14.6	21	77	Glutaredoxin
+Seqid=NODE_8_length_83912_cov_236.777313;End=44663;Strand=+	PF13776.8	0.68	10.4	9	46	Domain of unknown function (DUF4172)
+Seqid=NODE_6_length_97827_cov_271.807059;End=16922;Strand=+	PF01733.20	0.0048	16.4	14	105	Nucleoside transporter
+Seqid=NODE_2_length_208019_cov_274.767661;Start=39591;Strand=-	PF01488.22	5e-4	20.2	20	67	Shikimate / quinate 5-dehydrogenase
+Seqid=NODE_12_length_53464_cov_183.604379;Start=8022;Strand=-	PF07973.16	3.7e-17	62.3	180	229	Threonyl and Alanyl tRNA synthetase second additional domain
+Seqid=NODE_19_length_43567_cov_252.384180;Start=38817;Strand=-	PF12354.10	0.32	11.2	9	43	Bacterial adhesion/invasion protein N terminal
+Seqid=NODE_1_length_311834_cov_211.387574;Start=106274;Strand=-	PF05192.20	5.9e-43	147.4	256	546	MutS domain III
+Seqid=NODE_9_length_73269_cov_171.361365;Start=72449;Strand=-	PF19105.2	0.089	13.2	43	107	Family of unknown function (DUF5792)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=298169;Strand=-	PF01134.24	2.1e-9	37.1	11	149	Glucose inhibited division protein A
+Seqid=NODE_5_length_98151_cov_292.248894;End=93005;Strand=+	PF02492.21	2.9e-48	163.9	11	189	CobW/HypB/UreG, nucleotide-binding domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=195346;Strand=-	PF00910.24	0.046	14.2	160	191	RNA helicase
+Seqid=NODE_25_length_34213_cov_188.178140;End=13411;Strand=+	PF13533.8	0.23	11.3	100	122	Biotin-lipoyl like
+Seqid=NODE_28_length_29582_cov_183.620200;Start=25742;Strand=-	PF19023.2	0.77	9.9	283	307	Family of unknown function (DUF5749)
+Seqid=NODE_18_length_46896_cov_243.824217;End=22448;Strand=+	PF01982.18	0.53	10.5	6	87	Domain of unknown function DUF120
+Seqid=NODE_6_length_97827_cov_271.807059;Start=2246;Strand=-	PF13671.8	0.31	11.3	44	79	AAA domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=70921;Strand=+	PF10854.10	0.36	11.3	170	210	Protein of unknown function (DUF2649)
+Seqid=NODE_26_length_32943_cov_298.148938;Start=17393;Strand=-	PF14574.8	0.15	11.2	118	186	C-terminal domain of RACo the ASKHA domain
+Seqid=NODE_13_length_53028_cov_297.847047;End=36038;Strand=+	PF00296.22	1.5e-32	113.4	40	243	Luciferase-like monooxygenase
+Seqid=NODE_1_length_311834_cov_211.387574;End=34631;Strand=+	PF03807.19	9.9e-5	23	4	92	NADP oxidoreductase coenzyme F420-dependent
+Seqid=NODE_6_length_97827_cov_271.807059;Start=74697;Strand=-	PF00004.31	0.39	11.2	32	67	ATPase family associated with various cellular activities (AAA)
+Seqid=NODE_1_length_311834_cov_211.387574;Start=72453;Strand=-	PF02358.18	1.6e-4	20.9	176	231	Trehalose-phosphatase
+Seqid=NODE_11_length_67393_cov_348.837364;Start=7402;Strand=-	PF00375.20	5.4e-98	328.7	32	441	Sodium:dicarboxylate symporter family
+Seqid=NODE_1_length_311834_cov_211.387574;Start=113976;Strand=-	PF01487.17	0.5	10.6	340	393	Type I 3-dehydroquinase
+Seqid=NODE_23_length_38294_cov_259.278044;Start=19230;Strand=-	PF13538.8	0.001	19	848	876	UvrD-like helicase C-terminal domain
+Seqid=NODE_15_length_48715_cov_207.370307;Start=16987;Strand=-	PF00618.22	0.027	14.8	196	256	RasGEF N-terminal motif
+Seqid=NODE_3_length_175266_cov_403.750869;End=84990;Strand=+	PF09648.12	3.9e-47	160.8	33	254	YycH protein
+Seqid=NODE_2_length_208019_cov_274.767661;End=50851;Strand=+	PF00376.25	1.9e-11	43.6	8	45	MerR family regulatory protein
+Seqid=NODE_22_length_38496_cov_261.159739;End=11017;Strand=+	PF01925.21	2.4e-55	187.9	8	269	Sulfite exporter TauE/SafE
+Seqid=NODE_11_length_67393_cov_348.837364;End=66241;Strand=+	PF11153.10	6.8e-4	19.5	6	62	Protein of unknown function (DUF2931)
+Seqid=NODE_2_length_208019_cov_274.767661;Start=41542;Strand=-	PF05834.14	0.18	10.9	3	31	Lycopene cyclase protein
+Seqid=NODE_6_length_97827_cov_271.807059;Start=67549;Strand=-	PF02595.17	2.1e-53	181.7	3	339	Glycerate kinase family
+Seqid=NODE_45_length_6111_cov_231.502154;End=5312;Strand=+	PF00340.21	0.096	12.5	2	39	Interleukin-1 / 18
+Seqid=NODE_4_length_114657_cov_314.622369;Start=25941;Strand=-	PF00890.26	0.013	14.7	201	263	FAD binding domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=50036;Strand=+	PF02089.17	6e-4	19.7	39	139	Palmitoyl protein thioesterase
+Seqid=NODE_18_length_46896_cov_243.824217;End=22689;Strand=+	PF14166.8	2.1e-19	69.3	24	90	YueH-like protein
+Seqid=NODE_18_length_46896_cov_243.824217;End=42120;Strand=+	PF02230.18	0.62	9.9	78	113	Phospholipase/Carboxylesterase
+Seqid=NODE_6_length_97827_cov_271.807059;Start=44909;Strand=-	PF00005.29	0.039	14.6	460	516	ABC transporter
+Seqid=NODE_17_length_47207_cov_349.657798;End=39572;Strand=+	PF06779.16	0.16	11.4	27	383	Uncharacterised MFS-type transporter YbfB
+Seqid=NODE_6_length_97827_cov_271.807059;Start=94820;Strand=-	PF03308.18	0.47	9.5	20	50	Methylmalonyl Co-A mutase-associated GTPase MeaB
+Seqid=NODE_12_length_53464_cov_183.604379;End=25862;Strand=+	PF12666.9	0.017	15.9	3	59	PrgI family protein
+Seqid=NODE_5_length_98151_cov_292.248894;End=95116;Strand=+	PF03600.18	5.2e-5	22.7	335	512	Citrate transporter
+Seqid=NODE_40_length_8100_cov_232.960613;End=1262;Strand=+	PF02457.18	4.8e-44	148.9	156	273	DisA bacterial checkpoint controller nucleotide-binding
+Seqid=NODE_1_length_311834_cov_211.387574;Start=139770;Strand=-	PF09445.12	0.092	12.4	38	80	RNA cap guanine-N2 methyltransferase
+Seqid=NODE_3_length_175266_cov_403.750869;Start=21304;Strand=-	PF02837.20	5.2e-21	75.4	17	182	Glycosyl hydrolases family 2, sugar binding domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=50885;Strand=-	PF17864.3	3.5e-31	106.9	182	255	RuvB AAA lid domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=67296;Strand=-	PF08702.12	0.4	10.9	39	106	Fibrinogen alpha/beta chain family
+Seqid=NODE_12_length_53464_cov_183.604379;Start=27247;Strand=-	PF00224.23	8.4e-151	501.8	1	342	Pyruvate kinase, barrel domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=36709;Strand=-	PF06874.13	4.4e-281	933.8	12	649	Firmicute fructose-1,6-bisphosphatase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=216653;Strand=-	PF01979.22	7.6e-47	160.4	49	418	Amidohydrolase family
+Seqid=NODE_45_length_6111_cov_231.502154;Start=99;Strand=-	PF08028.13	4.9e-13	49.6	244	359	Acyl-CoA dehydrogenase, C-terminal domain
+Seqid=NODE_27_length_31933_cov_317.774925;Start=28597;Strand=-	PF13238.8	3.9e-8	34	27	160	AAA domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=159597;Strand=+	PF00367.22	2.1e-15	56	8	41	phosphotransferase system, EIIB
+Seqid=NODE_19_length_43567_cov_252.384180;End=33778;Strand=+	PF13510.8	7.4e-11	42	8	80	2Fe-2S iron-sulfur cluster binding domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=6681;Strand=-	PF02774.20	3.3e-47	161	154	328	Semialdehyde dehydrogenase, dimerisation domain
+Seqid=NODE_11_length_67393_cov_348.837364;Start=19659;Strand=-	PF12325.10	0.02	15.1	58	120	TATA element modulatory factor 1 TATA binding
+Seqid=NODE_7_length_93468_cov_171.223747;End=17959;Strand=+	PF04548.18	2.5e-6	27.1	11	113	AIG1 family
+Seqid=NODE_11_length_67393_cov_348.837364;End=21005;Strand=+	PF13412.8	0.16	11.6	32	52	Winged helix-turn-helix DNA-binding
+Seqid=NODE_14_length_52631_cov_224.782148;End=46055;Strand=+	PF03061.24	3.7e-4	20.9	66	116	Thioesterase superfamily
+Seqid=NODE_10_length_69782_cov_362.884972;End=24593;Strand=+	PF12831.9	6.1e-8	32.5	18	54	FAD dependent oxidoreductase
+Seqid=NODE_4_length_114657_cov_314.622369;Start=47950;Strand=-	PF03653.15	0.016	15.6	192	271	Uncharacterised protein family (UPF0093)
+Seqid=NODE_24_length_37923_cov_335.358083;Start=23010;Strand=-	PF01042.23	1.7e-45	154	7	120	Endoribonuclease L-PSP
+Seqid=NODE_16_length_48124_cov_200.183425;End=40565;Strand=+	PF02773.18	6.6e-71	236.8	246	385	S-adenosylmethionine synthetase, C-terminal domain
+Seqid=NODE_8_length_83912_cov_236.777313;End=67857;Strand=+	PF05977.15	1.5e-35	122.8	9	382	Transmembrane secretion effector
+Seqid=NODE_31_length_21906_cov_324.067754;Start=2786;Strand=-	PF13551.8	0.12	12.5	157	184	Winged helix-turn helix
+Seqid=NODE_6_length_97827_cov_271.807059;End=82878;Strand=+	PF05102.14	0.69	10	116	152	holin, BlyA family
+Seqid=NODE_3_length_175266_cov_403.750869;Start=87035;Strand=-	PF00665.28	5.8e-12	45.9	67	158	Integrase core domain
+Seqid=NODE_33_length_17260_cov_202.581447;Start=11895;Strand=-	PF04632.14	1.8e-13	50.1	8	246	Fusaric acid resistance protein family
+Seqid=NODE_4_length_114657_cov_314.622369;End=111438;Strand=+	PF02796.17	0.0029	17.7	29	51	Helix-turn-helix domain of resolvase
+Seqid=NODE_37_length_13437_cov_176.831512;End=5486;Strand=+	PF01555.20	0.12	12.1	149	235	DNA methylase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=140394;Strand=-	PF00575.25	1.4e-5	25.4	133	196	S1 RNA binding domain
+Seqid=NODE_8_length_83912_cov_236.777313;End=80433;Strand=+	PF07690.18	1.8e-6	27.2	320	441	Major Facilitator Superfamily
+Seqid=NODE_36_length_15694_cov_236.416277;Start=7246;Strand=-	PF00144.26	3.9e-45	154.6	86	365	Beta-lactamase
+Seqid=NODE_3_length_175266_cov_403.750869;Start=90366;Strand=-	PF05223.13	2.5e-26	92.2	27	141	NTF2-like N-terminal transpeptidase domain
+Seqid=NODE_14_length_52631_cov_224.782148;End=5490;Strand=+	PF10788.11	0.21	11.7	104	138	Protein of unknown function (DUF2603)
+Seqid=NODE_37_length_13437_cov_176.831512;End=1552;Strand=+	PF02421.20	1.5e-12	47.4	6	132	Ferrous iron transport protein B
+Seqid=NODE_19_length_43567_cov_252.384180;End=33778;Strand=+	PF00037.29	6.5e-5	22.7	144	160	4Fe-4S binding domain
+Seqid=NODE_8_length_83912_cov_236.777313;Start=64624;Strand=-	PF06276.14	3.3e-29	102.5	496	664	Ferric iron reductase FhuF-like transporter
+Seqid=NODE_20_length_42920_cov_245.749691;End=28700;Strand=+	PF13479.8	0.059	13.2	357	375	AAA domain
+Seqid=NODE_17_length_47207_cov_349.657798;Start=34486;Strand=-	PF08477.15	0.099	13	35	60	Ras of Complex, Roc, domain of DAPkinase
+Seqid=NODE_2_length_208019_cov_274.767661;End=176078;Strand=+	PF08445.12	0.058	13.5	90	156	FR47-like protein
+Seqid=NODE_6_length_97827_cov_271.807059;Start=59099;Strand=-	PF00270.31	3.7e-4	20.4	98	233	DEAD/DEAH box helicase
+Seqid=NODE_29_length_25401_cov_728.240404;End=8662;Strand=+	PF00239.23	4e-12	46.5	2	84	Resolvase, N terminal domain
+Seqid=NODE_37_length_13437_cov_176.831512;End=9970;Strand=+	PF00275.22	3.8e-127	424.5	12	429	EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+Seqid=NODE_4_length_114657_cov_314.622369;Start=71874;Strand=-	PF13460.8	1.1e-4	22.2	331	413	NAD(P)H-binding
+Seqid=NODE_21_length_39472_cov_184.953420;Start=158;Strand=-	PF09370.12	0.24	10.7	207	242	Phosphoenolpyruvate hydrolase-like
+Seqid=NODE_2_length_208019_cov_274.767661;Start=113941;Strand=-	PF08984.13	0.084	13.1	11	61	Domain of unknown function (DUF1858)
+Seqid=NODE_10_length_69782_cov_362.884972;End=69661;Strand=+	PF01529.22	0.25	11.5	8	78	DHHC palmitoyltransferase
+Seqid=NODE_31_length_21906_cov_324.067754;Start=12165;Strand=-	PF11494.10	0.19	12.2	768	811	Ta0938
+Seqid=NODE_1_length_311834_cov_211.387574;Start=180126;Strand=-	PF12795.9	0.22	11.2	779	886	Mechanosensitive ion channel porin domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=293204;Strand=-	PF01547.27	4.2e-22	79.6	49	291	Bacterial extracellular solute-binding protein
+Seqid=NODE_3_length_175266_cov_403.750869;Start=82743;Strand=-	PF04713.14	0.054	13.6	9	61	Poxvirus protein I5
+Seqid=NODE_2_length_208019_cov_274.767661;End=50036;Strand=+	PF03959.15	0.097	12.4	83	264	Serine hydrolase (FSH1)
+Seqid=NODE_6_length_97827_cov_271.807059;Start=40853;Strand=-	PF07719.19	0.51	10.7	180	207	Tetratricopeptide repeat
+Seqid=NODE_1_length_311834_cov_211.387574;End=67951;Strand=+	PF15729.7	0.016	14.4	2	44	Amyotrophic lateral sclerosis 2 candidate 11
+Seqid=NODE_9_length_73269_cov_171.361365;Start=50885;Strand=-	PF05496.14	7.1e-79	263.2	21	179	Holliday junction DNA helicase RuvB P-loop domain
+Seqid=NODE_8_length_83912_cov_236.777313;End=48385;Strand=+	PF01416.22	9.5e-9	35.8	13	108	tRNA pseudouridine synthase
+Seqid=NODE_10_length_69782_cov_362.884972;Start=66285;Strand=-	PF14362.8	0.011	15.2	7	66	Domain of unknown function (DUF4407)
+Seqid=NODE_27_length_31933_cov_317.774925;End=5912;Strand=+	PF00562.30	3e-165	550.1	675	1069	RNA polymerase Rpb2, domain 6
+Seqid=NODE_1_length_311834_cov_211.387574;Start=210729;Strand=-	PF12579.10	0.14	11.9	38	53	Protein of unknown function (DUF3755)
+Seqid=NODE_15_length_48715_cov_207.370307;Start=16312;Strand=-	PF11297.10	0.5	10.1	102	131	Protein of unknown function (DUF3098)
+Seqid=NODE_4_length_114657_cov_314.622369;Start=59165;Strand=-	PF10686.11	0.21	11.7	72	97	YspA, cpYpsA-related SLOG family
+Seqid=NODE_3_length_175266_cov_403.750869;End=129383;Strand=+	PF08241.14	9.9e-10	39	45	137	Methyltransferase domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=151858;Strand=-	PF03179.17	0.52	11	107	182	Vacuolar (H+)-ATPase G subunit
+Seqid=NODE_1_length_311834_cov_211.387574;Start=212386;Strand=-	PF02225.24	0.52	10.5	536	596	PA domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=145188;Strand=+	PF13370.8	0.06	14	13	39	4Fe-4S single cluster domain of Ferredoxin I
+Seqid=NODE_6_length_97827_cov_271.807059;Start=74697;Strand=-	PF00503.22	0.0097	15.2	31	185	G-protein alpha subunit
+Seqid=NODE_7_length_93468_cov_171.223747;End=61548;Strand=+	PF00890.26	1.2e-5	24.7	32	62	FAD binding domain
+Seqid=NODE_1_length_311834_cov_211.387574;End=17044;Strand=+	PF01895.21	1.6e-15	57.4	122	203	PhoU domain
+Seqid=NODE_3_length_175266_cov_403.750869;Start=52857;Strand=-	PF13932.8	3.9e-79	265.8	399	612	tRNA modifying enzyme MnmG/GidA C-terminal domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=59022;Strand=+	PF01695.19	2.7e-7	30.4	150	253	IstB-like ATP binding protein
+Seqid=NODE_15_length_48715_cov_207.370307;Start=4539;Strand=-	PF11316.10	0.1	12.1	140	211	Putative rhamnosyl transferase
+Seqid=NODE_18_length_46896_cov_243.824217;Start=34842;Strand=-	PF04397.17	0.061	13.6	101	136	LytTr DNA-binding domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=122589;Strand=+	PF13641.8	1.5e-9	38.1	5	116	Glycosyltransferase like family 2
+Seqid=NODE_2_length_208019_cov_274.767661;Start=18795;Strand=-	PF13420.9	5.1e-20	72.1	2	153	Acetyltransferase (GNAT) domain
+Seqid=NODE_23_length_38294_cov_259.278044;Start=6494;Strand=-	PF00109.28	9.6e-62	208.9	5	247	Beta-ketoacyl synthase, N-terminal domain
+Seqid=NODE_31_length_21906_cov_324.067754;Start=18734;Strand=-	PF01207.19	0.0058	15.8	192	250	Dihydrouridine synthase (Dus)
+Seqid=NODE_13_length_53028_cov_297.847047;Start=21178;Strand=-	PF01210.25	0.85	9.7	179	246	NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+Seqid=NODE_4_length_114657_cov_314.622369;Start=39674;Strand=-	PF01081.21	0.26	10.8	11	73	KDPG and KHG aldolase
+Seqid=NODE_2_length_208019_cov_274.767661;End=125582;Strand=+	PF13347.8	1e-6	27.7	12	179	MFS/sugar transport protein
+Seqid=NODE_9_length_73269_cov_171.361365;Start=27590;Strand=-	PF07719.19	6.5e-6	26	101	129	Tetratricopeptide repeat
+Seqid=NODE_18_length_46896_cov_243.824217;Start=6027;Strand=-	PF13462.8	0.16	12.2	106	167	Thioredoxin
+Seqid=NODE_4_length_114657_cov_314.622369;Start=77370;Strand=-	PF12802.9	4.9e-12	45.8	31	89	MarR family
+Seqid=NODE_3_length_175266_cov_403.750869;End=16359;Strand=+	PF01717.20	1.2e-136	455.4	415	735	Cobalamin-independent synthase, Catalytic domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=98108;Strand=+	PF01073.21	0.0016	17.6	4	115	3-beta hydroxysteroid dehydrogenase/isomerase family
+Seqid=NODE_29_length_25401_cov_728.240404;Start=20508;Strand=-	PF13508.9	4.3e-6	27	62	146	Acetyltransferase (GNAT) domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=128063;Strand=+	PF00503.22	0.035	13.3	30	60	G-protein alpha subunit
+Seqid=NODE_7_length_93468_cov_171.223747;End=11692;Strand=+	PF01938.22	1.8e-4	21.5	379	425	TRAM domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=30560;Strand=+	PF12846.9	0.029	13.4	43	87	AAA-like domain
+Seqid=NODE_17_length_47207_cov_349.657798;Start=2575;Strand=-	PF03309.16	0.092	12.7	4	66	Type III pantothenate kinase
+Seqid=NODE_6_length_97827_cov_271.807059;Start=59099;Strand=-	PF05127.16	0.074	13	108	211	Helicase
+Seqid=NODE_18_length_46896_cov_243.824217;End=9943;Strand=+	PF20143.1	2.7e-12	46.6	123	249	ATP-NAD kinase C-terminal domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=48065;Strand=+	PF01212.23	7.4e-8	32.1	116	250	Beta-eliminating lyase
+Seqid=NODE_2_length_208019_cov_274.767661;End=82803;Strand=+	PF15220.8	0.73	10.1	7	31	Hypoxia-inducible lipid droplet-associated
+Seqid=NODE_11_length_67393_cov_348.837364;End=34237;Strand=+	PF00361.22	1.1e-55	189	119	397	Proton-conducting membrane transporter
+Seqid=NODE_23_length_38294_cov_259.278044;End=31337;Strand=+	PF02568.16	0.38	10.4	3	35	Thiamine biosynthesis protein (ThiI)
+Seqid=NODE_5_length_98151_cov_292.248894;End=1551;Strand=+	PF15933.7	0.13	12.6	117	167	Antitoxin to bacterial toxin RNase LS or RnlA
+Seqid=NODE_20_length_42920_cov_245.749691;Start=25878;Strand=-	PF02629.21	5.3e-24	84.8	86	180	CoA binding domain
+Seqid=NODE_10_length_69782_cov_362.884972;End=47945;Strand=+	PF13179.8	0.31	11.1	58	86	Family of unknown function (DUF4006)
+Seqid=NODE_15_length_48715_cov_207.370307;Start=16987;Strand=-	PF13489.8	0.2	11.5	297	363	Methyltransferase domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=27590;Strand=-	PF13174.8	0.068	14	101	123	Tetratricopeptide repeat
+Seqid=NODE_43_length_6813_cov_314.029691;Start=1065;Strand=-	PF00239.23	3.5e-32	111.6	2	144	Resolvase, N terminal domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=101003;Strand=+	PF13545.8	0.042	13.9	30	103	Crp-like helix-turn-helix domain
+Seqid=NODE_14_length_52631_cov_224.782148;End=21726;Strand=+	PF01656.25	0.021	14.9	13	48	CobQ/CobB/MinD/ParA nucleotide binding domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=50851;Strand=+	PF09325.12	0.002	17.9	81	152	Vps5 C terminal like
+Seqid=NODE_13_length_53028_cov_297.847047;Start=45607;Strand=-	PF09334.13	0.01	14.7	6	53	tRNA synthetases class I (M)
+Seqid=NODE_2_length_208019_cov_274.767661;End=198012;Strand=+	PF12146.10	0.14	11.4	122	187	Serine aminopeptidase, S33
+Seqid=NODE_1_length_311834_cov_211.387574;Start=141647;Strand=-	PF17384.4	4e-17	62.2	123	187	RimP C-terminal SH3 domain
+Seqid=NODE_7_length_93468_cov_171.223747;End=30560;Strand=+	PF13481.8	0.13	11.9	32	57	AAA domain
+Seqid=NODE_35_length_16646_cov_337.315589;Start=12750;Strand=-	PF16993.7	1.6e-97	328	1	515	Accessory Sec system protein Asp1
+Seqid=NODE_21_length_39472_cov_184.953420;Start=21686;Strand=-	PF14682.8	0.14	12.4	65	116	Sporulation initiation phospho-transferase B, C-terminal
+Seqid=NODE_14_length_52631_cov_224.782148;End=5490;Strand=+	PF01238.23	3.4e-28	99	11	200	Phosphomannose isomerase type I
+Seqid=NODE_14_length_52631_cov_224.782148;End=28632;Strand=+	PF13481.8	0.16	11.5	179	252	AAA domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=8739;Strand=+	PF16882.7	3.9e-11	43.4	16	210	Domain of unknown function (DUF5079)
+Seqid=NODE_5_length_98151_cov_292.248894;End=84788;Strand=+	PF13302.9	3.3e-25	89.5	12	156	Acetyltransferase (GNAT) domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=169247;Strand=-	PF13602.8	0.028	15.5	196	327	Zinc-binding dehydrogenase
+Seqid=NODE_23_length_38294_cov_259.278044;End=17301;Strand=+	PF02737.20	0.039	13.9	153	238	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Seqid=NODE_43_length_6813_cov_314.029691;Start=1065;Strand=-	PF13936.8	0.084	12.8	171	194	Helix-turn-helix domain
+Seqid=NODE_30_length_24760_cov_181.758984;Start=3386;Strand=-	PF07564.13	2.1e-14	53.5	853	928	Domain of Unknown Function (DUF1542)
+Seqid=NODE_14_length_52631_cov_224.782148;End=28632;Strand=+	PF13479.8	0.5	10.2	182	239	AAA domain
+Seqid=NODE_2_length_208019_cov_274.767661;Start=28890;Strand=-	PF00171.24	2.1e-158	527.8	23	479	Aldehyde dehydrogenase family
+Seqid=NODE_14_length_52631_cov_224.782148;End=41093;Strand=+	PF01427.19	0.25	11.2	381	435	D-ala-D-ala dipeptidase
+Seqid=NODE_12_length_53464_cov_183.604379;Start=37801;Strand=-	PF00392.23	0.015	15	16	58	Bacterial regulatory proteins, gntR family
+Seqid=NODE_2_length_208019_cov_274.767661;End=191169;Strand=+	PF14447.8	0.11	12.4	3	29	Prokaryotic RING finger family 4
+Seqid=NODE_2_length_208019_cov_274.767661;Start=113165;Strand=-	PF12847.9	0.026	14.7	41	114	Methyltransferase domain
+Seqid=NODE_19_length_43567_cov_252.384180;Start=26535;Strand=-	PF06024.14	1	9.8	64	133	Orf78 (ac78)
+Seqid=NODE_7_length_93468_cov_171.223747;End=30560;Strand=+	PF13304.8	1.7e-6	28.1	42	106	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NODE_22_length_38496_cov_261.159739;End=2144;Strand=+	PF13476.8	0.079	13.6	32	50	AAA domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=21894;Strand=-	PF03698.15	0.15	12.4	20	40	Uncharacterised protein family (UPF0180)
+Seqid=NODE_22_length_38496_cov_261.159739;End=6948;Strand=+	PF01458.19	9.7e-74	247.8	214	439	SUF system FeS cluster assembly, SufBD
+Seqid=NODE_2_length_208019_cov_274.767661;End=203860;Strand=+	PF07453.15	0.29	11.5	16	30	NUMOD1 domain
+Seqid=NODE_9_length_73269_cov_171.361365;Start=7203;Strand=-	PF18317.3	2e-11	43.5	232	262	Shikimate 5'-dehydrogenase C-terminal domain
+Seqid=NODE_29_length_25401_cov_728.240404;End=8662;Strand=+	PF08765.13	0.078	13.1	48	135	Mor transcription activator family
+Seqid=NODE_34_length_17192_cov_220.014841;Start=3424;Strand=-	PF13744.8	0.77	9.8	215	250	Helix-turn-helix domain
+Seqid=NODE_6_length_97827_cov_271.807059;Start=57792;Strand=-	PF12733.9	0.3	11.8	28	98	Cadherin-like beta sandwich domain
+Seqid=NODE_18_length_46896_cov_243.824217;End=1765;Strand=+	PF13417.8	0.034	14.5	7	39	Glutathione S-transferase, N-terminal domain
+Seqid=NODE_5_length_98151_cov_292.248894;Start=29518;Strand=-	PF19246.1	0.23	11.1	16	35	Family of unknown function (DUF5894)
+Seqid=NODE_2_length_208019_cov_274.767661;Start=180060;Strand=-	PF13524.8	3.2e-5	24.3	285	377	Glycosyl transferases group 1
+Seqid=NODE_40_length_8100_cov_232.960613;End=7086;Strand=+	PF03193.18	0.079	13	27	58	RsgA GTPase
+Seqid=NODE_3_length_175266_cov_403.750869;End=170960;Strand=+	PF11208.10	2.7e-36	124.8	3	134	Protein of unknown function (DUF2992)
+Seqid=NODE_7_length_93468_cov_171.223747;End=37634;Strand=+	PF13181.8	0.13	12.6	442	471	Tetratricopeptide repeat
+Seqid=NODE_2_length_208019_cov_274.767661;End=101992;Strand=+	PF01073.21	3.8e-5	22.9	14	93	3-beta hydroxysteroid dehydrogenase/isomerase family
+Seqid=NODE_3_length_175266_cov_403.750869;Start=54855;Strand=-	PF04548.18	1.1e-7	31.5	236	339	AIG1 family
+Seqid=NODE_1_length_311834_cov_211.387574;Start=308102;Strand=-	PF13460.8	6.2e-4	19.8	11	89	NAD(P)H-binding
+Seqid=NODE_28_length_29582_cov_183.620200;End=1443;Strand=+	PF17260.4	0.012	15.9	39	72	Family of unknown function (DUF5326)
+Seqid=NODE_2_length_208019_cov_274.767661;Start=113165;Strand=-	PF01209.20	1.1e-13	51.2	42	148	ubiE/COQ5 methyltransferase family
+Seqid=NODE_26_length_32943_cov_298.148938;End=25420;Strand=+	PF17265.4	0.14	11.9	166	196	Family of unknown function (DUF5331)
+Seqid=NODE_3_length_175266_cov_403.750869;End=20141;Strand=+	PF00005.29	1.6e-25	90.3	20	189	ABC transporter
+Seqid=NODE_3_length_175266_cov_403.750869;End=42783;Strand=+	PF02492.21	0.017	14.8	35	77	CobW/HypB/UreG, nucleotide-binding domain
+Seqid=NODE_19_length_43567_cov_252.384180;End=36775;Strand=+	PF13450.8	2.1e-6	28	5	36	NAD(P)-binding Rossmann-like domain
+Seqid=NODE_3_length_175266_cov_403.750869;Start=34459;Strand=-	PF15957.7	0.052	14	4	25	Commissureless
+Seqid=NODE_10_length_69782_cov_362.884972;End=12722;Strand=+	PF00107.28	2.4e-32	111.8	186	313	Zinc-binding dehydrogenase
+Seqid=NODE_9_length_73269_cov_171.361365;Start=20098;Strand=-	PF03602.17	2.9e-5	23.9	63	155	Conserved hypothetical protein 95
+Seqid=NODE_26_length_32943_cov_298.148938;End=25420;Strand=+	PF00288.28	9.4e-14	51.5	103	174	GHMP kinases N terminal domain
+Seqid=NODE_5_length_98151_cov_292.248894;End=89608;Strand=+	PF00485.20	0.097	12.5	366	389	Phosphoribulokinase / Uridine kinase family
+Seqid=NODE_4_length_114657_cov_314.622369;Start=45845;Strand=-	PF04355.15	0.027	14.3	160	194	SmpA / OmlA family
+Seqid=NODE_4_length_114657_cov_314.622369;Start=102244;Strand=-	PF00746.23	0.016	15.2	661	697	LPXTG cell wall anchor motif
+Seqid=NODE_7_length_93468_cov_171.223747;End=88777;Strand=+	PF12822.9	3.5e-26	92.4	13	180	ECF transporter, substrate-specific component
+Seqid=NODE_13_length_53028_cov_297.847047;End=31353;Strand=+	PF08295.14	0.92	9.7	24	53	Sin3 family co-repressor
+Seqid=NODE_3_length_175266_cov_403.750869;End=128335;Strand=+	PF05525.15	2.9e-148	494.5	9	442	Branched-chain amino acid transport protein
+Seqid=NODE_2_length_208019_cov_274.767661;End=168713;Strand=+	PF07992.16	4.6e-29	101.7	8	305	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NODE_1_length_311834_cov_211.387574;Start=137615;Strand=-	PF11987.10	3.8e-40	136.6	501	616	Translation-initiation factor 2
+Seqid=NODE_3_length_175266_cov_403.750869;End=143132;Strand=+	PF13245.8	0.22	11.8	31	196	AAA domain
+Seqid=NODE_2_length_208019_cov_274.767661;End=168713;Strand=+	PF13450.8	2.4e-5	24.6	11	48	NAD(P)-binding Rossmann-like domain
+Seqid=NODE_12_length_53464_cov_183.604379;Start=186;Strand=-	PF07728.16	4.2e-5	23.6	113	189	AAA domain (dynein-related subfamily)
+Seqid=NODE_13_length_53028_cov_297.847047;Start=30504;Strand=-	PF03976.16	2.4e-23	83	4	212	Polyphosphate kinase 2 (PPK2)
+Seqid=NODE_17_length_47207_cov_349.657798;Start=30596;Strand=-	PF13555.8	0.036	13.9	470	494	P-loop containing region of AAA domain
+Seqid=NODE_21_length_39472_cov_184.953420;Start=158;Strand=-	PF03009.19	3.1e-44	151.7	18	246	Glycerophosphoryl diester phosphodiesterase family
+Seqid=NODE_7_length_93468_cov_171.223747;Start=49883;Strand=-	PF10398.11	0.078	13.1	42	67	Protein of unknown function (DUF2443)
+Seqid=NODE_3_length_175266_cov_403.750869;End=66921;Strand=+	PF03989.15	2.4e-10	39.8	662	707	DNA gyrase C-terminal domain, beta-propeller
+Seqid=NODE_1_length_311834_cov_211.387574;Start=44859;Strand=-	PF00521.22	1.1e-148	495.8	29	468	DNA gyrase/topoisomerase IV, subunit A
+Seqid=NODE_6_length_97827_cov_271.807059;Start=47751;Strand=-	PF04851.17	3.7e-12	46.7	14	140	Type III restriction enzyme, res subunit
+Seqid=NODE_18_length_46896_cov_243.824217;Start=30606;Strand=-	PF11174.10	0.36	10.8	58	84	Protein of unknown function (DUF2970)
+Seqid=NODE_14_length_52631_cov_224.782148;Start=47003;Strand=-	PF06837.13	0.095	12.2	5	48	Fijivirus P9-2 protein
+Seqid=NODE_1_length_311834_cov_211.387574;Start=159221;Strand=-	PF05834.14	0.061	12.5	5	44	Lycopene cyclase protein
+Seqid=NODE_13_length_53028_cov_297.847047;End=20712;Strand=+	PF12710.9	8.4e-4	20	628	706	haloacid dehalogenase-like hydrolase
+Seqid=NODE_11_length_67393_cov_348.837364;End=62794;Strand=+	PF07702.15	1.3e-20	73.8	95	235	UTRA domain
+Seqid=NODE_1_length_311834_cov_211.387574;Start=110853;Strand=-	PF07274.14	0.098	13	4	55	Protein of unknown function (DUF1440)
+Seqid=NODE_3_length_175266_cov_403.750869;End=66921;Strand=+	PF03989.15	2.5e-11	42.9	508	551	DNA gyrase C-terminal domain, beta-propeller
+Seqid=NODE_8_length_83912_cov_236.777313;End=52587;Strand=+	PF14272.8	0.082	13	48	77	Glycine-rich SFCGS
+Seqid=NODE_1_length_311834_cov_211.387574;End=80901;Strand=+	PF10112.11	0.18	11.9	13	63	5-bromo-4-chloroindolyl phosphate hydrolysis protein
+Seqid=NODE_1_length_311834_cov_211.387574;Start=127816;Strand=-	PF17854.3	1.8e-35	121.2	339	438	FtsK alpha domain
+Seqid=NODE_3_length_175266_cov_403.750869;End=174525;Strand=+	PF02667.16	6.1e-7	28.9	195	451	Short chain fatty acid transporter
+Seqid=NODE_4_length_114657_cov_314.622369;Start=70841;Strand=-	PF05368.15	2.9e-4	20.5	26	101	NmrA-like family
+Seqid=NODE_24_length_37923_cov_335.358083;Start=14904;Strand=-	PF04851.17	2.1e-7	31.2	618	777	Type III restriction enzyme, res subunit
+Seqid=NODE_3_length_175266_cov_403.750869;Start=48917;Strand=-	PF15943.7	0.049	13.7	34	55	Putative antitoxin of bacterial toxin-antitoxin system, YdaS/YdaT
+Seqid=NODE_33_length_17260_cov_202.581447;End=16474;Strand=+	PF00518.19	0.56	10.8	118	150	Early Protein (E6)

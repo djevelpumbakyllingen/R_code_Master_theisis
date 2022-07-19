@@ -1,0 +1,978 @@
+Assembly Name	Assembly Accession	Organism Name	Organism Infraspecific Names Breed	Organism Infraspecific Names Strain	Organism Infraspecific Names Cultivar	Organism Infraspecific Names Isolate	Organism Infraspecific Names Ecotype	Annotation Name	Assembly Stats Total Sequence Length	Assembly Level	Assembly Submission Date	Annotation Count Gene Total	Annotation Count Gene Protein-coding
+ASM161195v1	GCF_001611955.1	Staphylococcus haemolyticus		S167				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2560146	Complete Genome	2016-04-06	2523	2379
+Willow Endophyte RIT283	GCF_000627275.1	Staphylococcus haemolyticus		RIT283				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2527922	Contig	2014-04-11	2562	2393
+ASM76370v1	GCF_000763705.1	Staphylococcus haemolyticus		C10D				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2440251	Contig	2014-10-06	2427	2314
+ASM76372v1	GCF_000763725.1	Staphylococcus haemolyticus		C10F				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2458301	Contig	2014-10-06	2441	2331
+ASM76406v1	GCF_000764065.1	Staphylococcus haemolyticus		C10A				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2430312	Contig	2014-10-06	2452	2324
+ASM98114v1	GCF_000981145.1	Staphylococcus haemolyticus		1HT3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2403066	Contig	2015-04-27	2429	2282
+7068_7#27	GCF_001047775.1	Staphylococcus haemolyticus		96671				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2473962	Contig	2015-06-30	2482	2350
+ASM106970v1	GCF_001069705.1	Staphylococcus haemolyticus		1328_SHAE				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2587051	Scaffold	2015-07-10	2644	2518
+ASM107047v1	GCF_001070475.1	Staphylococcus haemolyticus		1292_SHAE				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2596018	Scaffold	2015-07-10	2622	2508
+ASM107155v1	GCF_001071555.1	Staphylococcus haemolyticus		164_SHAE				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2423577	Scaffold	2015-07-10	2404	2304
+ASM107187v1	GCF_001071875.1	Staphylococcus haemolyticus		235_SHAE				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2484273	Contig	2015-07-10	2469	2371
+ASM107209v1	GCF_001072095.1	Staphylococcus haemolyticus		285_SHAE				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2525060	Scaffold	2015-07-10	2531	2397
+7068_7#10	GCF_001223605.1	Staphylococcus haemolyticus		6035				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2523744	Scaffold	2015-08-03	2542	2410
+7067_4#88	GCF_001223905.1	Staphylococcus haemolyticus		CN1175				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2528540	Contig	2015-08-03	2538	2400
+7067_4#82	GCF_001223985.1	Staphylococcus haemolyticus		278-10				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2488619	Contig	2015-08-03	2481	2362
+7067_4#76	GCF_001224145.1	Staphylococcus haemolyticus		6_13				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2415244	Scaffold	2015-08-03	2404	2275
+7067_4#51	GCF_001224245.1	Staphylococcus haemolyticus		51-26				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2609359	Scaffold	2015-08-03	2630	2498
+7068_7#52	GCF_001224425.1	Staphylococcus haemolyticus		103709				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2506165	Contig	2015-08-03	2518	2385
+7068_7#6	GCF_001224545.1	Staphylococcus haemolyticus		625				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2525382	Contig	2015-08-03	2544	2421
+7068_7#35	GCF_001224745.1	Staphylococcus haemolyticus		131776				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2539072	Scaffold	2015-08-03	2539	2395
+7068_7#62	GCF_001225225.1	Staphylococcus haemolyticus		115601				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2448034	Contig	2015-08-03	2453	2308
+7068_7#5	GCF_001225245.1	Staphylococcus haemolyticus		6660				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2493827	Contig	2015-08-03	2505	2371
+7067_4#44	GCF_001225445.1	Staphylococcus haemolyticus		51-16				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2541042	Scaffold	2015-08-03	2568	2432
+7068_7#29	GCF_001225485.1	Staphylococcus haemolyticus		92271				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2626030	Contig	2015-08-03	2636	2477
+7067_4#78	GCF_001225665.1	Staphylococcus haemolyticus		AB				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2481381	Scaffold	2015-08-03	2481	2339
+7068_7#60	GCF_001225905.1	Staphylococcus haemolyticus		140376				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2372839	Contig	2015-08-03	2370	2194
+7068_7#16	GCF_001225985.1	Staphylococcus haemolyticus		F033				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2475621	Contig	2015-08-03	2478	2341
+7067_4#26	GCF_001226105.1	Staphylococcus haemolyticus		25-29				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2471527	Scaffold	2015-08-03	2491	2354
+7067_4#80	GCF_001226285.1	Staphylococcus haemolyticus		JCSC_1435				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2555255	Contig	2015-08-03	2581	2446
+7068_7#48	GCF_001226325.1	Staphylococcus haemolyticus		114126				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2518137	Contig	2015-08-03	2539	2406
+7068_7#19	GCF_001226405.1	Staphylococcus haemolyticus		T_621				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2621216	Contig	2015-08-03	2661	2520
+7067_4#38	GCF_001226705.1	Staphylococcus haemolyticus		51-07				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2522687	Scaffold	2015-08-03	2556	2424
+7067_4#48	GCF_001226765.1	Staphylococcus haemolyticus		51-21				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2583329	Contig	2015-08-03	2600	2449
+7068_7#43	GCF_001226805.1	Staphylococcus haemolyticus		121875				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2537417	Scaffold	2015-08-03	2559	2425
+7068_7#63	GCF_001227045.1	Staphylococcus haemolyticus		127639				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2513924	Scaffold	2015-08-03	2511	2349
+7067_4#91	GCF_001227205.1	Staphylococcus haemolyticus		95671				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476442	Contig	2015-08-03	2489	2357
+7067_4#58	GCF_001227225.1	Staphylococcus haemolyticus		51-34				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2511238	Contig	2015-08-03	2510	2372
+7067_4#33	GCF_001227365.1	Staphylococcus haemolyticus		26-24				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2464983	Contig	2015-08-03	2483	2342
+7068_7#20	GCF_001227385.1	Staphylococcus haemolyticus		T_480				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2492973	Scaffold	2015-08-03	2488	2362
+7067_4#25	GCF_001227585.1	Staphylococcus haemolyticus		25-12				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2448492	Scaffold	2015-08-03	2456	2318
+7067_4#65	GCF_001227625.1	Staphylococcus haemolyticus		51-44				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2453839	Contig	2015-08-03	2439	2316
+7067_4#62	GCF_001227705.1	Staphylococcus haemolyticus		51-41				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2550395	Contig	2015-08-03	2543	2421
+7067_4#47	GCF_001227745.1	Staphylococcus haemolyticus		51-20				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2492833	Contig	2015-08-03	2484	2350
+7067_4#30	GCF_001228105.1	Staphylococcus haemolyticus		25-59				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2475848	Contig	2015-08-03	2499	2358
+7068_7#30	GCF_001228185.1	Staphylococcus haemolyticus		135665				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2372829	Contig	2015-08-03	2348	2223
+7068_7#36	GCF_001228285.1	Staphylococcus haemolyticus		127925				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2545880	Contig	2015-08-03	2591	2452
+7067_4#66	GCF_001228325.1	Staphylococcus haemolyticus		51-45				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2463453	Contig	2015-08-03	2443	2304
+7067_4#60	GCF_001228405.1	Staphylococcus haemolyticus		51-37				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2332821	Scaffold	2015-08-03	2326	2167
+7067_4#45	GCF_001228465.1	Staphylococcus haemolyticus		51-17				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2858149	Scaffold	2015-08-03	3021	2725
+7068_7#21	GCF_001228845.1	Staphylococcus haemolyticus		W59				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2454272	Contig	2015-08-03	2449	2263
+7068_7#65	GCF_001229105.1	Staphylococcus haemolyticus		105731				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2436514	Contig	2015-08-03	2429	2298
+7067_4#52	GCF_001229125.1	Staphylococcus haemolyticus		51-27				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2398588	Scaffold	2015-08-03	2397	2260
+7068_7#38	GCF_001229185.1	Staphylococcus haemolyticus		113101				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2511345	Scaffold	2015-08-03	2524	2394
+7068_7#9	GCF_001229605.1	Staphylococcus haemolyticus		643				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2901728	Scaffold	2015-08-03	3082	2725
+7068_7#32	GCF_001229765.1	Staphylococcus haemolyticus		115472				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2443261	Scaffold	2015-08-03	2455	2311
+7068_7#58	GCF_001229785.1	Staphylococcus haemolyticus		112056				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2500665	Contig	2015-08-03	2495	2365
+7067_4#29	GCF_001229885.1	Staphylococcus haemolyticus		25-57				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2466544	Contig	2015-08-03	2480	2341
+7067_4#50	GCF_001230025.1	Staphylococcus haemolyticus		51-24				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2524683	Contig	2015-08-03	2537	2401
+7068_7#64	GCF_001230145.1	Staphylococcus haemolyticus		137133				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2452281	Contig	2015-08-03	2444	2312
+7068_7#1	GCF_001230305.1	Staphylococcus haemolyticus		CN1219				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2501226	Scaffold	2015-08-03	2519	2382
+7067_4#39	GCF_001230445.1	Staphylococcus haemolyticus		51-08				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2509985	Contig	2015-08-03	2510	2373
+7067_4#75	GCF_001230625.1	Staphylococcus haemolyticus		8-9				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2443104	Scaffold	2015-08-03	2419	2286
+7068_7#28	GCF_001230645.1	Staphylococcus haemolyticus		109919				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2522156	Contig	2015-08-03	2514	2372
+7067_4#86	GCF_001230845.1	Staphylococcus haemolyticus		CN1138				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2414354	Contig	2015-08-03	2401	2260
+7068_7#49	GCF_001231025.1	Staphylococcus haemolyticus		124304				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2545211	Scaffold	2015-08-03	2562	2423
+7067_4#35	GCF_001231125.1	Staphylococcus haemolyticus		51-03				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2781243	Scaffold	2015-08-03	2959	2665
+7068_7#14	GCF_001231145.1	Staphylococcus haemolyticus		F06				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2496681	Contig	2015-08-03	2496	2367
+7067_4#57	GCF_001231265.1	Staphylococcus haemolyticus		51-33				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2553435	Scaffold	2015-08-03	2584	2444
+7068_7#55	GCF_001231545.1	Staphylococcus haemolyticus		104658				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2624963	Contig	2015-08-03	2630	2474
+7068_7#23	GCF_001231725.1	Staphylococcus haemolyticus		W_75				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2489375	Contig	2015-08-03	2479	2325
+7068_7#57	GCF_001231825.1	Staphylococcus haemolyticus		94759				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2389735	Contig	2015-08-03	2369	2242
+7068_7#37	GCF_001231885.1	Staphylococcus haemolyticus		124655				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2400363	Contig	2015-08-03	2386	2269
+7068_7#22	GCF_001232065.1	Staphylococcus haemolyticus		W114				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2611493	Contig	2015-08-03	2613	2463
+7067_4#40	GCF_001232245.1	Staphylococcus haemolyticus		51-09				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2581015	Scaffold	2015-08-03	2609	2458
+7067_4#87	GCF_001232285.1	Staphylococcus haemolyticus		CN1167				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2501435	Contig	2015-08-03	2502	2364
+7067_4#61	GCF_001232605.1	Staphylococcus haemolyticus		51-39				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2509133	Contig	2015-08-03	2505	2372
+7068_7#61	GCF_001232645.1	Staphylococcus haemolyticus		135073				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2473547	Scaffold	2015-08-03	2499	2367
+7067_4#74	GCF_001232865.1	Staphylococcus haemolyticus		51-55				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2433323	Contig	2015-08-03	2417	2300
+7067_4#73	GCF_001233165.1	Staphylococcus haemolyticus		51-72				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2453384	Scaffold	2015-08-03	2433	2308
+7068_7#47	GCF_001233205.1	Staphylococcus haemolyticus		131974				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2389717	Contig	2015-08-03	2369	2251
+7068_7#66	GCF_001233265.1	Staphylococcus haemolyticus		89727				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2493964	Contig	2015-08-03	2486	2351
+7067_4#72	GCF_001233365.1	Staphylococcus haemolyticus		51-52				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2517053	Contig	2015-08-03	2524	2393
+7068_7#31	GCF_001233505.1	Staphylococcus haemolyticus		102938				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2608526	Scaffold	2015-08-03	2636	2499
+7067_4#89	GCF_001233565.1	Staphylococcus haemolyticus		CN1197				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2331387	Contig	2015-08-03	2298	2181
+7068_7#26	GCF_001233845.1	Staphylococcus haemolyticus		115609				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2441757	Contig	2015-08-03	2437	2299
+7068_7#12	GCF_001233865.1	Staphylococcus haemolyticus		708075				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2521284	Contig	2015-08-03	2519	2372
+7068_7#51	GCF_001234045.1	Staphylococcus haemolyticus		136731				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477266	Scaffold	2015-08-03	2535	2362
+7068_7#42	GCF_001234185.1	Staphylococcus haemolyticus		109939				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2510727	Contig	2015-08-03	2525	2397
+7067_4#34	GCF_001234205.1	Staphylococcus haemolyticus		26-4				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2392688	Contig	2015-08-03	2368	2239
+7068_7#8	GCF_001234345.1	Staphylococcus haemolyticus		2111				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2556034	Contig	2015-08-03	2577	2444
+7067_4#37	GCF_001234405.1	Staphylococcus haemolyticus		51-06				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2522645	Contig	2015-08-03	2535	2402
+7067_4#27	GCF_001234445.1	Staphylococcus haemolyticus		25-38				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2438987	Contig	2015-08-03	2434	2299
+7068_7#2	GCF_001234485.1	Staphylococcus haemolyticus		CN1234				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2587630	Scaffold	2015-08-03	2633	2483
+7068_7#33	GCF_001234545.1	Staphylococcus haemolyticus		133319				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2457248	Contig	2015-08-03	2433	2308
+7068_7#17	GCF_001234585.1	Staphylococcus haemolyticus		F01				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2511636	Scaffold	2015-08-03	2494	2361
+7068_7#53	GCF_001235085.1	Staphylococcus haemolyticus		132337				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2545280	Scaffold	2015-08-03	2557	2411
+7068_7#18	GCF_001235105.1	Staphylococcus haemolyticus		F0_34				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2530510	Scaffold	2015-08-03	2542	2397
+7068_7#41	GCF_001235305.1	Staphylococcus haemolyticus		137772				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2492753	Contig	2015-08-03	2517	2383
+7068_7#54	GCF_001235325.1	Staphylococcus haemolyticus		123477				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2497851	Scaffold	2015-08-03	2517	2385
+7067_4#56	GCF_001235405.1	Staphylococcus haemolyticus		51-32				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2472150	Contig	2015-08-03	2460	2331
+7068_7#25	GCF_001235445.1	Staphylococcus haemolyticus		21116				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2594641	Scaffold	2015-08-03	2615	2467
+7068_7#67	GCF_001235545.1	Staphylococcus haemolyticus		131062				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2496494	Contig	2015-08-03	2502	2367
+7068_7#15	GCF_001235645.1	Staphylococcus haemolyticus		F045				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2586401	Scaffold	2015-08-03	2577	2434
+7067_4#43	GCF_001235665.1	Staphylococcus haemolyticus		51-13				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2568124	Scaffold	2015-08-03	2597	2444
+7068_7#44	GCF_001235685.1	Staphylococcus haemolyticus		112622				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2463548	Contig	2015-08-03	2475	2354
+7068_7#40	GCF_001235705.1	Staphylococcus haemolyticus		113952				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2514173	Scaffold	2015-08-03	2517	2368
+7067_4#85	GCF_001235745.1	Staphylococcus haemolyticus		CN1134				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2551848	Contig	2015-08-03	2579	2436
+7067_4#63	GCF_001235805.1	Staphylococcus haemolyticus		51-42				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2606425	Contig	2015-08-03	2627	2489
+7067_4#68	GCF_001235945.1	Staphylococcus haemolyticus		51-47				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2444138	Scaffold	2015-08-03	2426	2279
+7068_7#39	GCF_001236145.1	Staphylococcus haemolyticus		123268				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2508540	Scaffold	2015-08-03	2537	2400
+7067_4#31	GCF_001236245.1	Staphylococcus haemolyticus		25-60				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2508661	Scaffold	2015-08-03	2519	2381
+7067_4#49	GCF_001236365.1	Staphylococcus haemolyticus		51-22				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2497304	Contig	2015-08-03	2514	2388
+7067_4#71	GCF_001236425.1	Staphylococcus haemolyticus		51-51				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2511740	Contig	2015-08-03	2529	2407
+7068_7#34	GCF_001236685.1	Staphylococcus haemolyticus		114564				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2441747	Scaffold	2015-08-03	2449	2308
+7067_4#83	GCF_001237065.1	Staphylococcus haemolyticus		CN1011				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2658158	Contig	2015-08-03	2717	2583
+7068_7#7	GCF_001237105.1	Staphylococcus haemolyticus		7532				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2513933	Contig	2015-08-03	2536	2402
+7068_7#50	GCF_001237185.1	Staphylococcus haemolyticus		134634				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2393643	Scaffold	2015-08-03	2402	2247
+7067_4#90	GCF_001237405.1	Staphylococcus haemolyticus		51-15				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2940506	Scaffold	2015-08-03	3105	2685
+7068_7#4	GCF_001237425.1	Staphylococcus haemolyticus		6682				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2540449	Contig	2015-08-03	2561	2423
+7067_4#81	GCF_001237485.1	Staphylococcus haemolyticus		M-176				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2537701	Contig	2015-08-03	2536	2407
+7068_7#46	GCF_001237665.1	Staphylococcus haemolyticus		144377				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2562018	Scaffold	2015-08-03	2567	2434
+7067_4#54	GCF_001237685.1	Staphylococcus haemolyticus		51-30				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2399191	Contig	2015-08-03	2367	2241
+7067_4#36	GCF_001237705.1	Staphylococcus haemolyticus		51-04				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2512845	Scaffold	2015-08-03	2521	2394
+7068_7#45	GCF_001237725.1	Staphylococcus haemolyticus		104626				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2717452	Scaffold	2015-08-03	2781	2570
+7068_7#11	GCF_001238045.1	Staphylococcus haemolyticus		6249				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2512190	Scaffold	2015-08-03	2537	2410
+7067_4#77	GCF_001238085.1	Staphylococcus haemolyticus		s5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2503878	Scaffold	2015-08-03	2502	2356
+7067_4#55	GCF_001238205.1	Staphylococcus haemolyticus		51-31				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2480954	Scaffold	2015-08-03	2483	2335
+7067_4#28	GCF_001238305.1	Staphylococcus haemolyticus		25-44				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2673652	Contig	2015-08-03	2714	2566
+7067_4#59	GCF_001238425.1	Staphylococcus haemolyticus		51-35				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2724068	Scaffold	2015-08-03	2779	2599
+7067_4#67	GCF_001238515.1	Staphylococcus haemolyticus		51-46				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2518342	Contig	2015-08-03	2504	2368
+7068_7#59	GCF_001238665.1	Staphylococcus haemolyticus		97208				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2446877	Contig	2015-08-03	2427	2298
+7067_4#32	GCF_001238745.1	Staphylococcus haemolyticus		25-63				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2481297	Contig	2015-08-03	2506	2360
+7067_4#53	GCF_001238865.1	Staphylococcus haemolyticus		51-29				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2507350	Scaffold	2015-08-03	2525	2388
+7068_7#13	GCF_001238905.1	Staphylococcus haemolyticus		8074328				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2583877	Contig	2015-08-03	2600	2462
+7067_4#79	GCF_001239225.1	Staphylococcus haemolyticus		2263-3461				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2458332	Scaffold	2015-08-03	2413	2277
+7067_4#41	GCF_001239425.1	Staphylococcus haemolyticus		51-10				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2510843	Scaffold	2015-08-03	2523	2396
+7067_4#84	GCF_001239505.1	Staphylococcus haemolyticus		CN1115				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2521015	Contig	2015-08-03	2544	2404
+7068_7#56	GCF_001239565.1	Staphylococcus haemolyticus		135814				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2518645	Contig	2015-08-03	2529	2394
+7067_4#64	GCF_001239605.1	Staphylococcus haemolyticus		51-43				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2608869	Contig	2015-08-03	2610	2479
+7068_7#24	GCF_001239625.1	Staphylococcus haemolyticus		W_139				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2479364	Scaffold	2015-08-03	2486	2332
+7068_7#3	GCF_001239725.1	Staphylococcus haemolyticus		7589				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2538007	Scaffold	2015-08-03	2553	2405
+ASM141246v1	GCF_001412465.1	Staphylococcus haemolyticus		MTCC 3383				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2472482	Contig	2015-10-26	2491	2360
+ASM147151v2	GCF_001471515.2	Staphylococcus haemolyticus		FDAARGOS_130				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2695523	Contig	2018-01-19	2646	2461
+ASM152937v1	GCF_001529375.1	Staphylococcus haemolyticus		SHN36				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2363384	Contig	2016-01-22	2362	2252
+ASM152939v1	GCF_001529395.1	Staphylococcus haemolyticus		SHN65				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2334876	Contig	2016-01-22	2345	2224
+ASM152942v1	GCF_001529425.1	Staphylococcus haemolyticus		SH1752				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2695474	Contig	2016-01-22	2926	2640
+ASM152944v1	GCF_001529445.1	Staphylococcus haemolyticus		SH1574				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2384660	Contig	2016-01-22	2402	2283
+ASM152946v1	GCF_001529465.1	Staphylococcus haemolyticus		SH747				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2412553	Contig	2016-01-22	2470	2336
+ASM170508v1	GCF_001705085.1	Staphylococcus haemolyticus		421				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2447072	Contig	2016-08-15	2488	2248
+ASM170515v1	GCF_001705155.1	Staphylococcus haemolyticus		527				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2478254	Contig	2016-08-15	2534	2298
+ASM174342v1	GCF_001743425.1	Staphylococcus haemolyticus		IIF2SW-P5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2674119	Contig	2016-09-24	2957	2555
+ASM175668v1	GCF_001756685.1	Staphylococcus haemolyticus		VB31546				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2520902	Contig	2016-10-11	2556	2374
+ASM196986v1	GCF_001969865.1	Staphylococcus haemolyticus		BC05211				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2484518	Scaffold	2017-01-23	2467	2304
+ASM196987v1	GCF_001969875.1	Staphylococcus haemolyticus		NW19				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2436925	Scaffold	2017-01-23	2365	2278
+ASM197585v1	GCF_001975855.1	Staphylococcus haemolyticus		SW007				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2334100	Contig	2017-01-31	2349	2165
+ASM211427v1	GCF_002114275.1	Staphylococcus haemolyticus		IPK_TSA25				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2517398	Contig	2017-04-28	2453	2286
+ASM216543v1	GCF_002165435.1	Staphylococcus haemolyticus		SH06				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2501418	Contig	2017-06-02	2407	2286
+ASM227697v1	GCF_002276975.1	Staphylococcus haemolyticus		OG2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2751326	Contig	2017-08-29	3041	2765
+ASM279954v1	GCF_002799545.1	Staphylococcus haemolyticus		SH05_17				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2553977	Contig	2017-11-29	2627	2429
+ASM290180v1	GCF_002901805.1	Staphylococcus haemolyticus		NCTC 11042				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2472399	Scaffold	2018-01-27	2471	2334
+ASM290659v1	GCF_002906595.1	Staphylococcus haemolyticus		83131A				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2610865	Complete Genome	2018-01-30	2537	2380
+ASM290661v1	GCF_002906615.1	Staphylococcus haemolyticus		83131B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2612666	Complete Genome	2018-01-30	2544	2390
+ASM293412v2	GCF_002934125.2	Staphylococcus haemolyticus		G811N2B1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2802141	Contig	2018-02-21	3288	2893
+ASM295271v2	GCF_002952715.2	Staphylococcus haemolyticus		SGAir0252				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2674594	Complete Genome	2018-02-22	2626	2446
+ASM304241v1	GCF_003042415.1	Staphylococcus haemolyticus		SNUC 4966				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2518128	Contig	2018-04-06	2568	2407
+ASM304243v1	GCF_003042435.1	Staphylococcus haemolyticus		SNUC 5782				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2499010	Contig	2018-04-06	2540	2378
+ASM304245v1	GCF_003042455.1	Staphylococcus haemolyticus		SNUC 4488				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2434412	Contig	2018-04-06	2506	2298
+ASM304249v1	GCF_003042495.1	Staphylococcus haemolyticus		SNUC 2814				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2435436	Contig	2018-04-06	2469	2317
+ASM304251v1	GCF_003042515.1	Staphylococcus haemolyticus		SNUC 1361				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2515489	Contig	2018-04-06	2530	2383
+ASM304253v1	GCF_003042535.1	Staphylococcus haemolyticus		SNUC 1317				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2465668	Contig	2018-04-06	2471	2308
+ASM304257v1	GCF_003042575.1	Staphylococcus haemolyticus		SNUC 1584				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2532063	Contig	2018-04-06	2627	2460
+ASM304259v1	GCF_003042595.1	Staphylococcus haemolyticus		SNUC 136				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2425647	Contig	2018-04-06	2460	2281
+ASM304261v1	GCF_003042615.1	Staphylococcus haemolyticus		SNUC 1450				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2433951	Contig	2018-04-06	2428	2287
+ASM304267v1	GCF_003042675.1	Staphylococcus haemolyticus		SNUC 128				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2352206	Contig	2018-04-06	2328	2180
+ASM304269v1	GCF_003042695.1	Staphylococcus haemolyticus		SNUC 127				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2411254	Contig	2018-04-06	2431	2262
+ASM304301v1	GCF_003043015.1	Staphylococcus haemolyticus		SNUC 1114				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476938	Contig	2018-04-06	2498	2330
+ASM304363v1	GCF_003043635.1	Staphylococcus haemolyticus		SNUC 4637				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2534645	Contig	2018-04-06	2586	2435
+ASM304367v1	GCF_003043675.1	Staphylococcus haemolyticus		SNUC 3825				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2462373	Contig	2018-04-06	2469	2314
+ASM304369v1	GCF_003043695.1	Staphylococcus haemolyticus		SNUC 2139				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2555895	Contig	2018-04-06	2641	2445
+ASM304371v1	GCF_003043715.1	Staphylococcus haemolyticus		SNUC 3453				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2502342	Contig	2018-04-06	2535	2360
+ASM304373v1	GCF_003043735.1	Staphylococcus haemolyticus		SNUC 1408				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2547556	Contig	2018-04-06	2607	2473
+ASM304375v1	GCF_003043755.1	Staphylococcus haemolyticus		SNUC 220				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2408783	Contig	2018-04-06	2434	2264
+ASM304377v1	GCF_003043775.1	Staphylococcus haemolyticus		SNUC 823				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2464192	Contig	2018-04-06	2493	2316
+ASM304379v1	GCF_003043795.1	Staphylococcus haemolyticus		SNUC 203				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476009	Contig	2018-04-06	2557	2361
+ASM304381v1	GCF_003043815.1	Staphylococcus haemolyticus		SNUC 123				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2471761	Contig	2018-04-06	2511	2348
+ASM304382v1	GCF_003043825.1	Staphylococcus haemolyticus		SNUC 109				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2529407	Contig	2018-04-06	2563	2431
+ASM342846v1	GCF_003428465.1	Staphylococcus haemolyticus		0894-2001-2009				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2581605	Scaffold	2018-08-26	2657	2478
+ASM342847v1	GCF_003428475.1	Staphylococcus haemolyticus		0878-2001-2009				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2579723	Scaffold	2018-08-26	2654	2485
+ASM342854v1	GCF_003428545.1	Staphylococcus haemolyticus		0054-1702-2009				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2547889	Scaffold	2018-08-26	2618	2436
+ASM342855v1	GCF_003428555.1	Staphylococcus haemolyticus		0050-1702-2009				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2545011	Scaffold	2018-08-26	2607	2416
+ASM357967v1	GCF_003579675.1	Staphylococcus haemolyticus		SNUC 2245				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2389134	Contig	2018-09-20	2447	2248
+ASM358078v1	GCF_003580785.1	Staphylococcus haemolyticus		SNUC 5468				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2496264	Contig	2018-09-20	2530	2346
+ASM358081v1	GCF_003580815.1	Staphylococcus haemolyticus		SNUC 2184				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2389049	Contig	2018-09-20	2455	2224
+ASM358090v1	GCF_003580905.1	Staphylococcus haemolyticus		SNUC 192				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2449402	Contig	2018-09-20	2485	2280
+ASM359632v1	GCF_003596325.1	Staphylococcus haemolyticus		VB5326				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2528578	Contig	2018-09-24	2572	2384
+ASM359636v3	GCF_003596365.3	Staphylococcus haemolyticus		VB19458				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2699210	Complete Genome	2019-12-16	2673	2455
+ASM359638v1	GCF_003596385.1	Staphylococcus haemolyticus		VB840				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2458174	Contig	2018-09-24	2479	2287
+ASM395600v1	GCF_003956005.1	Staphylococcus haemolyticus		FDAARGOS_517				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2669504	Complete Genome	2018-12-19	2607	2385
+ASM397083v1	GCF_003970835.1	Staphylococcus haemolyticus		MDMC083				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2379185	Contig	2018-12-17	2367	2229
+ASM504740v1	GCF_005047405.1	Staphylococcus haemolyticus		22				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2484804	Contig	2019-05-01	2511	2392
+ASM504741v1	GCF_005047415.1	Staphylococcus haemolyticus		21				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2683280	Contig	2019-05-01	2806	2608
+ASM504746v1	GCF_005047465.1	Staphylococcus haemolyticus		1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2513690	Contig	2019-05-01	2533	2410
+ASM504755v1	GCF_005047555.1	Staphylococcus haemolyticus		8				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2532866	Contig	2019-05-01	2579	2452
+ASM504835v1	GCF_005048355.1	Staphylococcus haemolyticus		51				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477092	Contig	2019-05-01	2501	2358
+ASM504840v1	GCF_005048405.1	Staphylococcus haemolyticus		24				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2444652	Contig	2019-05-01	2448	2324
+ASM504848v1	GCF_005048485.1	Staphylococcus haemolyticus		2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2690445	Contig	2019-05-01	2859	2637
+ASM504897v1	GCF_005048975.1	Staphylococcus haemolyticus		7 (A)				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2528658	Contig	2019-05-01	2557	2424
+ASM514619v2	GCF_005146195.2	Staphylococcus haemolyticus		12				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2523802	Contig	2019-08-14	2545	2414
+ASM514626v2	GCF_005146265.2	Staphylococcus haemolyticus		18				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2688402	Contig	2019-08-14	2800	2591
+ASM570643v1	GCF_005706435.1	Staphylococcus haemolyticus		PK-01				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2615683	Complete Genome	2019-05-23	2685	2463
+ASM609439v1	GCF_006094395.1	Staphylococcus haemolyticus		ATCC 29970				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2572027	Complete Genome	2019-06-06	2503	2359
+ASM654036v1	GCF_006540365.1	Staphylococcus haemolyticus		TCR-5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2553020	Contig	2019-07-01	2518	2353
+ASM654039v1	GCF_006540395.1	Staphylococcus haemolyticus		TCR-7				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2533003	Contig	2019-07-01	2502	2343
+ASM700426v1	GCF_007004265.1	Staphylococcus haemolyticus		SDB1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2468753	Contig	2019-07-15	2455	2290
+ASM700427v1	GCF_007004275.1	Staphylococcus haemolyticus		SDA2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2444677	Contig	2019-07-15	2427	2265
+ASM766551v1	GCF_007665515.1	Staphylococcus haemolyticus		DE0593				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2453985	Scaffold	2019-07-30	2432	2317
+ASM766609v1	GCF_007666095.1	Staphylococcus haemolyticus		DE0557				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2434682	Scaffold	2019-07-30	2429	2311
+ASM766614v1	GCF_007666145.1	Staphylococcus haemolyticus		DE0553				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2493705	Scaffold	2019-07-30	2490	2358
+ASM766701v1	GCF_007667015.1	Staphylococcus haemolyticus		DE0501				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2450739	Scaffold	2019-07-30	2430	2309
+ASM766702v1	GCF_007667025.1	Staphylococcus haemolyticus		DE0499				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2433664	Scaffold	2019-07-30	2435	2282
+ASM766703v1	GCF_007667035.1	Staphylococcus haemolyticus		DE0500				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2508455	Scaffold	2019-07-30	2472	2344
+ASM766719v1	GCF_007667195.1	Staphylococcus haemolyticus		DE0489				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2445083	Scaffold	2019-07-30	2425	2313
+ASM766728v1	GCF_007667285.1	Staphylococcus haemolyticus		DE0482				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2554582	Scaffold	2019-07-30	2586	2444
+ASM766803v1	GCF_007668035.1	Staphylococcus haemolyticus		DE0439				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2484303	Scaffold	2019-07-30	2466	2344
+ASM767342v1	GCF_007673425.1	Staphylococcus haemolyticus		DE0358				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2533984	Scaffold	2019-07-30	2558	2398
+ASM767694v1	GCF_007676945.1	Staphylococcus haemolyticus		DE0277				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2472659	Scaffold	2019-07-30	2479	2352
+ASM767713v1	GCF_007677135.1	Staphylococcus haemolyticus		DE0263				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2499620	Scaffold	2019-07-30	2561	2418
+ASM767720v1	GCF_007677205.1	Staphylococcus haemolyticus		DE0259				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2586166	Scaffold	2019-07-30	2598	2447
+ASM767755v1	GCF_007677555.1	Staphylococcus haemolyticus		DE0229				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2689489	Scaffold	2019-07-30	2695	2455
+ASM767769v1	GCF_007677695.1	Staphylococcus haemolyticus		DE0217				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2444525	Scaffold	2019-07-30	2401	2283
+ASM767771v1	GCF_007677715.1	Staphylococcus haemolyticus		DE0215				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477284	Scaffold	2019-07-30	2457	2340
+ASM767958v1	GCF_007679585.1	Staphylococcus haemolyticus		DE0087				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2478758	Contig	2019-07-30	2453	2308
+ASM768001v1	GCF_007680015.1	Staphylococcus haemolyticus		DE0056				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2491261	Scaffold	2019-07-30	2485	2352
+ASM768004v1	GCF_007680045.1	Staphylococcus haemolyticus		DE0053				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2533784	Scaffold	2019-07-30	2543	2401
+ASM768013v1	GCF_007680135.1	Staphylococcus haemolyticus		DE0081				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2455582	Scaffold	2019-07-30	2460	2290
+ASM768035v1	GCF_007680355.1	Staphylococcus haemolyticus		DE0036				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2521199	Scaffold	2019-07-30	2510	2364
+ASM768040v1	GCF_007680405.1	Staphylococcus haemolyticus		DE0034				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2467236	Scaffold	2019-07-30	2469	2331
+ASM799279v1	GCF_007992795.1	Staphylococcus haemolyticus		NBRC 109768				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2399880	Contig	2019-07-31	2367	2273
+ASM918918v2	GCF_009189185.2	Staphylococcus haemolyticus		VB5326				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2699292	Complete Genome	2019-12-16	2719	2471
+ASM979131v1	GCF_009791315.1	Staphylococcus haemolyticus		SDF1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477199	Contig	2019-12-22	2463	2262
+ASM993271v2	GCF_009932715.2	Staphylococcus haemolyticus		SE2.14				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2396041	Complete Genome	2021-10-21	2364	2211
+ASM993288v2	GCF_009932885.2	Staphylococcus haemolyticus		SE3.8				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2396207	Complete Genome	2021-10-21	2363	2210
+ASM993293v2	GCF_009932935.2	Staphylococcus haemolyticus		SE3.9				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2396096	Complete Genome	2021-05-24	2362	2206
+ASM1227717v1	GCF_012277175.1	Staphylococcus haemolyticus		166				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2496844	Contig	2020-04-13	2574	2270
+ASM1426579v1	GCF_014265795.1	Staphylococcus haemolyticus		151250003-2-258-44				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2454295	Contig	2020-08-22	2423	2251
+ASM1426612v1	GCF_014266125.1	Staphylococcus haemolyticus		IIF2*SW-P5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2499133	Scaffold	2020-08-22	2497	2316
+ASM1426630v1	GCF_014266305.1	Staphylococcus haemolyticus		IIF2*SW-P3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2450311	Scaffold	2020-08-22	2434	2245
+ASM1426692v1	GCF_014266925.1	Staphylococcus haemolyticus		IIF2SW-P4				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2471498	Contig	2020-08-22	2443	2262
+ASM1426694v1	GCF_014266945.1	Staphylococcus haemolyticus		IIF2SW-P5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2458771	Contig	2020-08-22	2435	2256
+ASM1426698v1	GCF_014266985.1	Staphylococcus haemolyticus		IIF2SW-P3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2449048	Scaffold	2020-08-22	2432	2243
+ASM1477975v1	GCF_014779755.1	Staphylococcus haemolyticus		JNQH310				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2562278	Contig	2020-09-28	2624	2398
+ASM1507044v1	GCF_015070445.1	Staphylococcus haemolyticus		HESN035b				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2660314	Contig	2020-10-28	2760	2496
+ASM1507046v1	GCF_015070465.1	Staphylococcus haemolyticus		HESMS053a				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2396859	Contig	2020-10-28	2427	2224
+ASM1507051v1	GCF_015070515.1	Staphylococcus haemolyticus		BABY089B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2453213	Contig	2020-10-28	2489	2299
+ASM1507054v1	GCF_015070545.1	Staphylococcus haemolyticus		MW015				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2873520	Contig	2020-10-28	3002	2704
+ASM1507059v1	GCF_015070595.1	Staphylococcus haemolyticus		HESN072a				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2758447	Contig	2020-10-28	2844	2607
+ASM1507064v1	GCF_015070645.1	Staphylococcus haemolyticus		BABY162B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2397901	Contig	2020-10-28	2427	2234
+ASM1507066v1	GCF_015070665.1	Staphylococcus haemolyticus		HESN036B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2557090	Contig	2020-10-28	2616	2417
+ASM1507068v1	GCF_015070685.1	Staphylococcus haemolyticus		HESMS017				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2462495	Contig	2020-10-28	2440	2275
+ASM1507072v1	GCF_015070725.1	Staphylococcus haemolyticus		HESN094B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2630890	Contig	2020-10-28	2684	2466
+ASM1516919v1	GCF_015169195.1	Staphylococcus haemolyticus		GDY8P80P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2771335	Complete Genome	2020-11-02	2715	2561
+ASM1527368v1	GCF_015273685.1	Staphylococcus haemolyticus		R5954				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2615894	Contig	2020-11-06	2656	2438
+ASM1527371v1	GCF_015273715.1	Staphylococcus haemolyticus		R5953				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2545278	Contig	2020-11-06	2573	2362
+ASM1527374v1	GCF_015273745.1	Staphylococcus haemolyticus		R5952				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2597573	Contig	2020-11-06	2628	2419
+ASM1527377v1	GCF_015273775.1	Staphylococcus haemolyticus		R5951				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2571339	Contig	2020-11-06	2604	2393
+ASM1527436v1	GCF_015274365.1	Staphylococcus haemolyticus		R6037				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2457096	Contig	2020-11-06	2464	2276
+ASM1527441v1	GCF_015274415.1	Staphylococcus haemolyticus		R6036				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2457711	Contig	2020-11-06	2451	2266
+ASM1527855v1	GCF_015278555.1	Staphylococcus haemolyticus		GDY8P60P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2719652	Scaffold	2020-11-08	2692	2467
+ASM1527856v1	GCF_015278565.1	Staphylococcus haemolyticus		GDY8P80P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2751774	Scaffold	2020-11-08	2746	2515
+ASM1527859v1	GCF_015278595.1	Staphylococcus haemolyticus		GDY8P58P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2740859	Scaffold	2020-11-08	2743	2497
+ASM1527861v1	GCF_015278615.1	Staphylococcus haemolyticus		GDY8P50P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2717555	Scaffold	2020-11-08	2698	2471
+ASM1569852v1	GCF_015698525.1	Staphylococcus haemolyticus		C7				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2918952	Contig	2020-11-30	2955	2750
+ASM1570398v1	GCF_015703985.1	Staphylococcus haemolyticus		GDY8P33P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2718113	Scaffold	2020-11-30	2692	2472
+ASM1573052v1	GCF_015730525.1	Staphylococcus haemolyticus		C31				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2471616	Contig	2020-12-03	2484	2336
+ASM1662101v1	GCF_016621015.1	Staphylococcus haemolyticus		AA40				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2492938	Scaffold	2021-01-12	2559	2330
+ASM1662103v1	GCF_016621035.1	Staphylococcus haemolyticus		AA34				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2420614	Contig	2021-01-12	2423	2223
+ASM1662108v1	GCF_016621085.1	Staphylococcus haemolyticus		AA82				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2609478	Scaffold	2021-01-12	2723	2457
+ASM1662110v1	GCF_016621105.1	Staphylococcus haemolyticus		AA83				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2487175	Contig	2021-01-12	2523	2300
+ASM1662111v1	GCF_016621115.1	Staphylococcus haemolyticus		AA73				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2542976	Contig	2021-01-12	2611	2389
+ASM1662114v1	GCF_016621145.1	Staphylococcus haemolyticus		AA42				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2626311	Scaffold	2021-01-12	2681	2417
+ASM1662121v1	GCF_016621215.1	Staphylococcus haemolyticus		AA48				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2514353	Contig	2021-01-12	2550	2330
+ASM1662126v1	GCF_016621265.1	Staphylococcus haemolyticus		AA12				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2569176	Contig	2021-01-12	2646	2422
+ASM1662128v1	GCF_016621285.1	Staphylococcus haemolyticus		AA89				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2538876	Contig	2021-01-12	2632	2365
+ASM1662129v1	GCF_016621295.1	Staphylococcus haemolyticus		AA84				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2530247	Contig	2021-01-12	2599	2379
+ASM1669519v1	GCF_016695195.1	Staphylococcus haemolyticus		MSA_JNM24C1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2502707	Chromosome	2021-01-19	2449	2229
+ASM1669544v1	GCF_016695445.1	Staphylococcus haemolyticus		MSA_JNM60C2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2511057	Chromosome	2021-01-19	2504	2263
+ASM1683706v1	GCF_016837065.1	Staphylococcus haemolyticus		SA498				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2455454	Contig	2021-02-08	2496	2262
+ASM1731566v1	GCF_017315665.1	Staphylococcus haemolyticus		HAA11				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2513798	Contig	2021-03-10	2576	2366
+ASM1735500v1	GCF_017355005.1	Staphylococcus haemolyticus		7b				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2398463	Complete Genome	2021-03-15	2394	2218
+ASM1735502v1	GCF_017355025.1	Staphylococcus haemolyticus		1b				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2390652	Complete Genome	2021-03-15	2383	2207
+ASM1735504v1	GCF_017355045.1	Staphylococcus haemolyticus		12b				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2382565	Complete Genome	2021-03-15	2374	2200
+ASM1737744v1	GCF_017377445.1	Staphylococcus haemolyticus		CN88				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2493999	Contig	2021-03-17	2530	2415
+ASM1898633v1	GCF_018986335.1	Staphylococcus haemolyticus		A11				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2485414	Contig	2021-06-21	2465	2329
+ASM1899690v1	GCF_018996905.1	Staphylococcus haemolyticus		A3.2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2497919	Contig	2021-06-22	2472	2351
+ASM1904802v1	GCF_019048025.1	Staphylococcus haemolyticus		FDAARGOS 1453				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2568751	Complete Genome	2021-06-28	2498	2346
+ASM1914920v1	GCF_019149205.1	Staphylococcus haemolyticus		K47				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2435548	Contig	2021-07-06	2389	2291
+ASM1919306v1	GCF_019193065.1	Staphylococcus haemolyticus		K16.2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2459833	Contig	2021-07-11	2432	2299
+ASM1922268v1	GCF_019222685.1	Staphylococcus haemolyticus		NY5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2539247	Complete Genome	2021-07-15	2568	2378
+ASM1939162v1	GCF_019391625.1	Staphylococcus haemolyticus		C				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2613798	Contig	2021-07-28	2690	2523
+ASM1942636v1	GCF_019426365.1	Staphylococcus haemolyticus		B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2668788	Contig	2021-07-30	2629	2460
+ASM1942638v1	GCF_019426385.1	Staphylococcus haemolyticus		A				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2572961	Contig	2021-07-30	2577	2412
+ASM1942640v1	GCF_019426405.1	Staphylococcus haemolyticus		D				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2591907	Contig	2021-07-30	2602	2428
+ASM2073972v1	GCF_020739725.1	Staphylococcus haemolyticus		CEMTC_3413				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2481060	Contig	2021-11-03	2545	2321
+ASM2073984v1	GCF_020739845.1	Staphylococcus haemolyticus		CEMTC_1553				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2584370	Scaffold	2021-11-03	2759	2530
+ASM2073985v1	GCF_020739855.1	Staphylococcus haemolyticus		CEMTC_2688				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2402346	Contig	2021-11-03	2479	2241
+ASM2073992v1	GCF_020739925.1	Staphylococcus haemolyticus		CEMTC_2119				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2460571	Scaffold	2021-11-03	2544	2298
+ASM2073994v1	GCF_020739945.1	Staphylococcus haemolyticus		CEMTC_3601				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2397453	Contig	2021-11-03	2487	2225
+ASM2119109v1	GCF_021191095.1	Staphylococcus haemolyticus		KM374				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2464890	Contig	2021-12-15	2514	2355
+ASM2119121v1	GCF_021191215.1	Staphylococcus haemolyticus		RDU2OW				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2512730	Contig	2021-12-15	2571	2398
+ASM2129655v1	GCF_021296555.1	Staphylococcus haemolyticus		MD43				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2650229	Contig	2021-12-27	2719	2496
+ASM2136693v1	GCF_021366935.1	Staphylococcus haemolyticus		Ani-LG-040				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2543809	Contig	2022-01-05	2589	2438
+ASM2136695v1	GCF_021366955.1	Staphylococcus haemolyticus		Ani-LG-047				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2458087	Contig	2022-01-05	2448	2301
+ASM2136699v1	GCF_021366995.1	Staphylococcus haemolyticus		Ani-LG-036				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2428110	Contig	2022-01-05	2441	2291
+ASM2136711v1	GCF_021367115.1	Staphylococcus haemolyticus		Ani-LG-021				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2526847	Contig	2022-01-05	2522	2399
+ASM2136715v1	GCF_021367155.1	Staphylococcus haemolyticus		Ani-LG-019				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2495438	Contig	2022-01-05	2503	2360
+ASM2136749v1	GCF_021367495.1	Staphylococcus haemolyticus		Ani-GT-046				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2495433	Contig	2022-01-05	2510	2357
+ASM2136750v1	GCF_021367505.1	Staphylococcus haemolyticus		Ani-GT-050				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2456533	Contig	2022-01-05	2453	2320
+ASM2136772v1	GCF_021367725.1	Staphylococcus haemolyticus		Ani-GT-003				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2449567	Contig	2022-01-05	2449	2311
+ASM2144210v1	GCF_021442105.1	Staphylococcus haemolyticus		BC5211				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2580024	Complete Genome	2022-01-12	2494	2341
+ASM2172889v1	GCF_021728895.1	Staphylococcus haemolyticus		3SP				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2413466	Contig	2022-01-30	2427	2306
+ASM2248486v1	GCF_022484865.1	Staphylococcus haemolyticus		51P6ENG_1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2341885	Scaffold	2022-03-05	2326	2200
+ASM2248488v1	GCF_022484885.1	Staphylococcus haemolyticus		092P2FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2428232	Scaffold	2022-03-05	2396	2294
+ASM2248490v1	GCF_022484905.1	Staphylococcus haemolyticus		H10FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2355821	Scaffold	2022-03-05	2345	2215
+ASM2248492v1	GCF_022484925.1	Staphylococcus haemolyticus		114P2NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2445330	Scaffold	2022-03-05	2439	2338
+ASM2248494v1	GCF_022484945.1	Staphylococcus haemolyticus		78P1FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2510581	Scaffold	2022-03-05	2481	2379
+ASM2248496v1	GCF_022484965.1	Staphylococcus haemolyticus		051P2SUA1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2572297	Scaffold	2022-03-05	2601	2481
+ASM2248498v1	GCF_022484985.1	Staphylococcus haemolyticus		114P1NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2450218	Scaffold	2022-03-05	2441	2344
+ASM2248500v1	GCF_022485005.1	Staphylococcus haemolyticus		114P2SUD1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2387113	Scaffold	2022-03-05	2400	2276
+ASM2248501v1	GCF_022485015.1	Staphylococcus haemolyticus		110P1FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2449947	Scaffold	2022-03-05	2435	2329
+ASM2248504v1	GCF_022485045.1	Staphylococcus haemolyticus		051P3BA2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2569136	Scaffold	2022-03-05	2599	2489
+ASM2248506v1	GCF_022485065.1	Staphylococcus haemolyticus		104P1FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2392547	Scaffold	2022-03-05	2343	2248
+ASM2248508v1	GCF_022485085.1	Staphylococcus haemolyticus		109P1NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2433694	Scaffold	2022-03-05	2408	2303
+ASM2248509v1	GCF_022485095.1	Staphylococcus haemolyticus		051P1ENP_1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2409183	Scaffold	2022-03-05	2414	2279
+ASM2248512v1	GCF_022485125.1	Staphylococcus haemolyticus		C91NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2495391	Scaffold	2022-03-05	2491	2387
+ASM2248514v1	GCF_022485145.1	Staphylococcus haemolyticus		C37FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2438489	Scaffold	2022-03-05	2397	2295
+ASM2248516v1	GCF_022485165.1	Staphylococcus haemolyticus		109P1TS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2349524	Scaffold	2022-03-05	2322	2205
+ASM2248518v1	GCF_022485185.1	Staphylococcus haemolyticus		109P1BA2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2357442	Scaffold	2022-03-05	2316	2222
+ASM2248520v1	GCF_022485205.1	Staphylococcus haemolyticus		109P1FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2349869	Scaffold	2022-03-05	2319	2217
+ASM2248521v1	GCF_022485215.1	Staphylococcus haemolyticus		C36FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2441447	Scaffold	2022-03-05	2428	2317
+ASM2248524v1	GCF_022485245.1	Staphylococcus haemolyticus		C74FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2494228	Scaffold	2022-03-05	2476	2363
+ASM2248526v1	GCF_022485265.1	Staphylococcus haemolyticus		68P1NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2451765	Scaffold	2022-03-05	2439	2342
+ASM2248528v1	GCF_022485285.1	Staphylococcus haemolyticus		85P1FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2340269	Scaffold	2022-03-05	2318	2203
+ASM2248530v1	GCF_022485305.1	Staphylococcus haemolyticus		C79NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476033	Scaffold	2022-03-05	2465	2359
+ASM2248532v1	GCF_022485325.1	Staphylococcus haemolyticus		C58FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2419737	Scaffold	2022-03-05	2387	2289
+ASM2248536v1	GCF_022485365.1	Staphylococcus haemolyticus		82P1NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2474680	Scaffold	2022-03-05	2460	2344
+ASM2248538v1	GCF_022485385.1	Staphylococcus haemolyticus		047P1NS1-2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2436210	Scaffold	2022-03-05	2407	2309
+ASM2248539v1	GCF_022485395.1	Staphylococcus haemolyticus		018P1FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2404325	Scaffold	2022-03-05	2383	2288
+ASM2248542v1	GCF_022485425.1	Staphylococcus haemolyticus		H8FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2431080	Scaffold	2022-03-05	2416	2303
+ASM2248544v1	GCF_022485445.1	Staphylococcus haemolyticus		H14FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2379243	Scaffold	2022-03-05	2346	2247
+ASM2248546v1	GCF_022485465.1	Staphylococcus haemolyticus		C89FS3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2498942	Scaffold	2022-03-05	2481	2357
+ASM2248547v1	GCF_022485475.1	Staphylococcus haemolyticus		C50FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476127	Scaffold	2022-03-05	2447	2341
+ASM2248548v1	GCF_022485485.1	Staphylococcus haemolyticus		051P5ENP_1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2276175	Scaffold	2022-03-05	2255	2160
+ASM2248552v1	GCF_022485525.1	Staphylococcus haemolyticus		81P1FS6				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2489573	Scaffold	2022-03-05	2501	2375
+ASM2248553v1	GCF_022485535.1	Staphylococcus haemolyticus		114P3FS3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2450957	Scaffold	2022-03-05	2436	2335
+ASM2248556v1	GCF_022485565.1	Staphylococcus haemolyticus		090P1FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2510642	Scaffold	2022-03-05	2539	2427
+ASM2248558v1	GCF_022485585.1	Staphylococcus haemolyticus		047P1FS3-2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2436032	Scaffold	2022-03-05	2409	2310
+ASM2248560v1	GCF_022485605.1	Staphylococcus haemolyticus		H17FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2363915	Scaffold	2022-03-05	2333	2236
+ASM2248562v1	GCF_022485625.1	Staphylococcus haemolyticus		H15FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2433067	Scaffold	2022-03-05	2410	2292
+ASM2248564v1	GCF_022485645.1	Staphylococcus haemolyticus		092P2NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2530326	Scaffold	2022-03-05	2525	2409
+ASM2248566v1	GCF_022485665.1	Staphylococcus haemolyticus		83P1NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2473307	Scaffold	2022-03-05	2446	2337
+ASM2248568v1	GCF_022485685.1	Staphylococcus haemolyticus		C84FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2421236	Scaffold	2022-03-05	2418	2309
+ASM2248570v1	GCF_022485705.1	Staphylococcus haemolyticus		114P3NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2441954	Scaffold	2022-03-05	2430	2332
+ASM2248572v1	GCF_022485725.1	Staphylococcus haemolyticus		051P4ENG_1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477201	Scaffold	2022-03-05	2497	2361
+ASM2248574v1	GCF_022485745.1	Staphylococcus haemolyticus		036P2BA5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2472372	Scaffold	2022-03-05	2441	2336
+ASM2248576v1	GCF_022485765.1	Staphylococcus haemolyticus		009P2FS3BHI				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2516785	Scaffold	2022-03-05	2554	2443
+ASM2248577v1	GCF_022485775.1	Staphylococcus haemolyticus		C62FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2454528	Scaffold	2022-03-05	2452	2354
+ASM2248582v1	GCF_022485825.1	Staphylococcus haemolyticus		C61NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2419336	Scaffold	2022-03-05	2393	2298
+ASM2248586v1	GCF_022485865.1	Staphylococcus haemolyticus		032P2BA1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476009	Scaffold	2022-03-05	2456	2352
+ASM2248587v1	GCF_022485875.1	Staphylococcus haemolyticus		C58NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2536254	Scaffold	2022-03-05	2516	2404
+ASM2248588v1	GCF_022485885.1	Staphylococcus haemolyticus		032P2BA3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2475803	Scaffold	2022-03-05	2456	2352
+ASM2248592v1	GCF_022485925.1	Staphylococcus haemolyticus		114P3ENP_3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2435203	Scaffold	2022-03-05	2400	2298
+ASM2248594v1	GCF_022485945.1	Staphylococcus haemolyticus		032P2BA2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2474748	Scaffold	2022-03-05	2452	2350
+ASM2248596v1	GCF_022485965.1	Staphylococcus haemolyticus		030P3NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477165	Scaffold	2022-03-05	2465	2365
+ASM2248598v1	GCF_022485985.1	Staphylococcus haemolyticus		C100NS3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2466242	Scaffold	2022-03-05	2473	2368
+ASM2248599v1	GCF_022485995.1	Staphylococcus haemolyticus		009P3ENP2BHI				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2485263	Scaffold	2022-03-05	2470	2366
+ASM2248602v1	GCF_022486025.1	Staphylococcus haemolyticus		C65FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2530324	Scaffold	2022-03-05	2542	2425
+ASM2248603v1	GCF_022486035.1	Staphylococcus haemolyticus		055P1NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2499985	Scaffold	2022-03-05	2489	2372
+ASM2248606v1	GCF_022486065.1	Staphylococcus haemolyticus		C48FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2464868	Scaffold	2022-03-05	2481	2353
+ASM2248608v1	GCF_022486085.1	Staphylococcus haemolyticus		C93FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2447386	Scaffold	2022-03-05	2402	2309
+ASM2248610v1	GCF_022486105.1	Staphylococcus haemolyticus		H7NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2489932	Scaffold	2022-03-05	2490	2379
+ASM2248612v1	GCF_022486125.1	Staphylococcus haemolyticus		C86FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2461968	Scaffold	2022-03-05	2479	2361
+ASM2248614v1	GCF_022486145.1	Staphylococcus haemolyticus		C59NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2464676	Scaffold	2022-03-05	2423	2314
+ASM2248616v1	GCF_022486165.1	Staphylococcus haemolyticus		030P4FS5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2443150	Scaffold	2022-03-05	2435	2335
+ASM2248618v1	GCF_022486185.1	Staphylococcus haemolyticus		C108FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2401662	Scaffold	2022-03-05	2404	2269
+ASM2248620v1	GCF_022486205.1	Staphylococcus haemolyticus		37P8FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2512399	Scaffold	2022-03-05	2504	2397
+ASM2248622v1	GCF_022486225.1	Staphylococcus haemolyticus		C57FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2459655	Scaffold	2022-03-05	2419	2317
+ASM2248624v1	GCF_022486245.1	Staphylococcus haemolyticus		C38NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2506624	Scaffold	2022-03-05	2456	2341
+ASM2248626v1	GCF_022486265.1	Staphylococcus haemolyticus		C53FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2394400	Scaffold	2022-03-05	2356	2250
+ASM2248628v1	GCF_022486285.1	Staphylococcus haemolyticus		106P2NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2492060	Scaffold	2022-03-05	2458	2358
+ASM2248630v1	GCF_022486305.1	Staphylococcus haemolyticus		C81TS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2576640	Scaffold	2022-03-05	2512	2428
+ASM2248632v1	GCF_022486325.1	Staphylococcus haemolyticus		106P1NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2491113	Scaffold	2022-03-05	2450	2347
+ASM2248634v1	GCF_022486345.1	Staphylococcus haemolyticus		029P2FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2464660	Scaffold	2022-03-05	2429	2317
+ASM2248636v1	GCF_022486365.1	Staphylococcus haemolyticus		103P3NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2559563	Scaffold	2022-03-05	2567	2449
+ASM2248638v1	GCF_022486385.1	Staphylococcus haemolyticus		021P2SUB1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2430958	Scaffold	2022-03-05	2429	2275
+ASM2248640v1	GCF_022486405.1	Staphylococcus haemolyticus		37P8SUD1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2524658	Scaffold	2022-03-05	2504	2413
+ASM2248641v1	GCF_022486415.1	Staphylococcus haemolyticus		37P7NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2424603	Scaffold	2022-03-05	2408	2296
+ASM2248654v1	GCF_022486545.1	Staphylococcus haemolyticus		038P2NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2456476	Scaffold	2022-03-05	2445	2333
+ASM2248752v1	GCF_022487525.1	Staphylococcus haemolyticus		049P1FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2529570	Scaffold	2022-03-05	2495	2389
+ASM2248754v1	GCF_022487545.1	Staphylococcus haemolyticus		038P2FS3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2404548	Scaffold	2022-03-05	2398	2292
+ASM2248755v1	GCF_022487555.1	Staphylococcus haemolyticus		037P9NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2487844	Scaffold	2022-03-05	2450	2334
+ASM2248758v1	GCF_022487585.1	Staphylococcus haemolyticus		037P9SUA1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2500047	Scaffold	2022-03-05	2472	2350
+ASM2248762v1	GCF_022487625.1	Staphylococcus haemolyticus		106P3NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2457579	Scaffold	2022-03-05	2424	2324
+ASM2248763v1	GCF_022487635.1	Staphylococcus haemolyticus		030P4FS4				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2443330	Scaffold	2022-03-05	2434	2325
+ASM2248766v1	GCF_022487665.1	Staphylococcus haemolyticus		014P2FS002				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2554237	Scaffold	2022-03-05	2554	2413
+ASM2248768v1	GCF_022487685.1	Staphylococcus haemolyticus		008P6FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2478886	Scaffold	2022-03-05	2460	2355
+ASM2248770v1	GCF_022487705.1	Staphylococcus haemolyticus		008P5SUE2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2445437	Scaffold	2022-03-05	2438	2303
+ASM2248772v1	GCF_022487725.1	Staphylococcus haemolyticus		007P2ENG3BHI				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2378928	Scaffold	2022-03-05	2378	2236
+ASM2248774v1	GCF_022487745.1	Staphylococcus haemolyticus		008P5SUA1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476931	Scaffold	2022-03-05	2487	2385
+ASM2248776v1	GCF_022487765.1	Staphylococcus haemolyticus		007PHP1FS1BHI				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2455284	Scaffold	2022-03-05	2398	2290
+ASM2248778v1	GCF_022487785.1	Staphylococcus haemolyticus		008P4SUE001				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2456999	Scaffold	2022-03-05	2423	2331
+ASM2248780v1	GCF_022487805.1	Staphylococcus haemolyticus		007P3SUC2BHI				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2536699	Scaffold	2022-03-05	2540	2436
+ASM2248781v1	GCF_022487815.1	Staphylococcus haemolyticus		37P7SUA1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2417301	Scaffold	2022-03-05	2383	2261
+ASM2248784v1	GCF_022487845.1	Staphylococcus haemolyticus		008P4FS002				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2470405	Scaffold	2022-03-05	2438	2345
+ASM2248786v1	GCF_022487865.1	Staphylococcus haemolyticus		008P4FS003				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2478356	Scaffold	2022-03-05	2468	2351
+ASM2248788v1	GCF_022487885.1	Staphylococcus haemolyticus		038P1SUD1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2449056	Scaffold	2022-03-05	2436	2329
+ASM2248789v1	GCF_022487895.1	Staphylococcus haemolyticus		031P2FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2475063	Scaffold	2022-03-05	2479	2368
+ASM2248792v1	GCF_022487925.1	Staphylococcus haemolyticus		008P6SUE1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2411957	Scaffold	2022-03-05	2385	2291
+ASM2269036v1	GCF_022690365.1	Staphylococcus haemolyticus		acrot				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2440759	Contig	2022-03-23	2405	2291
+ASM2269044v1	GCF_022690445.1	Staphylococcus haemolyticus		acroh				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2407753	Contig	2022-03-23	2413	2288
+ASM2269046v1	GCF_022690465.1	Staphylococcus haemolyticus		acrop				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2438861	Contig	2022-03-23	2408	2290
+ASM2269048v1	GCF_022690485.1	Staphylococcus haemolyticus		acroa				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2337166	Contig	2022-03-23	2366	2245
+ASM2269049v1	GCF_022690495.1	Staphylococcus haemolyticus		acroo				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2444167	Contig	2022-03-23	2416	2292
+ASM2269052v1	GCF_022690525.1	Staphylococcus haemolyticus		acrob				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2368537	Contig	2022-03-23	2370	2237
+ASM2269054v1	GCF_022690545.1	Staphylococcus haemolyticus		acrnz				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2355844	Contig	2022-03-23	2364	2226
+ASM2269590v1	GCF_022695905.1	Staphylococcus haemolyticus		1864				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2591539	Contig	2022-03-25	2549	2393
+ASM2269592v1	GCF_022695925.1	Staphylococcus haemolyticus		48				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2611179	Contig	2022-03-25	2553	2397
+ASM2280993v1	GCF_022809935.1	Staphylococcus haemolyticus		PK-01				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2437425	Contig	2022-04-03	2468	2350
+ASM2281150v1	GCF_022811505.1	Staphylococcus haemolyticus		MSA_JNM56C1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2555440	Chromosome	2022-04-04	2492	2308
+ASM2314739v1	GCF_023147395.1	Staphylococcus haemolyticus		EYE_501				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2541356	Scaffold	2022-04-27	2574	2398
+ASM2314765v1	GCF_023147655.1	Staphylococcus haemolyticus		EYE_136				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2538541	Scaffold	2022-04-27	2573	2399
+ASM2314846v1	GCF_023148465.1	Staphylococcus haemolyticus		EYE_115				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2540219	Scaffold	2022-04-27	2570	2395
+ASM2319834v1	GCF_023198345.1	Staphylococcus haemolyticus		568_S46				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2402782	Contig	2022-05-01	2471	2289
+haemolyticus	GCF_900240195.1	Staphylococcus haemolyticus				Staphylococcus haemolyticus K8		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2426012	Chromosome	2018-04-04	2450	2315
+36734_F01	GCF_900458595.1	Staphylococcus haemolyticus		NCTC11042				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2569468	Contig	2018-08-01	2499	2325
+57-01	GCF_903969685.1	Staphylococcus haemolyticus		SH_01		2 A-1		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2483428	Contig	2020-07-18	2538	2351
+57-08	GCF_903969695.1	Staphylococcus haemolyticus		SH_03		5 E-2		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2509690	Contig	2020-07-18	2570	2389
+57-22	GCF_903969705.1	Staphylococcus haemolyticus		SH_11		23 E-1		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2479287	Contig	2020-07-18	2515	2297
+57-23	GCF_903969715.1	Staphylococcus haemolyticus		SH_12		30 C-3		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2611660	Contig	2020-07-18	2655	2455
+57-19	GCF_903969725.1	Staphylococcus haemolyticus		SH_09		16 C-3		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2513933	Contig	2020-07-18	2567	2371
+57-12	GCF_903969735.1	Staphylococcus haemolyticus		SH_05		7 C-1		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2634313	Contig	2020-07-18	2780	2511
+57-15	GCF_903969745.1	Staphylococcus haemolyticus		SH_07		14 D-1		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2538386	Contig	2020-07-18	2660	2401
+57-20	GCF_903969755.1	Staphylococcus haemolyticus		SH_10		20 E-2		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2563378	Contig	2020-07-18	2630	2397
+57-26	GCF_903969765.1	Staphylococcus haemolyticus		SH_13		33 F-2		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2412626	Contig	2020-07-18	2433	2226
+57-05	GCF_903969775.1	Staphylococcus haemolyticus		SH_02		3 C-3		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2507215	Contig	2020-07-18	2538	2359
+57-10	GCF_903969785.1	Staphylococcus haemolyticus		SH_04		6 C-1		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2470162	Contig	2020-07-18	2515	2313
+57-39	GCF_903969795.1	Staphylococcus haemolyticus		SH_20		65 C-3		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2521883	Contig	2020-07-18	2549	2376
+57-34	GCF_903969805.1	Staphylococcus haemolyticus		SH_18		62 D-1		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2471279	Contig	2020-07-18	2497	2312
+57-55	GCF_903969815.1	Staphylococcus haemolyticus		SH_26		88 D-4		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2478552	Contig	2020-07-18	2529	2317
+57-32	GCF_903969825.1	Staphylococcus haemolyticus		SH_16		51 D-2		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2598845	Contig	2020-07-18	2669	2461
+57-41	GCF_903969835.1	Staphylococcus haemolyticus		SH_21		67 C-1		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2610467	Contig	2020-07-18	2683	2478
+57-35	GCF_903969845.1	Staphylococcus haemolyticus		SH_19		64 C-4		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2641716	Contig	2020-07-18	2740	2505
+57-27	GCF_903969855.1	Staphylococcus haemolyticus		SH_14		44 C-2		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2491574	Contig	2020-07-18	2531	2358
+57-54	GCF_903969865.1	Staphylococcus haemolyticus		SH_25		77 C-3		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2447052	Contig	2020-07-18	2523	2331
+57-33	GCF_903969875.1	Staphylococcus haemolyticus		SH_17		57 D-6		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2602789	Contig	2020-07-18	2724	2512
+57-31	GCF_903969885.1	Staphylococcus haemolyticus		SH_15		50 D-1		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2521119	Contig	2020-07-18	2567	2398
+57-47	GCF_903969895.1	Staphylococcus haemolyticus		SH_23		74 C-3		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2515048	Contig	2020-07-18	2541	2361
+57-61	GCF_903969905.1	Staphylococcus haemolyticus		SH_29		95 C-4		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2670609	Contig	2020-07-18	2901	2607
+57-60	GCF_903969915.1	Staphylococcus haemolyticus		SH_28		93 D-6		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2413511	Contig	2020-07-18	2464	2278
+57-57	GCF_903969945.1	Staphylococcus haemolyticus		SH_27		92 C-1		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2452496	Contig	2020-07-18	2550	2357
+58-02	GCF_903969955.1	Staphylococcus haemolyticus		SH_33		101 F-6		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2533202	Contig	2020-07-18	2637	2353
+57-65	GCF_903969965.1	Staphylococcus haemolyticus		SH_30		96 D-5		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2444338	Contig	2020-07-18	2521	2322
+58-61	GCF_903969985.1	Staphylococcus haemolyticus		SH_46		124		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2626250	Contig	2020-07-18	2730	2486
+58-62	GCF_903969995.1	Staphylococcus haemolyticus		SH_47		125		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2414958	Contig	2020-07-18	2462	2232
+58-20	GCF_903970005.1	Staphylococcus haemolyticus		SH_37		107 F-4		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2384126	Contig	2020-07-18	2428	2241
+58-37	GCF_903970015.1	Staphylococcus haemolyticus		SH_41		113 D-2		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2423362	Contig	2020-07-18	2490	2275
+58-04	GCF_903970025.1	Staphylococcus haemolyticus		SH_34		103 A-5		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477138	Contig	2020-07-18	2551	2359
+58-05	GCF_903970035.1	Staphylococcus haemolyticus		SH_35		105 A-2		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2549801	Contig	2020-07-18	2606	2418
+58-21	GCF_903970045.1	Staphylococcus haemolyticus		SH_38		108 D-2		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2396127	Contig	2020-07-18	2426	2233
+58-57	GCF_903970055.1	Staphylococcus haemolyticus		SH_45		122 C-3		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2629330	Contig	2020-07-18	2783	2494
+58-28	GCF_903970065.1	Staphylococcus haemolyticus		SH_40		110 C-5		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2597027	Contig	2020-07-18	2696	2466
+58-39	GCF_903970075.1	Staphylococcus haemolyticus		SH_42		114 F-3		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2524444	Contig	2020-07-18	2554	2382
+58-56	GCF_903970085.1	Staphylococcus haemolyticus		SH_44		120 B-4		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2482915	Contig	2020-07-18	2524	2335
+58-63	GCF_903970095.1	Staphylococcus haemolyticus		SH_48		126		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2478407	Contig	2020-07-18	2534	2317
+58-08	GCF_903970105.1	Staphylococcus haemolyticus		SH_36		106 C-2		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2418543	Contig	2020-07-18	2474	2260
+Sha_B36_CVC_2019	GCF_910591425.1	Staphylococcus haemolyticus				Sha_B36_CVC_2019		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2540874	Contig	2021-07-07	2726	2497
+Sha_B36_HC_2019	GCF_910591645.1	Staphylococcus haemolyticus				Sha_B36_HC_2019		NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2606308	Contig	2021-07-07	2666	2518
+Willow Endophyte RIT283	GCA_000627275.1	Staphylococcus haemolyticus		RIT283				Annotation submitted by Monash University Malaysia	2527922	Contig	2014-04-11	2502	2441
+ASM76370v1	GCA_000763705.1	Staphylococcus haemolyticus		C10D				NCBI Prokaryotic Genome Annotation Pipeline	2440251	Contig	2014-10-06	2355	2262
+ASM76372v1	GCA_000763725.1	Staphylococcus haemolyticus		C10F				NCBI Prokaryotic Genome Annotation Pipeline	2458301	Contig	2014-10-06	2372	2280
+ASM76406v1	GCA_000764065.1	Staphylococcus haemolyticus		C10A					2430312	Contig	2014-10-06		
+ASM97272v1	GCA_000972725.1	Staphylococcus haemolyticus		Sh29/312/L2				Annotation submitted by USP	2561368	Complete Genome	2015-04-16	2532	2417
+ASM98114v1	GCA_000981145.1	Staphylococcus haemolyticus		1HT3				Annotation submitted by Institute of Microbial Technology	2403066	Contig	2015-04-27	2318	2318
+7068_7#27	GCA_001047775.1	Staphylococcus haemolyticus		96671					2473962	Contig	2015-06-30		
+ASM106864v1	GCA_001068645.1	Staphylococcus haemolyticus		109_SHAE					7088188	Scaffold	2015-07-10		
+ASM106970v1	GCA_001069705.1	Staphylococcus haemolyticus		1328_SHAE					2587051	Scaffold	2015-07-10		
+ASM107047v1	GCA_001070475.1	Staphylococcus haemolyticus		1292_SHAE					2596018	Scaffold	2015-07-10		
+ASM107155v1	GCA_001071555.1	Staphylococcus haemolyticus		164_SHAE					2423577	Scaffold	2015-07-10		
+ASM107187v1	GCA_001071875.1	Staphylococcus haemolyticus		235_SHAE					2484273	Contig	2015-07-10		
+ASM107209v1	GCA_001072095.1	Staphylococcus haemolyticus		285_SHAE					2525060	Scaffold	2015-07-10		
+ASM107465v1	GCA_001074655.1	Staphylococcus haemolyticus		855_SHAE					7191008	Contig	2015-07-10		
+ASM107521v1	GCA_001075215.1	Staphylococcus haemolyticus		89_SHAE					5567075	Scaffold	2015-07-10		
+7068_7#10	GCA_001223605.1	Staphylococcus haemolyticus		6035					2523744	Scaffold	2015-08-03		
+7067_4#70	GCA_001223805.1	Staphylococcus haemolyticus		51-50					3183517	Scaffold	2015-08-03		
+7067_4#88	GCA_001223905.1	Staphylococcus haemolyticus		CN1175					2528540	Contig	2015-08-03		
+7067_4#82	GCA_001223985.1	Staphylococcus haemolyticus		278-10					2488619	Contig	2015-08-03		
+7067_4#76	GCA_001224145.1	Staphylococcus haemolyticus		6_13					2415244	Scaffold	2015-08-03		
+7067_4#51	GCA_001224245.1	Staphylococcus haemolyticus		51-26					2609359	Scaffold	2015-08-03		
+7068_7#52	GCA_001224425.1	Staphylococcus haemolyticus		103709					2506165	Contig	2015-08-03		
+7068_7#6	GCA_001224545.1	Staphylococcus haemolyticus		625					2525382	Contig	2015-08-03		
+7068_7#35	GCA_001224745.1	Staphylococcus haemolyticus		131776					2539072	Scaffold	2015-08-03		
+7068_7#62	GCA_001225225.1	Staphylococcus haemolyticus		115601					2448034	Contig	2015-08-03		
+7068_7#5	GCA_001225245.1	Staphylococcus haemolyticus		6660					2493827	Contig	2015-08-03		
+7067_4#44	GCA_001225445.1	Staphylococcus haemolyticus		51-16					2541042	Scaffold	2015-08-03		
+7068_7#29	GCA_001225485.1	Staphylococcus haemolyticus		92271					2626030	Contig	2015-08-03		
+7067_4#78	GCA_001225665.1	Staphylococcus haemolyticus		AB					2481381	Scaffold	2015-08-03		
+7068_7#60	GCA_001225905.1	Staphylococcus haemolyticus		140376					2372839	Contig	2015-08-03		
+7068_7#16	GCA_001225985.1	Staphylococcus haemolyticus		F033					2475621	Contig	2015-08-03		
+7067_4#26	GCA_001226105.1	Staphylococcus haemolyticus		25-29					2471527	Scaffold	2015-08-03		
+7067_4#80	GCA_001226285.1	Staphylococcus haemolyticus		JCSC_1435					2555255	Contig	2015-08-03		
+7068_7#48	GCA_001226325.1	Staphylococcus haemolyticus		114126					2518137	Contig	2015-08-03		
+7068_7#19	GCA_001226405.1	Staphylococcus haemolyticus		T_621					2621216	Contig	2015-08-03		
+7067_4#38	GCA_001226705.1	Staphylococcus haemolyticus		51-07					2522687	Scaffold	2015-08-03		
+7067_4#48	GCA_001226765.1	Staphylococcus haemolyticus		51-21					2583329	Contig	2015-08-03		
+7068_7#43	GCA_001226805.1	Staphylococcus haemolyticus		121875					2537417	Scaffold	2015-08-03		
+7068_7#63	GCA_001227045.1	Staphylococcus haemolyticus		127639					2513924	Scaffold	2015-08-03		
+7067_4#91	GCA_001227205.1	Staphylococcus haemolyticus		95671					2476442	Contig	2015-08-03		
+7067_4#58	GCA_001227225.1	Staphylococcus haemolyticus		51-34					2511238	Contig	2015-08-03		
+7067_4#46	GCA_001227245.1	Staphylococcus haemolyticus		51-18					3009133	Scaffold	2015-08-03		
+7067_4#33	GCA_001227365.1	Staphylococcus haemolyticus		26-24					2464983	Contig	2015-08-03		
+7068_7#20	GCA_001227385.1	Staphylococcus haemolyticus		T_480					2492973	Scaffold	2015-08-03		
+7067_4#25	GCA_001227585.1	Staphylococcus haemolyticus		25-12					2448492	Scaffold	2015-08-03		
+7067_4#65	GCA_001227625.1	Staphylococcus haemolyticus		51-44					2453839	Contig	2015-08-03		
+7067_4#62	GCA_001227705.1	Staphylococcus haemolyticus		51-41					2550395	Contig	2015-08-03		
+7067_4#47	GCA_001227745.1	Staphylococcus haemolyticus		51-20					2492833	Contig	2015-08-03		
+7067_4#30	GCA_001228105.1	Staphylococcus haemolyticus		25-59					2475848	Contig	2015-08-03		
+7068_7#30	GCA_001228185.1	Staphylococcus haemolyticus		135665					2372829	Contig	2015-08-03		
+7068_7#36	GCA_001228285.1	Staphylococcus haemolyticus		127925					2545880	Contig	2015-08-03		
+7067_4#66	GCA_001228325.1	Staphylococcus haemolyticus		51-45					2463453	Contig	2015-08-03		
+7067_4#60	GCA_001228405.1	Staphylococcus haemolyticus		51-37					2332821	Scaffold	2015-08-03		
+7067_4#45	GCA_001228465.1	Staphylococcus haemolyticus		51-17					2858149	Scaffold	2015-08-03		
+7068_7#21	GCA_001228845.1	Staphylococcus haemolyticus		W59					2454272	Contig	2015-08-03		
+7068_7#65	GCA_001229105.1	Staphylococcus haemolyticus		105731					2436514	Contig	2015-08-03		
+7067_4#52	GCA_001229125.1	Staphylococcus haemolyticus		51-27					2398588	Scaffold	2015-08-03		
+7068_7#38	GCA_001229185.1	Staphylococcus haemolyticus		113101					2511345	Scaffold	2015-08-03		
+7068_7#9	GCA_001229605.1	Staphylococcus haemolyticus		643					2901728	Scaffold	2015-08-03		
+7068_7#32	GCA_001229765.1	Staphylococcus haemolyticus		115472					2443261	Scaffold	2015-08-03		
+7068_7#58	GCA_001229785.1	Staphylococcus haemolyticus		112056					2500665	Contig	2015-08-03		
+7067_4#29	GCA_001229885.1	Staphylococcus haemolyticus		25-57					2466544	Contig	2015-08-03		
+7067_4#50	GCA_001230025.1	Staphylococcus haemolyticus		51-24					2524683	Contig	2015-08-03		
+7068_7#64	GCA_001230145.1	Staphylococcus haemolyticus		137133					2452281	Contig	2015-08-03		
+7068_7#1	GCA_001230305.1	Staphylococcus haemolyticus		CN1219					2501226	Scaffold	2015-08-03		
+7067_4#39	GCA_001230445.1	Staphylococcus haemolyticus		51-08					2509985	Contig	2015-08-03		
+7067_4#75	GCA_001230625.1	Staphylococcus haemolyticus		8-9					2443104	Scaffold	2015-08-03		
+7068_7#28	GCA_001230645.1	Staphylococcus haemolyticus		109919					2522156	Contig	2015-08-03		
+7067_4#86	GCA_001230845.1	Staphylococcus haemolyticus		CN1138					2414354	Contig	2015-08-03		
+7067_4#42	GCA_001230985.1	Staphylococcus haemolyticus		51-11					2985017	Scaffold	2015-08-03		
+7068_7#49	GCA_001231025.1	Staphylococcus haemolyticus		124304					2545211	Scaffold	2015-08-03		
+7067_4#35	GCA_001231125.1	Staphylococcus haemolyticus		51-03					2781243	Scaffold	2015-08-03		
+7068_7#14	GCA_001231145.1	Staphylococcus haemolyticus		F06					2496681	Contig	2015-08-03		
+7067_4#57	GCA_001231265.1	Staphylococcus haemolyticus		51-33					2553435	Scaffold	2015-08-03		
+7068_7#55	GCA_001231545.1	Staphylococcus haemolyticus		104658					2624963	Contig	2015-08-03		
+7068_7#23	GCA_001231725.1	Staphylococcus haemolyticus		W_75					2489375	Contig	2015-08-03		
+7068_7#57	GCA_001231825.1	Staphylococcus haemolyticus		94759					2389735	Contig	2015-08-03		
+7068_7#37	GCA_001231885.1	Staphylococcus haemolyticus		124655					2400363	Contig	2015-08-03		
+7068_7#22	GCA_001232065.1	Staphylococcus haemolyticus		W114					2611493	Contig	2015-08-03		
+7067_4#40	GCA_001232245.1	Staphylococcus haemolyticus		51-09					2581015	Scaffold	2015-08-03		
+7067_4#87	GCA_001232285.1	Staphylococcus haemolyticus		CN1167					2501435	Contig	2015-08-03		
+7067_4#61	GCA_001232605.1	Staphylococcus haemolyticus		51-39					2509133	Contig	2015-08-03		
+7068_7#61	GCA_001232645.1	Staphylococcus haemolyticus		135073					2473547	Scaffold	2015-08-03		
+7067_4#74	GCA_001232865.1	Staphylococcus haemolyticus		51-55					2433323	Contig	2015-08-03		
+7067_4#73	GCA_001233165.1	Staphylococcus haemolyticus		51-72					2453384	Scaffold	2015-08-03		
+7068_7#47	GCA_001233205.1	Staphylococcus haemolyticus		131974					2389717	Contig	2015-08-03		
+7068_7#66	GCA_001233265.1	Staphylococcus haemolyticus		89727					2493964	Contig	2015-08-03		
+7067_4#72	GCA_001233365.1	Staphylococcus haemolyticus		51-52					2517053	Contig	2015-08-03		
+7068_7#31	GCA_001233505.1	Staphylococcus haemolyticus		102938					2608526	Scaffold	2015-08-03		
+7067_4#89	GCA_001233565.1	Staphylococcus haemolyticus		CN1197					2331387	Contig	2015-08-03		
+7068_7#26	GCA_001233845.1	Staphylococcus haemolyticus		115609					2441757	Contig	2015-08-03		
+7068_7#12	GCA_001233865.1	Staphylococcus haemolyticus		708075					2521284	Contig	2015-08-03		
+7068_7#51	GCA_001234045.1	Staphylococcus haemolyticus		136731					2477266	Scaffold	2015-08-03		
+7068_7#42	GCA_001234185.1	Staphylococcus haemolyticus		109939					2510727	Contig	2015-08-03		
+7067_4#34	GCA_001234205.1	Staphylococcus haemolyticus		26-4					2392688	Contig	2015-08-03		
+7068_7#8	GCA_001234345.1	Staphylococcus haemolyticus		2111					2556034	Contig	2015-08-03		
+7067_4#37	GCA_001234405.1	Staphylococcus haemolyticus		51-06					2522645	Contig	2015-08-03		
+7067_4#27	GCA_001234445.1	Staphylococcus haemolyticus		25-38					2438987	Contig	2015-08-03		
+7068_7#2	GCA_001234485.1	Staphylococcus haemolyticus		CN1234					2587630	Scaffold	2015-08-03		
+7068_7#33	GCA_001234545.1	Staphylococcus haemolyticus		133319					2457248	Contig	2015-08-03		
+7068_7#17	GCA_001234585.1	Staphylococcus haemolyticus		F01					2511636	Scaffold	2015-08-03		
+7068_7#53	GCA_001235085.1	Staphylococcus haemolyticus		132337					2545280	Scaffold	2015-08-03		
+7068_7#18	GCA_001235105.1	Staphylococcus haemolyticus		F0_34					2530510	Scaffold	2015-08-03		
+7068_7#41	GCA_001235305.1	Staphylococcus haemolyticus		137772					2492753	Contig	2015-08-03		
+7068_7#54	GCA_001235325.1	Staphylococcus haemolyticus		123477					2497851	Scaffold	2015-08-03		
+7067_4#56	GCA_001235405.1	Staphylococcus haemolyticus		51-32					2472150	Contig	2015-08-03		
+7068_7#25	GCA_001235445.1	Staphylococcus haemolyticus		21116					2594641	Scaffold	2015-08-03		
+7068_7#67	GCA_001235545.1	Staphylococcus haemolyticus		131062					2496494	Contig	2015-08-03		
+7068_7#15	GCA_001235645.1	Staphylococcus haemolyticus		F045					2586401	Scaffold	2015-08-03		
+7067_4#43	GCA_001235665.1	Staphylococcus haemolyticus		51-13					2568124	Scaffold	2015-08-03		
+7068_7#44	GCA_001235685.1	Staphylococcus haemolyticus		112622					2463548	Contig	2015-08-03		
+7068_7#40	GCA_001235705.1	Staphylococcus haemolyticus		113952					2514173	Scaffold	2015-08-03		
+7067_4#85	GCA_001235745.1	Staphylococcus haemolyticus		CN1134					2551848	Contig	2015-08-03		
+7067_4#63	GCA_001235805.1	Staphylococcus haemolyticus		51-42					2606425	Contig	2015-08-03		
+7067_4#68	GCA_001235945.1	Staphylococcus haemolyticus		51-47					2444138	Scaffold	2015-08-03		
+7068_7#39	GCA_001236145.1	Staphylococcus haemolyticus		123268					2508540	Scaffold	2015-08-03		
+7067_4#31	GCA_001236245.1	Staphylococcus haemolyticus		25-60					2508661	Scaffold	2015-08-03		
+7067_4#49	GCA_001236365.1	Staphylococcus haemolyticus		51-22					2497304	Contig	2015-08-03		
+7067_4#71	GCA_001236425.1	Staphylococcus haemolyticus		51-51					2511740	Contig	2015-08-03		
+7068_7#34	GCA_001236685.1	Staphylococcus haemolyticus		114564					2441747	Scaffold	2015-08-03		
+7067_4#83	GCA_001237065.1	Staphylococcus haemolyticus		CN1011					2658158	Contig	2015-08-03		
+7068_7#7	GCA_001237105.1	Staphylococcus haemolyticus		7532					2513933	Contig	2015-08-03		
+7068_7#50	GCA_001237185.1	Staphylococcus haemolyticus		134634					2393643	Scaffold	2015-08-03		
+7067_4#90	GCA_001237405.1	Staphylococcus haemolyticus		51-15					2940506	Scaffold	2015-08-03		
+7068_7#4	GCA_001237425.1	Staphylococcus haemolyticus		6682					2540449	Contig	2015-08-03		
+7067_4#81	GCA_001237485.1	Staphylococcus haemolyticus		M-176					2537701	Contig	2015-08-03		
+7068_7#46	GCA_001237665.1	Staphylococcus haemolyticus		144377					2562018	Scaffold	2015-08-03		
+7067_4#54	GCA_001237685.1	Staphylococcus haemolyticus		51-30					2399191	Contig	2015-08-03		
+7067_4#36	GCA_001237705.1	Staphylococcus haemolyticus		51-04					2512845	Scaffold	2015-08-03		
+7068_7#45	GCA_001237725.1	Staphylococcus haemolyticus		104626					2717452	Scaffold	2015-08-03		
+7068_7#11	GCA_001238045.1	Staphylococcus haemolyticus		6249					2512190	Scaffold	2015-08-03		
+7067_4#77	GCA_001238085.1	Staphylococcus haemolyticus		s5					2503878	Scaffold	2015-08-03		
+7067_4#55	GCA_001238205.1	Staphylococcus haemolyticus		51-31					2480954	Scaffold	2015-08-03		
+7067_4#28	GCA_001238305.1	Staphylococcus haemolyticus		25-44					2673652	Contig	2015-08-03		
+7067_4#59	GCA_001238425.1	Staphylococcus haemolyticus		51-35					2724068	Scaffold	2015-08-03		
+7067_4#67	GCA_001238515.1	Staphylococcus haemolyticus		51-46					2518342	Contig	2015-08-03		
+7068_7#59	GCA_001238665.1	Staphylococcus haemolyticus		97208					2446877	Contig	2015-08-03		
+7067_4#32	GCA_001238745.1	Staphylococcus haemolyticus		25-63					2481297	Contig	2015-08-03		
+7067_4#53	GCA_001238865.1	Staphylococcus haemolyticus		51-29					2507350	Scaffold	2015-08-03		
+7068_7#13	GCA_001238905.1	Staphylococcus haemolyticus		8074328					2583877	Contig	2015-08-03		
+7067_4#79	GCA_001239225.1	Staphylococcus haemolyticus		2263-3461					2458332	Scaffold	2015-08-03		
+7067_4#41	GCA_001239425.1	Staphylococcus haemolyticus		51-10					2510843	Scaffold	2015-08-03		
+7067_4#84	GCA_001239505.1	Staphylococcus haemolyticus		CN1115					2521015	Contig	2015-08-03		
+7068_7#56	GCA_001239565.1	Staphylococcus haemolyticus		135814					2518645	Contig	2015-08-03		
+7067_4#64	GCA_001239605.1	Staphylococcus haemolyticus		51-43					2608869	Contig	2015-08-03		
+7068_7#24	GCA_001239625.1	Staphylococcus haemolyticus		W_139					2479364	Scaffold	2015-08-03		
+7068_7#3	GCA_001239725.1	Staphylococcus haemolyticus		7589					2538007	Scaffold	2015-08-03		
+ASM141246v1	GCA_001412465.1	Staphylococcus haemolyticus		MTCC 3383				NCBI Prokaryotic Genome Annotation Pipeline	2472482	Contig	2015-10-26	2425	2314
+ASM147128v2	GCA_001471285.2	Staphylococcus haemolyticus		FDAARGOS_148				NCBI Prokaryotic Genome Annotation Pipeline	2828330	Contig	2018-01-19	2845	2474
+ASM147151v2	GCA_001471515.2	Staphylococcus haemolyticus		FDAARGOS_130				NCBI Prokaryotic Genome Annotation Pipeline	2695523	Contig	2018-01-19	2649	2453
+ASM152937v1	GCA_001529375.1	Staphylococcus haemolyticus		SHN36					2363384	Contig	2016-01-22		
+ASM152939v1	GCA_001529395.1	Staphylococcus haemolyticus		SHN65					2334876	Contig	2016-01-22		
+ASM152942v1	GCA_001529425.1	Staphylococcus haemolyticus		SH1752					2695474	Contig	2016-01-22		
+ASM152944v1	GCA_001529445.1	Staphylococcus haemolyticus		SH1574					2384660	Contig	2016-01-22		
+ASM152946v1	GCA_001529465.1	Staphylococcus haemolyticus		SH747					2412553	Contig	2016-01-22		
+ASM161195v1	GCA_001611955.1	Staphylococcus haemolyticus		S167				NCBI Prokaryotic Genome Annotation Pipeline	2560146	Complete Genome	2016-04-06	2466	2329
+ASM170508v1	GCA_001705085.1	Staphylococcus haemolyticus		421				NCBI Prokaryotic Genome Annotation Pipeline	2447072	Contig	2016-08-15	2391	2210
+ASM170509v1	GCA_001705095.1	Staphylococcus haemolyticus		864-1				NCBI Prokaryotic Genome Annotation Pipeline	2548117	Contig	2016-08-15	2466	2250
+ASM170515v1	GCA_001705155.1	Staphylococcus haemolyticus		527				NCBI Prokaryotic Genome Annotation Pipeline	2478254	Contig	2016-08-15	2445	2258
+ASM170524v1	GCA_001705245.1	Staphylococcus haemolyticus		39				NCBI Prokaryotic Genome Annotation Pipeline	2484894	Contig	2016-08-15	2435	2223
+ASM174342v1	GCA_001743425.1	Staphylococcus haemolyticus		IIF2SW-P5					2674119	Contig	2016-09-24		
+ASM175668v1	GCA_001756685.1	Staphylococcus haemolyticus		VB31546				NCBI Prokaryotic Genome Annotation Pipeline	2520902	Contig	2016-10-11	2495	2317
+ASM196986v1	GCA_001969865.1	Staphylococcus haemolyticus		BC05211					2484518	Scaffold	2017-01-23		
+ASM196987v1	GCA_001969875.1	Staphylococcus haemolyticus		NW19					2436925	Scaffold	2017-01-23		
+ASM197585v1	GCA_001975855.1	Staphylococcus haemolyticus		SW007				NCBI Prokaryotic Genome Annotation Pipeline	2334100	Contig	2017-01-31	2360	2184
+ASM211427v1	GCA_002114275.1	Staphylococcus haemolyticus		IPK_TSA25				NCBI Prokaryotic Genome Annotation Pipeline	2517398	Contig	2017-04-28	2430	2260
+ASM216543v1	GCA_002165435.1	Staphylococcus haemolyticus		SH06					2501418	Contig	2017-06-02		
+ASM227697v1	GCA_002276975.1	Staphylococcus haemolyticus		OG2				NCBI Prokaryotic Genome Annotation Pipeline	2751326	Contig	2017-08-29	3068	2891
+ASM279954v1	GCA_002799545.1	Staphylococcus haemolyticus		SH05_17				NCBI Prokaryotic Genome Annotation Pipeline	2553977	Contig	2017-11-29	2614	2420
+ASM289232v1	GCA_002892325.1	Staphylococcus haemolyticus		Z52				NCBI Prokaryotic Genome Annotation Pipeline	2389587	Contig	2018-01-18	2421	1751
+ASM290180v1	GCA_002901805.1	Staphylococcus haemolyticus		NCTC 11042				NCBI Prokaryotic Genome Annotation Pipeline	2472399	Scaffold	2018-01-27	2466	2334
+ASM290659v1	GCA_002906595.1	Staphylococcus haemolyticus		83131A				NCBI Prokaryotic Genome Annotation Pipeline	2610865	Complete Genome	2018-01-30	2555	2385
+ASM290661v1	GCA_002906615.1	Staphylococcus haemolyticus		83131B				NCBI Prokaryotic Genome Annotation Pipeline	2612666	Complete Genome	2018-01-30	2545	2383
+ASM293408v1	GCA_002934085.1	Staphylococcus haemolyticus		A109N1B1				NCBI Prokaryotic Genome Annotation Pipeline	2941236	Scaffold	2018-02-21	3521	3265
+ASM293412v2	GCA_002934125.2	Staphylococcus haemolyticus		G811N2B1				NCBI Prokaryotic Genome Annotation Pipeline	2802141	Contig	2018-02-21	3323	3077
+ASM295271v2	GCA_002952715.2	Staphylococcus haemolyticus		SGAir0252				NCBI Prokaryotic Genome Annotation Pipeline	2674594	Complete Genome	2018-02-22	2636	2445
+ASM304241v1	GCA_003042415.1	Staphylococcus haemolyticus		SNUC 4966				NCBI Prokaryotic Genome Annotation Pipeline	2518128	Contig	2018-04-06	2543	2363
+ASM304243v1	GCA_003042435.1	Staphylococcus haemolyticus		SNUC 5782				NCBI Prokaryotic Genome Annotation Pipeline	2499010	Contig	2018-04-06	2528	2380
+ASM304245v1	GCA_003042455.1	Staphylococcus haemolyticus		SNUC 4488				NCBI Prokaryotic Genome Annotation Pipeline	2434412	Contig	2018-04-06	2498	2325
+ASM304249v1	GCA_003042495.1	Staphylococcus haemolyticus		SNUC 2814				NCBI Prokaryotic Genome Annotation Pipeline	2435436	Contig	2018-04-06	2458	2310
+ASM304251v1	GCA_003042515.1	Staphylococcus haemolyticus		SNUC 1361				NCBI Prokaryotic Genome Annotation Pipeline	2515489	Contig	2018-04-06	2519	2367
+ASM304253v1	GCA_003042535.1	Staphylococcus haemolyticus		SNUC 1317				NCBI Prokaryotic Genome Annotation Pipeline	2465668	Contig	2018-04-06	2466	2305
+ASM304257v1	GCA_003042575.1	Staphylococcus haemolyticus		SNUC 1584				NCBI Prokaryotic Genome Annotation Pipeline	2532063	Contig	2018-04-06	2602	2433
+ASM304259v1	GCA_003042595.1	Staphylococcus haemolyticus		SNUC 136				NCBI Prokaryotic Genome Annotation Pipeline	2425647	Contig	2018-04-06	2452	2293
+ASM304261v1	GCA_003042615.1	Staphylococcus haemolyticus		SNUC 1450				NCBI Prokaryotic Genome Annotation Pipeline	2433951	Contig	2018-04-06	2427	2281
+ASM304267v1	GCA_003042675.1	Staphylococcus haemolyticus		SNUC 128				NCBI Prokaryotic Genome Annotation Pipeline	2352206	Contig	2018-04-06	2328	2169
+ASM304269v1	GCA_003042695.1	Staphylococcus haemolyticus		SNUC 127				NCBI Prokaryotic Genome Annotation Pipeline	2411254	Contig	2018-04-06	2423	2256
+ASM304301v1	GCA_003043015.1	Staphylococcus haemolyticus		SNUC 1114				NCBI Prokaryotic Genome Annotation Pipeline	2476938	Contig	2018-04-06	2489	2326
+ASM304363v1	GCA_003043635.1	Staphylococcus haemolyticus		SNUC 4637				NCBI Prokaryotic Genome Annotation Pipeline	2534645	Contig	2018-04-06	2579	2436
+ASM304367v1	GCA_003043675.1	Staphylococcus haemolyticus		SNUC 3825				NCBI Prokaryotic Genome Annotation Pipeline	2462373	Contig	2018-04-06	2465	2313
+ASM304369v1	GCA_003043695.1	Staphylococcus haemolyticus		SNUC 2139				NCBI Prokaryotic Genome Annotation Pipeline	2555895	Contig	2018-04-06	2636	2446
+ASM304371v1	GCA_003043715.1	Staphylococcus haemolyticus		SNUC 3453				NCBI Prokaryotic Genome Annotation Pipeline	2502342	Contig	2018-04-06	2537	2357
+ASM304373v1	GCA_003043735.1	Staphylococcus haemolyticus		SNUC 1408				NCBI Prokaryotic Genome Annotation Pipeline	2547556	Contig	2018-04-06	2605	2462
+ASM304375v1	GCA_003043755.1	Staphylococcus haemolyticus		SNUC 220				NCBI Prokaryotic Genome Annotation Pipeline	2408783	Contig	2018-04-06	2427	2263
+ASM304377v1	GCA_003043775.1	Staphylococcus haemolyticus		SNUC 823				NCBI Prokaryotic Genome Annotation Pipeline	2464192	Contig	2018-04-06	2495	2336
+ASM304379v1	GCA_003043795.1	Staphylococcus haemolyticus		SNUC 203				NCBI Prokaryotic Genome Annotation Pipeline	2476009	Contig	2018-04-06	2550	2399
+ASM304381v1	GCA_003043815.1	Staphylococcus haemolyticus		SNUC 123				NCBI Prokaryotic Genome Annotation Pipeline	2471761	Contig	2018-04-06	2496	2323
+ASM304382v1	GCA_003043825.1	Staphylococcus haemolyticus		SNUC 109				NCBI Prokaryotic Genome Annotation Pipeline	2529407	Contig	2018-04-06	2554	2431
+ASM342846v1	GCA_003428465.1	Staphylococcus haemolyticus		0894-2001-2009				NCBI Prokaryotic Genome Annotation Pipeline	2581605	Scaffold	2018-08-26	2666	2499
+ASM342847v1	GCA_003428475.1	Staphylococcus haemolyticus		0878-2001-2009				NCBI Prokaryotic Genome Annotation Pipeline	2579723	Scaffold	2018-08-26	2659	2490
+ASM342854v1	GCA_003428545.1	Staphylococcus haemolyticus		0054-1702-2009				NCBI Prokaryotic Genome Annotation Pipeline	2547889	Scaffold	2018-08-26	2631	2457
+ASM342855v1	GCA_003428555.1	Staphylococcus haemolyticus		0050-1702-2009				NCBI Prokaryotic Genome Annotation Pipeline	2545011	Scaffold	2018-08-26	2624	2449
+ASM357967v1	GCA_003579675.1	Staphylococcus haemolyticus		SNUC 2245				NCBI Prokaryotic Genome Annotation Pipeline	2389134	Contig	2018-09-20	2452	2296
+ASM358078v1	GCA_003580785.1	Staphylococcus haemolyticus		SNUC 5468				NCBI Prokaryotic Genome Annotation Pipeline	2496264	Contig	2018-09-20	2544	2395
+ASM358079v1	GCA_003580795.1	Staphylococcus haemolyticus		SNUC 4350				NCBI Prokaryotic Genome Annotation Pipeline	3276896	Contig	2018-09-20	4014	3722
+ASM358081v1	GCA_003580815.1	Staphylococcus haemolyticus		SNUC 2184				NCBI Prokaryotic Genome Annotation Pipeline	2389049	Contig	2018-09-20	2465	2299
+ASM358090v1	GCA_003580905.1	Staphylococcus haemolyticus		SNUC 192				NCBI Prokaryotic Genome Annotation Pipeline	2449402	Contig	2018-09-20	2495	2322
+ASM359632v1	GCA_003596325.1	Staphylococcus haemolyticus		VB5326				NCBI Prokaryotic Genome Annotation Pipeline	2528578	Contig	2018-09-24	2583	2401
+ASM359636v3	GCA_003596365.3	Staphylococcus haemolyticus		VB19458				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2699210	Complete Genome	2019-12-16	2653	2410
+ASM359638v1	GCA_003596385.1	Staphylococcus haemolyticus		VB840				NCBI Prokaryotic Genome Annotation Pipeline	2458174	Contig	2018-09-24	2492	2309
+ASM395600v1	GCA_003956005.1	Staphylococcus haemolyticus		FDAARGOS_517				NCBI Prokaryotic Genome Annotation Pipeline	2669504	Complete Genome	2018-12-19	2629	2391
+ASM397083v1	GCA_003970835.1	Staphylococcus haemolyticus		MDMC083				NCBI Prokaryotic Genome Annotation Pipeline	2379185	Contig	2018-12-17	2373	2236
+ASM504740v1	GCA_005047405.1	Staphylococcus haemolyticus		22				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2484804	Contig	2019-05-01	2520	2399
+ASM504741v1	GCA_005047415.1	Staphylococcus haemolyticus		21				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2683280	Contig	2019-05-01	2828	2685
+ASM504746v1	GCA_005047465.1	Staphylococcus haemolyticus		1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2513690	Contig	2019-05-01	2555	2425
+ASM504755v1	GCA_005047555.1	Staphylococcus haemolyticus		8				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2532866	Contig	2019-05-01	2573	2440
+ASM504835v1	GCA_005048355.1	Staphylococcus haemolyticus		51				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477092	Contig	2019-05-01	2493	2359
+ASM504840v1	GCA_005048405.1	Staphylococcus haemolyticus		24				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2444652	Contig	2019-05-01	2453	2327
+ASM504848v1	GCA_005048485.1	Staphylococcus haemolyticus		2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2690445	Contig	2019-05-01	2853	2701
+ASM504897v1	GCA_005048975.1	Staphylococcus haemolyticus		7 (A)				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2528658	Contig	2019-05-01	2539	2423
+ASM514619v2	GCA_005146195.2	Staphylococcus haemolyticus		12				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2523802	Contig	2019-08-14	2537	2424
+ASM514626v2	GCA_005146265.2	Staphylococcus haemolyticus		18				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2688402	Contig	2019-08-14	2812	2658
+ASM570643v1	GCA_005706435.1	Staphylococcus haemolyticus		PK-01				NCBI Prokaryotic Genome Annotation Pipeline	2615683	Complete Genome	2019-05-23	2689	2455
+ASM609439v1	GCA_006094395.1	Staphylococcus haemolyticus		ATCC 29970				NCBI Prokaryotic Genome Annotation Pipeline	2572027	Complete Genome	2019-06-06	2499	2348
+ASM654036v1	GCA_006540365.1	Staphylococcus haemolyticus		TCR-5				NCBI Prokaryotic Genome Annotation Pipeline	2553020	Contig	2019-07-01	2518	2335
+ASM654039v1	GCA_006540395.1	Staphylococcus haemolyticus		TCR-7				NCBI Prokaryotic Genome Annotation Pipeline	2533003	Contig	2019-07-01	2500	2331
+ASM700426v1	GCA_007004265.1	Staphylococcus haemolyticus		SDB1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2468753	Contig	2019-07-15	2449	2283
+ASM700427v1	GCA_007004275.1	Staphylococcus haemolyticus		SDA2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2444677	Contig	2019-07-15	2419	2267
+ASM766551v1	GCA_007665515.1	Staphylococcus haemolyticus		DE0593					2453985	Scaffold	2019-07-30		
+ASM766609v1	GCA_007666095.1	Staphylococcus haemolyticus		DE0557					2434682	Scaffold	2019-07-30		
+ASM766614v1	GCA_007666145.1	Staphylococcus haemolyticus		DE0553					2493705	Scaffold	2019-07-30		
+ASM766701v1	GCA_007667015.1	Staphylococcus haemolyticus		DE0501					2450739	Scaffold	2019-07-30		
+ASM766702v1	GCA_007667025.1	Staphylococcus haemolyticus		DE0499					2433664	Scaffold	2019-07-30		
+ASM766703v1	GCA_007667035.1	Staphylococcus haemolyticus		DE0500					2508455	Scaffold	2019-07-30		
+ASM766719v1	GCA_007667195.1	Staphylococcus haemolyticus		DE0489					2445083	Scaffold	2019-07-30		
+ASM766728v1	GCA_007667285.1	Staphylococcus haemolyticus		DE0482					2554582	Scaffold	2019-07-30		
+ASM766803v1	GCA_007668035.1	Staphylococcus haemolyticus		DE0439					2484303	Scaffold	2019-07-30		
+ASM767342v1	GCA_007673425.1	Staphylococcus haemolyticus		DE0358					2533984	Scaffold	2019-07-30		
+ASM767694v1	GCA_007676945.1	Staphylococcus haemolyticus		DE0277					2472659	Scaffold	2019-07-30		
+ASM767713v1	GCA_007677135.1	Staphylococcus haemolyticus		DE0263					2499620	Scaffold	2019-07-30		
+ASM767720v1	GCA_007677205.1	Staphylococcus haemolyticus		DE0259					2586166	Scaffold	2019-07-30		
+ASM767755v1	GCA_007677555.1	Staphylococcus haemolyticus		DE0229					2689489	Scaffold	2019-07-30		
+ASM767769v1	GCA_007677695.1	Staphylococcus haemolyticus		DE0217					2444525	Scaffold	2019-07-30		
+ASM767771v1	GCA_007677715.1	Staphylococcus haemolyticus		DE0215					2477284	Scaffold	2019-07-30		
+ASM767958v1	GCA_007679585.1	Staphylococcus haemolyticus		DE0087					2478758	Contig	2019-07-30		
+ASM768001v1	GCA_007680015.1	Staphylococcus haemolyticus		DE0056					2491261	Scaffold	2019-07-30		
+ASM768004v1	GCA_007680045.1	Staphylococcus haemolyticus		DE0053					2533784	Scaffold	2019-07-30		
+ASM768013v1	GCA_007680135.1	Staphylococcus haemolyticus		DE0081					2455582	Scaffold	2019-07-30		
+ASM768035v1	GCA_007680355.1	Staphylococcus haemolyticus		DE0036					2521199	Scaffold	2019-07-30		
+ASM768040v1	GCA_007680405.1	Staphylococcus haemolyticus		DE0034					2467236	Scaffold	2019-07-30		
+ASM799279v1	GCA_007992795.1	Staphylococcus haemolyticus		NBRC 109768				Annotation submitted by National Institute of Technology and Evaluation Biological Resource Center	2399880	Contig	2019-07-31	2375	2333
+FS426	GCA_008764095.1	Staphylococcus haemolyticus		DE0296					2839998	Scaffold	2019-10-01		
+ASM918918v2	GCA_009189185.2	Staphylococcus haemolyticus		VB5326				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2699292	Complete Genome	2019-12-16	2685	2402
+ASM979131v1	GCA_009791315.1	Staphylococcus haemolyticus		SDF1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477199	Contig	2019-12-22	2443	2304
+ASM993271v2	GCA_009932715.2	Staphylococcus haemolyticus		SE2.14				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2396041	Complete Genome	2021-10-21	2364	2211
+ASM993288v2	GCA_009932885.2	Staphylococcus haemolyticus		SE3.8				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2396207	Complete Genome	2021-10-21	2363	2210
+ASM993293v2	GCA_009932935.2	Staphylococcus haemolyticus		SE3.9				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2396096	Complete Genome	2021-05-24	2340	2172
+ASM1227717v1	GCA_012277175.1	Staphylococcus haemolyticus		166				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2496844	Contig	2020-04-13	2571	2394
+ASM1295550v1	GCA_012955505.1	Staphylococcus haemolyticus		SCAID URN1-2019				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2256190	Chromosome	2020-05-03	2356	1715
+ASM1295552v1	GCA_012955525.1	Staphylococcus haemolyticus		SCAID PHRX1-2019				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2119443	Chromosome	2020-05-03	2210	931
+ASM1426579v1	GCA_014265795.1	Staphylococcus haemolyticus		151250003-2-258-44				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2454295	Contig	2020-08-22	2415	2318
+ASM1426612v1	GCA_014266125.1	Staphylococcus haemolyticus		IIF2*SW-P5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2499133	Scaffold	2020-08-22	2496	2390
+ASM1426630v1	GCA_014266305.1	Staphylococcus haemolyticus		IIF2*SW-P3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2450311	Scaffold	2020-08-22	2437	2322
+ASM1426692v1	GCA_014266925.1	Staphylococcus haemolyticus		IIF2SW-P4				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2471498	Contig	2020-08-22	2442	2343
+ASM1426694v1	GCA_014266945.1	Staphylococcus haemolyticus		IIF2SW-P5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2458771	Contig	2020-08-22	2432	2331
+ASM1426698v1	GCA_014266985.1	Staphylococcus haemolyticus		IIF2SW-P3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2449048	Scaffold	2020-08-22	2435	2320
+ASM1477975v1	GCA_014779755.1	Staphylococcus haemolyticus		JNQH310				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2562278	Contig	2020-09-28	2601	2455
+ASM1507044v1	GCA_015070445.1	Staphylococcus haemolyticus		HESN035b				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2660314	Contig	2020-10-28	2741	2583
+ASM1507046v1	GCA_015070465.1	Staphylococcus haemolyticus		HESMS053a				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2396859	Contig	2020-10-28	2399	2270
+ASM1507051v1	GCA_015070515.1	Staphylococcus haemolyticus		BABY089B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2453213	Contig	2020-10-28	2475	2357
+ASM1507054v1	GCA_015070545.1	Staphylococcus haemolyticus		MW015				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2873520	Contig	2020-10-28	2966	2797
+ASM1507059v1	GCA_015070595.1	Staphylococcus haemolyticus		HESN072a				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2758447	Contig	2020-10-28	2829	2689
+ASM1507064v1	GCA_015070645.1	Staphylococcus haemolyticus		BABY162B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2397901	Contig	2020-10-28	2393	2273
+ASM1507066v1	GCA_015070665.1	Staphylococcus haemolyticus		HESN036B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2557090	Contig	2020-10-28	2596	2467
+ASM1507068v1	GCA_015070685.1	Staphylococcus haemolyticus		HESMS017				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2462495	Contig	2020-10-28	2425	2323
+ASM1507072v1	GCA_015070725.1	Staphylococcus haemolyticus		HESN094B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2630890	Contig	2020-10-28	2663	2525
+ASM1516919v1	GCA_015169195.1	Staphylococcus haemolyticus		GDY8P80P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2771335	Complete Genome	2020-11-02	2694	2532
+ASM1527368v1	GCA_015273685.1	Staphylococcus haemolyticus		R5954				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2615894	Contig	2020-11-06	2642	2501
+ASM1527371v1	GCA_015273715.1	Staphylococcus haemolyticus		R5953				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2545278	Contig	2020-11-06	2555	2417
+ASM1527374v1	GCA_015273745.1	Staphylococcus haemolyticus		R5952				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2597573	Contig	2020-11-06	2616	2479
+ASM1527377v1	GCA_015273775.1	Staphylococcus haemolyticus		R5951				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2571339	Contig	2020-11-06	2593	2456
+ASM1527436v1	GCA_015274365.1	Staphylococcus haemolyticus		R6037				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2457096	Contig	2020-11-06	2453	2327
+ASM1527441v1	GCA_015274415.1	Staphylococcus haemolyticus		R6036				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2457711	Contig	2020-11-06	2442	2319
+ASM1527855v1	GCA_015278555.1	Staphylococcus haemolyticus		GDY8P60P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2719652	Scaffold	2020-11-08	2671	2529
+ASM1527856v1	GCA_015278565.1	Staphylococcus haemolyticus		GDY8P80P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2751774	Scaffold	2020-11-08	2722	2585
+ASM1527859v1	GCA_015278595.1	Staphylococcus haemolyticus		GDY8P58P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2740859	Scaffold	2020-11-08	2723	2577
+ASM1527861v1	GCA_015278615.1	Staphylococcus haemolyticus		GDY8P50P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2717555	Scaffold	2020-11-08	2672	2533
+ASM1569852v1	GCA_015698525.1	Staphylococcus haemolyticus		C7				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2918952	Contig	2020-11-30	2936	2825
+ASM1570398v1	GCA_015703985.1	Staphylococcus haemolyticus		GDY8P33P				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2718113	Scaffold	2020-11-30	2672	2529
+ASM1573052v1	GCA_015730525.1	Staphylococcus haemolyticus		C31				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2471616	Contig	2020-12-03	2469	2400
+ASM1662101v1	GCA_016621015.1	Staphylococcus haemolyticus		AA40				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2492938	Scaffold	2021-01-12	2539	2391
+ASM1662103v1	GCA_016621035.1	Staphylococcus haemolyticus		AA34				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2420614	Contig	2021-01-12	2404	2273
+ASM1662108v1	GCA_016621085.1	Staphylococcus haemolyticus		AA82				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2609478	Scaffold	2021-01-12	2703	2564
+ASM1662110v1	GCA_016621105.1	Staphylococcus haemolyticus		AA83				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2487175	Contig	2021-01-12	2501	2368
+ASM1662111v1	GCA_016621115.1	Staphylococcus haemolyticus		AA73				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2542976	Contig	2021-01-12	2588	2459
+ASM1662114v1	GCA_016621145.1	Staphylococcus haemolyticus		AA42				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2626311	Scaffold	2021-01-12	2666	2517
+ASM1662121v1	GCA_016621215.1	Staphylococcus haemolyticus		AA48				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2514353	Contig	2021-01-12	2522	2386
+ASM1662126v1	GCA_016621265.1	Staphylococcus haemolyticus		AA12				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2569176	Contig	2021-01-12	2614	2476
+ASM1662128v1	GCA_016621285.1	Staphylococcus haemolyticus		AA89				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2538876	Contig	2021-01-12	2606	2459
+ASM1662129v1	GCA_016621295.1	Staphylococcus haemolyticus		AA84				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2530247	Contig	2021-01-12	2563	2433
+ASM1669519v1	GCA_016695195.1	Staphylococcus haemolyticus		MSA_JNM24C1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2502707	Chromosome	2021-01-19	2444	2222
+ASM1669544v1	GCA_016695445.1	Staphylococcus haemolyticus		MSA_JNM60C2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2511057	Chromosome	2021-01-19	2489	2249
+ASM1683706v1	GCA_016837065.1	Staphylococcus haemolyticus		SA498					2455454	Contig	2021-02-08		
+ASM1731566v1	GCA_017315665.1	Staphylococcus haemolyticus		HAA11				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2513798	Contig	2021-03-10	2558	2418
+ASM1735500v1	GCA_017355005.1	Staphylococcus haemolyticus		7b				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2398463	Complete Genome	2021-03-15	2382	2189
+ASM1735502v1	GCA_017355025.1	Staphylococcus haemolyticus		1b				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2390652	Complete Genome	2021-03-15	2373	2177
+ASM1735504v1	GCA_017355045.1	Staphylococcus haemolyticus		12b				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2382565	Complete Genome	2021-03-15	2364	2171
+ASM1737744v1	GCA_017377445.1	Staphylococcus haemolyticus		CN88				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2493999	Contig	2021-03-17	2516	2408
+ASM1898633v1	GCA_018986335.1	Staphylococcus haemolyticus		A11				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2485414	Contig	2021-06-21	2465	2336
+ASM1899690v1	GCA_018996905.1	Staphylococcus haemolyticus		A3.2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2497919	Contig	2021-06-22	2473	2355
+ASM1904802v1	GCA_019048025.1	Staphylococcus haemolyticus		FDAARGOS 1453				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2568751	Complete Genome	2021-06-28	2498	2346
+ASM1914920v1	GCA_019149205.1	Staphylococcus haemolyticus		K47				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2435548	Contig	2021-07-06	2389	2300
+ASM1919306v1	GCA_019193065.1	Staphylococcus haemolyticus		K16.2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2459833	Contig	2021-07-11	2434	2318
+ASM1922268v1	GCA_019222685.1	Staphylococcus haemolyticus		NY5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2539247	Complete Genome	2021-07-15	2568	2378
+ASM1934905v1	GCA_019349055.1	Staphylococcus haemolyticus		C128_MRS_SCCmec type VII/X				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2842834	Contig	2021-07-26	2835	2460
+ASM1939162v1	GCA_019391625.1	Staphylococcus haemolyticus		C				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2613798	Contig	2021-07-28	2690	2551
+ASM1942636v1	GCA_019426365.1	Staphylococcus haemolyticus		B				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2668788	Contig	2021-07-30	2629	2485
+ASM1942638v1	GCA_019426385.1	Staphylococcus haemolyticus		A				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2572961	Contig	2021-07-30	2574	2434
+ASM1942640v1	GCA_019426405.1	Staphylococcus haemolyticus		D				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2591907	Contig	2021-07-30	2603	2460
+ASM2073972v1	GCA_020739725.1	Staphylococcus haemolyticus		CEMTC_3413				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2481060	Contig	2021-11-03	2550	2421
+ASM2073984v1	GCA_020739845.1	Staphylococcus haemolyticus		CEMTC_1553				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2584370	Scaffold	2021-11-03	2764	2654
+ASM2073985v1	GCA_020739855.1	Staphylococcus haemolyticus		CEMTC_2688				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2402346	Contig	2021-11-03	2472	2348
+ASM2073992v1	GCA_020739925.1	Staphylococcus haemolyticus		CEMTC_2119				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2460571	Scaffold	2021-11-03	2541	2409
+ASM2073994v1	GCA_020739945.1	Staphylococcus haemolyticus		CEMTC_3601				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2397453	Contig	2021-11-03	2493	2356
+ASM2119109v1	GCA_021191095.1	Staphylococcus haemolyticus		KM374				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2464890	Contig	2021-12-15	2513	2367
+ASM2119121v1	GCA_021191215.1	Staphylococcus haemolyticus		RDU2OW				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2512730	Contig	2021-12-15	2571	2418
+ASM2127090v1	GCA_021270905.1	Staphylococcus haemolyticus		Ani_LG-048				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2649024	Contig	2021-12-22	2621	2282
+ASM2129655v1	GCA_021296555.1	Staphylococcus haemolyticus		MD43				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2650229	Contig	2021-12-27	2703	2565
+ASM2136693v1	GCA_021366935.1	Staphylococcus haemolyticus		Ani-LG-040				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2543809	Contig	2022-01-05	2580	2429
+ASM2136695v1	GCA_021366955.1	Staphylococcus haemolyticus		Ani-LG-047				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2458087	Contig	2022-01-05	2441	2306
+ASM2136699v1	GCA_021366995.1	Staphylococcus haemolyticus		Ani-LG-036				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2428110	Contig	2022-01-05	2417	2264
+ASM2136711v1	GCA_021367115.1	Staphylococcus haemolyticus		Ani-LG-021				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2526847	Contig	2022-01-05	2514	2386
+ASM2136715v1	GCA_021367155.1	Staphylococcus haemolyticus		Ani-LG-019				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2495438	Contig	2022-01-05	2487	2336
+ASM2136749v1	GCA_021367495.1	Staphylococcus haemolyticus		Ani-GT-046				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2495433	Contig	2022-01-05	2494	2341
+ASM2136750v1	GCA_021367505.1	Staphylococcus haemolyticus		Ani-GT-050				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2456533	Contig	2022-01-05	2446	2314
+ASM2136772v1	GCA_021367725.1	Staphylococcus haemolyticus		Ani-GT-003				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2449567	Contig	2022-01-05	2437	2294
+ASM2144210v1	GCA_021442105.1	Staphylococcus haemolyticus		BC5211					2580024	Complete Genome	2022-01-12		
+ASM2172889v1	GCA_021728895.1	Staphylococcus haemolyticus		3SP				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2413466	Contig	2022-01-30	2426	2318
+ASM2248486v1	GCA_022484865.1	Staphylococcus haemolyticus		51P6ENG_1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2341885	Scaffold	2022-03-05	2326	2203
+ASM2248488v1	GCA_022484885.1	Staphylococcus haemolyticus		092P2FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2428232	Scaffold	2022-03-05	2388	2290
+ASM2248490v1	GCA_022484905.1	Staphylococcus haemolyticus		H10FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2355821	Scaffold	2022-03-05	2346	2218
+ASM2248492v1	GCA_022484925.1	Staphylococcus haemolyticus		114P2NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2445330	Scaffold	2022-03-05	2433	2337
+ASM2248494v1	GCA_022484945.1	Staphylococcus haemolyticus		78P1FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2510581	Scaffold	2022-03-05	2477	2381
+ASM2248496v1	GCA_022484965.1	Staphylococcus haemolyticus		051P2SUA1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2572297	Scaffold	2022-03-05	2600	2493
+ASM2248498v1	GCA_022484985.1	Staphylococcus haemolyticus		114P1NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2450218	Scaffold	2022-03-05	2439	2348
+ASM2248500v1	GCA_022485005.1	Staphylococcus haemolyticus		114P2SUD1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2387113	Scaffold	2022-03-05	2399	2281
+ASM2248501v1	GCA_022485015.1	Staphylococcus haemolyticus		110P1FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2449947	Scaffold	2022-03-05	2435	2333
+ASM2248504v1	GCA_022485045.1	Staphylococcus haemolyticus		051P3BA2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2569136	Scaffold	2022-03-05	2600	2497
+ASM2248506v1	GCA_022485065.1	Staphylococcus haemolyticus		104P1FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2392547	Scaffold	2022-03-05	2343	2253
+ASM2248508v1	GCA_022485085.1	Staphylococcus haemolyticus		109P1NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2433694	Scaffold	2022-03-05	2409	2306
+ASM2248509v1	GCA_022485095.1	Staphylococcus haemolyticus		051P1ENP_1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2409183	Scaffold	2022-03-05	2414	2283
+ASM2248512v1	GCA_022485125.1	Staphylococcus haemolyticus		C91NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2495391	Scaffold	2022-03-05	2491	2392
+ASM2248514v1	GCA_022485145.1	Staphylococcus haemolyticus		C37FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2438489	Scaffold	2022-03-05	2397	2301
+ASM2248516v1	GCA_022485165.1	Staphylococcus haemolyticus		109P1TS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2349524	Scaffold	2022-03-05	2327	2222
+ASM2248518v1	GCA_022485185.1	Staphylococcus haemolyticus		109P1BA2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2357442	Scaffold	2022-03-05	2317	2230
+ASM2248520v1	GCA_022485205.1	Staphylococcus haemolyticus		109P1FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2349869	Scaffold	2022-03-05	2323	2229
+ASM2248521v1	GCA_022485215.1	Staphylococcus haemolyticus		C36FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2441447	Scaffold	2022-03-05	2428	2323
+ASM2248524v1	GCA_022485245.1	Staphylococcus haemolyticus		C74FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2494228	Scaffold	2022-03-05	2476	2367
+ASM2248526v1	GCA_022485265.1	Staphylococcus haemolyticus		68P1NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2451765	Scaffold	2022-03-05	2442	2348
+ASM2248528v1	GCA_022485285.1	Staphylococcus haemolyticus		85P1FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2340269	Scaffold	2022-03-05	2317	2202
+ASM2248530v1	GCA_022485305.1	Staphylococcus haemolyticus		C79NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476033	Scaffold	2022-03-05	2464	2364
+ASM2248532v1	GCA_022485325.1	Staphylococcus haemolyticus		C58FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2419737	Scaffold	2022-03-05	2387	2296
+ASM2248536v1	GCA_022485365.1	Staphylococcus haemolyticus		82P1NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2474680	Scaffold	2022-03-05	2462	2351
+ASM2248538v1	GCA_022485385.1	Staphylococcus haemolyticus		047P1NS1-2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2436210	Scaffold	2022-03-05	2407	2311
+ASM2248539v1	GCA_022485395.1	Staphylococcus haemolyticus		018P1FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2404325	Scaffold	2022-03-05	2383	2291
+ASM2248542v1	GCA_022485425.1	Staphylococcus haemolyticus		H8FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2431080	Scaffold	2022-03-05	2417	2311
+ASM2248544v1	GCA_022485445.1	Staphylococcus haemolyticus		H14FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2379243	Scaffold	2022-03-05	2340	2243
+ASM2248546v1	GCA_022485465.1	Staphylococcus haemolyticus		C89FS3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2498942	Scaffold	2022-03-05	2484	2366
+ASM2248547v1	GCA_022485475.1	Staphylococcus haemolyticus		C50FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476127	Scaffold	2022-03-05	2447	2348
+ASM2248548v1	GCA_022485485.1	Staphylococcus haemolyticus		051P5ENP_1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2276175	Scaffold	2022-03-05	2255	2166
+ASM2248552v1	GCA_022485525.1	Staphylococcus haemolyticus		81P1FS6				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2489573	Scaffold	2022-03-05	2499	2391
+ASM2248553v1	GCA_022485535.1	Staphylococcus haemolyticus		114P3FS3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2450957	Scaffold	2022-03-05	2443	2351
+ASM2248556v1	GCA_022485565.1	Staphylococcus haemolyticus		090P1FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2510642	Scaffold	2022-03-05	2533	2426
+ASM2248558v1	GCA_022485585.1	Staphylococcus haemolyticus		047P1FS3-2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2436032	Scaffold	2022-03-05	2409	2314
+ASM2248560v1	GCA_022485605.1	Staphylococcus haemolyticus		H17FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2363915	Scaffold	2022-03-05	2327	2238
+ASM2248562v1	GCA_022485625.1	Staphylococcus haemolyticus		H15FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2433067	Scaffold	2022-03-05	2410	2296
+ASM2248564v1	GCA_022485645.1	Staphylococcus haemolyticus		092P2NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2530326	Scaffold	2022-03-05	2525	2413
+ASM2248566v1	GCA_022485665.1	Staphylococcus haemolyticus		83P1NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2473307	Scaffold	2022-03-05	2446	2346
+ASM2248568v1	GCA_022485685.1	Staphylococcus haemolyticus		C84FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2421236	Scaffold	2022-03-05	2418	2312
+ASM2248570v1	GCA_022485705.1	Staphylococcus haemolyticus		114P3NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2441954	Scaffold	2022-03-05	2430	2337
+ASM2248572v1	GCA_022485725.1	Staphylococcus haemolyticus		051P4ENG_1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477201	Scaffold	2022-03-05	2497	2368
+ASM2248574v1	GCA_022485745.1	Staphylococcus haemolyticus		036P2BA5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2472372	Scaffold	2022-03-05	2436	2333
+ASM2248576v1	GCA_022485765.1	Staphylococcus haemolyticus		009P2FS3BHI				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2516785	Scaffold	2022-03-05	2553	2446
+ASM2248577v1	GCA_022485775.1	Staphylococcus haemolyticus		C62FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2454528	Scaffold	2022-03-05	2452	2356
+ASM2248582v1	GCA_022485825.1	Staphylococcus haemolyticus		C61NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2419336	Scaffold	2022-03-05	2392	2300
+ASM2248586v1	GCA_022485865.1	Staphylococcus haemolyticus		032P2BA1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476009	Scaffold	2022-03-05	2456	2356
+ASM2248587v1	GCA_022485875.1	Staphylococcus haemolyticus		C58NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2536254	Scaffold	2022-03-05	2512	2405
+ASM2248588v1	GCA_022485885.1	Staphylococcus haemolyticus		032P2BA3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2475803	Scaffold	2022-03-05	2456	2355
+ASM2248592v1	GCA_022485925.1	Staphylococcus haemolyticus		114P3ENP_3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2435203	Scaffold	2022-03-05	2400	2306
+ASM2248594v1	GCA_022485945.1	Staphylococcus haemolyticus		032P2BA2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2474748	Scaffold	2022-03-05	2451	2352
+ASM2248596v1	GCA_022485965.1	Staphylococcus haemolyticus		030P3NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2477165	Scaffold	2022-03-05	2469	2375
+ASM2248598v1	GCA_022485985.1	Staphylococcus haemolyticus		C100NS3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2466242	Scaffold	2022-03-05	2472	2371
+ASM2248599v1	GCA_022485995.1	Staphylococcus haemolyticus		009P3ENP2BHI				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2485263	Scaffold	2022-03-05	2471	2373
+ASM2248602v1	GCA_022486025.1	Staphylococcus haemolyticus		C65FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2530324	Scaffold	2022-03-05	2541	2430
+ASM2248603v1	GCA_022486035.1	Staphylococcus haemolyticus		055P1NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2499985	Scaffold	2022-03-05	2491	2381
+ASM2248606v1	GCA_022486065.1	Staphylococcus haemolyticus		C48FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2464868	Scaffold	2022-03-05	2479	2360
+ASM2248608v1	GCA_022486085.1	Staphylococcus haemolyticus		C93FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2447386	Scaffold	2022-03-05	2402	2312
+ASM2248610v1	GCA_022486105.1	Staphylococcus haemolyticus		H7NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2489932	Scaffold	2022-03-05	2490	2384
+ASM2248612v1	GCA_022486125.1	Staphylococcus haemolyticus		C86FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2461968	Scaffold	2022-03-05	2483	2368
+ASM2248614v1	GCA_022486145.1	Staphylococcus haemolyticus		C59NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2464676	Scaffold	2022-03-05	2429	2325
+ASM2248616v1	GCA_022486165.1	Staphylococcus haemolyticus		030P4FS5				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2443150	Scaffold	2022-03-05	2427	2331
+ASM2248618v1	GCA_022486185.1	Staphylococcus haemolyticus		C108FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2401662	Scaffold	2022-03-05	2399	2273
+ASM2248620v1	GCA_022486205.1	Staphylococcus haemolyticus		37P8FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2512399	Scaffold	2022-03-05	2504	2406
+ASM2248622v1	GCA_022486225.1	Staphylococcus haemolyticus		C57FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2459655	Scaffold	2022-03-05	2414	2315
+ASM2248624v1	GCA_022486245.1	Staphylococcus haemolyticus		C38NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2506624	Scaffold	2022-03-05	2456	2349
+ASM2248626v1	GCA_022486265.1	Staphylococcus haemolyticus		C53FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2394400	Scaffold	2022-03-05	2357	2255
+ASM2248628v1	GCA_022486285.1	Staphylococcus haemolyticus		106P2NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2492060	Scaffold	2022-03-05	2461	2363
+ASM2248630v1	GCA_022486305.1	Staphylococcus haemolyticus		C81TS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2576640	Scaffold	2022-03-05	2511	2431
+ASM2248632v1	GCA_022486325.1	Staphylococcus haemolyticus		106P1NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2491113	Scaffold	2022-03-05	2456	2358
+ASM2248634v1	GCA_022486345.1	Staphylococcus haemolyticus		029P2FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2464660	Scaffold	2022-03-05	2421	2315
+ASM2248636v1	GCA_022486365.1	Staphylococcus haemolyticus		103P3NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2559563	Scaffold	2022-03-05	2572	2461
+ASM2248638v1	GCA_022486385.1	Staphylococcus haemolyticus		021P2SUB1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2430958	Scaffold	2022-03-05	2429	2286
+ASM2248640v1	GCA_022486405.1	Staphylococcus haemolyticus		37P8SUD1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2524658	Scaffold	2022-03-05	2502	2416
+ASM2248641v1	GCA_022486415.1	Staphylococcus haemolyticus		37P7NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2424603	Scaffold	2022-03-05	2412	2303
+ASM2248654v1	GCA_022486545.1	Staphylococcus haemolyticus		038P2NS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2456476	Scaffold	2022-03-05	2453	2347
+ASM2248752v1	GCA_022487525.1	Staphylococcus haemolyticus		049P1FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2529570	Scaffold	2022-03-05	2495	2397
+ASM2248754v1	GCA_022487545.1	Staphylococcus haemolyticus		038P2FS3				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2404548	Scaffold	2022-03-05	2399	2296
+ASM2248755v1	GCA_022487555.1	Staphylococcus haemolyticus		037P9NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2487844	Scaffold	2022-03-05	2450	2339
+ASM2248758v1	GCA_022487585.1	Staphylococcus haemolyticus		037P9SUA1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2500047	Scaffold	2022-03-05	2472	2352
+ASM2248762v1	GCA_022487625.1	Staphylococcus haemolyticus		106P3NS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2457579	Scaffold	2022-03-05	2430	2335
+ASM2248763v1	GCA_022487635.1	Staphylococcus haemolyticus		030P4FS4				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2443330	Scaffold	2022-03-05	2434	2330
+ASM2248766v1	GCA_022487665.1	Staphylococcus haemolyticus		014P2FS002				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2554237	Scaffold	2022-03-05	2559	2421
+ASM2248768v1	GCA_022487685.1	Staphylococcus haemolyticus		008P6FS1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2478886	Scaffold	2022-03-05	2460	2357
+ASM2248770v1	GCA_022487705.1	Staphylococcus haemolyticus		008P5SUE2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2445437	Scaffold	2022-03-05	2443	2313
+ASM2248772v1	GCA_022487725.1	Staphylococcus haemolyticus		007P2ENG3BHI				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2378928	Scaffold	2022-03-05	2378	2246
+ASM2248774v1	GCA_022487745.1	Staphylococcus haemolyticus		008P5SUA1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2476931	Scaffold	2022-03-05	2484	2385
+ASM2248776v1	GCA_022487765.1	Staphylococcus haemolyticus		007PHP1FS1BHI				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2455284	Scaffold	2022-03-05	2404	2301
+ASM2248778v1	GCA_022487785.1	Staphylococcus haemolyticus		008P4SUE001				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2456999	Scaffold	2022-03-05	2423	2332
+ASM2248780v1	GCA_022487805.1	Staphylococcus haemolyticus		007P3SUC2BHI				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2536699	Scaffold	2022-03-05	2535	2438
+ASM2248781v1	GCA_022487815.1	Staphylococcus haemolyticus		37P7SUA1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2417301	Scaffold	2022-03-05	2390	2271
+ASM2248784v1	GCA_022487845.1	Staphylococcus haemolyticus		008P4FS002				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2470405	Scaffold	2022-03-05	2439	2350
+ASM2248786v1	GCA_022487865.1	Staphylococcus haemolyticus		008P4FS003				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2478356	Scaffold	2022-03-05	2468	2353
+ASM2248788v1	GCA_022487885.1	Staphylococcus haemolyticus		038P1SUD1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2449056	Scaffold	2022-03-05	2437	2334
+ASM2248789v1	GCA_022487895.1	Staphylococcus haemolyticus		031P2FS2				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2475063	Scaffold	2022-03-05	2479	2371
+ASM2248792v1	GCA_022487925.1	Staphylococcus haemolyticus		008P6SUE1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2411957	Scaffold	2022-03-05	2380	2289
+ASM2269036v1	GCA_022690365.1	Staphylococcus haemolyticus		acrot				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2440759	Contig	2022-03-23	2405	2295
+ASM2269044v1	GCA_022690445.1	Staphylococcus haemolyticus		acroh				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2407753	Contig	2022-03-23	2407	2291
+ASM2269046v1	GCA_022690465.1	Staphylococcus haemolyticus		acrop				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2438861	Contig	2022-03-23	2411	2302
+ASM2269048v1	GCA_022690485.1	Staphylococcus haemolyticus		acroa				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2337166	Contig	2022-03-23	2367	2248
+ASM2269049v1	GCA_022690495.1	Staphylococcus haemolyticus		acroo				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2444167	Contig	2022-03-23	2412	2298
+ASM2269052v1	GCA_022690525.1	Staphylococcus haemolyticus		acrob				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2368537	Contig	2022-03-23	2369	2242
+ASM2269054v1	GCA_022690545.1	Staphylococcus haemolyticus		acrnz				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2355844	Contig	2022-03-23	2365	2236
+ASM2269590v1	GCA_022695905.1	Staphylococcus haemolyticus		1864				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2591539	Contig	2022-03-25	2549	2397
+ASM2269592v1	GCA_022695925.1	Staphylococcus haemolyticus		48				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2611179	Contig	2022-03-25	2553	2397
+ASM2280993v1	GCA_022809935.1	Staphylococcus haemolyticus		PK-01				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2437425	Contig	2022-04-03	2468	2356
+ASM2281150v1	GCA_022811505.1	Staphylococcus haemolyticus		MSA_JNM56C1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2555440	Chromosome	2022-04-04	2481	2303
+ASM2314739v1	GCA_023147395.1	Staphylococcus haemolyticus		EYE_501				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2541356	Scaffold	2022-04-27	2569	2425
+ASM2314765v1	GCA_023147655.1	Staphylococcus haemolyticus		EYE_136				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2538541	Scaffold	2022-04-27	2569	2428
+ASM2314846v1	GCA_023148465.1	Staphylococcus haemolyticus		EYE_115				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2540219	Scaffold	2022-04-27	2564	2420
+ASM2319834v1	GCA_023198345.1	Staphylococcus haemolyticus		568_S46					2402782	Contig	2022-05-01		
+haemolyticus	GCA_900240195.1	Staphylococcus haemolyticus				Staphylococcus haemolyticus K8			2426012	Chromosome	2018-04-04		
+36734_F01	GCA_900458595.1	Staphylococcus haemolyticus		NCTC11042				Annotation submitted by SC	2569468	Contig	2018-08-01	2523	2443
+UHGG_MGYG-HGUT-02338	GCA_902386005.1	Staphylococcus haemolyticus				MGYG-HGUT-02338			2548117	Contig	2019-08-16		
+57-01	GCA_903969685.1	Staphylococcus haemolyticus		SH_01		2 A-1			2483428	Contig	2020-07-18		
+57-08	GCA_903969695.1	Staphylococcus haemolyticus		SH_03		5 E-2			2509690	Contig	2020-07-18		
+57-22	GCA_903969705.1	Staphylococcus haemolyticus		SH_11		23 E-1			2479287	Contig	2020-07-18		
+57-23	GCA_903969715.1	Staphylococcus haemolyticus		SH_12		30 C-3			2611660	Contig	2020-07-18		
+57-19	GCA_903969725.1	Staphylococcus haemolyticus		SH_09		16 C-3			2513933	Contig	2020-07-18		
+57-12	GCA_903969735.1	Staphylococcus haemolyticus		SH_05		7 C-1			2634313	Contig	2020-07-18		
+57-15	GCA_903969745.1	Staphylococcus haemolyticus		SH_07		14 D-1			2538386	Contig	2020-07-18		
+57-20	GCA_903969755.1	Staphylococcus haemolyticus		SH_10		20 E-2			2563378	Contig	2020-07-18		
+57-26	GCA_903969765.1	Staphylococcus haemolyticus		SH_13		33 F-2			2412626	Contig	2020-07-18		
+57-05	GCA_903969775.1	Staphylococcus haemolyticus		SH_02		3 C-3			2507215	Contig	2020-07-18		
+57-10	GCA_903969785.1	Staphylococcus haemolyticus		SH_04		6 C-1			2470162	Contig	2020-07-18		
+57-39	GCA_903969795.1	Staphylococcus haemolyticus		SH_20		65 C-3			2521883	Contig	2020-07-18		
+57-34	GCA_903969805.1	Staphylococcus haemolyticus		SH_18		62 D-1			2471279	Contig	2020-07-18		
+57-55	GCA_903969815.1	Staphylococcus haemolyticus		SH_26		88 D-4			2478552	Contig	2020-07-18		
+57-32	GCA_903969825.1	Staphylococcus haemolyticus		SH_16		51 D-2			2598845	Contig	2020-07-18		
+57-41	GCA_903969835.1	Staphylococcus haemolyticus		SH_21		67 C-1			2610467	Contig	2020-07-18		
+57-35	GCA_903969845.1	Staphylococcus haemolyticus		SH_19		64 C-4			2641716	Contig	2020-07-18		
+57-27	GCA_903969855.1	Staphylococcus haemolyticus		SH_14		44 C-2			2491574	Contig	2020-07-18		
+57-54	GCA_903969865.1	Staphylococcus haemolyticus		SH_25		77 C-3			2447052	Contig	2020-07-18		
+57-33	GCA_903969875.1	Staphylococcus haemolyticus		SH_17		57 D-6			2602789	Contig	2020-07-18		
+57-31	GCA_903969885.1	Staphylococcus haemolyticus		SH_15		50 D-1			2521119	Contig	2020-07-18		
+57-47	GCA_903969895.1	Staphylococcus haemolyticus		SH_23		74 C-3			2515048	Contig	2020-07-18		
+57-61	GCA_903969905.1	Staphylococcus haemolyticus		SH_29		95 C-4			2670609	Contig	2020-07-18		
+57-60	GCA_903969915.1	Staphylococcus haemolyticus		SH_28		93 D-6			2413511	Contig	2020-07-18		
+57-57	GCA_903969945.1	Staphylococcus haemolyticus		SH_27		92 C-1			2452496	Contig	2020-07-18		
+58-02	GCA_903969955.1	Staphylococcus haemolyticus		SH_33		101 F-6			2533202	Contig	2020-07-18		
+57-65	GCA_903969965.1	Staphylococcus haemolyticus		SH_30		96 D-5			2444338	Contig	2020-07-18		
+58-61	GCA_903969985.1	Staphylococcus haemolyticus		SH_46		124			2626250	Contig	2020-07-18		
+58-62	GCA_903969995.1	Staphylococcus haemolyticus		SH_47		125			2414958	Contig	2020-07-18		
+58-20	GCA_903970005.1	Staphylococcus haemolyticus		SH_37		107 F-4			2384126	Contig	2020-07-18		
+58-37	GCA_903970015.1	Staphylococcus haemolyticus		SH_41		113 D-2			2423362	Contig	2020-07-18		
+58-04	GCA_903970025.1	Staphylococcus haemolyticus		SH_34		103 A-5			2477138	Contig	2020-07-18		
+58-05	GCA_903970035.1	Staphylococcus haemolyticus		SH_35		105 A-2			2549801	Contig	2020-07-18		
+58-21	GCA_903970045.1	Staphylococcus haemolyticus		SH_38		108 D-2			2396127	Contig	2020-07-18		
+58-57	GCA_903970055.1	Staphylococcus haemolyticus		SH_45		122 C-3			2629330	Contig	2020-07-18		
+58-28	GCA_903970065.1	Staphylococcus haemolyticus		SH_40		110 C-5			2597027	Contig	2020-07-18		
+58-39	GCA_903970075.1	Staphylococcus haemolyticus		SH_42		114 F-3			2524444	Contig	2020-07-18		
+58-56	GCA_903970085.1	Staphylococcus haemolyticus		SH_44		120 B-4			2482915	Contig	2020-07-18		
+58-63	GCA_903970095.1	Staphylococcus haemolyticus		SH_48		126			2478407	Contig	2020-07-18		
+58-08	GCA_903970105.1	Staphylococcus haemolyticus		SH_36		106 C-2			2418543	Contig	2020-07-18		
+Sha_B36_CVC_2019	GCA_910591425.1	Staphylococcus haemolyticus				Sha_B36_CVC_2019			2540874	Contig	2021-07-07		
+Sha_B36_HC_2019	GCA_910591645.1	Staphylococcus haemolyticus				Sha_B36_HC_2019			2606308	Contig	2021-07-07		
+04_NF40_HMP2135v01	GCF_000759125.1	Staphylococcus haemolyticus DNF00585		DNF00585				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2357406	Contig	2014-09-26	2348	2245
+04_NF40_HMP2135v01	GCA_000759125.1	Staphylococcus haemolyticus DNF00585		DNF00585				NCBI Prokaryotic Genome Annotation Pipeline	2357406	Contig	2014-09-26	2249	2173
+ASM986v1	GCF_000009865.1	Staphylococcus haemolyticus JCSC1435		JCSC1435				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2697861	Complete Genome	2005-06-30	2654	2494
+ASM986v1	GCA_000009865.1	Staphylococcus haemolyticus JCSC1435		JCSC1435				Annotation submitted by NITE	2697861	Complete Genome	2005-06-30	2773	2694
+ASM26146v1	GCF_000261465.1	Staphylococcus haemolyticus R1P1		R1P1				NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	2395399	Contig	2012-05-07	2409	2265
+ASM26146v1	GCA_000261465.1	Staphylococcus haemolyticus R1P1		R1P1					2395399	Contig	2012-05-07		

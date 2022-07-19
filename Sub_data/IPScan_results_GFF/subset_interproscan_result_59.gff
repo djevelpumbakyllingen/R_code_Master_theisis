@@ -1,0 +1,9 @@
+##gff-version 3
+SeqidNODE_13_length_53028_cov_297.847047Start28652Strand-	.	polypeptide	1	77	.	+	.	ID=SeqidNODE_13_length_53028_cov_297.847047Start28652Strand-;md5=bac77b34c78a57f095624aacd890a9f1
+SeqidNODE_13_length_53028_cov_297.847047Start28652Strand-	Pfam	protein_match	1	59	3.7e-15	+	.	date=28-01-2022;Target=SeqidNODE_13_length_53028_cov_297.847047Start28652Strand- 1 59;ID=match$1_1_59;signature_desc=Glycosyl-4,4'-diaponeurosporenoate acyltransferase;Name=PF18927;status=T
+SeqidNODE_22_length_38496_cov_261.159739End17135Strand+	.	polypeptide	1	57	.	+	.	ID=SeqidNODE_22_length_38496_cov_261.159739End17135Strand+;md5=d304a1dc9dbf6005afa18f54f4566dd8
+SeqidNODE_22_length_38496_cov_261.159739End17135Strand+	Pfam	protein_match	23	57	1.5e-15	+	.	date=28-01-2022;Target=SeqidNODE_22_length_38496_cov_261.159739End17135Strand+ 23 57;ID=match$2_23_57;signature_desc=D-Ala-teichoic acid biosynthesis protein;Name=PF12459;status=T;Dbxref="InterPro:IPR021008"
+SeqidNODE_25_length_34213_cov_188.178140End7359Strand+	.	polypeptide	1	64	.	+	.	ID=SeqidNODE_25_length_34213_cov_188.178140End7359Strand+;md5=b9677344e20645779c3346e54a7c6a62
+SeqidNODE_25_length_34213_cov_188.178140End7359Strand+	Pfam	protein_match	9	64	1.5e-26	+	.	date=28-01-2022;Target=SeqidNODE_25_length_34213_cov_188.178140End7359Strand+ 9 64;ID=match$3_9_64;signature_desc=Zinc-finger;Name=PF10782;status=T;Dbxref="InterPro:IPR019718"
+SeqidNODE_15_length_48715_cov_207.370307End8538Strand+	.	polypeptide	1	90	.	+	.	ID=SeqidNODE_15_length_48715_cov_207.370307End8538Strand+;md5=8eb46015cb5fb82547f11576251ff43e
+SeqidNODE_15_length_48715_cov_207.370307End8538Strand+	Pfam	protein_match	7	78	2.7e-18	+	.	date=28-01-2022;Target=SeqidNODE_15_length_48715_cov_207.370307End8538Strand+ 7 78;Ontology_term="GO:0005887","GO:0015099","GO:0035444";ID=match$4_7_78;signature_desc=High-affinity nickel-transport protein;Name=PF03824;status=T;Dbxref="InterPro:IPR011541"

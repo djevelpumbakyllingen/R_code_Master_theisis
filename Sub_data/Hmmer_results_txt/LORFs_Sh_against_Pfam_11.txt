@@ -1,0 +1,1001 @@
+Query	Hit	Evalue	Score	Start	Stop	Description
+Seqid=NZ_CP084235.1;Start=489873;Strand=-	PF00486.30	1.1e-28	99.2	144	219	Transcriptional regulatory protein, C terminal
+Seqid=NZ_CP084235.1;Start=454942;Strand=-	PF02826.21	0.025	14	4	64	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Seqid=NZ_CP084235.1;End=1992454;Strand=+	PF01476.22	7.9e-16	57.9	29	70	LysM domain
+Seqid=NZ_CP084235.1;End=1259648;Strand=+	PF13533.8	4.3e-7	29.7	131	159	Biotin-lipoyl like
+Seqid=NZ_CP084235.1;End=366024;Strand=+	PF04114.16	0.0037	16.4	38	134	Gaa1-like, GPI transamidase component
+Seqid=NZ_CP084235.1;End=1411625;Strand=+	PF02826.21	0.29	10.5	2	73	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Seqid=NZ_CP084235.1;Start=1106228;Strand=-	PF13520.8	1.3e-44	152.8	16	433	Amino acid permease
+Seqid=NZ_CP084235.1;Start=1706712;Strand=-	PF02700.16	7.7e-24	83.8	4	79	Phosphoribosylformylglycinamidine (FGAM) synthase
+Seqid=NZ_CP084235.1;End=670139;Strand=+	PF04055.23	1.7e-26	93.7	18	182	Radical SAM superfamily
+Seqid=NZ_CP084235.1;End=141260;Strand=+	PF05816.13	0.13	11.5	70	107	Toxic anion resistance protein (TelA)
+Seqid=NZ_CP084235.1;Start=2026302;Strand=-	PF12802.9	1.1e-5	25.4	9	55	MarR family
+Seqid=NZ_CP084235.1;End=1159385;Strand=+	PF02355.18	7.5e-63	211.4	548	735	Protein export membrane protein
+Seqid=NZ_CP084235.1;End=1951943;Strand=+	PF11675.10	0.048	13.4	65	119	Protein of unknown function (DUF3271)
+Seqid=NZ_CP084235.1;End=60110;Strand=+	PF13303.8	1.1e-90	304.2	15	347	Phosphotransferase system, EIIC
+Seqid=NZ_CP084235.1;Start=1831688;Strand=-	PF03446.17	0.0014	18.9	149	255	NAD binding domain of 6-phosphogluconate dehydrogenase
+Seqid=NZ_CP084235.1;End=1179193;Strand=+	PF07719.19	5.6e-6	26.2	75	103	Tetratricopeptide repeat
+Seqid=NZ_CP084235.1;Start=1590089;Strand=-	PF02786.19	3.3e-79	265.4	128	333	Carbamoyl-phosphate synthase L chain, ATP binding domain
+Seqid=NZ_CP084235.1;End=351143;Strand=+	PF17213.5	0.041	14.1	5	36	Hydin Adenylate kinase-like domain
+Seqid=NZ_CP084235.1;End=2114913;Strand=+	PF13191.8	0.038	14.4	13	58	AAA ATPase domain
+Seqid=NZ_CP084235.1;Start=1996446;Strand=-	PF20030.1	0.75	8.9	27	63	MoxR domain in the MoxR-vWA-beta-propeller ternary systems
+Seqid=NZ_CP084235.1;Start=2314483;Strand=-	PF01381.24	2.3e-14	53.3	14	68	Helix-turn-helix
+Seqid=NZ_CP084235.1;End=753469;Strand=+	PF18808.3	0.21	12.1	173	211	Importin repeat
+Seqid=NZ_CP084235.1;End=499277;Strand=+	PF13304.8	0.0061	16.5	146	231	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;End=1004072;Strand=+	PF02950.19	0.76	10.9	16	70	Conotoxin
+Seqid=NZ_CP084235.1;End=1179193;Strand=+	PF00515.30	6.9e-5	22.6	177	210	Tetratricopeptide repeat
+Seqid=NZ_CP084235.1;Start=1518137;Strand=-	PF13482.8	0.0074	16.3	424	562	RNase_H superfamily
+Seqid=NZ_CP084235.1;End=1185325;Strand=+	PF03652.17	5.7e-42	143.5	5	140	Holliday junction resolvase
+Seqid=NZ_CP084235.1;End=75096;Strand=+	PF13489.8	4.9e-13	49.3	20	183	Methyltransferase domain
+Seqid=NZ_CP084235.1;End=885190;Strand=+	PF01591.20	0.06	12.7	2	59	6-phosphofructo-2-kinase
+Seqid=NZ_CP084235.1;Start=1556414;Strand=-	PF13304.8	1.3e-6	28.6	37	81	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;End=72517;Strand=+	PF01926.25	0.31	11.2	8	47	50S ribosome-binding GTPase
+Seqid=NZ_CP084235.1;Start=558747;Strand=-	PF02082.22	0.065	13.5	41	85	Iron-dependent Transcriptional regulator
+Seqid=NZ_CP084235.1;Start=1574123;Strand=-	PF19926.1	0.25	10.9	42	95	Family of unknown function (DUF6389)
+Seqid=NZ_CP084235.1;End=574652;Strand=+	PF03486.16	2.3e-7	30	8	47	HI0933-like protein
+Seqid=NZ_CP084235.1;End=449138;Strand=+	PF14431.8	0.1	12.9	29	54	YwqJ-like deaminase
+Seqid=NZ_CP084235.1;End=951643;Strand=+	PF03266.17	0.73	9.8	477	562	NTPase
+Seqid=NZ_CP084235.1;Start=2068534;Strand=-	PF00233.21	0.26	11.1	71	125	3'5'-cyclic nucleotide phosphodiesterase
+Seqid=NZ_CP084235.1;Start=1891198;Strand=-	PF13555.8	0.29	11	19	42	P-loop containing region of AAA domain
+Seqid=NZ_CP084235.1;End=380089;Strand=+	PF13641.8	1.3e-5	25.2	60	115	Glycosyltransferase like family 2
+Seqid=NZ_CP084235.1;End=790289;Strand=+	PF00156.29	2.5e-12	46.6	68	178	Phosphoribosyl transferase domain
+Seqid=NZ_CP084235.1;Start=2284312;Strand=-	PF04502.15	0.11	12.2	18	63	Saf4/Yju2 protein
+Seqid=NZ_CP084235.1;End=2310146;Strand=+	PF13401.8	0.034	14.5	35	53	AAA domain
+Seqid=NZ_CP084235.1;Start=2196606;Strand=-	PF01983.18	0.091	12	11	119	Guanylyl transferase CofC like
+Seqid=NZ_CP084235.1;Start=2032502;Strand=-	PF07222.14	0.047	13	82	162	Proacrosin binding protein sp32
+Seqid=NZ_CP084235.1;End=1199583;Strand=+	PF03949.17	0.092	12.1	104	143	Malic enzyme, NAD binding domain
+Seqid=NZ_CP084235.1;End=1010344;Strand=+	PF05302.13	0.21	11.5	39	97	Protein of unknown function (DUF720)
+Seqid=NZ_CP084235.1;Start=1684921;Strand=-	PF13478.8	0.18	12.4	6	75	XdhC Rossmann domain
+Seqid=NZ_CP084235.1;End=2000601;Strand=+	PF19578.1	0.019	14.9	13	48	Family of unknown function (DUF6090)
+Seqid=NZ_CP084235.1;Start=1819368;Strand=-	PF06149.14	0.0019	17.9	6	88	Protein of unknown function (DUF969)
+Seqid=NZ_CP084235.1;Start=2146102;Strand=-	PF00148.21	0.089	11.6	89	118	Nitrogenase component 1 type Oxidoreductase
+Seqid=NZ_CP084235.1;Start=1646893;Strand=-	PF03833.15	0.13	10.1	7	52	DNA polymerase II large subunit DP2
+Seqid=NZ_CP084235.1;Start=1472629;Strand=-	PF16410.7	0.013	14.3	13	52	Domain of unknown function (DUF5018)
+Seqid=NZ_CP084235.1;Start=627512;Strand=-	PF04835.14	0.11	12.7	35	62	A9 protein conserved region
+Seqid=NZ_CP084235.1;End=1024603;Strand=+	PF00133.24	1.3e-20	73.3	412	613	tRNA synthetases class I (I, L, M and V)
+Seqid=NZ_CP084235.1;End=1333920;Strand=+	PF13847.8	0.089	12.7	263	304	Methyltransferase domain
+Seqid=NZ_CP084235.1;End=786193;Strand=+	PF06325.15	6.4e-9	35.7	96	184	Ribosomal protein L11 methyltransferase (PrmA)
+Seqid=NZ_CP084235.1;Start=1503680;Strand=-	PF01935.19	1.2e-4	22.4	469	608	Helicase HerA, central domain
+Seqid=NZ_CP084235.1;End=729778;Strand=+	PF00950.19	5.9e-4	19.5	135	317	ABC 3 transport family
+Seqid=NZ_CP084235.1;Start=1280197;Strand=-	PF00165.25	0.0041	17.3	17	53	Bacterial regulatory helix-turn-helix proteins, AraC family
+Seqid=NZ_CP084235.1;Start=42818;Strand=-	PF02562.18	3.4e-4	20.3	301	386	PhoH-like protein
+Seqid=NZ_CP084235.1;Start=1405078;Strand=-	PF01729.21	2.1e-4	21.2	149	244	Quinolinate phosphoribosyl transferase, C-terminal domain
+Seqid=NZ_CP084235.1;End=524974;Strand=+	PF16118.7	0.15	13.1	9	36	Domain of unknown function (DUF4834)
+Seqid=NZ_CP084235.1;End=1770443;Strand=+	PF18777.3	0.12	12	16	29	Chromosome region maintenance or exportin repeat
+Seqid=NZ_CP084235.1;Start=42818;Strand=-	PF13401.8	0.07	13.5	306	397	AAA domain
+Seqid=NZ_CP084235.1;End=1818763;Strand=+	PF00070.29	0.41	11.3	2	43	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NZ_CP084235.1;End=2288342;Strand=+	PF01053.22	4.4e-112	374.5	14	369	Cys/Met metabolism PLP-dependent enzyme
+Seqid=NZ_CP084235.1;Start=678961;Strand=-	PF05531.14	3.5e-4	21.1	2	53	Nucleopolyhedrovirus P10 protein
+Seqid=NZ_CP084235.1;End=1064275;Strand=+	PF01656.25	0.94	9.6	68	91	CobQ/CobB/MinD/ParA nucleotide binding domain
+Seqid=NZ_CP084235.1;Start=2239512;Strand=-	PF00155.23	4.2e-6	26.3	73	224	Aminotransferase class I and II
+Seqid=NZ_CP084235.1;Start=206515;Strand=-	PF08105.13	0.15	12.3	1	22	Metchnikowin family
+Seqid=NZ_CP084235.1;End=179869;Strand=+	PF00474.19	9.6e-39	133.5	42	445	Sodium:solute symporter family
+Seqid=NZ_CP084235.1;End=1298271;Strand=+	PF02102.17	0.095	11.7	163	218	Deuterolysin metalloprotease (M35) family
+Seqid=NZ_CP084235.1;Start=1961402;Strand=-	PF04073.17	2.4e-19	69.7	34	146	Aminoacyl-tRNA editing domain
+Seqid=NZ_CP084235.1;Start=1402518;Strand=-	PF03437.17	0.0016	18.1	193	244	BtpA family
+Seqid=NZ_CP084235.1;End=152222;Strand=+	PF02517.18	1.9e-14	53.9	133	233	Type II CAAX prenyl endopeptidase Rce1-like
+Seqid=NZ_CP084235.1;End=711653;Strand=+	PF18915.2	0.038	14.5	20	60	Domain of unknown function (DUF5667)
+Seqid=NZ_CP084235.1;End=894179;Strand=+	PF13349.8	3.7e-19	69.1	46	280	Putative adhesin
+Seqid=NZ_CP084235.1;End=1597676;Strand=+	PF15307.8	0.071	13.5	19	90	Sperm acrosome-associated protein 7
+Seqid=NZ_CP084235.1;End=1696935;Strand=+	PF02492.21	0.39	10.4	281	300	CobW/HypB/UreG, nucleotide-binding domain
+Seqid=NZ_CP084235.1;Start=1395597;Strand=-	PF01432.22	2.1e-35	123	228	606	Peptidase family M3
+Seqid=NZ_CP084235.1;Start=1876638;Strand=-	PF02826.21	0.12	11.8	4	40	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Seqid=NZ_CP084235.1;End=2041932;Strand=+	PF13437.8	3.8e-5	24.4	152	243	HlyD family secretion protein
+Seqid=NZ_CP084235.1;End=134605;Strand=+	PF01134.24	2.6e-10	40.1	18	152	Glucose inhibited division protein A
+Seqid=NZ_CP084235.1;End=708202;Strand=+	PF12840.9	0.1	12.7	17	51	Helix-turn-helix domain
+Seqid=NZ_CP084235.1;Start=1564570;Strand=-	PF09789.11	0.14	11.6	138	268	Uncharacterized coiled-coil protein (DUF2353)
+Seqid=NZ_CP084235.1;Start=2152140;Strand=-	PF04211.15	0.044	12.9	51	119	Tetrahydromethanopterin S-methyltransferase, subunit C
+Seqid=NZ_CP084235.1;Start=857006;Strand=-	PF11172.10	0.037	14.3	211	286	Protein of unknown function (DUF2959)
+Seqid=NZ_CP084235.1;End=72517;Strand=+	PF07728.16	0.94	9.6	8	73	AAA domain (dynein-related subfamily)
+Seqid=NZ_CP084237.1;End=12840;Strand=+	PF06295.14	0.29	11.2	465	494	Protein of unknown function (DUF1043)
+Seqid=NZ_CP084235.1;End=928522;Strand=+	PF07685.16	3.1e-42	144.5	6	196	CobB/CobQ-like glutamine amidotransferase domain
+Seqid=NZ_CP084235.1;Start=1971282;Strand=-	PF13238.8	0.46	11.1	358	378	AAA domain
+Seqid=NZ_CP084235.1;End=1971133;Strand=+	PF12802.9	2e-6	27.9	35	93	MarR family
+Seqid=NZ_CP084235.1;Start=2124542;Strand=-	PF13508.9	0.0011	19.4	65	123	Acetyltransferase (GNAT) domain
+Seqid=NZ_CP084235.1;End=1327189;Strand=+	PF10576.11	9.7e-5	22.7	189	205	Iron-sulfur binding domain of endonuclease III
+Seqid=NZ_CP084235.1;Start=1663008;Strand=-	PF14578.8	0.68	9.9	226	293	Elongation factor Tu domain 4
+Seqid=NZ_CP084235.1;End=1190075;Strand=+	PF03462.20	0.058	13.3	4	94	PCRF domain
+Seqid=NZ_CP084235.1;End=1826167;Strand=+	PF13450.8	8e-4	19.7	145	177	NAD(P)-binding Rossmann-like domain
+Seqid=NZ_CP084235.1;Start=1461282;Strand=-	PF08860.12	0.36	11.2	231	276	Domain of unknown function (DUF1827)
+Seqid=NZ_CP084235.1;End=1346410;Strand=+	PF11974.10	0.011	15.8	1066	1096	Bacterial alpha-2-macroglobulin MG3 domain
+Seqid=NZ_CP084235.1;End=1054227;Strand=+	PF00103.22	0.29	10.9	23	78	Somatotropin hormone family
+Seqid=NZ_CP084235.1;Start=1594356;Strand=-	PF12890.9	3.1e-36	124.5	49	236	Dihydro-orotase-like
+Seqid=NZ_CP084235.1;Start=2104078;Strand=-	PF18957.2	0.0018	19.1	1151	1190	Long Rib domain
+Seqid=NZ_CP084235.1;End=1192332;Strand=+	PF02626.17	8.5e-77	258.4	25	284	Carboxyltransferase domain, subdomain A and B
+Seqid=NZ_CP084235.1;Start=250621;Strand=-	PF03466.22	1.3e-36	126.1	87	286	LysR substrate binding domain
+Seqid=NZ_CP084235.1;End=1834266;Strand=+	PF11256.10	1.3e-33	115.1	6	84	Protein of unknown function (DUF3055)
+Seqid=NZ_CP084235.1;End=324266;Strand=+	PF13238.8	1.2e-5	26	30	114	AAA domain
+Seqid=NZ_CP084235.1;Start=1511824;Strand=-	PF11030.10	0.23	11.5	249	284	Nucleocapsid protein N
+Seqid=NZ_CP084235.1;End=1309097;Strand=+	PF05175.16	0.025	14.3	42	121	Methyltransferase small domain
+Seqid=NZ_CP084235.1;End=1165365;Strand=+	PF02580.18	3.7e-51	173.5	2	143	D-Tyr-tRNA(Tyr) deacylase
+Seqid=NZ_CP084235.1;End=1154395;Strand=+	PF03215.17	0.022	14.8	59	109	Rad17 P-loop domain
+Seqid=NZ_CP084235.1;Start=1025824;Strand=-	PF13384.8	7.6e-9	35.3	63	109	Homeodomain-like domain
+Seqid=NZ_CP084235.1;End=45169;Strand=+	PF02602.17	0.0073	15.8	22	54	Uroporphyrinogen-III synthase HemD
+Seqid=NZ_CP084235.1;End=1154395;Strand=+	PF05491.15	3.3e-25	87.9	278	348	RuvB C-terminal winged helix domain
+Seqid=NZ_CP084235.1;End=574652;Strand=+	PF03486.16	0.018	13.9	66	121	HI0933-like protein
+Seqid=NZ_CP084235.1;Start=1640592;Strand=-	PF02183.20	0.19	12	74	93	Homeobox associated leucine zipper
+Seqid=NZ_CP084235.1;Start=1707680;Strand=-	PF07992.16	0.22	10.8	19	120	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NZ_CP084235.1;Start=1872874;Strand=-	PF08665.14	0.0058	16.8	384	441	PglZ domain
+Seqid=NZ_CP084235.1;End=644019;Strand=+	PF02558.18	0.046	13.5	3	33	Ketopantoate reductase PanE/ApbA
+Seqid=NZ_CP084235.1;End=606067;Strand=+	PF09972.11	4.9e-4	19.1	71	309	Predicted membrane protein (DUF2207)
+Seqid=NZ_CP084235.1;Start=1684921;Strand=-	PF13460.8	6.2e-4	19.8	11	89	NAD(P)H-binding
+Seqid=NZ_CP084235.1;Start=1295588;Strand=-	PF12838.9	0.014	16.1	5	39	4Fe-4S dicluster domain
+Seqid=NZ_CP084235.1;End=1152735;Strand=+	PF13291.8	6.1e-4	20.4	77	148	ACT domain
+Seqid=NZ_CP084235.1;End=1067540;Strand=+	PF08765.13	0.68	10	17	52	Mor transcription activator family
+Seqid=NZ_CP084235.1;Start=442099;Strand=-	PF00171.24	1.5e-158	528.3	23	479	Aldehyde dehydrogenase family
+Seqid=NZ_CP084235.1;Start=1380192;Strand=-	PF01168.22	7.4e-39	133.7	8	224	Alanine racemase, N-terminal domain
+Seqid=NZ_CP084235.1;End=1371273;Strand=+	PF00910.24	0.37	11.3	27	52	RNA helicase
+Seqid=NZ_CP084235.1;Start=1846107;Strand=-	PF13166.8	0.0072	15.2	31	107	AAA domain
+Seqid=NZ_CP084235.1;Start=846827;Strand=-	PF12848.9	2.2e-22	79	236	320	ABC transporter
+Seqid=NZ_CP084235.1;End=1085401;Strand=+	PF01925.21	9.5e-41	140.1	11	246	Sulfite exporter TauE/SafE
+Seqid=NZ_CP084235.1;End=882036;Strand=+	PF06445.17	8.6e-19	68.5	1	151	GyrI-like small molecule binding domain
+Seqid=NZ_CP084235.1;End=1202865;Strand=+	PF11337.10	0.22	12.3	16	93	Protein of unknown function (DUF3139)
+Seqid=NZ_CP084236.1;End=23151;Strand=+	PF12832.9	0.0023	17	78	178	MFS_1 like family
+Seqid=NZ_CP084235.1;Start=401333;Strand=-	PF08541.12	0.0091	16.2	257	311	3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III C terminal
+Seqid=NZ_CP084235.1;End=487575;Strand=+	PF13671.8	0.046	14	31	48	AAA domain
+Seqid=NZ_CP084235.1;End=1306132;Strand=+	PF00910.24	0.49	10.9	180	242	RNA helicase
+Seqid=NZ_CP084235.1;Start=1940647;Strand=-	PF13401.8	1	9.7	34	144	AAA domain
+Seqid=NZ_CP084235.1;Start=1531238;Strand=-	PF08222.13	2.9e-30	103.7	198	255	CodY helix-turn-helix domain
+Seqid=NZ_CP084235.1;Start=1475055;Strand=-	PF02737.20	0.021	14.8	22	54	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Seqid=NZ_CP084235.1;End=1024603;Strand=+	PF00750.21	0.3	10.1	548	593	tRNA synthetases class I (R)
+Seqid=NZ_CP084235.1;Start=237084;Strand=-	PF00512.27	0.18	11.9	145	160	His Kinase A (phospho-acceptor) domain
+Seqid=NZ_CP084235.1;End=1224634;Strand=+	PF02492.21	0.0019	17.9	43	142	CobW/HypB/UreG, nucleotide-binding domain
+Seqid=NZ_CP084235.1;End=19938;Strand=+	PF00772.23	9.4e-34	115.7	10	110	DnaB-like helicase N terminal domain
+Seqid=NZ_CP084235.1;End=2259807;Strand=+	PF14659.8	0.0044	17.3	107	164	Phage integrase, N-terminal SAM-like domain
+Seqid=NZ_CP084235.1;Start=1532033;Strand=-	PF05621.13	0.041	13.4	48	82	Bacterial TniB protein
+Seqid=NZ_CP084235.1;End=983071;Strand=+	PF10183.11	0.2	12	417	485	ESSS subunit of NADH:ubiquinone oxidoreductase (complex I)
+Seqid=NZ_CP084235.1;End=923064;Strand=+	PF02475.18	1.1e-6	28.6	243	388	Met-10+ like-protein
+Seqid=NZ_CP084235.1;End=468027;Strand=+	PF02447.18	4.1e-172	572.9	11	455	GntP family permease
+Seqid=NZ_CP084235.1;End=1121811;Strand=+	PF13086.8	0.18	11.7	160	183	AAA domain
+Seqid=NZ_CP084235.1;Start=1628219;Strand=-	PF01725.18	8.4e-61	205.2	4	187	Ham1 family
+Seqid=NZ_CP084235.1;Start=1744191;Strand=-	PF00089.28	1.3e-12	48.1	367	525	Trypsin
+Seqid=NZ_CP084235.1;End=1247511;Strand=+	PF05729.14	0.32	11	131	152	NACHT domain
+Seqid=NZ_CP084235.1;Start=1354089;Strand=-	PF01855.21	0.075	12.9	50	97	Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg
+Seqid=NZ_CP084235.1;End=1394828;Strand=+	PF13304.8	0.053	13.4	72	134	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;End=702736;Strand=+	PF00004.31	0.29	11.6	155	204	ATPase family associated with various cellular activities (AAA)
+Seqid=NZ_CP084235.1;End=1685875;Strand=+	PF06273.13	0.093	11.9	24	57	Plant specific eukaryotic initiation factor 4B
+Seqid=NZ_CP084235.1;Start=686748;Strand=-	PF11992.10	0.039	13.2	4	113	TgpA N-terminal domain
+Seqid=NZ_CP084235.1;End=383279;Strand=+	PF01266.26	2.5e-7	30.7	6	40	FAD dependent oxidoreductase
+Seqid=NZ_CP084235.1;End=1181636;Strand=+	PF13401.8	0.023	15	360	459	AAA domain
+Seqid=NZ_CP084235.1;Start=1445858;Strand=-	PF00471.22	1.4e-24	86.4	6	52	Ribosomal protein L33
+Seqid=NZ_CP084235.1;Start=1824684;Strand=-	PF16044.7	0.1	12.3	3	42	Domain of unknown function (DUF4796)
+Seqid=NZ_CP084235.1;Start=2026302;Strand=-	PF01325.21	1.1e-22	80.1	2	61	Iron dependent repressor, N-terminal DNA binding domain
+Seqid=NZ_CP084235.1;Start=2196606;Strand=-	PF14602.8	3.7e-6	26.7	394	427	Hexapeptide repeat of succinyl-transferase
+Seqid=NZ_CP084235.1;End=261672;Strand=+	PF01061.26	5.6e-7	29.3	777	888	ABC-2 type transporter
+Seqid=NZ_CP084235.1;End=1211493;Strand=+	PF08461.12	0.47	10.5	9	70	Ribonuclease R winged-helix domain
+Seqid=NZ_CP084235.1;End=1861755;Strand=+	PF14851.8	0.0042	16.9	6	99	FAM176 family
+Seqid=NZ_CP084235.1;End=574652;Strand=+	PF01946.19	0.0081	15.5	4	44	Thi4 family
+Seqid=NZ_CP084235.1;End=1457316;Strand=+	PF17974.3	0.015	15.5	145	222	Galactose-binding domain-like
+Seqid=NZ_CP084235.1;End=1179193;Strand=+	PF00515.30	0.0068	16.3	42	72	Tetratricopeptide repeat
+Seqid=NZ_CP084235.1;End=822226;Strand=+	PF07228.14	1.5e-46	158.8	154	342	Stage II sporulation protein E (SpoIIE)
+Seqid=NZ_CP084235.1;End=1816785;Strand=+	PF01899.18	8.3e-43	145.7	9	156	Na+/H+ ion antiporter subunit
+Seqid=NZ_CP084235.1;End=264722;Strand=+	PF13495.8	0.036	14.7	44	131	Phage integrase, N-terminal SAM-like domain
+Seqid=NZ_CP084235.1;End=1805440;Strand=+	PF03009.19	8.8e-47	160.1	71	314	Glycerophosphoryl diester phosphodiesterase family
+Seqid=NZ_CP084235.1;Start=1568604;Strand=-	PF14690.8	3.9e-12	46.7	42	92	zinc-finger of transposase IS204/IS1001/IS1096/IS1165
+Seqid=NZ_CP084235.1;End=663688;Strand=+	PF03193.18	0.024	14.6	25	47	RsgA GTPase
+Seqid=NZ_CP084235.1;Start=203647;Strand=-	PF00910.24	0.044	14.3	36	89	RNA helicase
+Seqid=NZ_CP084235.1;End=536096;Strand=+	PF06414.14	0.19	11.2	29	65	Zeta toxin
+Seqid=NZ_CP084235.1;Start=1819368;Strand=-	PF03553.16	4.5e-64	216.7	151	432	Na+/H+ antiporter family
+Seqid=NZ_CP084235.1;Start=1513483;Strand=-	PF11987.10	3.8e-40	136.6	496	611	Translation-initiation factor 2
+Seqid=NZ_CP084235.1;Start=627512;Strand=-	PF19942.1	0.046	14.2	3	59	Family of unknown function (DUF6404)
+Seqid=NZ_CP084235.1;End=649125;Strand=+	PF00070.29	0.44	11.2	2	42	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NZ_CP084235.1;Start=2269981;Strand=-	PF07913.13	0.13	12.1	4	69	Protein of unknown function (DUF1678)
+Seqid=NZ_CP084235.1;Start=1461282;Strand=-	PF13304.8	2.3e-4	21.2	30	47	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;End=401243;Strand=+	PF18461.3	0.32	11.1	46	103	Atypical caspase recruitment domain
+Seqid=NZ_CP084235.1;Start=1495121;Strand=-	PF00154.23	3.9e-143	475.6	17	278	recA bacterial DNA recombination protein
+Seqid=NZ_CP084235.1;Start=2036024;Strand=-	PF00361.22	1.9e-64	217.8	130	423	Proton-conducting membrane transporter
+Seqid=NZ_CP084235.1;Start=1702394;Strand=-	PF00156.29	1.8e-9	37.2	275	389	Phosphoribosyl transferase domain
+Seqid=NZ_CP084235.1;End=546526;Strand=+	PF13241.8	0.0098	16.4	151	250	Putative NAD(P)-binding
+Seqid=NZ_CP084235.1;Start=1733126;Strand=-	PF00425.20	5.2e-66	222.9	191	439	chorismate binding enzyme
+Seqid=NZ_CP084235.1;End=1181636;Strand=+	PF03215.17	0.0027	17.8	317	381	Rad17 P-loop domain
+Seqid=NZ_CP084235.1;Start=1846107;Strand=-	PF07273.14	5.7e-4	19.9	4	78	Protein of unknown function (DUF1439)
+Seqid=NZ_CP084235.1;End=1164897;Strand=+	PF14451.8	0.49	10.4	437	462	Mut7-C ubiquitin
+Seqid=NZ_CP084235.1;End=1712234;Strand=+	PF16403.7	3.9e-23	81.4	52	123	Domain of unknown function (DUF5011)
+Seqid=NZ_CP084235.1;End=655478;Strand=+	PF02082.22	7.5e-4	19.8	35	80	Iron-dependent Transcriptional regulator
+Seqid=NZ_CP084235.1;End=1411625;Strand=+	PF08919.12	0.95	9.7	239	286	F-actin binding
+Seqid=NZ_CP084235.1;Start=1674260;Strand=-	PF05979.14	3.8e-4	20.4	5	38	Bacterial protein of unknown function (DUF896)
+Seqid=NZ_CP084235.1;End=575079;Strand=+	PF00583.27	6.9e-13	48.9	35	119	Acetyltransferase (GNAT) family
+Seqid=NZ_CP084235.1;End=1203394;Strand=+	PF08210.13	0.12	12.3	55	111	APOBEC-like N-terminal domain
+Seqid=NZ_CP084235.1;Start=1933344;Strand=-	PF00155.23	4.3e-51	174.3	45	358	Aminotransferase class I and II
+Seqid=NZ_CP084235.1;Start=1996446;Strand=-	PF13086.8	0.29	11	31	95	AAA domain
+Seqid=NZ_CP084235.1;End=577391;Strand=+	PF02185.18	0.19	12	209	250	Hr1 repeat
+Seqid=NZ_CP084235.1;End=641019;Strand=+	PF12837.9	0.0047	17	188	207	4Fe-4S binding domain
+Seqid=NZ_CP084235.1;Start=1891198;Strand=-	PF00005.29	1.3e-8	35.5	622	858	ABC transporter
+Seqid=NZ_CP084235.1;Start=1005472;Strand=-	PF05462.13	0.2	10.8	7	86	Slime mold cyclic AMP receptor
+Seqid=NZ_CP084235.1;End=401243;Strand=+	PF18467.3	0.11	13	26	89	Domain of unknown function (DUF5613)
+Seqid=NZ_CP084235.1;End=844344;Strand=+	PF02367.19	8.9e-37	126	8	126	Threonylcarbamoyl adenosine biosynthesis protein TsaE
+Seqid=NZ_CP084235.1;Start=2153233;Strand=-	PF08423.13	3.5e-7	29.8	63	223	Rad51
+Seqid=NZ_CP084235.1;End=74103;Strand=+	PF05525.15	3.2e-148	494.3	9	442	Branched-chain amino acid transport protein
+Seqid=NZ_CP084235.1;Start=2207011;Strand=-	PF05175.16	3.4e-15	56.2	33	184	Methyltransferase small domain
+Seqid=NZ_CP084235.1;Start=604523;Strand=-	PF13279.8	3e-14	53.6	11	126	Thioesterase-like superfamily
+Seqid=NZ_CP084235.1;End=1245534;Strand=+	PF00480.22	2.6e-64	217.6	7	319	ROK family
+Seqid=NZ_CP084235.1;End=1397920;Strand=+	PF11346.10	0.21	11.3	69	87	Protein of unknown function (DUF3149)
+Seqid=NZ_CP084235.1;End=1433539;Strand=+	PF06783.13	0.11	12.8	61	99	Uncharacterised protein family (UPF0239)
+Seqid=NZ_CP084235.1;End=699645;Strand=+	PF00416.24	3.9e-32	111.4	3	108	Ribosomal protein S13/S18
+Seqid=NZ_CP084235.1;Start=1940647;Strand=-	PF13191.8	0.07	13.6	30	147	AAA ATPase domain
+Seqid=NZ_CP084235.1;End=2268158;Strand=+	PF05742.14	0.57	10.3	54	176	Transport and Golgi organisation 2
+Seqid=NZ_CP084235.1;End=1859856;Strand=+	PF03918.16	0.62	9.4	6	35	Cytochrome C biogenesis protein
+Seqid=NZ_CP084235.1;End=1073054;Strand=+	PF00367.22	4e-15	55.1	421	453	phosphotransferase system, EIIB
+Seqid=NZ_CP084235.1;Start=1885023;Strand=-	PF03215.17	0.21	11.6	9	47	Rad17 P-loop domain
+Seqid=NZ_CP084235.1;End=2067491;Strand=+	PF00185.26	0.14	12.3	72	115	Aspartate/ornithine carbamoyltransferase, Asp/Orn binding domain
+Seqid=NZ_CP084235.1;End=720515;Strand=+	PF02991.18	0.093	13	106	153	Autophagy protein Atg8 ubiquitin like
+Seqid=NZ_CP084235.1;End=1071256;Strand=+	PF01553.23	7.9e-21	74.2	21	143	Acyltransferase
+Seqid=NZ_CP084235.1;Start=1395597;Strand=-	PF13981.8	0.27	11.7	158	214	SopA-like central domain
+Seqid=NZ_CP084235.1;End=1179193;Strand=+	PF14559.8	3.5e-6	27.5	56	104	Tetratricopeptide repeat
+Seqid=NZ_CP084235.1;Start=899558;Strand=-	PF00857.22	2.2e-33	116	7	180	Isochorismatase family
+Seqid=NZ_CP084235.1;End=234830;Strand=+	PF14100.8	0.17	11.5	16	51	Methane oxygenase PmoA
+Seqid=NZ_CP084235.1;End=921597;Strand=+	PF00781.26	1.9e-33	114.9	5	128	Diacylglycerol kinase catalytic domain
+Seqid=NZ_CP084235.1;Start=1503680;Strand=-	PF09397.12	1.3e-27	95.4	738	798	Ftsk gamma domain
+Seqid=NZ_CP084235.1;Start=1875284;Strand=-	PF00162.21	1.8e-150	501.3	6	384	Phosphoglycerate kinase
+Seqid=NZ_CP084235.1;End=173763;Strand=+	PF01529.22	0.19	11.9	7	78	DHHC palmitoyltransferase
+Seqid=NZ_CP084235.1;End=703596;Strand=+	PF13401.8	0.013	15.9	33	57	AAA domain
+Seqid=NZ_CP084235.1;Start=1616866;Strand=-	PF10555.11	0.017	14.7	44	55	Phospho-N-acetylmuramoyl-pentapeptide-transferase signature 1
+Seqid=NZ_CP084235.1;End=1139133;Strand=+	PF00202.23	4e-78	263	32	394	Aminotransferase class-III
+Seqid=NZ_CP084235.1;Start=1609633;Strand=-	PF01168.22	7.1e-17	61.9	26	221	Alanine racemase, N-terminal domain
+Seqid=NZ_CP084235.1;Start=1904070;Strand=-	PF02482.21	7.6e-27	94	5	96	Sigma 54 modulation protein / S30EA ribosomal protein
+Seqid=NZ_CP084235.1;End=956405;Strand=+	PF08279.14	0.36	10.9	34	80	HTH domain
+Seqid=NZ_CP084235.1;End=999827;Strand=+	PF00326.23	2e-9	37.4	69	253	Prolyl oligopeptidase family
+Seqid=NZ_CP084235.1;End=1285862;Strand=+	PF00106.27	4.8e-33	114.4	4	185	short chain dehydrogenase
+Seqid=NZ_CP084235.1;End=1865002;Strand=+	PF18159.3	0.0011	18.5	7	93	SMODS-associating 4TM effector domain
+Seqid=NZ_CP084235.1;End=1048391;Strand=+	PF01588.22	3.4e-25	88.1	93	194	Putative tRNA binding domain
+Seqid=NZ_CP084235.1;End=754395;Strand=+	PF13344.8	0.064	13.4	29	69	Haloacid dehalogenase-like hydrolase
+Seqid=NZ_CP084235.1;End=1951522;Strand=+	PF00764.21	0.067	12.6	13	69	Arginosuccinate synthase
+Seqid=NZ_CP084235.1;End=1216261;Strand=+	PF08241.14	1.6e-6	28.8	204	295	Methyltransferase domain
+Seqid=NZ_CP084235.1;End=1449737;Strand=+	PF16418.7	0.1	12.7	6	74	CCR4-NOT transcription complex subunit 1 HEAT repeat
+Seqid=NZ_CP084235.1;End=267168;Strand=+	PF07820.14	0.11	13	59	92	TraC-like protein
+Seqid=NZ_CP084235.1;Start=2161390;Strand=-	PF01070.20	0.021	14	182	235	FMN-dependent dehydrogenase
+Seqid=NZ_CP084235.1;Start=2144374;Strand=-	PF02357.21	4.2e-29	101	8	114	Transcription termination factor nusG
+Seqid=NZ_CP084235.1;End=313259;Strand=+	PF01312.21	0.98	8.7	226	310	FlhB HrpN YscU SpaS Family
+Seqid=NZ_CP084235.1;End=665422;Strand=+	PF00994.26	1.1e-33	116.1	19	164	Probable molybdopterin binding domain
+Seqid=NZ_CP084235.1;Start=1824131;Strand=-	PF01521.22	1e-19	70.8	4	104	Iron-sulphur cluster biosynthesis
+Seqid=NZ_CP084235.1;Start=170386;Strand=-	PF17603.4	0.075	13.7	72	110	Family of unknown function (DUF5499)
+Seqid=NZ_CP084235.1;Start=42818;Strand=-	PF05729.14	0.45	10.5	308	342	NACHT domain
+Seqid=NZ_CP084235.1;Start=31288;Strand=-	PF02635.17	6.5e-9	36.2	213	350	DsrE/DsrF-like family
+Seqid=NZ_CP084235.1;Start=2144940;Strand=-	PF00584.22	3.3e-20	71.8	20	72	SecE/Sec61-gamma subunits of protein translocation complex
+Seqid=NZ_CP084236.1;Start=24239;Strand=-	PF04417.14	0.63	10	141	191	Protein of unknown function (DUF501)
+Seqid=NZ_CP084235.1;End=1177209;Strand=+	PF00266.21	1.5e-79	267.8	7	368	Aminotransferase class-V
+Seqid=NZ_CP084235.1;End=75096;Strand=+	PF03291.18	0.082	12.1	40	82	mRNA capping enzyme
+Seqid=NZ_CP084235.1;Start=2049471;Strand=-	PF15048.8	0.097	12.8	120	143	Organic solute transporter subunit beta protein
+Seqid=NZ_CP084235.1;End=1034952;Strand=+	PF07564.13	1e-18	67.3	1539	1614	Domain of Unknown Function (DUF1542)
+Seqid=NZ_CP084235.1;End=600006;Strand=+	PF13624.8	0.15	11.9	3	47	SurA N-terminal domain
+Seqid=NZ_CP084235.1;End=1224634;Strand=+	PF04670.14	0.011	15.2	12	138	Gtr1/RagA G protein conserved region
+Seqid=NZ_CP084235.1;Start=1887141;Strand=-	PF12895.9	0.0099	16.2	144	200	Anaphase-promoting complex, cyclosome, subunit 3
+Seqid=NZ_CP084235.1;End=130144;Strand=+	PF02826.21	0.093	12.1	199	237	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Seqid=NZ_CP084235.1;End=659773;Strand=+	PF12822.9	3.9e-6	27.2	28	195	ECF transporter, substrate-specific component
+Seqid=NZ_CP084235.1;End=487575;Strand=+	PF02463.21	0.13	11.7	29	49	RecF/RecN/SMC N terminal domain
+Seqid=NZ_CP084235.1;End=2141846;Strand=+	PF04625.15	0.93	8.5	44	86	DEC-1 protein, N-terminal region
+Seqid=NZ_CP084235.1;End=105769;Strand=+	PF13407.8	1.3e-63	215.1	53	299	Periplasmic binding protein domain
+Seqid=NZ_CP084235.1;End=320875;Strand=+	PF00590.22	3.5e-49	167.7	3	214	Tetrapyrrole (Corrin/Porphyrin) Methylases
+Seqid=NZ_CP084235.1;End=297449;Strand=+	PF18603.3	7.5e-15	55	326	401	L-amino acid ligase C-terminal domain 2
+Seqid=NZ_CP084235.1;Start=1436634;Strand=-	PF05473.14	0.29	10.8	142	183	UL45 protein, carbohydrate-binding C-type lectin-like
+Seqid=NZ_CP084235.1;Start=1510451;Strand=-	PF14431.8	0.056	13.7	27	91	YwqJ-like deaminase
+Seqid=NZ_CP084235.1;End=1321626;Strand=+	PF15977.7	0.0022	18	23	64	Winged helix-turn-helix DNA binding
+Seqid=NZ_CP084235.1;End=79103;Strand=+	PF13401.8	1.6e-4	22.1	57	147	AAA domain
+Seqid=NZ_CP084235.1;End=901372;Strand=+	PF09176.13	0.2	11.9	297	336	Methylene-tetrahydromethanopterin dehydrogenase, N-terminal
+Seqid=NZ_CP084238.1;Start=12884;Strand=-	PF05625.13	0.13	11.4	42	182	PAXNEB protein
+Seqid=NZ_CP084235.1;End=2088223;Strand=+	PF17412.4	4e-31	106.5	37	91	Family of unknown function
+Seqid=NZ_CP084235.1;Start=984173;Strand=-	PF13624.8	0.18	11.7	44	124	SurA N-terminal domain
+Seqid=NZ_CP084235.1;Start=1805592;Strand=-	PF08823.13	0.91	10	7	32	Putative peptidoglycan binding domain
+Seqid=NZ_CP084235.1;Start=1922580;Strand=-	PF01032.20	7.9e-64	215.7	13	315	FecCD transport family
+Seqid=NZ_CP084235.1;End=463435;Strand=+	PF03959.15	0.069	12.9	82	264	Serine hydrolase (FSH1)
+Seqid=NZ_CP084235.1;Start=1992655;Strand=-	PF01384.22	3.4e-43	148.1	22	165	Phosphate transporter family
+Seqid=NZ_CP084235.1;End=1067540;Strand=+	PF12802.9	3.4e-4	20.7	25	56	MarR family
+Seqid=NZ_CP084235.1;Start=1761805;Strand=-	PF01513.23	1.2e-6	28.9	39	96	ATP-NAD kinase N-terminal domain
+Seqid=NZ_CP084235.1;Start=454942;Strand=-	PF07992.16	2.4e-6	27.1	2	211	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NZ_CP084235.1;End=654645;Strand=+	PF17255.4	0.0064	16.9	38	105	EbsA-like protein
+Seqid=NZ_CP084235.1;End=1397920;Strand=+	PF07435.13	0.13	11.3	67	108	YycH protein
+Seqid=NZ_CP084235.1;End=1212151;Strand=+	PF14233.8	0.14	12	101	176	Domain of unknown function (DUF4335)
+Seqid=NZ_CP084235.1;End=849649;Strand=+	PF06971.15	4.1e-19	68.5	7	55	Putative DNA-binding protein N-terminus
+Seqid=NZ_CP084235.1;End=1067540;Strand=+	PF03965.18	0.041	14.3	28	102	Penicillinase repressor
+Seqid=NZ_CP084235.1;Start=1560891;Strand=-	PF10501.11	0.0082	16.4	41	73	Ribosomal subunit 39S
+Seqid=NZ_CP084238.1;Start=7981;Strand=-	PF12802.9	3.4e-4	20.7	56	87	MarR family
+Seqid=NZ_CP084235.1;End=773812;Strand=+	PF19807.1	0.11	12.8	174	226	Family of unknown function (DUF6290)
+Seqid=NZ_CP084235.1;End=1696935;Strand=+	PF01078.23	0.0034	16.9	19	57	Magnesium chelatase, subunit ChlI
+Seqid=NZ_CP084235.1;End=1334724;Strand=+	PF13460.8	1.8e-47	161.7	8	188	NAD(P)H-binding
+Seqid=NZ_CP084235.1;Start=1684376;Strand=-	PF17240.4	0.3	11.6	55	110	Family of unknown function (DUF5313)
+Seqid=NZ_CP084235.1;Start=1919699;Strand=-	PF01497.20	2.2e-30	106	76	320	Periplasmic binding protein
+Seqid=NZ_CP084235.1;Start=604125;Strand=-	PF01601.18	0.07	11.9	36	112	Coronavirus spike glycoprotein S2
+Seqid=NZ_CP084235.1;End=12120;Strand=+	PF00587.27	3.5e-33	115.2	223	400	tRNA synthetase class II core domain (G, H, P, S and T)
+Seqid=NZ_CP084235.1;End=2114258;Strand=+	PF00004.31	0.62	10.6	29	154	ATPase family associated with various cellular activities (AAA)
+Seqid=NZ_CP084235.1;Start=1744191;Strand=-	PF13180.8	2.3e-6	28	551	637	PDZ domain
+Seqid=NZ_CP084235.1;Start=2211284;Strand=-	PF01276.22	0.032	13.1	294	335	Orn/Lys/Arg decarboxylase, major domain
+Seqid=NZ_CP084235.1;Start=1729865;Strand=-	PF16113.7	4.9e-22	79	24	199	Enoyl-CoA hydratase/isomerase
+Seqid=NZ_CP084235.1;End=930480;Strand=+	PF00557.26	5.3e-47	160.4	12	240	Metallopeptidase family M24
+Seqid=NZ_CP084235.1;End=1359631;Strand=+	PF00583.27	2e-11	44.3	32	141	Acetyltransferase (GNAT) family
+Seqid=NZ_CP084235.1;End=6467;Strand=+	PF00204.27	2.1e-61	206.5	233	402	DNA gyrase B
+Seqid=NZ_CP084235.1;End=868927;Strand=+	PF04967.14	0.049	13.5	34	53	HTH DNA binding domain
+Seqid=NZ_CP084235.1;End=297449;Strand=+	PF07478.15	5.1e-7	29.5	139	272	D-ala D-ala ligase C-terminus
+Seqid=NZ_CP084235.1;Start=454942;Strand=-	PF02558.18	0.22	11.2	4	33	Ketopantoate reductase PanE/ApbA
+Seqid=NZ_CP084235.1;End=538639;Strand=+	PF00462.26	0.0032	17.7	158	183	Glutaredoxin
+Seqid=NZ_CP084235.1;End=941507;Strand=+	PF12066.10	0.0038	17.4	3	48	SERRATE/Ars2, N-terminal domain
+Seqid=NZ_CP084235.1;End=1912508;Strand=+	PF06541.13	0.066	13.5	63	153	Putative ABC-transporter type IV
+Seqid=NZ_CP084235.1;End=2114913;Strand=+	PF13671.8	0.11	12.7	15	167	AAA domain
+Seqid=NZ_CP084235.1;End=1725898;Strand=+	PF01832.22	1.8e-12	47.6	1207	1342	Mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase
+Seqid=NZ_CP084235.1;End=1248547;Strand=+	PF17601.4	0.12	12.7	87	119	Family of unknown function (DUF5497)
+Seqid=NZ_CP084235.1;End=951643;Strand=+	PF02463.21	8.8e-7	28.7	370	557	RecF/RecN/SMC N terminal domain
+Seqid=NZ_CP084235.1;End=2020496;Strand=+	PF09930.11	0.081	12.5	3	35	Predicted transporter (DUF2162)
+Seqid=NZ_CP084235.1;Start=1257876;Strand=-	PF17114.7	0.02	15.2	11	53	Gef2-related medial cortical node protein Nod1
+Seqid=NZ_CP084235.1;Start=1469354;Strand=-	PF06838.13	2.3e-198	658.8	27	426	Methionine gamma-lyase
+Seqid=NZ_CP084235.1;Start=1920852;Strand=-	PF07293.13	0.17	11.8	200	232	Protein of unknown function (DUF1450)
+Seqid=NZ_CP084235.1;End=1338400;Strand=+	PF01926.25	9.2e-7	29	610	820	50S ribosome-binding GTPase
+Seqid=NZ_CP084235.1;End=1367004;Strand=+	PF16078.7	8.7e-5	22.1	33	67	2-oxoglutarate dehydrogenase N-terminus
+Seqid=NZ_CP084235.1;End=268543;Strand=+	PF03495.16	0.4	11	105	135	Clostridial binary toxin B/anthrax toxin PA Ca-binding domain
+Seqid=NZ_CP084235.1;End=1359109;Strand=+	PF19553.1	0.35	10.7	65	119	Family of unknown function (DUF6076)
+Seqid=NZ_CP084235.1;End=801668;Strand=+	PF11506.10	0.037	14	24	106	Protein of unknown function (DUF3217)
+Seqid=NZ_CP084235.1;End=1812629;Strand=+	PF12244.10	0.044	13.7	40	52	Protein of unknown function (DUF3606)
+Seqid=NZ_CP084235.1;End=212044;Strand=+	PF01293.22	0.037	12.8	25	52	Phosphoenolpyruvate carboxykinase
+Seqid=NZ_CP084235.1;End=555970;Strand=+	PF02518.28	8.3e-10	39.3	259	346	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Seqid=NZ_CP084235.1;End=340178;Strand=+	PF00501.30	5.7e-83	279	21	423	AMP-binding enzyme
+Seqid=NZ_CP084235.1;End=2196018;Strand=+	PF08006.13	0.15	11.7	48	101	Protein of unknown function (DUF1700)
+Seqid=NZ_CP084235.1;Start=1710508;Strand=-	PF13405.8	0.095	12.7	320	342	EF-hand domain
+Seqid=NZ_CP084235.1;Start=2280587;Strand=-	PF01084.22	1.2e-29	102.3	23	73	Ribosomal protein S18
+Seqid=NZ_CP084235.1;Start=1670466;Strand=-	PF13531.8	1.4e-13	51.2	49	289	Bacterial extracellular solute-binding protein
+Seqid=NZ_CP084235.1;End=121441;Strand=+	PF07609.13	0.002	18	22	160	Protein of unknown function (DUF1572)
+Seqid=NZ_CP084235.1;Start=1421860;Strand=-	PF12308.10	0.073	13.2	338	388	Neurogenesis glycoprotein
+Seqid=NZ_CP084235.1;Start=203647;Strand=-	PF00154.23	0.023	14.2	30	89	recA bacterial DNA recombination protein
+Seqid=NZ_CP084235.1;Start=645465;Strand=-	PF00893.21	1.4e-20	73.7	1	90	Small Multidrug Resistance protein
+Seqid=NZ_CP084235.1;Start=1405844;Strand=-	PF00591.23	5.9e-75	252.2	76	322	Glycosyl transferase family, a/b domain
+Seqid=NZ_CP084235.1;End=1223734;Strand=+	PF00383.25	2.6e-15	56.2	2	104	Cytidine and deoxycytidylate deaminase zinc-binding region
+Seqid=NZ_CP084235.1;Start=1972940;Strand=-	PF01926.25	0.16	12.1	365	386	50S ribosome-binding GTPase
+Seqid=NZ_CP084235.1;End=2312019;Strand=+	PF02687.23	8.5e-4	19.8	546	619	FtsX-like permease family
+Seqid=NZ_CP084235.1;End=1301225;Strand=+	PF01266.26	0.0059	16.3	7	36	FAD dependent oxidoreductase
+Seqid=NZ_CP084235.1;End=116662;Strand=+	PF11208.10	1.2e-36	125.9	3	134	Protein of unknown function (DUF2992)
+Seqid=NZ_CP084235.1;Start=2114971;Strand=-	PF13344.8	0.43	10.8	131	170	Haloacid dehalogenase-like hydrolase
+Seqid=NZ_CP084235.1;Start=2161390;Strand=-	PF03060.17	0.0058	16.2	195	243	Nitronate monooxygenase
+Seqid=NZ_CP084235.1;End=79731;Strand=+	PF01078.23	0.091	12.2	32	58	Magnesium chelatase, subunit ChlI
+Seqid=NZ_CP084235.1;Start=1877697;Strand=-	PF02082.22	0.29	11.4	25	67	Iron-dependent Transcriptional regulator
+Seqid=NZ_CP084235.1;End=536096;Strand=+	PF13481.8	0.14	11.7	24	44	AAA domain
+Seqid=NZ_CP084235.1;Start=1462338;Strand=-	PF12263.10	0.066	13.2	13	81	Protein of unknown function (DUF3611)
+Seqid=NZ_CP084235.1;Start=1831688;Strand=-	PF02826.21	2.7e-62	209.3	109	287	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Seqid=NZ_CP084235.1;End=25208;Strand=+	PF00512.27	1.6e-17	63.3	375	440	His Kinase A (phospho-acceptor) domain
+Seqid=NZ_CP084235.1;End=1125946;Strand=+	PF13520.8	8.7e-47	160	22	441	Amino acid permease
+Seqid=NZ_CP084235.1;End=691719;Strand=+	PF14955.8	0.13	12.3	26	67	Mitochondrial ribosome subunit S24
+Seqid=NZ_CP084235.1;End=724666;Strand=+	PF07690.18	5.3e-6	25.7	214	384	Major Facilitator Superfamily
+Seqid=NZ_CP084235.1;Start=2227554;Strand=-	PF13434.8	0.0035	16.6	239	389	L-lysine 6-monooxygenase (NADPH-requiring)
+Seqid=NZ_CP084235.1;Start=2318422;Strand=-	PF01134.24	7.3e-169	562.1	6	394	Glucose inhibited division protein A
+Seqid=NZ_CP084235.1;Start=176298;Strand=-	PF00480.22	2.1e-36	126	4	285	ROK family
+Seqid=NZ_CP084235.1;End=823877;Strand=+	PF13744.8	0.77	9.8	215	250	Helix-turn-helix domain
+Seqid=NZ_CP084235.1;Start=1536437;Strand=-	PF13662.8	0.14	12.7	65	100	Toprim domain
+Seqid=NZ_CP084235.1;Start=1858634;Strand=-	PF13151.8	0.02	14.7	4	62	Protein of unknown function (DUF3990)
+Seqid=NZ_CP084235.1;Start=2008663;Strand=-	PF13604.8	0.028	14.3	73	136	AAA domain
+Seqid=NZ_CP084235.1;End=63462;Strand=+	PF00158.28	0.16	11.8	16	59	Sigma-54 interaction domain
+Seqid=NZ_CP084235.1;Start=2320419;Strand=-	PF01926.25	1.2e-24	86.6	237	348	50S ribosome-binding GTPase
+Seqid=NZ_CP084235.1;Start=1590089;Strand=-	PF15632.8	6.1e-9	35.8	741	864	ATP-grasp in the biosynthetic pathway with Ter operon
+Seqid=NZ_CP084235.1;End=9264;Strand=+	PF00521.22	3.4e-159	530.4	34	474	DNA gyrase/topoisomerase IV, subunit A
+Seqid=NZ_CP084235.1;End=335576;Strand=+	PF05834.14	0.13	11.3	8	41	Lycopene cyclase protein
+Seqid=NZ_CP084235.1;Start=1887141;Strand=-	PF00515.30	3e-4	20.6	26	48	Tetratricopeptide repeat
+Seqid=NZ_CP084235.1;End=693963;Strand=+	PF07032.13	0.17	12.5	21	46	Protein of unknown function (DUF1322)
+Seqid=NZ_CP084235.1;Start=1553479;Strand=-	PF13401.8	0.0016	18.8	102	214	AAA domain
+Seqid=NZ_CP084235.1;Start=1781023;Strand=-	PF13479.8	0.089	12.6	605	692	AAA domain
+Seqid=NZ_CP084235.1;Start=1171014;Strand=-	PF13695.8	0.84	10.2	85	155	Zinc-binding domain
+Seqid=NZ_CP084235.1;End=14853;Strand=+	PF12697.9	8.6e-6	26.6	76	300	Alpha/beta hydrolase family
+Seqid=NZ_CP084235.1;End=1179193;Strand=+	PF14559.8	0.41	11.2	16	65	Tetratricopeptide repeat
+Seqid=NZ_CP084235.1;Start=250124;Strand=-	PF11779.10	0.32	10.8	2	22	Small subunit of serine palmitoyltransferase-like
+Seqid=NZ_CP084235.1;Start=951349;Strand=-	PF14841.8	0.17	12.2	28	53	FliG middle domain
+Seqid=NZ_CP084235.1;Start=170386;Strand=-	PF01925.21	0.0013	18.5	9	85	Sulfite exporter TauE/SafE
+Seqid=NZ_CP084235.1;Start=386202;Strand=-	PF08282.14	2.4e-5	24.3	685	730	haloacid dehalogenase-like hydrolase
+Seqid=NZ_CP084235.1;End=2088223;Strand=+	PF08542.13	0.13	12.8	39	84	Replication factor C C-terminal domain
+Seqid=NZ_CP084235.1;Start=1141361;Strand=-	PF10601.11	0.042	14.2	10	26	LITAF-like zinc ribbon domain
+Seqid=NZ_CP084235.1;End=685256;Strand=+	PF01131.22	2.6e-105	352.9	152	569	DNA topoisomerase
+Seqid=NZ_CP084235.1;End=1164897;Strand=+	PF04607.19	3.8e-40	136.9	245	355	Region found in RelA / SpoT proteins
+Seqid=NZ_CP084235.1;Start=1933344;Strand=-	PF01053.22	0.0021	16.8	98	205	Cys/Met metabolism PLP-dependent enzyme
+Seqid=NZ_CP084235.1;Start=203647;Strand=-	PF00005.29	2.3e-27	96.3	21	160	ABC transporter
+Seqid=NZ_CP084235.1;End=1153353;Strand=+	PF00633.25	0.08	12.9	75	91	Helix-hairpin-helix motif
+Seqid=NZ_CP084235.1;Start=2187371;Strand=-	PF01479.27	2.7e-10	39.9	1	47	S4 domain
+Seqid=NZ_CP084235.1;End=1181636;Strand=+	PF05729.14	0.37	10.8	361	387	NACHT domain
+Seqid=NZ_CP084235.1;End=1457316;Strand=+	PF08378.13	0.011	16.3	79	157	Nuclease-related domain
+Seqid=NZ_CP084235.1;End=88842;Strand=+	PF13191.8	0.01	16.3	30	113	AAA ATPase domain
+Seqid=NZ_CP084235.1;Start=1674260;Strand=-	PF13412.8	0.0079	15.8	7	33	Winged helix-turn-helix DNA-binding
+Seqid=NZ_CP084235.1;Start=2320419;Strand=-	PF04548.18	1.1e-7	31.5	236	339	AIG1 family
+Seqid=NZ_CP084235.1;Start=1172504;Strand=-	PF03193.18	0.37	10.8	44	78	RsgA GTPase
+Seqid=NZ_CP084235.1;End=188234;Strand=+	PF12963.9	0.036	14.5	190	246	Protein of unknown function (DUF3852)
+Seqid=NZ_CP084235.1;End=726430;Strand=+	PF06276.14	4.4e-26	92.3	414	569	Ferric iron reductase FhuF-like transporter
+Seqid=NZ_CP084235.1;End=771624;Strand=+	PF11042.10	5.2e-21	74.7	121	224	Protein of unknown function (DUF2750)
+Seqid=NZ_CP084235.1;End=1319464;Strand=+	PF13439.8	4.4e-19	69.2	12	174	Glycosyltransferase Family 4
+Seqid=NZ_CP084235.1;Start=1518137;Strand=-	PF11490.10	3.9e-18	65.6	94	207	DNA polymerase III polC-type N-terminus II
+Seqid=NZ_CP084235.1;End=786193;Strand=+	PF08241.14	0.0013	19.5	115	174	Methyltransferase domain
+Seqid=NZ_CP084235.1;Start=1744191;Strand=-	PF12420.10	0.13	12.4	259	322	Protein of unknown function
+Seqid=NZ_CP084235.1;End=292636;Strand=+	PF02719.17	1.8e-126	421.4	289	572	Polysaccharide biosynthesis protein
+Seqid=NZ_CP084235.1;Start=608769;Strand=-	PF02245.18	5.9e-48	162.7	27	208	Methylpurine-DNA glycosylase (MPG)
+Seqid=NZ_CP084235.1;Start=846827;Strand=-	PF13304.8	6.5e-4	19.7	33	72	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;Start=41017;Strand=-	PF04411.14	3.5e-9	37	407	545	PD-(D/E)XK nuclease superfamily
+Seqid=NZ_CP084235.1;Start=52041;Strand=-	PF00448.24	0.17	11.6	3	37	SRP54-type protein, GTPase domain
+Seqid=NZ_CP084236.1;End=17795;Strand=+	PF16960.7	0.095	12	69	113	Haemoglobin-haptoglobin utilisation, porphyrin transporter
+Seqid=NZ_CP084235.1;End=15903;Strand=+	PF09991.11	3.4e-56	190.7	18	296	Predicted membrane protein (DUF2232)
+Seqid=NZ_CP084235.1;End=1913752;Strand=+	PF07687.16	7.8e-9	35.5	208	305	Peptidase dimerisation domain
+Seqid=NZ_CP084235.1;End=1292010;Strand=+	PF01479.27	9.6e-13	47.7	6	52	S4 domain
+Seqid=NZ_CP084235.1;End=569851;Strand=+	PF12698.9	0.0013	18	9	47	ABC-2 family transporter protein
+Seqid=NZ_CP084235.1;Start=1079561;Strand=-	PF13185.8	4.1e-7	30.4	47	145	GAF domain
+Seqid=NZ_CP084235.1;End=2074058;Strand=+	PF00070.29	9.6e-19	67.8	162	238	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NZ_CP084235.1;Start=1717628;Strand=-	PF06143.13	0.11	12.2	8	50	Baculovirus 11 kDa family
+Seqid=NZ_CP084235.1;End=927800;Strand=+	PF08245.14	6.2e-17	62.3	72	293	Mur ligase middle domain
+Seqid=NZ_CP084235.1;Start=1489826;Strand=-	PF01855.21	3.2e-65	220.2	241	484	Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg
+Seqid=NZ_CP084235.1;End=1099873;Strand=+	PF00670.23	0.049	13.8	248	301	S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Seqid=NZ_CP084235.1;End=2114258;Strand=+	PF07693.16	0.064	12.6	27	73	KAP family P-loop domain
+Seqid=NZ_CP084235.1;End=1271619;Strand=+	PF16576.7	0.64	9.3	43	76	Barrel-sandwich domain of CusB or HlyD membrane-fusion
+Seqid=NZ_CP084235.1;Start=629908;Strand=-	PF01380.24	2.4e-20	72.8	126	254	SIS domain
+Seqid=NZ_CP084235.1;Start=2227554;Strand=-	PF13450.8	7.4e-7	29.4	157	190	NAD(P)-binding Rossmann-like domain
+Seqid=NZ_CP084235.1;End=888188;Strand=+	PF18304.3	0.085	12.2	25	116	SabA N-terminal extracellular adhesion domain
+Seqid=NZ_CP084235.1;End=1865002;Strand=+	PF07332.13	0.17	12	5	71	Putative Actinobacterial Holin-X, holin superfamily III
+Seqid=NZ_CP084235.1;Start=1891198;Strand=-	PF17755.3	2.9e-35	121.1	289	398	UvrA DNA-binding domain
+Seqid=NZ_CP084235.1;End=2267389;Strand=+	PF16179.7	1	9.5	80	119	Rel homology dimerisation domain
+Seqid=NZ_CP084235.1;End=1247511;Strand=+	PF13481.8	0.0013	18.4	128	154	AAA domain
+Seqid=NZ_CP084235.1;Start=2012446;Strand=-	PF13641.8	2.5e-12	47.2	15	134	Glycosyltransferase like family 2
+Seqid=NZ_CP084235.1;End=2269835;Strand=+	PF00375.20	4e-98	329.1	32	441	Sodium:dicarboxylate symporter family
+Seqid=NZ_CP084235.1;End=293915;Strand=+	PF03720.17	9e-20	71.2	322	424	UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain
+Seqid=NZ_CP084237.1;Start=5352;Strand=-	PF12730.9	4e-15	56.3	4	184	ABC-2 family transporter protein
+Seqid=NZ_CP084235.1;End=299119;Strand=+	PF13439.8	0.0091	16.1	37	94	Glycosyltransferase Family 4
+Seqid=NZ_CP084235.1;Start=2212647;Strand=-	PF13420.9	1.9e-13	50.7	6	155	Acetyltransferase (GNAT) domain
+Seqid=NZ_CP084235.1;Start=1399705;Strand=-	PF02388.18	5.8e-140	466.9	6	411	FemAB family
+Seqid=NZ_CP084235.1;Start=1560068;Strand=-	PF18151.3	0.1	12.9	60	82	Domain of unknown function (DUF5601)
+Seqid=NZ_CP084235.1;Start=898578;Strand=-	PF02833.16	4e-20	72.6	183	305	DHHA2 domain
+Seqid=NZ_CP084235.1;Start=2182013;Strand=-	PF07728.16	1.8e-4	21.6	200	271	AAA domain (dynein-related subfamily)
+Seqid=NZ_CP084235.1;End=60740;Strand=+	PF10138.11	0.023	14.9	33	74	vWA found in TerF C terminus
+Seqid=NZ_CP084235.1;End=1178324;Strand=+	PF04187.15	0.39	10.7	50	85	Haem-binding uptake, Tiki superfamily, ChaN
+Seqid=NZ_CP084235.1;End=380089;Strand=+	PF13733.8	0.025	14.2	56	98	N-terminal region of glycosyl transferase group 7
+Seqid=NZ_CP084235.1;End=101144;Strand=+	PF15978.7	0.035	13.2	26	66	Tn7-like transposition protein D
+Seqid=NZ_CP084235.1;End=680176;Strand=+	PF03547.20	0.14	10.6	209	254	Membrane transport protein
+Seqid=NZ_CP084235.1;End=823877;Strand=+	PF07638.13	0.0012	18.9	187	253	ECF sigma factor
+Seqid=NZ_CP084236.1;End=3447;Strand=+	PF09749.11	0.019	14.5	11	131	Uncharacterised conserved protein
+Seqid=NZ_CP084235.1;Start=397792;Strand=-	PF14278.8	0.49	10.6	93	177	Transcriptional regulator C-terminal region
+Seqid=NZ_CP084235.1;End=1238622;Strand=+	PF04766.14	0.02	14.4	19	91	Nucleopolyhedrovirus p26 protein
+Seqid=NZ_CP084235.1;Start=1672354;Strand=-	PF10724.11	0.059	13.7	89	142	Protein of unknown function (DUF2516)
+Seqid=NZ_CP084235.1;End=351143;Strand=+	PF13401.8	0.0081	16.5	5	26	AAA domain
+Seqid=NZ_CP084235.1;Start=29941;Strand=-	PF00581.22	0.0027	18.3	275	339	Rhodanese-like domain
+Seqid=NZ_CP084235.1;End=1041903;Strand=+	PF18216.3	0.58	10	54	75	N-formyltransferase dimerization C-terminal domain
+Seqid=NZ_CP084235.1;End=1814064;Strand=+	PF00662.22	2.8e-11	43.3	64	112	NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus
+Seqid=NZ_CP084235.1;End=792944;Strand=+	PF00137.23	2.8e-14	53.3	4	66	ATP synthase subunit C
+Seqid=NZ_CP084235.1;Start=2200945;Strand=-	PF06257.13	2.4e-31	107.7	4	74	Biofilm formation stimulator VEG
+Seqid=NZ_CP084235.1;Start=1576147;Strand=-	PF00481.23	0.29	10.8	202	252	Protein phosphatase 2C
+Seqid=NZ_CP084235.1;End=1696935;Strand=+	PF00437.22	0.029	13.5	29	56	Type II/IV secretion system protein
+Seqid=NZ_CP084235.1;Start=1885023;Strand=-	PF13238.8	0.24	12.1	16	115	AAA domain
+Seqid=NZ_CP084235.1;End=1306132;Strand=+	PF00071.24	0.0096	15.6	6	125	Ras family
+Seqid=NZ_CP084235.1;End=1209159;Strand=+	PF06421.14	3.9e-48	162.1	497	603	GTP-binding protein LepA C-terminus
+Seqid=NZ_CP084235.1;End=393574;Strand=+	PF13524.8	0.029	14.9	766	825	Glycosyl transferases group 1
+Seqid=NZ_CP084235.1;Start=1074532;Strand=-	PF00670.23	0.0054	16.9	142	232	S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Seqid=NZ_CP084235.1;Start=1620839;Strand=-	PF13847.8	1.4e-4	21.7	31	86	Methyltransferase domain
+Seqid=NZ_CP084235.1;End=152779;Strand=+	PF07022.15	2.9e-6	27.4	20	69	Bacteriophage CI repressor helix-turn-helix domain
+Seqid=NZ_CP084235.1;Start=1404455;Strand=-	PF00697.24	1.4e-38	132.7	4	202	N-(5'phosphoribosyl)anthranilate (PRA) isomerase
+Seqid=NZ_CP084235.1;End=1788938;Strand=+	PF13434.8	0.23	10.7	163	222	L-lysine 6-monooxygenase (NADPH-requiring)
+Seqid=NZ_CP084235.1;End=1394828;Strand=+	PF13238.8	0.052	14.2	75	113	AAA domain
+Seqid=NZ_CP084235.1;End=1043815;Strand=+	PF02527.17	0.031	13.7	30	109	rRNA small subunit methyltransferase G
+Seqid=NZ_CP084235.1;Start=174585;Strand=-	PF00478.27	0.15	11.1	74	131	IMP dehydrogenase / GMP reductase domain
+Seqid=NZ_CP084235.1;Start=1508213;Strand=-	PF03725.17	1.7e-8	34.5	463	532	3' exoribonuclease family, domain 2
+Seqid=NZ_CP084235.1;Start=946918;Strand=-	PF04307.16	2.5e-25	88.9	7	167	LexA-binding, inner membrane-associated putative hydrolase
+Seqid=NZ_CP084235.1;End=2122491;Strand=+	PF00149.30	4.4e-10	40.5	239	449	Calcineurin-like phosphoesterase
+Seqid=NZ_CP084235.1;Start=2006611;Strand=-	PF09796.11	0.7	10.1	112	143	Ubiquinol-cytochrome-c reductase complex subunit (QCR10)
+Seqid=NZ_CP084235.1;End=423712;Strand=+	PF14102.8	6.9e-40	136.3	12	129	Capsule biosynthesis CapC
+Seqid=NZ_CP084235.1;Start=1498249;Strand=-	PF13413.8	3e-16	59	14	73	Helix-turn-helix domain
+Seqid=NZ_CP084235.1;Start=1688623;Strand=-	PF05524.15	5.4e-33	113.7	6	127	PEP-utilising enzyme, N-terminal
+Seqid=NZ_CP084235.1;Start=2223974;Strand=-	PF14701.8	3.5e-5	23.2	35	113	Glycogen debranching enzyme, glucanotransferase domain
+Seqid=NZ_CP084235.1;End=261672;Strand=+	PF07464.13	0.002	18.3	579	669	Apolipophorin-III precursor (apoLp-III)
+Seqid=NZ_CP084236.1;Start=14097;Strand=-	PF10884.10	0.15	12.5	143	205	Protein of unknown function (DUF2683)
+Seqid=NZ_CP084235.1;End=1315782;Strand=+	PF12895.9	0.043	14.2	180	254	Anaphase-promoting complex, cyclosome, subunit 3
+Seqid=NZ_CP084235.1;End=1121811;Strand=+	PF00910.24	0.13	12.8	160	230	RNA helicase
+Seqid=NZ_CP084235.1;End=1975751;Strand=+	PF02673.20	6e-77	258.9	10	274	Bacitracin resistance protein BacA
+Seqid=NZ_CP084235.1;Start=42818;Strand=-	PF00004.31	0.0015	19.1	310	471	ATPase family associated with various cellular activities (AAA)
+Seqid=NZ_CP084238.1;End=14307;Strand=+	PF00665.28	1.1e-11	45	67	158	Integrase core domain
+Seqid=NZ_CP084235.1;Start=754452;Strand=-	PF01312.21	0.0012	18.2	110	323	FlhB HrpN YscU SpaS Family
+Seqid=NZ_CP084235.1;End=1198764;Strand=+	PF00009.29	0.0014	18.3	97	156	Elongation factor Tu GTP binding domain
+Seqid=NZ_CP084235.1;Start=1972940;Strand=-	PF02367.19	0.24	11.4	359	387	Threonylcarbamoyl adenosine biosynthesis protein TsaE
+Seqid=NZ_CP084236.1;Start=7112;Strand=-	PF13302.9	7e-15	56	7	145	Acetyltransferase (GNAT) domain
+Seqid=NZ_CP084235.1;Start=2140705;Strand=-	PF06325.15	1.8e-8	34.3	69	200	Ribosomal protein L11 methyltransferase (PrmA)
+Seqid=NZ_CP084235.1;End=1696935;Strand=+	PF07728.16	0.78	9.8	283	318	AAA domain (dynein-related subfamily)
+Seqid=NZ_CP084235.1;End=1536348;Strand=+	PF09316.12	0.15	11.8	12	34	C-myb, C-terminal
+Seqid=NZ_CP084235.1;Start=1629795;Strand=-	PF12837.9	0.15	12.3	180	193	4Fe-4S binding domain
+Seqid=NZ_CP084235.1;Start=1424256;Strand=-	PF00204.27	1.1e-58	197.6	226	396	DNA gyrase B
+Seqid=NZ_CP084235.1;End=2309364;Strand=+	PF14687.8	0.1	12.7	33	104	Domain of unknown function (DUF4460)
+Seqid=NZ_CP084235.1;End=1309097;Strand=+	PF08242.14	3.8e-13	50.1	54	149	Methyltransferase domain
+Seqid=NZ_CP084235.1;Start=481772;Strand=-	PF02347.18	0.0083	15.1	96	217	Glycine cleavage system P-protein
+Seqid=NZ_CP084235.1;End=103913;Strand=+	PF13304.8	0.6	9.9	75	199	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;Start=2223216;Strand=-	PF14502.8	0.019	14.5	29	63	Helix-turn-helix domain
+Seqid=NZ_CP084235.1;End=1545042;Strand=+	PF06790.13	0.053	13.4	11	58	Uncharacterised protein family (UPF0259)
+Seqid=NZ_CP084235.1;Start=148865;Strand=-	PF12974.9	1.2e-5	25.1	71	197	ABC transporter, phosphonate, periplasmic substrate-binding protein
+Seqid=NZ_CP084235.1;Start=2154820;Strand=-	PF13177.8	0.29	11.2	540	634	DNA polymerase III, delta subunit
+Seqid=NZ_CP084235.1;End=934896;Strand=+	PF02518.28	1.9e-7	31.7	249	340	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Seqid=NZ_CP084235.1;Start=1937701;Strand=-	PF13304.8	2.4e-5	24.4	110	195	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;End=1189524;Strand=+	PF13207.8	0.42	11.1	114	155	AAA domain
+Seqid=NZ_CP084235.1;End=2024407;Strand=+	PF03308.18	0.028	13.5	40	93	Methylmalonyl Co-A mutase-associated GTPase MeaB
+Seqid=NZ_CP084235.1;Start=2214006;Strand=-	PF20071.1	1e-18	67.4	1	38	Family of unknown function (DUF6467)
+Seqid=NZ_CP084237.1;End=14922;Strand=+	PF08003.13	0.072	12.1	64	181	Protein of unknown function (DUF1698)
+Seqid=NZ_CP084237.1;End=14922;Strand=+	PF01135.21	0.62	9.9	40	110	Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+Seqid=NZ_CP084235.1;Start=838526;Strand=-	PF07991.14	6.4e-77	256.9	20	182	Acetohydroxy acid isomeroreductase, NADPH-binding domain
+Seqid=NZ_CP084235.1;Start=454942;Strand=-	PF13450.8	0.0031	17.8	6	45	NAD(P)-binding Rossmann-like domain
+Seqid=NZ_CP084236.1;Start=8552;Strand=-	PF00403.28	1.5e-18	67.1	8	69	Heavy-metal-associated domain
+Seqid=NZ_CP084235.1;End=1154395;Strand=+	PF01078.23	0.19	11.2	74	94	Magnesium chelatase, subunit ChlI
+Seqid=NZ_CP084235.1;End=1167869;Strand=+	PF13393.8	1e-46	159.8	7	313	Histidyl-tRNA synthetase
+Seqid=NZ_CP084235.1;Start=1794480;Strand=-	PF13361.8	1e-11	45.1	282	658	UvrD-like helicase C-terminal domain
+Seqid=NZ_CP084235.1;Start=1731466;Strand=-	PF02775.23	2.5e-6	27.5	419	504	Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+Seqid=NZ_CP084235.1;End=383279;Strand=+	PF02737.20	0.016	15.2	5	38	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Seqid=NZ_CP084235.1;End=711653;Strand=+	PF07219.15	0.031	14.5	20	65	HemY protein N-terminus
+Seqid=NZ_CP084235.1;End=999827;Strand=+	PF01738.20	0.2	11.3	182	223	Dienelactone hydrolase family
+Seqid=NZ_CP084235.1;End=25208;Strand=+	PF13426.9	4.1e-8	33.5	273	367	PAS domain
+Seqid=NZ_CP084235.1;End=598570;Strand=+	PF00083.26	1.6e-10	40.5	38	191	Sugar (and other) transporter
+Seqid=NZ_CP084235.1;Start=1889925;Strand=-	PF07905.13	6.5e-5	23.3	12	111	Purine catabolism regulatory protein-like family
+Seqid=NZ_CP084235.1;End=307264;Strand=+	PF13589.8	0.0069	16.4	202	252	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Seqid=NZ_CP084235.1;Start=188286;Strand=-	PF03417.18	0.33	10.6	32	174	Acyl-coenzyme A:6-aminopenicillanic acid acyl-transferase
+Seqid=NZ_CP084235.1;Start=1996446;Strand=-	PF03237.17	0.41	10.4	46	109	Terminase large subunit, T4likevirus-type, N-terminal
+Seqid=NZ_CP084235.1;End=2000601;Strand=+	PF13673.9	2.8e-9	37.1	51	152	Acetyltransferase (GNAT) domain
+Seqid=NZ_CP084235.1;End=705200;Strand=+	PF01416.22	3.2e-8	34.1	13	108	tRNA pseudouridine synthase
+Seqid=NZ_CP084237.1;End=18900;Strand=+	PF03563.15	0.23	10.7	11	48	Bunyavirus glycoprotein G2
+Seqid=NZ_CP084235.1;Start=835229;Strand=-	PF00330.22	3.3e-78	263.9	7	228	Aconitase family (aconitate hydratase)
+Seqid=NZ_CP084235.1;End=197032;Strand=+	PF00768.22	2.7e-46	158.1	62	299	D-alanyl-D-alanine carboxypeptidase
+Seqid=NZ_CP084235.1;End=132186;Strand=+	PF16538.7	0.71	10.5	203	248	Flagellar assembly protein T, C-terminal domain
+Seqid=NZ_CP084235.1;End=844344;Strand=+	PF13555.8	0.22	11.4	22	43	P-loop containing region of AAA domain
+Seqid=NZ_CP084235.1;End=711319;Strand=+	PF01791.11	1.2e-69	234.6	22	282	DeoC/LacD family aldolase
+Seqid=NZ_CP084235.1;Start=558747;Strand=-	PF12802.9	4e-8	33.3	34	92	MarR family
+Seqid=NZ_CP084235.1;Start=1649576;Strand=-	PF05175.16	5.4e-10	39.2	26	143	Methyltransferase small domain
+Seqid=NZ_CP084235.1;End=1863316;Strand=+	PF05908.13	2.3e-68	229.5	45	239	Poly-gamma-glutamate hydrolase
+Seqid=NZ_CP084235.1;End=289268;Strand=+	PF13807.8	1.3e-6	28.4	147	196	G-rich domain on putative tyrosine kinase
+Seqid=NZ_CP084235.1;End=740567;Strand=+	PF00448.24	0.033	13.9	116	150	SRP54-type protein, GTPase domain
+Seqid=NZ_CP084235.1;End=1092227;Strand=+	PF13483.8	2.2e-23	83.1	2	195	Beta-lactamase superfamily domain
+Seqid=NZ_CP084235.1;End=289991;Strand=+	PF00142.20	0.024	14.2	54	90	4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+Seqid=NZ_CP084235.1;End=2067491;Strand=+	PF00834.21	7.9e-56	188.7	6	198	Ribulose-phosphate 3 epimerase family
+Seqid=NZ_CP084235.1;Start=1853941;Strand=-	PF14512.8	0.018	14.7	108	132	Putative TM nitroreductase
+Seqid=NZ_CP084235.1;Start=1871415;Strand=-	PF03952.18	2.7e-60	202.4	4	136	Enolase, N-terminal domain
+Seqid=NZ_CP084236.1;Start=8795;Strand=-	PF07332.13	0.1	12.7	150	222	Putative Actinobacterial Holin-X, holin superfamily III
+Seqid=NZ_CP084235.1;End=595626;Strand=+	PF08279.14	2.2e-4	21.2	41	81	HTH domain
+Seqid=NZ_CP084235.1;Start=925794;Strand=-	PF00210.26	1.1e-41	142.2	25	161	Ferritin-like domain
+Seqid=NZ_CP084235.1;End=400257;Strand=+	PF01544.20	1.1e-56	192.4	27	312	CorA-like Mg2+ transporter protein
+Seqid=NZ_CP084235.1;Start=2055657;Strand=-	PF00697.24	0.13	12	151	190	N-(5'phosphoribosyl)anthranilate (PRA) isomerase
+Seqid=NZ_CP084235.1;End=75096;Strand=+	PF09428.12	0.064	13.6	78	110	Fungal protein of unknown function (DUF2011)
+Seqid=NZ_CP084235.1;End=1143920;Strand=+	PF10303.11	0.31	11.7	718	852	Protein of unknown function (DUF2408)
+Seqid=NZ_CP084235.1;End=79103;Strand=+	PF16297.7	0.28	11.2	157	236	Domain of unknown function (DUF4939)
+Seqid=NZ_CP084235.1;Start=1781023;Strand=-	PF05729.14	0.14	12.1	202	243	NACHT domain
+Seqid=NZ_CP084235.1;End=444138;Strand=+	PF13463.8	9e-11	42.3	38	100	Winged helix DNA-binding domain
+Seqid=NZ_CP084235.1;Start=1225496;Strand=-	PF00587.27	5.4e-10	39.6	164	287	tRNA synthetase class II core domain (G, H, P, S and T)
+Seqid=NZ_CP084235.1;Start=1439571;Strand=-	PF00456.23	1.6e-142	474.5	6	337	Transketolase, thiamine diphosphate binding domain
+Seqid=NZ_CP084235.1;End=1251961;Strand=+	PF01571.23	6.9e-92	307.4	10	257	Aminomethyltransferase folate-binding domain
+Seqid=NZ_CP084235.1;End=593929;Strand=+	PF06414.14	0.076	12.5	30	56	Zeta toxin
+Seqid=NZ_CP084235.1;End=19938;Strand=+	PF06745.15	0.01	15.3	186	326	KaiC
+Seqid=NZ_CP084235.1;End=487575;Strand=+	PF13481.8	0.15	11.6	25	47	AAA domain
+Seqid=NZ_CP084235.1;Start=1886136;Strand=-	PF01262.23	0.82	9	7	36	Alanine dehydrogenase/PNT, C-terminal domain
+Seqid=NZ_CP084236.1;End=936;Strand=+	PF13730.8	0.011	15.7	59	95	Helix-turn-helix domain
+Seqid=NZ_CP084235.1;End=213670;Strand=+	PF17280.4	0.61	10.3	17	47	Family of unknown function (DUF5345)
+Seqid=NZ_CP084235.1;End=847873;Strand=+	PF12586.10	0.054	13.8	23	42	Protein of unknown function (DUF3760)
+Seqid=NZ_CP084235.1;End=956405;Strand=+	PF01907.21	0.44	10.8	98	112	Ribosomal protein L37e
+Seqid=NZ_CP084235.1;Start=1593255;Strand=-	PF07722.15	0.17	11.7	232	261	Peptidase C26
+Seqid=NZ_CP084235.1;End=240168;Strand=+	PF10471.11	0.25	12.3	2	48	Anaphase-promoting complex APC subunit CDC26
+Seqid=NZ_CP084235.1;Start=999892;Strand=-	PF00821.20	0.028	13.3	240	351	Phosphoenolpyruvate carboxykinase C-terminal P-loop domain
+Seqid=NZ_CP084235.1;Start=1882964;Strand=-	PF14528.8	0.045	14.1	129	190	LAGLIDADG-like domain
+Seqid=NZ_CP084235.1;Start=2207011;Strand=-	PF01209.20	0.12	11.8	49	99	ubiE/COQ5 methyltransferase family
+Seqid=NZ_CP084235.1;Start=1848218;Strand=-	PF02987.18	0.85	9.9	33	56	Late embryogenesis abundant protein
+Seqid=NZ_CP084235.1;End=773812;Strand=+	PF13508.9	3.4e-4	21	64	146	Acetyltransferase (GNAT) domain
+Seqid=NZ_CP084235.1;Start=2008663;Strand=-	PF13671.8	0.058	13.7	75	116	AAA domain
+Seqid=NZ_CP084235.1;End=303174;Strand=+	PF06129.14	0.11	13.3	13	89	Chordopoxvirus G3 protein
+Seqid=NZ_CP084235.1;Start=951828;Strand=-	PF04982.15	0.031	14.5	58	143	HPP family
+Seqid=NZ_CP084235.1;End=2000601;Strand=+	PF18014.3	0.15	12	53	81	Acetyltransferase (GNAT) domain
+Seqid=NZ_CP084235.1;End=1716523;Strand=+	PF03626.16	1.7e-11	44.4	8	80	Prokaryotic Cytochrome C oxidase subunit IV
+Seqid=NZ_CP084235.1;End=818167;Strand=+	PF03318.15	1.3e-4	22	142	213	Clostridium epsilon toxin ETX/Bacillus mosquitocidal toxin MTX2
+Seqid=NZ_CP084235.1;Start=269305;Strand=-	PF13354.8	8.9e-36	123.5	60	265	Beta-lactamase enzyme family
+Seqid=NZ_CP084235.1;End=983071;Strand=+	PF02463.21	0.021	14.3	6	58	RecF/RecN/SMC N terminal domain
+Seqid=NZ_CP084235.1;End=323650;Strand=+	PF06906.13	0.42	10.8	327	358	Protein of unknown function (DUF1272)
+Seqid=NZ_CP084235.1;Start=756517;Strand=-	PF16916.7	1.8e-4	21.6	229	299	Dimerisation domain of Zinc Transporter
+Seqid=NZ_CP084235.1;Start=1590089;Strand=-	PF15632.8	1.1e-4	22	264	343	ATP-grasp in the biosynthetic pathway with Ter operon
+Seqid=NZ_CP084235.1;Start=715975;Strand=-	PF00296.22	2.1e-24	86.6	17	272	Luciferase-like monooxygenase
+Seqid=NZ_CP084235.1;Start=1805592;Strand=-	PF00208.23	1e-76	258	183	414	Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+Seqid=NZ_CP084235.1;End=973328;Strand=+	PF09485.12	0.23	12.1	189	284	CRISPR-associated protein Cse2 (CRISPR_cse2)
+Seqid=NZ_CP084235.1;Start=1665213;Strand=-	PF00459.27	2.9e-57	194.3	3	252	Inositol monophosphatase family
+Seqid=NZ_CP084235.1;Start=418805;Strand=-	PF08271.14	0.076	12.6	22	35	TFIIB zinc-binding
+Seqid=NZ_CP084235.1;End=786193;Strand=+	PF00398.22	0.13	11.4	77	139	Ribosomal RNA adenine dimethylase
+Seqid=NZ_CP084235.1;Start=2140705;Strand=-	PF05175.16	1.1e-54	184.7	36	207	Methyltransferase small domain
+Seqid=NZ_CP084235.1;End=162539;Strand=+	PF00977.23	0.16	11.6	291	341	Histidine biosynthesis protein
+Seqid=NZ_CP084235.1;Start=503825;Strand=-	PF02518.28	1.6e-11	44.8	483	580	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Seqid=NZ_CP084235.1;Start=1638283;Strand=-	PF14520.8	6.2e-5	23.5	101	155	Helix-hairpin-helix domain
+Seqid=NZ_CP084235.1;Start=1937701;Strand=-	PF13304.8	0.058	13.3	29	51	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;End=1209159;Strand=+	PF03144.27	1.3e-11	44.8	214	284	Elongation factor Tu domain 2
+Seqid=NZ_CP084235.1;End=1326540;Strand=+	PF15590.8	0.16	11.9	55	96	Immunity protein 27
+Seqid=NZ_CP084235.1;End=1184893;Strand=+	PF05227.15	0.053	13.5	35	65	CHASE3 domain
+Seqid=NZ_CP084235.1;Start=353780;Strand=-	PF00746.23	0.0013	18.7	166	207	LPXTG cell wall anchor motif
+Seqid=NZ_CP084235.1;End=49858;Strand=+	PF04507.14	3.8e-82	275.2	1	177	Csa1 family
+Seqid=NZ_CP084235.1;Start=856271;Strand=-	PF04397.17	2.2e-18	66.4	151	237	LytTr DNA-binding domain
+Seqid=NZ_CP084235.1;Start=585994;Strand=-	PF13439.8	0.0046	17.1	15	197	Glycosyltransferase Family 4
+Seqid=NZ_CP084235.1;End=25208;Strand=+	PF17079.7	0.1	13.1	489	536	Male-specific protein scotti
+Seqid=NZ_CP084235.1;Start=2220238;Strand=-	PF13401.8	0.04	14.3	41	152	AAA domain
+Seqid=NZ_CP084235.1;End=1393842;Strand=+	PF10329.11	0.35	10.4	14	63	Region of unknown function (DUF2417)
+Seqid=NZ_CP084235.1;End=1156875;Strand=+	PF17384.4	0.0096	16.2	50	81	RimP C-terminal SH3 domain
+Seqid=NZ_CP084235.1;Start=1756548;Strand=-	PF00291.27	0.048	13.2	33	98	Pyridoxal-phosphate dependent enzyme
+Seqid=NZ_CP084235.1;End=928522;Strand=+	PF13689.8	0.28	11.5	27	74	YfiR/HmsC-like
+Seqid=NZ_CP084235.1;End=344366;Strand=+	PF01326.21	9.9e-11	41.6	302	353	Pyruvate phosphate dikinase, AMP/ATP-binding domain
+Seqid=NZ_CP084235.1;End=609788;Strand=+	PF02796.17	0.33	11.2	13	29	Helix-turn-helix domain of resolvase
+Seqid=NZ_CP084235.1;End=890633;Strand=+	PF13401.8	0.0069	16.8	28	172	AAA domain
+Seqid=NZ_CP084235.1;End=1865002;Strand=+	PF08592.13	0.52	10.7	11	82	Domain of unknown function (DUF1772)
+Seqid=NZ_CP084235.1;Start=1470612;Strand=-	PF01926.25	4.5e-17	62.3	210	329	50S ribosome-binding GTPase
+Seqid=NZ_CP084235.1;Start=2042874;Strand=-	PF12697.9	1.3e-13	52.2	34	260	Alpha/beta hydrolase family
+Seqid=NZ_CP084235.1;Start=2057294;Strand=-	PF07926.14	2.3e-4	21.3	459	567	TPR/MLP1/MLP2-like protein
+Seqid=NZ_CP084235.1;End=1211493;Strand=+	PF14425.8	0.067	13.3	190	267	Immunity protein Imm3
+Seqid=NZ_CP084235.1;End=1696935;Strand=+	PF13191.8	0.0088	16.5	275	307	AAA ATPase domain
+Seqid=NZ_CP084235.1;Start=2299970;Strand=-	PF07308.15	0.21	12	22	51	Protein of unknown function (DUF1456)
+Seqid=NZ_CP084235.1;Start=1957591;Strand=-	PF02378.20	1.2e-16	60.7	320	589	Phosphotransferase system, EIIC
+Seqid=NZ_CP084235.1;Start=432152;Strand=-	PF13527.9	1.9e-4	21.7	2	114	Acetyltransferase (GNAT) domain
+Seqid=NZ_CP084235.1;End=1326540;Strand=+	PF02002.19	0.019	14.9	33	112	TFIIE alpha subunit
+Seqid=NZ_CP084235.1;Start=2101005;Strand=-	PF08428.12	6e-16	59	343	425	Rib domain
+Seqid=NZ_CP084235.1;Start=1808543;Strand=-	PF01180.23	1.6e-4	21.1	281	335	Dihydroorotate dehydrogenase
+Seqid=NZ_CP084235.1;Start=1564570;Strand=-	PF00158.28	0.096	12.5	272	363	Sigma-54 interaction domain
+Seqid=NZ_CP084235.1;Start=1433594;Strand=-	PF05729.14	0.17	11.9	29	51	NACHT domain
+Seqid=NZ_CP084235.1;End=1355564;Strand=+	PF02645.18	5.9e-83	278.5	6	278	Uncharacterised protein, DegV family COG1307
+Seqid=NZ_CP084235.1;Start=2306720;Strand=-	PF04893.19	0.43	10.6	180	328	Yip1 domain
+Seqid=NZ_CP084235.1;Start=551508;Strand=-	PF19658.1	0.21	11.1	40	82	Family of unknown function (DUF6161)
+Seqid=NZ_CP084235.1;Start=1284090;Strand=-	PF03807.19	2.3e-16	60.3	9	104	NADP oxidoreductase coenzyme F420-dependent
+Seqid=NZ_CP084235.1;Start=2048377;Strand=-	PF02989.16	0.28	11.1	32	109	Lyme disease proteins of unknown function
+Seqid=NZ_CP084235.1;Start=1035046;Strand=-	PF03486.16	3.2e-150	500.5	3	411	HI0933-like protein
+Seqid=NZ_CP084235.1;Start=1503680;Strand=-	PF13401.8	0.098	13	482	636	AAA domain
+Seqid=NZ_CP084235.1;Start=349618;Strand=-	PF00850.21	0.037	13.5	201	252	Histone deacetylase domain
+Seqid=NZ_CP084235.1;Start=756517;Strand=-	PF01545.23	1e-50	172.4	28	220	Cation efflux family
+Seqid=NZ_CP084235.1;End=687741;Strand=+	PF08311.14	0.059	13.4	4	42	Mad3/BUB1 homology region 1
+Seqid=NZ_CP084235.1;End=1787534;Strand=+	PF12689.9	0.73	9.8	163	227	Acid Phosphatase
+Seqid=NZ_CP084235.1;Start=629908;Strand=-	PF04446.14	0.16	12.1	215	246	tRNAHis guanylyltransferase
+Seqid=NZ_CP084235.1;Start=1482129;Strand=-	PF13173.8	6.8e-4	19.7	596	693	AAA domain
+Seqid=NZ_CP084235.1;End=496399;Strand=+	PF13967.8	0.19	11.5	14	74	Late exocytosis, associated with Golgi transport
+Seqid=NZ_CP084235.1;End=1377713;Strand=+	PF00313.24	1.3e-30	105.2	14	76	'Cold-shock' DNA-binding domain
+Seqid=NZ_CP084235.1;Start=1717628;Strand=-	PF14584.8	0.071	13.2	11	78	Protein of unknown function (DUF4446)
+Seqid=NZ_CP084235.1;Start=1499667;Strand=-	PF02254.20	0.025	14.9	5	76	TrkA-N domain
+Seqid=NZ_CP084235.1;End=1268283;Strand=+	PF01134.24	3.1e-5	23.4	7	115	Glucose inhibited division protein A
+Seqid=NZ_CP084235.1;Start=205296;Strand=-	PF13384.8	0.0024	17.8	8	33	Homeodomain-like domain
+Seqid=NZ_CP084236.1;End=11922;Strand=+	PF13417.8	0.0067	16.8	19	70	Glutathione S-transferase, N-terminal domain
+Seqid=NZ_CP084235.1;Start=1924894;Strand=-	PF16347.7	0.0084	16.4	319	373	Domain of unknown function (DUF4976)
+Seqid=NZ_CP084235.1;End=405227;Strand=+	PF00368.20	3e-103	345.7	29	389	Hydroxymethylglutaryl-coenzyme A reductase
+Seqid=NZ_CP084235.1;End=136075;Strand=+	PF13601.8	0.0017	18.6	41	92	Winged helix DNA-binding domain
+Seqid=NZ_CP084235.1;Start=1810474;Strand=-	PF00160.23	1.2e-47	162.2	18	194	Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+Seqid=NZ_CP084235.1;Start=1449824;Strand=-	PF02358.18	1.6e-4	20.9	176	231	Trehalose-phosphatase
+Seqid=NZ_CP084235.1;End=111308;Strand=+	PF12728.9	0.25	11.7	36	58	Helix-turn-helix domain
+Seqid=NZ_CP084235.1;Start=2227554;Strand=-	PF02737.20	0.69	9.9	155	190	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Seqid=NZ_CP084235.1;End=776268;Strand=+	PF01656.25	0.019	15.1	13	48	CobQ/CobB/MinD/ParA nucleotide binding domain
+Seqid=NZ_CP084235.1;Start=1585135;Strand=-	PF00931.24	0.056	12.7	4	37	NB-ARC domain
+Seqid=NZ_CP084235.1;End=1067540;Strand=+	PF13324.8	0.063	12.9	4	103	Grap2 and cyclin-D-interacting
+Seqid=NZ_CP084235.1;End=853615;Strand=+	PF13384.8	0.085	12.9	7	26	Homeodomain-like domain
+Seqid=NZ_CP084235.1;End=446698;Strand=+	PF02230.18	5.4e-12	46.1	4	198	Phospholipase/Carboxylesterase
+Seqid=NZ_CP084235.1;Start=203647;Strand=-	PF13238.8	2.5e-4	21.7	34	219	AAA domain
+Seqid=NZ_CP084236.1;End=20658;Strand=+	PF04218.15	0.0012	18.5	167	199	CENP-B N-terminal DNA-binding domain
+Seqid=NZ_CP084235.1;Start=2262236;Strand=-	PF01645.19	0.015	14.6	265	370	Conserved region in glutamate synthase
+Seqid=NZ_CP084235.1;End=292636;Strand=+	PF04321.19	9.5e-15	54.5	288	460	RmlD substrate binding domain
+Seqid=NZ_CP084235.1;End=955859;Strand=+	PF00670.23	0.44	10.7	181	245	S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Seqid=NZ_CP084235.1;Start=1700804;Strand=-	PF00551.21	1.5e-55	187.8	3	183	Formyl transferase
+Seqid=NZ_CP084235.1;End=951643;Strand=+	PF01293.22	0.028	13.2	342	445	Phosphoenolpyruvate carboxykinase
+Seqid=NZ_CP084235.1;Start=1851590;Strand=-	PF12314.10	0.12	12.8	56	85	Inner membrane complex protein
+Seqid=NZ_CP084235.1;End=1270278;Strand=+	PF02779.26	7.4e-47	159.4	13	188	Transketolase, pyrimidine binding domain
+Seqid=NZ_CP084235.1;End=786193;Strand=+	PF08242.14	0.025	15.4	115	172	Methyltransferase domain
+Seqid=NZ_CP084235.1;End=439033;Strand=+	PF16868.7	0.75	9.3	136	164	NMT1-like family
+Seqid=NZ_CP084235.1;Start=1405078;Strand=-	PF00218.23	4.6e-75	252.2	7	253	Indole-3-glycerol phosphate synthase
+Seqid=NZ_CP084235.1;Start=2153233;Strand=-	PF05362.15	6.3e-5	22.7	344	451	Lon protease (S16) C-terminal proteolytic domain
+Seqid=NZ_CP084235.1;Start=1079561;Strand=-	PF01590.28	1.6e-7	32.1	70	152	GAF domain
+Seqid=NZ_CP084235.1;End=212044;Strand=+	PF13304.8	0.019	14.9	32	60	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;End=1186689;Strand=+	PF01170.20	0.065	13	72	125	Putative RNA methylase family UPF0020
+Seqid=NZ_CP084235.1;Start=2064315;Strand=-	PF06480.17	0.41	11.1	98	156	FtsH Extracellular
+Seqid=NZ_CP084235.1;Start=1808543;Strand=-	PF01207.19	0.0063	15.7	265	341	Dihydrouridine synthase (Dus)
+Seqid=NZ_CP084235.1;End=337871;Strand=+	PF06855.14	1.2e-18	67.1	2	67	YozE SAM-like fold
+Seqid=NZ_CP084235.1;End=1623546;Strand=+	PF00739.21	0.11	12.7	10	58	Trans-activation protein X
+Seqid=NZ_CP084235.1;End=173763;Strand=+	PF14402.8	0.0021	17.7	11	76	7 transmembrane helices usually fused to an inactive transglutaminase
+Seqid=NZ_CP084236.1;Start=7112;Strand=-	PF13508.9	4.3e-6	27	62	146	Acetyltransferase (GNAT) domain
+Seqid=NZ_CP084235.1;Start=1622361;Strand=-	PF06413.13	0.4	10.6	246	333	Neugrin
+Seqid=NZ_CP084235.1;End=753469;Strand=+	PF13604.8	0.1	12.4	32	168	AAA domain
+Seqid=NZ_CP084235.1;Start=1540867;Strand=-	PF00877.21	0.07	13.3	17	52	NlpC/P60 family
+Seqid=NZ_CP084235.1;Start=1889925;Strand=-	PF07475.14	9.7e-75	249.9	128	296	HPr Serine kinase C-terminal domain
+Seqid=NZ_CP084235.1;End=111308;Strand=+	PF02796.17	0.17	12.1	36	54	Helix-turn-helix domain of resolvase
+Seqid=NZ_CP084236.1;Start=7112;Strand=-	PF05182.15	0.15	11.8	33	49	Fip1 motif
+Seqid=NZ_CP084235.1;Start=1421860;Strand=-	PF00521.22	2.9e-149	497.7	29	468	DNA gyrase/topoisomerase IV, subunit A
+Seqid=NZ_CP084235.1;End=45169;Strand=+	PF07308.15	0.035	14.5	18	53	Protein of unknown function (DUF1456)
+Seqid=NZ_CP084235.1;Start=930594;Strand=-	PF08659.12	1.9e-4	21.5	17	135	KR domain
+Seqid=NZ_CP084235.1;End=499277;Strand=+	PF06414.14	0.032	13.7	71	107	Zeta toxin
+Seqid=NZ_CP084238.1;Start=6867;Strand=-	PF13602.8	8.5e-15	56	85	215	Zinc-binding dehydrogenase
+Seqid=NZ_CP084235.1;Start=2113104;Strand=-	PF08210.13	0.11	12.4	50	91	APOBEC-like N-terminal domain
+Seqid=NZ_CP084235.1;Start=1819368;Strand=-	PF03600.18	3.5e-9	36.4	12	381	Citrate transporter
+Seqid=NZ_CP084235.1;End=555970;Strand=+	PF13581.8	4.9e-4	20.1	263	311	Histidine kinase-like ATPase domain
+Seqid=NZ_CP084235.1;Start=1656448;Strand=-	PF13533.8	5.9e-6	26.1	1118	1151	Biotin-lipoyl like
+Seqid=NZ_CP084235.1;End=289268;Strand=+	PF03564.17	0.42	10.6	43	103	Protein of unknown function (DUF1759)
+Seqid=NZ_CP084235.1;End=363473;Strand=+	PF01155.21	0.61	10.2	5	28	Hydrogenase/urease nickel incorporation, metallochaperone, hypA
+Seqid=NZ_CP084235.1;End=85083;Strand=+	PF01047.24	0.05	13.6	15	61	MarR family
+Seqid=NZ_CP084235.1;Start=2101005;Strand=-	PF08428.12	2.2e-11	44.4	17	81	Rib domain
+Seqid=NZ_CP084235.1;End=325514;Strand=+	PF03600.18	4.1e-22	78.8	41	201	Citrate transporter
+Seqid=NZ_CP084235.1;End=1152268;Strand=+	PF00009.29	0.48	10	276	330	Elongation factor Tu GTP binding domain
+Seqid=NZ_CP084235.1;Start=2140705;Strand=-	PF01170.20	1.3e-4	21.8	91	187	Putative RNA methylase family UPF0020
+Seqid=NZ_CP084235.1;Start=372028;Strand=-	PF00440.25	1.2e-6	28.3	32	64	Bacterial regulatory proteins, tetR family
+Seqid=NZ_CP084235.1;End=120225;Strand=+	PF03806.15	1e-7	30.7	13	430	AbgT putative transporter family
+Seqid=NZ_CP084235.1;Start=1920852;Strand=-	PF18751.3	0.019	14.6	26	57	P-loop Nucleotide Kinase3
+Seqid=NZ_CP084235.1;End=461556;Strand=+	PF09954.11	1.5e-9	37.9	87	136	Uncharacterized protein conserved in bacteria (DUF2188)
+Seqid=NZ_CP084235.1;End=1058431;Strand=+	PF01381.24	0.1	12.8	4	36	Helix-turn-helix
+Seqid=NZ_CP084235.1;End=1094286;Strand=+	PF13551.8	0.0037	17.3	17	56	Winged helix-turn helix
+Seqid=NZ_CP084235.1;Start=1730676;Strand=-	PF02230.18	0.52	10.2	78	112	Phospholipase/Carboxylesterase
+Seqid=NZ_CP084235.1;End=754395;Strand=+	PF00702.28	0.093	13.1	230	264	haloacid dehalogenase-like hydrolase
+Seqid=NZ_CP084235.1;End=126745;Strand=+	PF03729.15	0.0064	16.9	129	169	Short repeat of unknown function (DUF308)
+Seqid=NZ_CP084235.1;End=1765721;Strand=+	PF13462.8	0.16	12.2	106	167	Thioredoxin
+Seqid=NZ_CP084235.1;Start=1411699;Strand=-	PF11798.10	9.8e-8	32	185	215	IMS family HHH motif
+Seqid=NZ_CP084235.1;Start=1607147;Strand=-	PF03961.15	0.66	8.6	11	127	Flagellar Assembly Protein A
+Seqid=NZ_CP084235.1;Start=757460;Strand=-	PF01978.21	0.011	15.7	37	85	Sugar-specific transcriptional regulator TrmB
+Seqid=NZ_CP084235.1;Start=1225496;Strand=-	PF03129.22	4.8e-24	84.4	372	459	Anticodon binding domain
+Seqid=NZ_CP084235.1;End=1121811;Strand=+	PF07319.13	1.7e-25	89.7	1	94	Primosomal protein DnaI N-terminus
+Seqid=NZ_CP084235.1;End=1310066;Strand=+	PF01555.20	0.098	12.4	149	247	DNA methylase
+Seqid=NZ_CP084235.1;Start=1536437;Strand=-	PF14255.8	0.18	11.8	575	588	Cysteine-rich CPXCG
+Seqid=NZ_CP084235.1;Start=2299970;Strand=-	PF02602.17	0.038	13.4	27	50	Uroporphyrinogen-III synthase HemD
+Seqid=NZ_CP084235.1;Start=386202;Strand=-	PF00403.28	7.3e-13	48.8	84	144	Heavy-metal-associated domain
+Seqid=NZ_CP084235.1;Start=1256388;Strand=-	PF19744.1	0.14	12.6	6	65	Family of unknown function (DUF6232)
+Seqid=NZ_CP084235.1;Start=241053;Strand=-	PF19553.1	0.19	11.6	38	74	Family of unknown function (DUF6076)
+Seqid=NZ_CP084235.1;End=740567;Strand=+	PF07015.13	2.1e-4	20.8	111	148	VirC1 protein
+Seqid=NZ_CP084235.1;Start=2285599;Strand=-	PF01978.21	0.048	13.6	120	156	Sugar-specific transcriptional regulator TrmB
+Seqid=NZ_CP084235.1;End=1294637;Strand=+	PF14501.8	0.0017	18.3	479	569	GHKL domain
+Seqid=NZ_CP084235.1;Start=1972940;Strand=-	PF02774.20	0.05	13.8	368	456	Semialdehyde dehydrogenase, dimerisation domain
+Seqid=NZ_CP084235.1;End=85860;Strand=+	PF05368.15	1.8e-6	27.7	3	87	NmrA-like family
+Seqid=NZ_CP084235.1;Start=1480104;Strand=-	PF08676.13	1e-46	158.4	485	628	MutL C terminal dimerisation domain
+Seqid=NZ_CP084235.1;End=499277;Strand=+	PF03193.18	0.18	11.8	47	92	RsgA GTPase
+Seqid=NZ_CP084235.1;Start=1972940;Strand=-	PF13555.8	3.6e-4	20.3	360	399	P-loop containing region of AAA domain
+Seqid=NZ_CP084235.1;Start=2318422;Strand=-	PF12831.9	3.8e-4	20	6	33	FAD dependent oxidoreductase
+Seqid=NZ_CP084235.1;End=875965;Strand=+	PF05549.13	0.47	10	8	77	Allexivirus 40kDa protein
+Seqid=NZ_CP084235.1;Start=1383504;Strand=-	PF01113.22	1.1e-15	58	1	107	Dihydrodipicolinate reductase, N-terminus
+Seqid=NZ_CP084235.1;End=1194160;Strand=+	PF01071.21	0.0028	17.6	114	217	Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+Seqid=NZ_CP084235.1;End=753469;Strand=+	PF02463.21	0.33	10.5	32	197	RecF/RecN/SMC N terminal domain
+Seqid=NZ_CP084235.1;End=103913;Strand=+	PF01926.25	0.64	10.2	34	53	50S ribosome-binding GTPase
+Seqid=NZ_CP084235.1;End=307264;Strand=+	PF10883.10	0.095	13.1	39	93	Protein of unknown function (DUF2681)
+Seqid=NZ_CP084235.1;End=978802;Strand=+	PF03292.16	0.026	12.9	3	83	Poxvirus P4B major core protein
+Seqid=NZ_CP084235.1;Start=1632533;Strand=-	PF07950.13	0.2	12.5	111	187	Protein of unknown function (DUF1691)
+Seqid=NZ_CP084235.1;Start=1759538;Strand=-	PF00571.30	5.5e-9	36.4	214	268	CBS domain
+Seqid=NZ_CP084235.1;Start=1730676;Strand=-	PF01764.27	0.019	14.9	67	100	Lipase (class 3)
+Seqid=NZ_CP084235.1;Start=1642127;Strand=-	PF03483.19	1.1e-66	224	221	392	B3/4 domain
+Seqid=NZ_CP084235.1;End=1237288;Strand=+	PF01637.20	0.002	18.2	29	122	ATPase domain predominantly from Archaea
+Seqid=NZ_CP084235.1;Start=1967456;Strand=-	PF03600.18	1.4e-8	34.4	69	306	Citrate transporter
+Seqid=NZ_CP084238.1;End=14307;Strand=+	PF13358.8	0.052	13.4	78	137	DDE superfamily endonuclease
+Seqid=NZ_CP084235.1;Start=1781023;Strand=-	PF02601.17	0.69	9.5	426	502	Exonuclease VII, large subunit
+Seqid=NZ_CP084235.1;End=663688;Strand=+	PF13304.8	0.0096	15.8	119	187	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;Start=1673150;Strand=-	PF00004.31	0.014	15.9	35	160	ATPase family associated with various cellular activities (AAA)
+Seqid=NZ_CP084235.1;Start=1349985;Strand=-	PF02592.17	1e-42	146.2	57	217	Putative vitamin uptake transporter
+Seqid=NZ_CP084235.1;End=79731;Strand=+	PF10662.11	0.011	15.7	37	64	Ethanolamine utilisation - propanediol utilisation
+Seqid=NZ_CP084235.1;End=1263150;Strand=+	PF13742.8	3.6e-27	94.5	8	103	OB-fold nucleic acid binding domain
+Seqid=NZ_CP084235.1;End=21500;Strand=+	PF00709.23	1.2e-178	594.2	5	420	Adenylosuccinate synthetase
+Seqid=NZ_CP084235.1;End=702736;Strand=+	PF02463.21	5.1e-10	39.3	35	216	RecF/RecN/SMC N terminal domain
+Seqid=NZ_CP084235.1;End=973328;Strand=+	PF00206.22	2e-111	372.4	11	340	Lyase
+Seqid=NZ_CP084235.1;Start=2182013;Strand=-	PF01434.20	3.5e-73	245.6	414	604	Peptidase family M41
+Seqid=NZ_CP084235.1;End=1720512;Strand=+	PF03816.16	1.4e-40	139.1	86	233	LytR_cpsA_psr family
+Seqid=NZ_CP084235.1;End=1143920;Strand=+	PF01921.20	0.051	12.6	512	550	tRNA synthetases class I (K)
+Seqid=NZ_CP084235.1;End=1154395;Strand=+	PF00158.28	0.59	9.9	126	155	Sigma-54 interaction domain
+Seqid=NZ_CP084235.1;End=438206;Strand=+	PF07749.14	0.15	13	43	97	Endoplasmic reticulum protein ERp29, C-terminal domain
+Seqid=NZ_CP084235.1;Start=1604171;Strand=-	PF01406.21	4.9e-6	26.2	559	645	tRNA synthetases class I (C) catalytic domain
+Seqid=NZ_CP084235.1;Start=1990477;Strand=-	PF09843.11	0.56	8.5	70	202	Predicted membrane protein (DUF2070)
+Seqid=NZ_CP084235.1;Start=1887141;Strand=-	PF13174.8	0.4	11.5	20	47	Tetratricopeptide repeat
+Seqid=NZ_CP084235.1;End=1696935;Strand=+	PF13476.8	0.013	16.2	18	49	AAA domain
+Seqid=NZ_CP084235.1;Start=2032998;Strand=-	PF19528.1	0.053	12.3	11	90	Family of unknown function (DUF6056)
+Seqid=NZ_CP084235.1;Start=1570868;Strand=-	PF03780.15	3.3e-31	107.9	9	116	Asp23 family, cell envelope-related function
+Seqid=NZ_CP084235.1;Start=2161390;Strand=-	PF17676.3	0.23	12.1	30	94	LD-carboxypeptidase C-terminal domain
+Seqid=NZ_CP084235.1;Start=2145441;Strand=-	PF00196.21	1.1e-5	25	144	188	Bacterial regulatory proteins, luxR family
+Seqid=NZ_CP084235.1;Start=1005929;Strand=-	PF05656.16	0.33	11.5	13	96	Protein of unknown function (DUF805)
+Seqid=NZ_CP084235.1;Start=1109695;Strand=-	PF19658.1	0.63	9.5	13	71	Family of unknown function (DUF6161)
+Seqid=NZ_CP084235.1;End=212044;Strand=+	PF13555.8	0.013	15.4	26	49	P-loop containing region of AAA domain
+Seqid=NZ_CP084235.1;End=1241851;Strand=+	PF00905.24	3.6e-60	203.8	351	656	Penicillin binding protein transpeptidase domain
+Seqid=NZ_CP084235.1;End=797960;Strand=+	PF03193.18	9.2e-5	22.5	122	203	RsgA GTPase
+Seqid=NZ_CP084235.1;Start=1851879;Strand=-	PF13155.8	0.014	15.8	26	78	Toprim-like
+Seqid=NZ_CP084235.1;Start=1327687;Strand=-	PF00905.24	9.8e-26	90.7	361	625	Penicillin binding protein transpeptidase domain
+Seqid=NZ_CP084235.1;Start=629908;Strand=-	PF08281.14	0.026	14.3	36	55	Sigma-70, region 4
+Seqid=NZ_CP084235.1;Start=1726183;Strand=-	PF12802.9	3.2e-6	27.2	34	91	MarR family
+Seqid=NZ_CP084235.1;Start=501630;Strand=-	PF04172.18	4.3e-65	219.3	17	230	LrgB-like family
+Seqid=NZ_CP084235.1;Start=205296;Strand=-	PF04545.18	0.0064	16.1	8	35	Sigma-70, region 4
+Seqid=NZ_CP084235.1;Start=46956;Strand=-	PF01451.23	2e-25	89.9	6	128	Low molecular weight phosphotyrosine protein phosphatase
+Seqid=NZ_CP084235.1;End=572803;Strand=+	PF18877.2	0.1	12.5	70	90	SSSPR-51 domain
+Seqid=NZ_CP084235.1;Start=52041;Strand=-	PF13245.8	0.23	11.8	4	116	AAA domain
+Seqid=NZ_CP084235.1;End=1334724;Strand=+	PF01370.23	0.36	10.4	5	127	NAD dependent epimerase/dehydratase family
+Seqid=NZ_CP084235.1;Start=937278;Strand=-	PF02206.20	0.012	15.6	58	92	Domain of unknown function
+Seqid=NZ_CP084235.1;Start=1774331;Strand=-	PF12846.9	0.44	9.5	35	56	AAA-like domain
+Seqid=NZ_CP084235.1;End=1046804;Strand=+	PF01323.22	0.64	9.9	19	50	DSBA-like thioredoxin domain
+Seqid=NZ_CP084235.1;End=1338400;Strand=+	PF00009.29	0.66	9.6	61	267	Elongation factor Tu GTP binding domain
+Seqid=NZ_CP084235.1;Start=1226137;Strand=-	PF14154.8	0.087	13.1	20	47	Domain of unknown function (DUF4306)
+Seqid=NZ_CP084235.1;End=1780723;Strand=+	PF11151.10	1.9e-19	69.7	6	61	Protein of unknown function (DUF2929)
+Seqid=NZ_CP084235.1;End=823877;Strand=+	PF04545.18	1.9e-15	56.2	204	251	Sigma-70, region 4
+Seqid=NZ_CP084235.1;End=1300076;Strand=+	PF14812.8	0.76	10.2	298	360	Transmembrane domain of transglycosylase PBP1 at N-terminal
+Seqid=NZ_CP084235.1;End=1302365;Strand=+	PF07234.13	0.11	12.7	7	54	Movement and RNA silencing protein
+Seqid=NZ_CP084235.1;Start=2285599;Strand=-	PF13591.8	0.021	14.7	90	134	MerR HTH family regulatory protein
+Seqid=NZ_CP084235.1;End=1263373;Strand=+	PF02609.18	2.4e-20	72.4	18	68	Exonuclease VII small subunit
+Seqid=NZ_CP084235.1;End=1378257;Strand=+	PF10857.10	0.0055	16.8	5	45	Protein of unknown function (DUF2701)
+Seqid=NZ_CP084235.1;Start=1894040;Strand=-	PF00271.33	1.4e-19	70.5	436	546	Helicase conserved C-terminal domain
+Seqid=NZ_CP084237.1;End=16648;Strand=+	PF13476.8	0.011	16.3	365	530	AAA domain
+Seqid=NZ_CP084235.1;End=695162;Strand=+	PF00347.25	1.2e-19	70.9	90	164	Ribosomal protein L6
+Seqid=NZ_CP084235.1;Start=1074532;Strand=-	PF03807.19	0.016	15.9	145	204	NADP oxidoreductase coenzyme F420-dependent
+Seqid=NZ_CP084235.1;Start=1874394;Strand=-	PF13770.8	0.34	11.3	192	215	Domain of unknown function (DUF4169)
+Seqid=NZ_CP084235.1;Start=1624692;Strand=-	PF09419.12	0.0053	16.5	99	200	Mitochondrial PGP phosphatase
+Seqid=NZ_CP084235.1;Start=2004381;Strand=-	PF03610.18	1.2e-23	83.5	4	110	PTS system fructose IIA component
+Seqid=NZ_CP084235.1;Start=1585135;Strand=-	PF03215.17	0.029	14.4	3	67	Rad17 P-loop domain
+Seqid=NZ_CP084235.1;End=1319464;Strand=+	PF13477.8	8.5e-13	48.7	24	147	Glycosyl transferase 4-like
+Seqid=NZ_CP084235.1;End=1064275;Strand=+	PF01268.21	2.5e-265	881.1	5	555	Formate--tetrahydrofolate ligase
+Seqid=NZ_CP084235.1;Start=1879254;Strand=-	PF19863.1	0.1	11.9	48	98	Family of unknown function (DUF6337)
+Seqid=NZ_CP084235.1;Start=1938854;Strand=-	PF05559.13	0.57	9.4	472	577	Protein of unknown function (DUF763)
+Seqid=NZ_CP084235.1;End=458959;Strand=+	PF03992.18	2.4e-16	59.7	6	81	Antibiotic biosynthesis monooxygenase
+Seqid=NZ_CP084235.1;Start=1698037;Strand=-	PF13535.8	0.064	12.9	139	197	ATP-grasp domain
+Seqid=NZ_CP084235.1;Start=2069870;Strand=-	PF08445.12	4.6e-4	20.2	80	135	FR47-like protein
+Seqid=NZ_CP084235.1;Start=2186958;Strand=-	PF04977.17	1.2e-16	60.3	41	118	Septum formation initiator
+Seqid=NZ_CP084235.1;Start=1403242;Strand=-	PF00291.27	5.6e-42	144.2	57	382	Pyridoxal-phosphate dependent enzyme
+Seqid=NZ_CP084235.1;End=353139;Strand=+	PF20101.1	0.2	11.7	5	42	Family of unknown function (DUF6491)
+Seqid=NZ_CP084235.1;Start=1790810;Strand=-	PF13538.8	0.012	15.6	784	801	UvrD-like helicase C-terminal domain
+Seqid=NZ_CP084235.1;End=1739073;Strand=+	PF10177.11	0.33	11.3	42	97	Uncharacterised conserved protein (DUF2371)
+Seqid=NZ_CP084235.1;Start=169325;Strand=-	PF07286.14	2.3e-64	215.7	111	253	Protein of unknown function (DUF1445)
+Seqid=NZ_CP084235.1;End=1237288;Strand=+	PF00931.24	0.51	9.6	32	52	NB-ARC domain
+Seqid=NZ_CP084235.1;Start=1629795;Strand=-	PF13187.8	0.0015	18.8	174	194	4Fe-4S dicluster domain
+Seqid=NZ_CP084235.1;End=572803;Strand=+	PF14126.8	0.13	12.6	158	201	Domain of unknown function (DUF4293)
+Seqid=NZ_CP084235.1;End=1038905;Strand=+	PF01479.27	6.1e-10	38.8	1	39	S4 domain
+Seqid=NZ_CP084235.1;End=1034952;Strand=+	PF07564.13	1.5e-20	73.1	1693	1768	Domain of Unknown Function (DUF1542)
+Seqid=NZ_CP084235.1;End=297449;Strand=+	PF02955.18	0.0032	17	129	192	Prokaryotic glutathione synthetase, ATP-grasp domain
+Seqid=NZ_CP084235.1;End=600006;Strand=+	PF00529.22	0.015	15.3	19	212	Cation efflux system protein CusB domain 1
+Seqid=NZ_CP084235.1;End=1223310;Strand=+	PF17259.4	0.34	10.9	1	26	Family of unknown function (DUF5325)
+Seqid=NZ_CP084235.1;End=103913;Strand=+	PF00005.29	4.4e-16	59.7	271	422	ABC transporter
+Seqid=NZ_CP084235.1;Start=1886136;Strand=-	PF00070.29	1.1e-17	64.4	147	218	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NZ_CP084235.1;End=1154395;Strand=+	PF06068.15	0.2	10.9	49	102	TIP49 P-loop domain
+Seqid=NZ_CP084235.1;End=1084583;Strand=+	PF01171.22	0.78	9.5	296	330	PP-loop family
+Seqid=NZ_CP084235.1;Start=204583;Strand=-	PF19094.2	0.17	12.4	19	72	EMC6-arch
+Seqid=NZ_CP084235.1;End=785370;Strand=+	PF00472.22	3.2e-39	133.5	210	318	RF-1 domain
+Seqid=NZ_CP084235.1;End=1696935;Strand=+	PF13521.8	0.32	11.3	281	305	AAA domain
+Seqid=NZ_CP084237.1;Start=6124;Strand=-	PF03193.18	0.048	13.7	12	56	RsgA GTPase
+Seqid=NZ_CP084235.1;End=637735;Strand=+	PF12174.10	0.91	9.6	236	280	RCD1-SRO-TAF4 (RST) plant domain
+Seqid=NZ_CP084235.1;End=109390;Strand=+	PF16118.7	0.054	14.5	37	80	Domain of unknown function (DUF4834)
+Seqid=NZ_CP084235.1;End=1794981;Strand=+	PF14865.8	0.22	12.2	10	56	Macin
+Seqid=NZ_CP084235.1;Start=2153233;Strand=-	PF02492.21	0.22	11.1	91	142	CobW/HypB/UreG, nucleotide-binding domain
+Seqid=NZ_CP084235.1;Start=1898093;Strand=-	PF00106.27	1.6e-15	57.2	7	94	short chain dehydrogenase
+Seqid=NZ_CP084235.1;End=1152268;Strand=+	PF01926.25	2.6e-23	82.4	163	286	50S ribosome-binding GTPase
+Seqid=NZ_CP084235.1;End=1121811;Strand=+	PF06309.13	0.088	13	153	192	Torsin
+Seqid=NZ_CP084235.1;End=1121811;Strand=+	PF02562.18	0.067	12.7	160	217	PhoH-like protein
+Seqid=NZ_CP084235.1;Start=2210671;Strand=-	PF07728.16	0.056	13.5	11	37	AAA domain (dynein-related subfamily)
+Seqid=NZ_CP084235.1;End=112917;Strand=+	PF17270.4	0.016	15.6	43	161	Family of unknown function (DUF5336)
+Seqid=NZ_CP084235.1;End=1212151;Strand=+	PF01025.21	8.2e-49	165.5	47	208	GrpE
+Seqid=NZ_CP084235.1;End=1039351;Strand=+	PF12732.9	1.2e-6	29.1	11	73	YtxH-like protein
+Seqid=NZ_CP084235.1;End=1132037;Strand=+	PF04851.17	0.23	11.6	98	135	Type III restriction enzyme, res subunit
+Seqid=NZ_CP084235.1;Start=2227554;Strand=-	PF01266.26	7.5e-4	19.3	155	188	FAD dependent oxidoreductase
+Seqid=NZ_CP084235.1;End=607161;Strand=+	PF01070.20	0.0041	16.3	25	105	FMN-dependent dehydrogenase
+Seqid=NZ_CP084235.1;End=745673;Strand=+	PF20071.1	1e-18	67.4	1	38	Family of unknown function (DUF6467)
+Seqid=NZ_CP084235.1;Start=204583;Strand=-	PF09972.11	0.0035	16.3	76	161	Predicted membrane protein (DUF2207)
+Seqid=NZ_CP084235.1;Start=2222022;Strand=-	PF00583.27	4e-12	46.5	70	140	Acetyltransferase (GNAT) family
+Seqid=NZ_CP084235.1;End=298710;Strand=+	PF13692.8	2.4e-11	44.2	234	370	Glycosyl transferases group 1
+Seqid=NZ_CP084235.1;End=709393;Strand=+	PF00549.21	0.078	12.9	12	81	CoA-ligase
+Seqid=NZ_CP084235.1;End=1865002;Strand=+	PF13567.8	0.21	11.3	11	70	Domain of unknown function (DUF4131)
+Seqid=NZ_CP084235.1;Start=2033776;Strand=-	PF13179.8	0.12	12.4	453	478	Family of unknown function (DUF4006)
+Seqid=NZ_CP084235.1;Start=1663008;Strand=-	PF00679.26	3.9e-21	75	399	477	Elongation factor G C-terminus
+Seqid=NZ_CP084235.1;Start=1673150;Strand=-	PF03215.17	0.032	14.2	24	51	Rad17 P-loop domain
+Seqid=NZ_CP084235.1;End=785370;Strand=+	PF02815.21	0.22	11.4	217	270	MIR domain
+Seqid=NZ_CP084235.1;End=1169653;Strand=+	PF01336.27	7.4e-19	67.6	20	105	OB-fold nucleic acid binding domain
+Seqid=NZ_CP084235.1;Start=953077;Strand=-	PF00202.23	1.4e-73	248	36	407	Aminotransferase class-III
+Seqid=NZ_CP084235.1;Start=634799;Strand=-	PF13936.8	0.0036	17.1	12	42	Helix-turn-helix domain
+Seqid=NZ_CP084235.1;End=546526;Strand=+	PF13738.8	7e-10	38.7	76	283	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NZ_CP084235.1;Start=2145441;Strand=-	PF13551.8	0.23	11.6	157	184	Winged helix-turn helix
+Seqid=NZ_CP084235.1;End=2087804;Strand=+	PF08543.14	1.9e-77	260.1	13	259	Phosphomethylpyrimidine kinase
+Seqid=NZ_CP084235.1;Start=1708791;Strand=-	PF06506.13	0.51	10	69	110	Propionate catabolism activator
+Seqid=NZ_CP084235.1;End=664904;Strand=+	PF13241.8	1.4e-4	22.3	24	137	Putative NAD(P)-binding
+Seqid=NZ_CP084235.1;Start=693902;Strand=-	PF02949.22	0.0016	17.6	4	48	7tm Odorant receptor
+Seqid=NZ_CP084235.1;Start=1686723;Strand=-	PF01654.19	1.6e-129	432.3	6	435	Cytochrome bd terminal oxidase subunit I
+Seqid=NZ_CP084235.1;End=1078661;Strand=+	PF00388.21	0.19	11.4	30	65	Phosphatidylinositol-specific phospholipase C, X domain
+Seqid=NZ_CP084235.1;Start=522201;Strand=-	PF01814.25	3e-19	70	92	229	Hemerythrin HHE cation binding domain
+Seqid=NZ_CP084235.1;End=776268;Strand=+	PF01965.26	0.054	13.4	337	387	DJ-1/PfpI family
+Seqid=NZ_CP084235.1;End=1090255;Strand=+	PF03486.16	0.061	12.1	185	220	HI0933-like protein
+Seqid=NZ_CP084235.1;End=613685;Strand=+	PF01488.22	0.28	11.3	16	77	Shikimate / quinate 5-dehydrogenase
+Seqid=NZ_CP084235.1;End=144063;Strand=+	PF01541.26	4.6e-4	20.5	85	125	GIY-YIG catalytic domain
+Seqid=NZ_CP084235.1;End=1238622;Strand=+	PF03793.21	0.27	11.2	1	25	PASTA domain
+Seqid=NZ_CP084235.1;End=927800;Strand=+	PF02875.23	0.29	11.5	316	396	Mur ligase family, glutamate ligase domain
+Seqid=NZ_CP084235.1;Start=1663008;Strand=-	PF09345.12	0.082	12.7	163	218	SiaC family regulatory phosphoprotein
+Seqid=NZ_CP084235.1;Start=2104078;Strand=-	PF18957.2	0.0018	19.1	1065	1104	Long Rib domain
+Seqid=NZ_CP084235.1;End=1319464;Strand=+	PF13579.8	6.2e-7	30	12	154	Glycosyl transferase 4-like domain
+Seqid=NZ_CP084235.1;End=280381;Strand=+	PF00440.25	0.12	12.2	15	42	Bacterial regulatory proteins, tetR family
+Seqid=NZ_CP084235.1;Start=1702394;Strand=-	PF13522.8	4.3e-19	69	81	212	Glutamine amidotransferase domain
+Seqid=NZ_CP084237.1;Start=19962;Strand=-	PF00196.21	0.19	11.4	2	25	Bacterial regulatory proteins, luxR family
+Seqid=NZ_CP084235.1;Start=1971282;Strand=-	PF00006.27	0.65	9.7	350	376	ATP synthase alpha/beta family, nucleotide-binding domain
+Seqid=NZ_CP084235.1;Start=2300231;Strand=-	PF13479.8	0.26	11.1	214	293	AAA domain
+Seqid=NZ_CP084235.1;End=1881665;Strand=+	PF07993.14	0.006	15.9	6	38	Male sterility protein
+Seqid=NZ_CP084235.1;End=235426;Strand=+	PF12182.10	0.2	12.2	77	127	Bacterial lipoprotein
+Seqid=NZ_CP084235.1;Start=1439108;Strand=-	PF19382.1	0.28	11.4	11	29	Family of unknown function (DUF5957)
+Seqid=NZ_CP084235.1;Start=1436634;Strand=-	PF05124.14	0.3	11.1	260	365	S-layer like family, C-terminal region
+Seqid=NZ_CP084235.1;End=618560;Strand=+	PF16344.7	0.019	15.1	259	285	Domain of unknown function (DUF4974)
+Seqid=NZ_CP084235.1;End=261672;Strand=+	PF15499.8	0.43	10.2	627	696	Ubiquitin-specific peptidase-like, SUMO isopeptidase
+Seqid=NZ_CP084235.1;Start=594049;Strand=-	PF02698.19	1.6e-29	102.6	166	286	DUF218 domain
+Seqid=NZ_CP084235.1;Start=1375919;Strand=-	PF07690.18	0.0052	15.8	8	56	Major Facilitator Superfamily
+Seqid=NZ_CP084235.1;Start=524504;Strand=-	PF12679.9	0.089	12.1	111	177	ABC-2 family transporter protein
+Seqid=NZ_CP084235.1;Start=1499667;Strand=-	PF03435.20	0.0091	16.4	4	64	Saccharopine dehydrogenase NADP binding domain
+Seqid=NZ_CP084235.1;End=458433;Strand=+	PF00083.26	2.3e-4	20.3	18	187	Sugar (and other) transporter
+Seqid=NZ_CP084235.1;End=1198764;Strand=+	PF00071.24	0.57	9.9	164	193	Ras family
+Seqid=NZ_CP084235.1;Start=397792;Strand=-	PF00440.25	4.8e-6	26.3	23	60	Bacterial regulatory proteins, tetR family
+Seqid=NZ_CP084235.1;End=109390;Strand=+	PF08139.14	0.46	11.1	19	37	Prokaryotic membrane lipoprotein lipid attachment site
+Seqid=NZ_CP084235.1;End=1081852;Strand=+	PF06148.13	0.0029	17.8	250	316	COG (conserved oligomeric Golgi) complex component, COG2
+Seqid=NZ_CP084235.1;End=2042630;Strand=+	PF01399.29	0.032	14.8	5	59	PCI domain
+Seqid=NZ_CP084235.1;Start=42818;Strand=-	PF13604.8	0.02	14.7	293	331	AAA domain
+Seqid=NZ_CP084235.1;End=2299030;Strand=+	PF02028.19	4.9e-183	609.1	28	510	BCCT, betaine/carnitine/choline family transporter
+Seqid=NZ_CP084235.1;End=844344;Strand=+	PF13191.8	0.13	12.7	12	52	AAA ATPase domain
+Seqid=NZ_CP084235.1;End=1216261;Strand=+	PF01170.20	0.53	10	224	271	Putative RNA methylase family UPF0020
+Seqid=NZ_CP084235.1;End=849649;Strand=+	PF01118.26	0.031	14.8	88	173	Semialdehyde dehydrogenase, NAD binding domain
+Seqid=NZ_CP084235.1;End=1298271;Strand=+	PF04851.17	1.3e-6	28.6	15	172	Type III restriction enzyme, res subunit
+Seqid=NZ_CP084235.1;End=2114913;Strand=+	PF10662.11	0.24	11.3	14	34	Ethanolamine utilisation - propanediol utilisation
+Seqid=NZ_CP084235.1;Start=794619;Strand=-	PF14656.8	0.2	10	7	45	Rab3 GTPase-activating protein regulatory subunit C-terminus
+Seqid=NZ_CP084235.1;End=993321;Strand=+	PF01266.26	1e-7	32	4	41	FAD dependent oxidoreductase
+Seqid=NZ_CP084235.1;Start=928587;Strand=-	PF06081.13	1.4e-30	106.4	20	158	Aromatic acid exporter family member 1
+Seqid=NZ_CP084235.1;Start=415444;Strand=-	PF08240.14	9e-23	80.3	13	95	Alcohol dehydrogenase GroES-like domain
+Seqid=NZ_CP084235.1;Start=1527706;Strand=-	PF12614.10	0.0053	16.9	96	175	Ribosome recycling factor
+Seqid=NZ_CP084235.1;Start=1427794;Strand=-	PF13279.8	3.8e-9	37.2	22	127	Thioesterase-like superfamily
+Seqid=NZ_CP084235.1;End=577625;Strand=+	PF13974.8	0.0026	18	3	41	YebO-like protein
+Seqid=NZ_CP084235.1;End=210955;Strand=+	PF00497.22	9.1e-9	35.2	74	288	Bacterial extracellular solute-binding proteins, family 3
+Seqid=NZ_CP084235.1;End=1367004;Strand=+	PF00676.22	6.6e-62	209.2	234	542	Dehydrogenase E1 component
+Seqid=NZ_CP084235.1;End=1198764;Strand=+	PF01637.20	0.032	14.2	157	186	ATPase domain predominantly from Archaea
+Seqid=NZ_CP084235.1;End=783167;Strand=+	PF08206.13	5.3e-4	19.7	74	122	Ribonuclease B OB domain
+Seqid=NZ_CP084235.1;Start=1495121;Strand=-	PF01637.20	0.0013	18.7	69	105	ATPase domain predominantly from Archaea
+Seqid=NZ_CP084238.1;Start=6867;Strand=-	PF00208.23	0.0029	17.5	36	99	Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+Seqid=NZ_CP084235.1;Start=2201308;Strand=-	PF13847.8	0.0043	17	48	108	Methyltransferase domain
+Seqid=NZ_CP084235.1;End=1181636;Strand=+	PF07728.16	0.24	11.5	362	469	AAA domain (dynein-related subfamily)
+Seqid=NZ_CP084235.1;Start=1937701;Strand=-	PF13191.8	0.0027	18.2	26	67	AAA ATPase domain
+Seqid=NZ_CP084235.1;End=595626;Strand=+	PF13412.8	5.2e-7	29.2	42	82	Winged helix-turn-helix DNA-binding
+Seqid=NZ_CP084235.1;End=348257;Strand=+	PF19817.1	0.29	11.3	72	109	Family of unknown function (DUF6300)
+Seqid=NZ_CP084235.1;Start=1531238;Strand=-	PF06018.16	4.4e-69	231.6	2	178	CodY GAF-like domain
+Seqid=NZ_CP084236.1;Start=19125;Strand=-	PF03193.18	0.086	12.8	12	61	RsgA GTPase
+Seqid=NZ_CP084235.1;Start=2136947;Strand=-	PF10385.11	4.6e-25	87.8	546	613	RNA polymerase beta subunit external 1 domain
+Seqid=NZ_CP084235.1;Start=589023;Strand=-	PF11457.10	1.6e-26	93.2	3	147	Protein of unknown function (DUF3021)
+Seqid=NZ_CP084235.1;End=754395;Strand=+	PF05116.15	0.036	13.7	28	76	Sucrose-6F-phosphate phosphohydrolase
+Seqid=NZ_CP084235.1;End=1303109;Strand=+	PF13238.8	6.8e-6	26.7	6	161	AAA domain
+Seqid=NZ_CP084235.1;Start=2060128;Strand=-	PF05231.16	0.023	13.9	57	171	MASE1
+Seqid=NZ_CP084237.1;End=969;Strand=+	PF18008.3	4.9e-20	71.9	221	306	Replication initiator protein A C-terminal domain
+Seqid=NZ_CP084235.1;End=1015484;Strand=+	PF00926.21	6.7e-78	260.7	8	197	3,4-dihydroxy-2-butanone 4-phosphate synthase
+Seqid=NZ_CP084235.1;Start=1839052;Strand=-	PF00478.27	7e-10	38.5	5	326	IMP dehydrogenase / GMP reductase domain
+Seqid=NZ_CP084235.1;Start=2009668;Strand=-	PF10035.11	3.7e-21	74.8	219	273	Uncharacterized protein conserved in bacteria (DUF2179)
+Seqid=NZ_CP084235.1;End=1113146;Strand=+	PF00512.27	2.6e-18	65.9	342	407	His Kinase A (phospho-acceptor) domain
+Seqid=NZ_CP084235.1;End=888188;Strand=+	PF01726.18	0.05	13.5	24	72	LexA DNA binding domain
+Seqid=NZ_CP084235.1;End=754395;Strand=+	PF03767.16	0.47	10.1	43	72	HAD superfamily, subfamily IIIB (Acid phosphatase)
+Seqid=NZ_CP084235.1;Start=686748;Strand=-	PF09843.11	0.51	8.7	11	112	Predicted membrane protein (DUF2070)
+Seqid=NZ_CP084235.1;End=278115;Strand=+	PF13545.8	3.7e-4	20.5	161	226	Crp-like helix-turn-helix domain
+Seqid=NZ_CP084235.1;End=933127;Strand=+	PF04645.14	0.047	13.5	8	115	Protein of unknown function, DUF603
+Seqid=NZ_CP084235.1;End=1014287;Strand=+	PF00677.19	1.4e-20	73.2	3	86	Lumazine binding domain
+Seqid=NZ_CP084235.1;End=490935;Strand=+	PF10329.11	0.032	13.7	6	67	Region of unknown function (DUF2417)
+Seqid=NZ_CP084237.1;Start=6124;Strand=-	PF00005.29	4.4e-26	92.1	19	151	ABC transporter
+Seqid=NZ_CP084235.1;Start=2118342;Strand=-	PF02719.17	2.9e-6	26.7	4	156	Polysaccharide biosynthesis protein
+Seqid=NZ_CP084235.1;End=1458691;Strand=+	PF04684.15	0.024	13.8	27	57	BAF1 / ABF1 chromatin reorganising factor
+Seqid=NZ_CP084235.1;End=1314531;Strand=+	PF00275.22	1.2e-125	419.6	12	429	EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+Seqid=NZ_CP084235.1;Start=1699310;Strand=-	PF02142.24	1.3e-28	99.1	13	128	MGS-like domain
+Seqid=NZ_CP084235.1;End=913874;Strand=+	PF03120.18	1.2e-32	111.8	315	390	NAD-dependent DNA ligase OB-fold domain
+Seqid=NZ_CP084235.1;End=1859856;Strand=+	PF06703.13	0.51	10.2	4	55	Microsomal signal peptidase 25 kDa subunit (SPC25)
+Seqid=NZ_CP084235.1;Start=1642127;Strand=-	PF03147.16	2.2e-26	92.2	708	800	Ferredoxin-fold anticodon binding domain
+Seqid=NZ_CP084235.1;End=282542;Strand=+	PF08240.14	4.9e-27	94.1	36	162	Alcohol dehydrogenase GroES-like domain
+Seqid=NZ_CP084235.1;End=2310146;Strand=+	PF13304.8	0.0079	16.1	37	73	AAA domain, putative AbiEii toxin, Type IV TA system
+Seqid=NZ_CP084235.1;End=1134359;Strand=+	PF05201.17	2.8e-43	147.2	6	156	Glutamyl-tRNAGlu reductase, N-terminal domain
+Seqid=NZ_CP084235.1;Start=1904710;Strand=-	PF12773.9	0.38	10.9	4	64	Double zinc ribbon
+Seqid=NZ_CP084235.1;Start=70316;Strand=-	PF01637.20	0.055	13.5	29	68	ATPase domain predominantly from Archaea
+Seqid=NZ_CP084235.1;End=1721566;Strand=+	PF00583.27	1.6e-12	47.8	29	119	Acetyltransferase (GNAT) family
+Seqid=NZ_CP084235.1;Start=1649576;Strand=-	PF01189.19	0.027	14.2	55	121	16S rRNA methyltransferase RsmB/F
+Seqid=NZ_CP084235.1;End=826274;Strand=+	PF09371.12	5.2e-64	215.4	10	189	Tex-like protein N-terminal domain
+Seqid=NZ_CP084235.1;End=1202865;Strand=+	PF12826.9	0.2	11.9	178	208	Helix-hairpin-helix motif
+Seqid=NZ_CP084235.1;End=695556;Strand=+	PF16446.7	0.11	12.4	35	88	Domain of unknown function (DUF5043)
+Seqid=NZ_CP084235.1;End=446089;Strand=+	PF00903.27	2.8e-17	63.2	7	256	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily
+Seqid=NZ_CP084235.1;Start=2178721;Strand=-	PF05589.13	0.57	10.5	57	74	Protein of unknown function (DUF768)
+Seqid=NZ_CP084238.1;Start=4202;Strand=-	PF12698.9	4.7e-28	98.4	9	406	ABC-2 family transporter protein
+Seqid=NZ_CP084235.1;End=1224634;Strand=+	PF00071.24	4.2e-4	20	11	165	Ras family
+Seqid=NZ_CP084235.1;Start=1593255;Strand=-	PF07722.15	7.9e-4	19.3	286	335	Peptidase C26
+Seqid=NZ_CP084235.1;Start=2150241;Strand=-	PF01750.20	0.29	11.1	182	232	Hydrogenase maturation protease
+Seqid=NZ_CP084235.1;End=1980703;Strand=+	PF07662.15	0.74	9.6	82	106	Na+ dependent nucleoside transporter C-terminus
+Seqid=NZ_CP084235.1;Start=1351335;Strand=-	PF07098.13	0.1	12.7	9	40	Protein of unknown function (DUF1360)
+Seqid=NZ_CP084235.1;Start=2032502;Strand=-	PF03208.21	0.63	9.8	9	80	PRA1 family protein
+Seqid=NZ_CP084235.1;Start=932315;Strand=-	PF03824.18	1.6e-9	37.6	22	55	High-affinity nickel-transport protein
+Seqid=NZ_CP084235.1;Start=2069870;Strand=-	PF13508.9	2.6e-11	43.8	56	135	Acetyltransferase (GNAT) domain
+Seqid=NZ_CP084235.1;End=144929;Strand=+	PF08279.14	7.5e-16	57.9	6	62	HTH domain
+Seqid=NZ_CP084235.1;Start=199757;Strand=-	PF13401.8	0.073	13.4	475	513	AAA domain
+Seqid=NZ_CP084235.1;End=1181636;Strand=+	PF05127.16	0.064	13.2	364	471	Helicase
+Seqid=NZ_CP084235.1;Start=1327687;Strand=-	PF00912.24	9.1e-62	207.8	80	255	Transglycosylase
+Seqid=NZ_CP084235.1;End=1319464;Strand=+	PF00070.29	0.76	10.4	13	42	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NZ_CP084235.1;End=1184566;Strand=+	PF07973.16	7.8e-17	61.2	657	700	Threonyl and Alanyl tRNA synthetase second additional domain
+Seqid=NZ_CP084235.1;End=1215318;Strand=+	PF18551.3	0.018	14.9	187	218	Thaumarchaeal output domain 1
+Seqid=NZ_CP084235.1;End=134605;Strand=+	PF00070.29	6.2e-15	55.6	183	250	Pyridine nucleotide-disulphide oxidoreductase
+Seqid=NZ_CP084235.1;Start=386202;Strand=-	PF13344.8	0.21	11.7	621	665	Haloacid dehalogenase-like hydrolase
+Seqid=NZ_CP084235.1;End=2255883;Strand=+	PF13880.8	0.41	10.6	77	103	ESCO1/2 acetyl-transferase
+Seqid=NZ_CP084235.1;End=641019;Strand=+	PF04879.18	5.2e-18	64.9	260	314	Molybdopterin oxidoreductase Fe4S4 domain
+Seqid=NZ_CP084235.1;End=1316333;Strand=+	PF08858.12	6.1e-6	26	150	173	IDEAL domain
+Seqid=NZ_CP084235.1;End=699645;Strand=+	PF14579.8	0.12	12.7	11	38	Helix-hairpin-helix motif
+Seqid=NZ_CP084235.1;End=881338;Strand=+	PF12011.10	0.23	11.4	6	121	RNA helicase NPH-II
+Seqid=NZ_CP084235.1;Start=114354;Strand=-	PF00004.31	0.01	16.3	350	468	ATPase family associated with various cellular activities (AAA)
+Seqid=NZ_CP084235.1;End=465068;Strand=+	PF14502.8	0.0048	16.4	45	76	Helix-turn-helix domain
+Seqid=NZ_CP084235.1;End=1127325;Strand=+	PF00453.20	2.5e-48	162.7	3	109	Ribosomal protein L20
+Seqid=NZ_CP084235.1;End=663688;Strand=+	PF13555.8	0.11	12.3	26	58	P-loop containing region of AAA domain
+Seqid=NZ_CP084235.1;End=45169;Strand=+	PF08281.14	0.19	11.6	21	52	Sigma-70, region 4
+Seqid=NZ_CP084235.1;End=1189524;Strand=+	PF02223.19	0.62	9.8	11	32	Thymidylate kinase
+Seqid=NZ_CP084235.1;End=1198764;Strand=+	PF05621.13	0.044	13.3	149	188	Bacterial TniB protein
+Seqid=NZ_CP084235.1;End=1349385;Strand=+	PF00746.23	2.6e-4	20.9	820	860	LPXTG cell wall anchor motif
+Seqid=NZ_CP084235.1;Start=1814658;Strand=-	PF11833.10	0.021	14.6	5	57	Protein CHAPERONE-LIKE PROTEIN OF POR1-like
+Seqid=NZ_CP084235.1;Start=763086;Strand=-	PF17563.4	0.57	10.5	14	33	Cupiennin
+Seqid=NZ_CP084235.1;End=1244364;Strand=+	PF14853.8	0.0057	16.9	442	482	Fis1 C-terminal tetratricopeptide repeat
+Seqid=NZ_CP084235.1;Start=2012446;Strand=-	PF04464.16	4.8e-128	427.3	360	727	CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+Seqid=NZ_CP084235.1;Start=2026302;Strand=-	PF09339.12	0.079	12.9	20	55	IclR helix-turn-helix domain
+Seqid=NZ_CP084235.1;Start=2196606;Strand=-	PF00132.26	0.58	10.1	284	310	Bacterial transferase hexapeptide (six repeats)
+Seqid=NZ_CP084235.1;Start=1747453;Strand=-	PF01926.25	1e-6	28.9	13	140	50S ribosome-binding GTPase
+Seqid=NZ_CP084235.1;End=1309097;Strand=+	PF01728.21	4.2e-4	20.6	43	112	FtsJ-like methyltransferase
+Seqid=NZ_CP084235.1;Start=1774331;Strand=-	PF13401.8	0.0038	17.6	37	213	AAA domain
+Seqid=NZ_CP084235.1;End=1152268;Strand=+	PF01018.24	7.4e-60	201.2	6	160	GTP1/OBG
+Seqid=NZ_CP084235.1;End=1306132;Strand=+	PF00009.29	3.9e-9	36.4	253	344	Elongation factor Tu GTP binding domain
+Seqid=NZ_CP084235.1;Start=1451600;Strand=-	PF13458.8	0.18	11.6	70	113	Periplasmic binding protein
+Seqid=NZ_CP084235.1;Start=634799;Strand=-	PF04545.18	0.0011	18.6	9	42	Sigma-70, region 4
+Seqid=NZ_CP084235.1;Start=1469354;Strand=-	PF01053.22	5.8e-7	28.5	82	269	Cys/Met metabolism PLP-dependent enzyme
+Seqid=NZ_CP084235.1;Start=1610400;Strand=-	PF02578.17	9.1e-57	192.4	27	260	Multi-copper polyphenol oxidoreductase laccase
+Seqid=NZ_CP084235.1;Start=434506;Strand=-	PF03446.17	5.9e-5	23.4	149	249	NAD binding domain of 6-phosphogluconate dehydrogenase
+Seqid=NZ_CP084235.1;End=1024603;Strand=+	PF01406.21	0.049	13.1	562	602	tRNA synthetases class I (C) catalytic domain
+Seqid=NZ_CP084235.1;End=793560;Strand=+	PF12137.10	0.12	11.4	45	144	RNA polymerase recycling family C-terminal
