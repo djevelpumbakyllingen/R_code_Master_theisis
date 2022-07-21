@@ -3,6 +3,7 @@
 ### Div:
 - Code for saving data is commented out
 - Code for printing to console and plotting is not commented out
+- Some of the code is from or inspired by Lars-Gustav Snipen’s lectures (BIN310, NMBU)
 
 
 
@@ -18,15 +19,15 @@
 -	Sub_data/wt_contigs_subset.fa
 
 #### gene_annotation_pan_genome_tree.Rmd
--	Sub_data/Prokka_results_GFF/
+-	Sub_data/Prokka_results_GFF/*
 -	Sub_data/gene_presence_absence.Rtab
 -	Sub_data/refseq_assembly_tbl.txt
--	Sub_data/fasta_files/
+-	Sub_data/fasta_files/*
 -	Sub_data/fasta_files/wt_contigs_filtered.fasta
--	Sub_data/Hmmer_results_txt/
--	Sub_data/LORFs_fasta/
+-	Sub_data/Hmmer_results_txt/*
+-	Sub_data/LORFs_fasta/*
 -	Sub_data/long_list_all_CDS_prokka_filtered_LORFs.fasta
--	Sub_data/IPScan_results_GFF/
+-	Sub_data/IPScan_results_GFF/*
 
 #### Kallisto_index.Rmd
 -	Sub_data/all.fasta.tbl_subset.RData
