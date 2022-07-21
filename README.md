@@ -1,7 +1,6 @@
 # R_code_Master_thesis
 
 ### Div:
-- NB: four Rmd files with associated data have not been commited yet...
 - Code for saving data is commented out
 - Code for printing to console and plotting is not commented out
 
