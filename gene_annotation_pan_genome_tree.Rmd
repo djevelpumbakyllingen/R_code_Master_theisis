@@ -12,6 +12,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Loading packages
 ```{r, warning=FALSE, message=FALSE}
+# if (!require("BiocManager", quietly = TRUE))
+#     install.packages("BiocManager")
+# 
+# BiocManager::install("ggtree")
+
+# install.packages("tidyverse")
+# install.packages("microseq")
+# install.packages("ape")
+# install.packages("micropan")
 library(tidyverse)
 library(microseq)
 library(ape) 

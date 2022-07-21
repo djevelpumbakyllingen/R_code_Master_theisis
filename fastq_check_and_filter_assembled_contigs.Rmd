@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Loading packages 
 ```{r}
+# install.packages("tidyverse")
+# install.packages("microseq")
 library(tidyverse)
 library(microseq)
 ```

@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Loading the package needed
 ```{r}
+# install.packages("tidyverse")
 library(tidyverse)
 ```
 
@@ -32,11 +33,11 @@ read_delim("Sub_data/prokaryotes.csv", delim = ",") %>%
   drop_na(`RefSeq FTP`)-> sh.19.complete.tbl
 
 # Downloading the DNA
-# for(i in 1:nrow(sh.19.complete.tbl)){
-#   
-#   fna.file <- str_c(sh.19.complete.tbl$file_prefix[i], "_genomic.fna.gz")
-#   download.file(file.path(sh.19.complete.tbl$`RefSeq FTP`[i], fna.file),
-#                 destfile = file.path("Sub_data/fasta_RefSeq_genomes/", fna.file))
-# 
-# }
+for(i in 1:nrow(sh.19.complete.tbl)){
+
+  fna.file <- str_c(sh.19.complete.tbl$file_prefix[i], "_genomic.fna.gz")
+  # download.file(file.path(sh.19.complete.tbl$`RefSeq FTP`[i], fna.file),
+  #               destfile = file.path("Sub_data/fasta_RefSeq_genomes/", fna.file))
+
+}
 ```
