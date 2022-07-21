@@ -1,0 +1,620 @@
+---
+title: "Differential expression analysis S. haemolyticus - DESeq2"
+author: "Kristin Kleivan Solberg"
+date: "01/04/2022"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 4
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+<br>
+<br>
+
+## Loading packages and data
+
+Loading packages
+```{r message=FALSE, warning=FALSE}
+# if (!require("BiocManager", quietly = TRUE))
+#     install.packages("BiocManager")
+# 
+# BiocManager::install("DESeq2")
+# BiocManager::install("tximport")
+
+# install.packages("tidyverse")
+# install.packages("pheatmap")
+
+library(tidyverse)
+library(DESeq2)
+library(tximport)
+library(pheatmap)
+```
+
+<br>
+<br>
+<br>
+
+### Loading the meta data for genes and samples
+```{r}
+# Meta data genes - Need to be a data frame for later
+load("Sub_data/meta_data_genes.RData")
+genes_meta.df <- as.data.frame(gene_meta_data)
+
+# Found RseP to be the gene SHGENE000590. Adding this information in genes_meta.df
+genes_meta.df[which(genes_meta.df$geneID == "SHGENE000590"), "Annotation_"] <- str_c(" (RseP) ", genes_meta.df$Annotation_[which(genes_meta.df$geneID == "SHGENE000590")])
+
+# Meta data samples
+load("Sub_data/meta_data_samples.RData")
+
+# Altering column names and value in sample meta data
+samples_meta.df %>% 
+  mutate(Genotype = Type) %>% 
+  mutate(Treatment = if_else(Treatment == "GarKS", "bacteriocin", "control"))  %>% 
+  mutate(Treatment = factor(Treatment, levels = c("control", "bacteriocin"))) %>%  
+  mutate(Sample_id = str_c(Sequencing_name, "_", Genotype, "_", Treatment)) %>% 
+  select(-Sample, -Type) -> samples_meta.df
+
+rownames(samples_meta.df) <- samples_meta.df$Sample_id
+```
+
+<br>
+<br>
+<br>
+
+## Making the DESeqDataSet objects
+
+```{r}
+# Path to all Kallisto results
+common_path <- "Sub_data/Kallisto_results/"
+
+# Vector with path to each .h5 file
+file_paths <- NULL
+
+for (rep in c("A", "B")) {
+  for (samp in c(1:4)) {
+    
+    sample_id <- samples_meta.df$Sample_id[which(samples_meta.df$Sequencing_name == str_c(rep, samp))]
+    
+    file_path <- str_c(common_path, rep, samp, "/abundance.h5")
+  file_paths[sample_id] <- file_path
+  
+  }
+}
+
+# Reading in all Kallisto results and importing the data to matrix
+txi.kallisto <- tximport(file_paths, type = "kallisto", tx2gene = genes_meta.df[c("Seqid", "geneID")])
+
+# Raw counts from Kallisto
+raw.counts <- txi.kallisto$counts
+
+knitr::kable(raw.counts[1:5, c(1, 5, 2, 6)], format = "simple", caption = "Raw counts, control")
+knitr::kable(raw.counts[1:5, c(3, 7, 4, 8)], format = "simple", caption = "Raw counts, bacteriocin")
+
+# Making the DESeqDataSet objects
+deseq_dataset <- DESeqDataSetFromTximport(
+  txi = txi.kallisto, colData = samples_meta.df[c("Treatment", "Genotype")], 
+  design = ~ Genotype + Treatment + Genotype:Treatment)
+```
+
+<br>
+<br>
+<br>
+
+### Checking the DESeqDataSet object
+```{r}
+# colData contains info about the samples
+knitr::kable(colData(deseq_dataset), format = "simple", caption = "colData DESeqDataSet object")
+ 
+# Unique sample names
+rownames(colData(deseq_dataset)) 
+
+# Adding meta data about the genes
+idx <- which(genes_meta.df$geneID %in% rownames(rowData(deseq_dataset)))
+
+rowData(deseq_dataset)["Seqid"] <- genes_meta.df$Seqid[idx]
+rowData(deseq_dataset)["gene_name"] <- genes_meta.df$Annotation_[idx]
+rowData(deseq_dataset)["product_prokka"] <- genes_meta.df$Prokka_gene[idx]
+rowData(deseq_dataset)["sign_desc_ipscan"] <- genes_meta.df$Ipscan_sign_desc[idx]
+rowData(deseq_dataset)["gene_type"] <- genes_meta.df$Type[idx] 
+
+# rowData contains info about the genes
+rownames(rowData(deseq_dataset))[c(1:10)]
+knitr::kable(rowData(deseq_dataset)[c(1:10),], format = "simple", caption = "rowData of DESeqDataSet object, info from genes meta data")
+```
+
+<br>
+<br>
+<br>
+
+### Filter out tRNA, rRNA and rmRNA
+```{r}
+# How many reads mapped to non-coding genes?
+as.data.frame(raw.counts) %>% 
+  mutate(geneID = rownames(raw.counts)) -> counts.df
+
+genes_meta.df %>% 
+  select(geneID, Type) %>% 
+  mutate(Type = if_else(Type == "CDS", "Coding genes", "non-coding genes")) %>% 
+  right_join(counts.df, by = "geneID") %>% 
+  pivot_longer(cols = colnames(counts.df)[str_detect(colnames(counts.df), 
+                                                     pattern = "[A-B][1-4]_.*_.*")],
+               names_to = "Sample_id", values_to = "Reads") %>% 
+  mutate(Sample_id = factor(Sample_id, 
+                            levels = c("B4_mutant_bacteriocin",
+                                       "A4_mutant_bacteriocin",
+                                       "B3_wt_bacteriocin",
+                                       "A3_wt_bacteriocin",
+                                       "B2_mutant_control",
+                                       "A2_mutant_control",
+                                       "B1_wt_control", 
+                                       "A1_wt_control"))) %>% 
+  group_by(Sample_id, Type) %>% 
+  summarise(num_reads = sum(Reads)) %>% 
+  filter(!is.na(Type)) -> reads.per.sample_type
+
+# Plotting proportion of gene types
+reads.per.sample_type %>% 
+  ggplot(aes(x = Sample_id, y = num_reads)) + 
+  geom_col(aes(fill = Type), position = "fill") +
+  theme(legend.title=element_blank()) +
+  labs(title = "Proportion of gene types in all mapped reads", x = "Samples", y = "Proportion of reads mapped") +
+coord_flip()
+
+# Number of rRNA only
+genes_meta.df %>% 
+  select(geneID, Type) %>% 
+  right_join(counts.df, by = "geneID") %>% 
+  filter(Type == "rRNA") %>% 
+  pivot_longer(cols = colnames(counts.df)[str_detect(colnames(counts.df), pattern = "[A-B][1-4]_.*_.*")], names_to = "Sample_id", values_to = "Reads") %>% 
+  mutate(Sample_id = factor(Sample_id, 
+                            levels = c("B4_mutant_bacteriocin",
+                                       "A4_mutant_bacteriocin", 
+                                       "B3_wt_bacteriocin", 
+                                       "A3_wt_bacteriocin", 
+                                       "B2_mutant_control",
+                                       "A2_mutant_control",
+                                       "B1_wt_control", 
+                                       "A1_wt_control"))) %>% 
+  group_by(Sample_id, Type) %>% 
+  summarise(num_reads = sum(Reads)) -> rRNA.amount
+
+# Plotting number of rRNA for each sample
+rRNA.amount %>% 
+  ggplot(aes(x = Sample_id, y = num_reads)) + 
+  geom_col() +
+  labs(title = "Number of rRNA genes in each sample", 
+       x = "Samples", y = "Number of rRNA") +
+  coord_flip()
+
+# Number of each gene type: tRNA, tmRNA, rRNA, CDS and NA 
+rowData.dds.df <- as.data.frame(rowData(deseq_dataset))
+
+rowData.dds.df %>% 
+  group_by(gene_type) %>%
+  summarise(num_seq = n()) %>% 
+  ggplot(aes(x = gene_type, y = num_seq, label = num_seq)) + 
+  #geom_point() +
+  geom_text() +
+  coord_flip() +
+  labs(title = "Number of gene types among all genes", 
+       x = "Gene types", y = "Number of genes")
+  
+# Filter out rRNA, tRNA and tmRNA
+rowData.dds.df %>% 
+  filter(!(gene_type %in% c("rRNA", "tRNA", "tmRNA"))) -> CDS
+
+deseq_dataset <- deseq_dataset[rownames(CDS),]
+```
+
+<br>
+<br>
+<br>
+
+### Adding blast results for genes with no annotation, removing the gene with no annotation and no hits with blast
+```{r}
+# Type = NA: "SHGENE001130" "SHGENE001375" "SHGENE001832" "SHGENE081404" "SHGENE082359" "SHGENE082438" "SHGENE082957" "SHGENE083559"
+# View(rowData.dds.df[which(is.na(rowData.dds.df$gene_type)), ])
+
+# Removing gene with no annotation and no blast hits: "SHGENE082359"
+no.hit.blast <- which(rownames(deseq_dataset) == "SHGENE082359")
+deseq_dataset <- deseq_dataset[-no.hit.blast, ]
+
+# Extra blast annotations: SHGENE081404, SHGENE082438, SHGENE082957, SHGENE083559
+load("Sub_data/annotation_blast_results.RData")
+
+blast.genes <- c("SHGENE081404", "SHGENE082438", "SHGENE082957", "SHGENE083559")
+
+for(geneid in blast.genes){
+  annot <- str_c("BLAST results: ", NA.table$Description[which(NA.table$geneID == geneid)])
+  idx <- which(rownames(deseq_dataset) == geneid)
+  rowData(deseq_dataset)[idx, "gene_name"] <- str_c(rowData(deseq_dataset)[idx, "gene_name"], "; ", annot)
+}
+```
+
+<br>
+<br>
+<br>
+
+### Removing genes with zero mapped reads
+
+```{r}
+# If no reads how mapped to any gene across samples
+check.zero.reads <- as.data.frame(assay(deseq_dataset))
+Row_sums <- vector()
+
+for (row in 1:nrow(check.zero.reads)) {
+  row_sum <- sum(check.zero.reads[row,])
+  Row_sums[row] <- row_sum
+}
+
+check.zero.reads$Row_sums <- Row_sums
+zero.rows <- which(check.zero.reads$Row_sums == 0)
+
+cat("There are", length(zero.rows), "row in the DESeqDataset Object with zero mapped reads for each sample. The gene ID is", rownames(check.zero.reads)[zero.rows])
+
+# Removing the one row with zeros (SHGENE084010)
+deseq_dataset <- deseq_dataset[-zero.rows,]
+
+# Check minimum/maximum read counts
+deseq_dataset.df <- as.data.frame(assay(deseq_dataset))
+min(deseq_dataset.df)
+length(which(deseq_dataset.df == 0))
+#view(deseq_dataset.df[which(deseq_dataset.df == 0),])
+
+max(deseq_dataset.df)
+
+# Checking conut for each gene across samples (commented out - plotting takes time)
+# deseq_dataset.df %>% 
+#   t() %>% 
+#   as.data.frame() %>% 
+#   rownames_to_column() %>% 
+#   pivot_longer(cols = starts_with("SHGENE"), names_to = "geneID", values_to = "read_count") %>% 
+#   arrange(desc(read_count)) %>% 
+#   ggplot() +
+#   geom_col(aes(x = reorder(geneID, read_count), y = read_count, fill = rowname)) + 
+#   ylim(0, 30000)
+```
+
+<br>
+<br>
+<br>
+
+### Distribution of raw counts vs normalized counts for each sample
+```{r}
+# Raw counts
+boxplot(raw.counts, outline = FALSE, las = 2, cex.axis = 0.5)
+title("Distribution of raw counts")
+
+# Raw counts, log transformed
+log.raw.counts <- log2(raw.counts)
+boxplot(log.raw.counts, outline = FALSE, las = 2, cex.axis = 0.5)
+title("Distribution of raw counts")
+
+# Normalized counts, log transformed
+norm.counts <- counts(estimateSizeFactors(deseq_dataset), normalized = TRUE)
+boxplot(log2(norm.counts), outline = FALSE, las = 2, cex.axis = 0.5)
+title("Distribution of counts normalized by estimateSizeFactors")
+
+# VST counts
+vst <- varianceStabilizingTransformation(deseq_dataset)
+boxplot(assay(vst), outline = FALSE, las = 2, cex.axis = 0.5)
+title("Distribution of counts normalized by varianceStabilizingTransformation")
+
+# VST counts for four samples
+knitr::kable(assay(vst)[1:5,1:4], format = "simple", caption = "vst counts")
+```
+
+<br>
+<br>
+<br>
+
+### Clustering of the samples
+PCA plot and dendrogram based on counts normalized with varianceStabilizingTransformation
+```{r}
+# PCA: coding genes
+plotPCA(vst, intgroup = c("Genotype", "Treatment"), ntop = 2305) +
+  theme_bw()
+
+# Hierarchical Clustering
+# Calculate the euclidean distance between the rows of the dataset - need to transpose the matix
+dist.vst <- dist(t(assay(vst)))
+plot(hclust(dist.vst, method = "complete"))
+#plot(hclust(dist.vst, method = "average"))
+#plot(hclust(dist.vst, method = "single"))
+```
+
+<br>
+<br>
+<br>
+
+### Estimation dispersions plot 
+measure of the variance and the sum of the biological variance. shot noice: systematic experimental variation.
+```{r}
+deseq_dataset <- estimateSizeFactors(deseq_dataset)
+
+deseq_dataset <- estimateDispersions(deseq_dataset)
+plotDispEsts(deseq_dataset)
+```
+
+<br>
+<br>
+<br>
+
+## DESeq
+DESeq's normalization - median of ratios: accounts for sequencing depth and RNA composition, NOT gene length
+```{r}
+DS <- DESeq(deseq_dataset)
+resultsNames(DS)
+DS
+
+# Typemutant.TreatmentGarKS
+res_default <- results(DS)
+res_default
+```
+
+<br>
+<br>
+<br>
+
+# Getting the size factors
+```{r}
+nm <- assays(DS)[["avgTxLength"]]
+size.factors <- estimateSizeFactorsForMatrix(counts(DS) / nm)
+```
+
+<br>
+<br>
+<br>
+
+### Contrast: wt treated vs wt untreated 
+effect of bacteriocin in wild type (the main effect).
+```{r}
+# Treatment GarKS vs NoTreat
+res_wt_treat.vs.notreat <- results(DS, , contrast = c("Treatment", "bacteriocin", "control"))
+summary(res_wt_treat.vs.notreat, alpha = 0.05)
+
+# MA plot
+MA.plot.wt <- plotMA(res_wt_treat.vs.notreat, alpha = 0.05, main = "Comparing WT with and without bacteriocin
+       Effect of bacteriocin in WT", colNonSig = "gray60", colSig = "red", colLine = "grey40") 
+```
+
+result as data frame 
+```{r}
+res_wt_treat.vs.notreat.df <- as.data.frame(res_wt_treat.vs.notreat)
+
+# filter according to DESeqs filters
+res_wt_treat.vs.notreat.df <- res_wt_treat.vs.notreat.df[complete.cases(res_wt_treat.vs.notreat.df),]
+
+# filter for adjusted p-values < 0.05
+res_wt_treat.vs.notreat.df %>% 
+  filter(padj < 0.05) -> res_wt_treat.vs.notreat.0.05
+
+# filter for -1 > log2 Fold Change > 1
+res_wt_treat.vs.notreat.0.05 %>% 
+  filter(abs(log2FoldChange) > 1) -> res_wt_treat.vs.notreat.FC
+
+# Heatmap - clustering samples and genes
+pheatmap(t(as.matrix(assay(vst[rownames(res_wt_treat.vs.notreat.FC), c("A1_wt_control", "B1_wt_control", "A3_wt_bacteriocin", "B3_wt_bacteriocin")]))), scale = "column", show_colnames = TRUE, annotation_row = samples_meta.df[c("Treatment", "Genotype")], fontsize = 8, main = "wt control vs wt bacteriocin, DEGs padj < 0.05 and -1 > log2FC > 1", angle_col = 45)
+
+# Number of up/down regulated
+length(which(res_wt_treat.vs.notreat.FC$log2FoldChange > 1))
+length(which(res_wt_treat.vs.notreat.FC$log2FoldChange < 1))
+```
+
+Save tables
+```{r}
+# save(res_wt_treat.vs.notreat.df, file = "res_wt_treat.vs.notreat_df.RData")
+# save(res_wt_treat.vs.notreat.0.05, file = "res_wt_treat.vs.notreat_0.05.RData")
+# save(res_wt_treat.vs.notreat.FC, file = "res_wt_treat.vs.notreat_FC.RData")
+```
+
+<br>
+<br>
+<br>
+
+### Contrast: Treated mutants vs untreated mutants 
+Effect of treatment in mutant: main effect + interaction (extra treatment effect in mutant vs wt)
+```{r}
+res_m_treat.vs.notreat <- results(DS, list( c("Treatment_bacteriocin_vs_control","Genotypemutant.Treatmentbacteriocin")))
+summary(res_m_treat.vs.notreat, alpha = 0.05)
+
+# MA plot
+plotMA(res_m_treat.vs.notreat, alpha = 0.05, main = "Comparing mutant with and without bacteriocin
+       Effect of bacteriocin in Mutant", colNonSig = "gray60", colSig = "red", colLine = "grey40")
+```
+
+result as data frame 
+```{r}
+res_m_treat.vs.notreat.df <- as.data.frame(res_m_treat.vs.notreat)
+
+# filter according to DESeqs filters
+res_m_treat.vs.notreat.df <- res_m_treat.vs.notreat.df[complete.cases(res_m_treat.vs.notreat.df),]
+
+# filter for adjusted p-values < 0.05
+res_m_treat.vs.notreat.df %>% 
+  filter(padj < 0.05) -> res_m_treat.vs.notreat.0.05
+
+# filter for -1 > log2 FC > 1
+res_m_treat.vs.notreat.0.05 %>% 
+  filter(abs(log2FoldChange) > 1) -> res_m_treat.vs.notreat.FC
+
+# Heatmap - clustering samples and genes
+pheatmap(t(as.matrix(assay(vst[rownames(res_m_treat.vs.notreat.FC), c("A2_mutant_control", "B2_mutant_control", "A4_mutant_bacteriocin", "B4_mutant_bacteriocin")]))), scale = "column", show_colnames = FALSE, annotation_row = samples_meta.df[c("Treatment", "Genotype")], fontsize = 8, main = "Treated mutants vs untreated mutants, DEGs padj < 0.05 and -1 > log2FC > 1", angle_col = 45)
+
+# Number of up/down regulated
+length(which(res_m_treat.vs.notreat.FC$log2FoldChange > 1))
+length(which(res_m_treat.vs.notreat.FC$log2FoldChange < 1))
+```
+
+Save tables
+```{r}
+# save(res_m_treat.vs.notreat.df, file = "res_m_treat.vs.notreat_df.RData")
+# save(res_m_treat.vs.notreat.0.05, file = "res_m_treat.vs.notreat_0.05.RData")
+# save(res_m_treat.vs.notreat.FC, file = "res_m_treat.vs.notreat_FC.RData")
+```
+
+<br>
+<br>
+<br>
+
+### Contrast: Mutant vs. wt: 
+effect of mutant
+```{r}
+# Type mutant vs wt
+res_m.vs.wt_notreat <- results(DS, contrast = c("Genotype", "mutant", "wt"))
+summary(res_m.vs.wt_notreat, alpha = 0.05)
+
+# MA plot
+plotMA(res_m.vs.wt_notreat, alpha = 0.05, main = "Comparing mutant and WT without bacteriocin
+       Effect of Mutant", colNonSig = "gray60", colSig = "red", colLine = "grey40")
+```
+
+result as data frame 
+```{r}
+res_m.vs.wt_notreat.df <- as.data.frame(res_m.vs.wt_notreat)
+
+# filter according to DESeqs filters
+res_m.vs.wt_notreat.df <- res_m.vs.wt_notreat.df[complete.cases(res_m.vs.wt_notreat.df),]
+
+# filter for adjusted p-values < 0.05
+res_m.vs.wt_notreat.df %>% 
+  filter(padj < 0.05) -> res_m.vs.wt_notreat.0.05
+
+# filter for -1 > log2 FC > 1
+res_m.vs.wt_notreat.0.05 %>% 
+  filter(abs(log2FoldChange) > 1) -> res_m.vs.wt_notreat.FC
+
+# Heatmap - clustering samples and genes
+pheatmap(t(as.matrix(assay(vst[rownames(res_m.vs.wt_notreat.FC), c("A1_wt_control", "B1_wt_control", "A2_mutant_control", "B2_mutant_control")]))), scale = "column", show_colnames = TRUE, annotation_row = samples_meta.df[c("Treatment", "Genotype")], fontsize = 8, main = "Mutant vs. wt, DEGs padj < 0.05 and -1 > log2FC > 1", angle_col = 45)
+
+# Number of up/down regulated
+length(which(res_m.vs.wt_notreat.FC$log2FoldChange > 1))
+length(which(res_m.vs.wt_notreat.FC$log2FoldChange < 1))
+```
+
+Save tables
+```{r}
+# save(res_m.vs.wt_notreat.df, file = "res_m.vs.wt_notreat_df.RData")
+# save(res_m.vs.wt_notreat.0.05, file = "res_m.vs.wt_notreat_0.05.RData")
+# save(res_m.vs.wt_notreat.FC, file = "res_m.vs.wt_notreat_FC.RData")
+```
+
+<br>
+<br>
+<br>
+
+### Contrast: treated mutant vs. treated wt
+
+```{r}
+# Treated mutant vs wt
+res_m.vs.wt_treat <- results(DS, list(c("Genotype_mutant_vs_wt", "Genotypemutant.Treatmentbacteriocin")))
+summary(res_m.vs.wt_treat, alpha = 0.05)
+
+# MA plot
+plotMA(res_m.vs.wt_treat, alpha = 0.05, main = "Comparing mutant and WT with bacteriocin", colNonSig = "gray60", colSig = "red", colLine = "grey40")
+```
+
+result as data frame 
+```{r}
+res_m.vs.wt_treat.df <- as.data.frame(res_m.vs.wt_treat)
+
+# filter according to DESeqs filters
+res_m.vs.wt_treat.df <- res_m.vs.wt_treat.df[complete.cases(res_m.vs.wt_treat.df),]
+
+# filter for adjusted p-values < 0.05
+res_m.vs.wt_treat.df %>% 
+  filter(padj < 0.05) -> res_m.vs.wt_treat.0.05
+
+# filter for -1 > log2 FC > 1
+res_m.vs.wt_treat.0.05 %>% 
+  filter(abs(log2FoldChange) > 1) -> res_m.vs.wt_treat.FC
+
+# Heatmap - clustering samples and genes
+pheatmap(t(as.matrix(assay(vst[rownames(res_m.vs.wt_treat.FC),c("A3_wt_bacteriocin", "B3_wt_bacteriocin", "A4_mutant_bacteriocin", "B4_mutant_bacteriocin")]))), scale = "column", show_colnames = FALSE, annotation_row = samples_meta.df[c("Treatment", "Genotype")], fontsize = 8, main = "Mutant bacteriocin vs. WT bacteriocin, DEGs (padj < 0.05 and -1 > log2FC > 1)", angle_col = 45)
+
+# Number of up/down regulated
+length(which(res_m.vs.wt_treat.FC$log2FoldChange > 1))
+length(which(res_m.vs.wt_treat.FC$log2FoldChange < 1))
+```
+
+Save tables
+```{r}
+# save(res_m.vs.wt_treat.df, file = "res_m.vs.wt_treat_df.RData")
+# save(res_m.vs.wt_treat.0.05, file = "res_m.vs.wt_treat_0.05.RData")
+# save(res_m.vs.wt_treat.FC, file = "res_m.vs.wt_treat_FC.RData")
+```
+
+<br>
+<br>
+<br>
+
+### The difference in respons to treatment across mutant and wt 
+interaction term
+```{r}
+# Typemutant.TreatmentGarKS
+res_respons <- results(DS, name = "Genotypemutant.Treatmentbacteriocin")
+summary(res_respons, alpha = 0.05)
+
+# MA plot
+plotMA(res_respons, alpha = 0.05, main = "Comparing: Mutant and wild type respons to bacteriocin", colNonSig = "gray60", colSig = "red", colLine = "grey40")
+```
+
+result as data frame 
+```{r}
+res_respons.df <- as.data.frame(res_respons)
+
+# filter according to DESeqs filters
+res_respons.df <- res_respons.df[complete.cases(res_respons.df),]
+
+# filter for adjusted p-values < 0.05
+res_respons.df %>% 
+  filter(padj < 0.05) -> res_respons.0.05
+
+# filter for -1 > log2 FC > 1
+res_respons.0.05 %>% 
+  filter(abs(log2FoldChange) > 1) -> res_respons.FC
+
+# Heatmap - clustering samples and genes
+pheatmap(t(as.matrix(assay(vst[rownames(res_respons.FC),]))), scale = "column", show_colnames = FALSE, annotation_row = samples_meta.df[c("Treatment", "Genotype")], fontsize = 8, main = "interaction term, DEGs padj < 0.05 and -1 > log2FC > 1", angle_col = 45)
+
+# Number of up/down regulated
+length(which(res_respons.FC$log2FoldChange > 1))
+length(which(res_respons.FC$log2FoldChange < 1))
+```
+
+<br>
+<br>
+<br>
+
+### The differential expressed genes in the 5 cases compared
+```{r}
+cat("Number of genes for each of the results:", "\n",
+    "\n",
+    "WT - bacteriocin versus normal:", "\n",
+    "\t", "All genes, nonzero: ", nrow(res_wt_treat.vs.notreat.df), "\n",
+    "\t", "DE genes (q-value < 0.05): ", nrow(res_wt_treat.vs.notreat.0.05), "\n",
+    "\t", "DEGs, significant and -1 > FC > 1: ", nrow(res_wt_treat.vs.notreat.FC), "\n", "\n",
+    "Mutant - bacteriocin versus normal:", "\n",
+    "\t", "All genes, nonzero: ", nrow(res_m_treat.vs.notreat.df), "\n",
+    "\t", "Significant DEGs (q-value < 0.05): ", nrow(res_m_treat.vs.notreat.0.05), "\n",
+    "\t", "DEGs, significant and -1 > FC > 1: ", nrow(res_m_treat.vs.notreat.FC), "\n", "\n",
+    "NoTreat - mutant versus wt:", "\n",
+    "\t", "All genes, nonzero: ", nrow(res_m.vs.wt_notreat.df), "\n",
+    "\t", "Significant DEGs (q-value < 0.05): ", nrow(res_m.vs.wt_notreat.0.05), "\n",
+    "\t", "DEGs, significant and -1 > FC > 1: ", nrow(res_m.vs.wt_notreat.FC), "\n", "\n",
+    "GarKS - mutant versus wt:", "\n",
+    "\t", "All genes, nonzero: ", nrow(res_m.vs.wt_treat.df), "\n",
+    "\t", "Significant DEGs (q-value < 0.05): ", nrow(res_m.vs.wt_treat.0.05), "\n",
+    "\t", "DEGs, significant and -1 > FC > 1: ", nrow(res_m.vs.wt_treat.FC), "\n", "\n",
+    "Response to GarKS - mutant versus wt (interaction term):", "\n",
+    "\t", "All genes, nonzero: ", nrow(res_respons.df), "\n",
+    "\t", "Significant DEGs (q-value < 0.05): ", nrow(res_respons.0.05), "\n",
+    "\t", "DEGs, significant and -1 > FC > 1: ", nrow(res_respons.FC))
+```
