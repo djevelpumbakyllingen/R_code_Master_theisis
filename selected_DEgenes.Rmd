@@ -1,0 +1,272 @@
+---
+title: "Checking selected differential expressed genes from DEA by DESeq2"
+author: "Kristin Kleivan Solberg"
+date: '2022-07-20'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Loading packages
+```{r}
+# install.packages("tidyverse")
+# install.packages("microseq")
+
+library(tidyverse)
+library(microseq)
+```
+
+Loading tables: operon group nr, meta data genes, GFF info genes, and tables saved after differential expression analysis with DESeq2
+```{r}
+# Subset operon-grouping
+load("Sub_data/operon_groups_tbl.RData")
+
+# GFF with gene information
+load("Sub_data/GFF_info_LMGT4071_genes.RData")
+
+# meta data genes
+load("Sub_data/meta_data_genes.RData") 
+gene_meta_data %>% 
+  select(-Seqid) -> gene_meta_data
+
+# DEG wt
+load("Sub_data/Tables_with_DE_genes/res_wt_treat.vs.notreat_df.RData")
+load("Sub_data/Tables_with_DE_genes/res_wt_treat.vs.notreat_0.05.RData")
+load("Sub_data/Tables_with_DE_genes/res_wt_treat.vs.notreat_FC.RData")
+
+# DEG m
+load("Sub_data/Tables_with_DE_genes/res_m_treat.vs.notreat_df.RData")
+load("Sub_data/Tables_with_DE_genes/res_m_treat.vs.notreat_0.05.RData")
+load("Sub_data/Tables_with_DE_genes/res_m_treat.vs.notreat_FC.RData")
+
+# DEG type
+load("Sub_data/Tables_with_DE_genes/res_m.vs.wt_notreat_df.RData")
+load("Sub_data/Tables_with_DE_genes/res_m.vs.wt_notreat_0.05.RData")
+load("Sub_data/Tables_with_DE_genes/res_m.vs.wt_notreat_FC.RData")
+
+# DEG type
+load("Sub_data/Tables_with_DE_genes/res_m.vs.wt_treat_df.RData")
+load("Sub_data/Tables_with_DE_genes/res_m.vs.wt_treat_0.05.RData")
+load("Sub_data/Tables_with_DE_genes/res_m.vs.wt_treat_FC.RData")
+```
+
+# Function for adding information from the differential expression analysis to GFF
+(could have been combined with some of the lines in the next R chunk...)
+```{r}
+alter.GFF.fun <- function(GFF, table.df, table.0.05, table.FC){
+  
+  GFF %>% 
+    filter(geneID %in% rownames(table.df)) %>% 
+    mutate(abs_log2FC_over_one = if_else(geneID %in% rownames(table.FC), "TRUE", "")) %>% 
+    mutate(sign_adjp_0.05 = if_else(geneID %in% rownames(table.0.05), "TRUE", "")) -> GFF.tbl
+
+  table.df %>% 
+    mutate(geneID = rownames(table.df)) %>% 
+    select(geneID, log2FoldChange) -> table.df
+  
+  GFF.tbl %>% 
+    left_join(table.df, by = "geneID") -> GFF.tbl
+  
+  return(GFF.tbl)
+}
+```
+
+
+Combining GFF, meta data genes and operon groups with the info of differential expressed genes for each contrast.
+```{r}
+# wt bacteriocin vs wt control
+alter.GFF.fun(Selected.GFF, res_wt_treat.vs.notreat.df, res_wt_treat.vs.notreat.0.05, res_wt_treat.vs.notreat.FC) %>% 
+  left_join(subset_operon_groups[c("geneID", "trans_nr_blastn.carefulspades")], 
+            by = "geneID") %>% 
+  left_join(gene_meta_data, by = "geneID") %>% 
+  select(-Dist_to_next_gene) %>% 
+  filter(abs_log2FC_over_one == TRUE & sign_adjp_0.05 == TRUE) -> wt.DEGs.GFF.genes
+
+
+# mutant bacteriocin vs mutant control
+alter.GFF.fun(Selected.GFF, res_m_treat.vs.notreat.df, res_m_treat.vs.notreat.0.05, res_m_treat.vs.notreat.FC) %>% 
+  left_join(subset_operon_groups[c("geneID", "trans_nr_blastn.carefulspades")], 
+            by = "geneID") %>% 
+  left_join(gene_meta_data, by = "geneID") %>% 
+  select(-Dist_to_next_gene) -> m.DEGs.GFF
+
+m.DEGs.GFF %>% 
+  filter(abs_log2FC_over_one == TRUE & sign_adjp_0.05 == TRUE) -> m.DEGs.GFF.genes
+
+
+# mutant control vs wt control
+alter.GFF.fun(Selected.GFF, res_m.vs.wt_notreat.df, res_m.vs.wt_notreat.0.05,
+               res_m.vs.wt_notreat.FC) %>% 
+  left_join(subset_operon_groups[c("geneID", "trans_nr_blastn.carefulspades")], 
+            by = "geneID") %>% 
+  left_join(gene_meta_data, by = "geneID") %>% 
+  select(-Dist_to_next_gene) -> type.DEGs.GFF 
+
+type.DEGs.GFF %>% 
+  filter(abs_log2FC_over_one == TRUE & sign_adjp_0.05 == TRUE) -> type.DEGs.GFF.genes
+
+
+# mutant bacteriocin vs wt bacteriocin
+alter.GFF.fun(Selected.GFF, res_m.vs.wt_treat.df, res_m.vs.wt_treat.0.05, 
+               res_m.vs.wt_treat.FC) %>% 
+  left_join(subset_operon_groups[c("geneID", "trans_nr_blastn.carefulspades")], 
+            by = "geneID") %>% 
+  left_join(gene_meta_data, by = "geneID") %>% 
+  select(-Dist_to_next_gene) %>% 
+  filter(abs_log2FC_over_one == TRUE & sign_adjp_0.05 == TRUE) -> treat.DEGs.GFF.genes
+```
+
+
+#### DEGs wt bacteriocin/control vs DEGs m bacteriocin/control
+Inspecting the genes differential expressed between wt control and bacteriocin which are not differential expressed between mutant control and bacteriocin
+```{r}
+# which are NOT in...
+wt.DEGs_vs_m.DEGs <- wt.DEGs.GFF.genes[which(!(wt.DEGs.GFF.genes$geneID %in% m.DEGs.GFF.genes$geneID)), ]
+```
+
+
+Are the same 4 genes DEGs found differential expressed in comparing mutant control and wt control?
+(expect not - if they are, it can indicate that these genes are not connected to the handle of stress due to GarKS)
+```{r}
+# which are NOT in...
+wt.DEGs_vs_type.DEGs <- wt.DEGs_vs_m.DEGs[which(!(wt.DEGs_vs_m.DEGs$geneID %in% type.DEGs.GFF.genes$geneID)), ]
+
+# checking log2 FC for the 4 genes in contrast mutant control vs wt control
+# View(type.DEGs.GFF[which(type.DEGs.GFF$geneID %in% wt.DEGs_vs_type.DEGs$geneID),])
+```
+NONE of the 4 genes are found to be differential expressed between wt and mutant control!
+
+
+Dobbeltcheck: are the 4 genes found also in the comparison of mutant bacteriocin and wt bacteriocin?
+(expect yes - but downregulated)
+```{r}
+# which are in...
+wt.DEGs_vs_treat.DEGs <- wt.DEGs_vs_m.DEGs[which((wt.DEGs_vs_m.DEGs$geneID %in% treat.DEGs.GFF.genes$geneID)), ]
+
+# Looking at the 4 genes for the contrast: mutant bacteriocin vs wt bacteriocin
+# View(treat.DEGs.GFF.genes[which(treat.DEGs.GFF.genes$geneID %in% wt.DEGs_vs_type.DEGs$geneID),])
+```
+The 4 genes are downregulated in mutant bacteriocin compared to wt bacteriocin, while upregulated in wt bacteriocin vs wt control. 
+
+
+
+Extract sequences for the 4 genes to run through BLAST
+```{r}
+gene.seqs <- readFasta("Sub_data/gene_seqs_LMGT4071_subset.fasta")
+
+# SHGENE001926 srrA_1
+gene.seqs$Sequence[which(gene.seqs$Header == "SHGENE001926")]
+
+# SHGENE001931 rcsC
+gene.seqs$Sequence[which(gene.seqs$Header == "SHGENE001931")]
+
+# SHGENE002639 Protein of unknown function (DUF418)
+gene.seqs$Sequence[which(gene.seqs$Header == "SHGENE002639")]
+
+# SHGENE081604 hypothetical protein
+gene.seqs$Sequence[which(gene.seqs$Header == "SHGENE081604")]
+```
+
+
+
+Plotting log2FC value for the 4 genes in the different contrasts
+
+wt: wt bacteriocin vs wt control
+mutant/m: mutant bacteriocin vs mutant control
+type: mutant control vs wt control
+treat: mutant bacteriocin vs wt bacteriocin
+```{r}
+# The 4 genes in the wt -> upregulated
+wt <- wt.DEGs.GFF.genes[which(!(wt.DEGs.GFF.genes$geneID %in% m.DEGs.GFF.genes$geneID)), ] %>% 
+  select(geneID, Annotation_, Operon_group = trans_nr_blastn.carefulspades, log2FC_wt = log2FoldChange)
+
+# The 4 genes in the m -> not significant up/down regulated
+wt.m <- m.DEGs.GFF[which(m.DEGs.GFF$geneID %in% wt$geneID),] %>% 
+  select(geneID, log2FC_m = log2FoldChange)
+
+# The 4 genes in the type -> not significant up regulated
+wt.type <- type.DEGs.GFF[which(type.DEGs.GFF$geneID %in% wt$geneID),] %>% 
+  select(geneID, log2FC_type = log2FoldChange)
+
+# The 4 genes in the treat -> downregulated
+wt.treat <- treat.DEGs.GFF.genes[which(treat.DEGs.GFF.genes$geneID %in% wt$geneID),] %>% 
+  select(geneID, log2FC_treat = log2FoldChange)
+
+wt %>% 
+  left_join(wt.m, by = "geneID") %>% 
+  left_join(wt.type, by = "geneID") %>%
+  left_join(wt.treat, by = "geneID") %>% 
+  left_join(gene_meta_data, by = "geneID") %>% 
+  mutate(legend_name = c("srrA", "rcsC", "Protein of unknown function (DUF418)", "CPBP intramembrane metalloprotease"))-> FC_4genes
+
+# Plotting the log2 FC for the genes in each contrast
+FC_4genes %>% 
+  rename('WT bacteriocin vs control' = log2FC_wt, 'Mutant bacteriocin vs control' = log2FC_m,
+         'Mutant control vs WT control' = log2FC_type, 
+         'Mutant bacteriocin vs WT bacteriocin' = log2FC_treat) %>% 
+  pivot_longer(col = contains("vs"), names_to = "Contrasts", values_to = "log2FC") %>% 
+  ggplot() +
+  geom_point(aes(x = Contrasts, y = log2FC, color = legend_name), size = 2) +
+  labs(title = "The log2 Fold Change for the 4 genes in different contrasts" ) +
+  theme_bw() +
+  theme(legend.title=element_blank(),
+        legend.text = element_text(size = 14)) +
+  theme(axis.title.y = element_blank(),
+        axis.text.x = element_text(size = 14),
+        axis.text.y = element_text(size = 14),
+        title = element_text(size = 14, face = "bold")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  coord_flip() -> comp.fig
+
+#ggsave("Data/4genesDEGs.png", comp.fig, scale = 1, width = 12, height = 4)
+```
+
+
+### Looking at the genes predicted to be near rseP
+```{r}
+# log2 FC values and padj info for genes in contrast: wt bact vs wt control
+res_wt_treat.vs.notreat.df %>% 
+  mutate(geneID = rownames(res_wt_treat.vs.notreat.df)) %>% 
+  select(geneID, wt.treat_all = log2FoldChange) %>% 
+  mutate(wt.treat_0.05 = if_else(geneID %in% rownames(res_wt_treat.vs.notreat.0.05), TRUE, FALSE)) -> FC_wt
+
+# log2 FC values and padj info for genes in contrast: mutant bact vs mutant control
+res_m_treat.vs.notreat.df %>% 
+  mutate(geneID = rownames(res_m_treat.vs.notreat.df)) %>% 
+  select(geneID, m.treat_all = log2FoldChange) %>% 
+  mutate(m.treat_0.05 = if_else(geneID %in% rownames(res_m_treat.vs.notreat.0.05), TRUE, FALSE)) -> FC_m
+
+# log2 FC values and padj info for genes in contrast: mutant control vs wt control
+res_m.vs.wt_notreat.df %>% 
+  mutate(geneID = rownames(res_m.vs.wt_notreat.df)) %>% 
+  select(geneID, type_all = log2FoldChange) %>% 
+  mutate(type_0.05 = if_else(geneID %in% rownames(res_m.vs.wt_notreat.0.05), TRUE, FALSE)) -> FC_type
+
+# log2 FC values and padj info for genes in contrast: mutant bact vs wt bact
+res_m.vs.wt_treat.df %>% 
+  mutate(geneID = rownames(res_m.vs.wt_treat.df)) %>% 
+  select(geneID, treat_all = log2FoldChange) %>% 
+  mutate(treat_0.05 = if_else(geneID %in% rownames(res_m.vs.wt_treat.0.05), TRUE, FALSE)) -> FC_treat
+
+#Joining all tables
+Selected.GFF %>% 
+  left_join(subset_operon_groups[c("geneID", "trans_nr_blastn.carefulspades")], by = "geneID") %>%
+  left_join(FC_wt, by = "geneID") %>% 
+  left_join(FC_m, by = "geneID") %>% 
+  left_join(FC_type, by = "geneID") %>% 
+  left_join(FC_treat, by = "geneID") %>% 
+  left_join(gene_meta_data, by = "geneID") -> overall.info.tbl
+
+near.rsep <- overall.info.tbl[127:150, ]
+
+# library(writexl)
+# write_xlsx(unique.near.rsep, "Data/FC_anntotaion_unique_near_rsep.xlsx")
+
+
+# Using the table to also look at info for the 4 genes from above
+# "SHGENE002639" "SHGENE001931" "SHGENE001926" "SHGENE081604"
+overall.info.tbl %>% 
+  filter(geneID %in% c("SHGENE002639", "SHGENE001931", "SHGENE001926", "SHGENE081604")) -> four.genes
+```
