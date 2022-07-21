@@ -1,0 +1,245 @@
+---
+title: "Organizing annotation results from Prokka and InterProScan, altering GFF table"
+author: "Kristin Kleivan Solberg"
+date: '2022-07-18'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Loading packages
+```{r}
+# install.packages("tidyverse")
+library(tidyverse)
+```
+
+# PROKKA
+```{r}
+# Subset: Prokka results GFF
+load("Sub_data/subset_all_prokka.RData")
+
+# Altering Seqid
+subset_prokka.GFF %>% 
+  mutate(Seqid = if_else(Strand == "+", 
+                         str_c("Seqid=", Seqid, ";End=", 
+                               End, ";Strand=", Strand),
+                         str_c("Seqid=", Seqid, ";Start=", 
+                               Start, ";Strand=", Strand))) %>% 
+  mutate(Temp_col = str_c("LMGT_4071.", word(Seqid, 2, 2, sep = "_"))) %>% 
+  mutate(Seqid = str_replace_all(
+    Seqid, pattern = "Seqid=NODE_.*", 
+    str_c("Seqid=", Temp_col, ";", 
+          word(Seqid, 2, 3, sep = ";")))) %>% 
+  select(-Temp_col)-> prokka.gffs
+```
+
+# LORFs
+```{r}
+# Subset: LORFs results GFF
+load("Sub_data/subset_all.LORFs.RData")
+
+# Altering Seqid
+subset_all.LORFs.GFF %>% 
+  mutate(Seqid = if_else(Strand == "+", 
+                         str_c("Seqid=", Seqid, ";End=", 
+                               End, ";Strand=", Strand),
+                         str_c("Seqid=", Seqid, ";Start=", 
+                               Start, ";Strand=", Strand))) %>% 
+  mutate(Temp_col = str_c("LMGT_4071.", word(Seqid, 2, 2, sep = "_"))) %>% 
+  mutate(Seqid = str_replace_all(
+    Seqid, pattern = "Seqid=NODE_.*", 
+    str_c("Seqid=", Temp_col, ";", 
+          word(Seqid, 2, 3, sep = ";")))) %>% 
+  select(-Temp_col) -> all.gff.LORFs
+
+# Need only location information - annotation info will be from InterProscan
+all.gff.LORFs %>% 
+  select(Seqid, Start, End) -> LORFs.start.end.tbl
+```
+
+# Interproscan
+```{r}
+# Subset: InterProScan results GFF
+load("Sub_data/subset_interproscan.RData")
+
+# Fixing the Seqid
+subset_interproscan.GFF %>% 
+  mutate(Seqid_temp = str_remove_all(
+    Seqid, pattern = "Seqid|Start.*|End.*")) %>%
+  mutate(Start_End_temp1 = str_extract_all(
+    Seqid, pattern = "Start|End")) %>% 
+  mutate(Start_End_temp2 = str_remove_all(
+    Seqid, pattern = ".*Start|.*End|Strand.*")) %>%
+  mutate(Strand_temp = str_extract(
+    Seqid, pattern = "-|\\+")) %>% 
+  mutate(Seqid = str_c("Seqid=", Seqid_temp, ";", 
+                      Start_End_temp1,
+                      "=", Start_End_temp2, 
+                      ";Strand=", Strand_temp)) %>% 
+  select(-Seqid_temp, -Start_End_temp1, 
+         -Start_End_temp2, -Strand_temp) %>% 
+  mutate(Temp_col = str_c("LMGT_4071.", word(Seqid, 2, 2, sep = "_"))) %>% 
+  mutate(Seqid = str_replace_all(
+    Seqid, pattern = "Seqid=NODE_.*", 
+    str_c("Seqid=", Temp_col, ";", 
+          word(Seqid, 2, 3, sep = ";")))) %>% 
+  select(-Temp_col) -> interproscan.gffs
+
+
+# Adding columns of info from Attributes
+interproscan.gffs %>% 
+  mutate(Interpro_accession = str_remove(
+    str_extract(Attributes, pattern = "InterPro:[[:digit:]A-Z]*"), 
+    pattern = "InterPro:")) %>%
+  
+  mutate(Gene_Ontology_accession = str_replace_all(
+    str_extract_all(Attributes, pattern = "GO:[:digit:]*"), 
+    pattern = "[c[^0-9a-zA-Z :,]+]", replacement = ""))  %>% 
+  
+  mutate(Gene_Ontology_accession = ifelse(Gene_Ontology_accession == "harater0",
+                                          NA, Gene_Ontology_accession)) %>% 
+  mutate(Kegg_pathway_accession = str_remove(
+    str_extract(Attributes, pattern = "KEGG:.*\\+[1-9]\\.[1-9]\\.[1-9]\\.[1-9]*"),
+    pattern = "KEGG:")) -> interproscan.gffs
+
+# Rename columns for knowing these are from interproscan
+interproscan.gffs %>% 
+  mutate(Source_ipscan = Source, Type_ipscan = Type, 
+         Start_ipscan = Start, End_ipscan = End, 
+         Score_ipscan = Score, Attributes_ipscan = Attributes) %>% 
+  select(Seqid, Source_ipscan, Type_ipscan, Start_ipscan, End_ipscan,
+         Score_ipscan, Attributes_ipscan, Interpro_accession,
+         Gene_Ontology_accession, Kegg_pathway_accession) -> interproscan.gffs
+```
+
+Extracting results from only prokka, prokka through ipscan and LORFs through ipscan
+```{r}
+# Table for results from genes predicted with both prokka and interproscan
+interproscan.gffs %>% 
+  filter(Seqid %in% prokka.gffs$Seqid) %>%  
+  left_join(prokka.gffs, by = "Seqid") %>%   
+  mutate(Genome_Start_ipscan = (Start - 1) + (Start_ipscan*3) -2) %>% 
+  mutate(Genome_End_ipscan = (Start - 1) + End_ipscan*3) %>% 
+  mutate(Sort_value = if_else(Strand == "+", Genome_Start_ipscan, Genome_End_ipscan)) ->  iproscan.on.prokka
+
+# Table for results of additional genes predicted by interproscan from the LORFs
+interproscan.gffs %>% 
+  filter(!(Seqid %in% prokka.gffs$Seqid)) %>% 
+  left_join(LORFs.start.end.tbl, by = "Seqid") %>% 
+  mutate(Genome_Start_ipscan = (Start - 1) + (Start_ipscan*3) -2) %>% 
+  mutate(Genome_End_ipscan = (Start - 1) + End_ipscan*3) %>% 
+  mutate(Sort_value = if_else(str_detect(Seqid, pattern = "\\+"), Genome_Start_ipscan, Genome_End_ipscan)) -> iproscan.on.lorfs
+
+# Table for results only from prokka
+prokka.gffs %>% 
+  filter(!(Seqid %in% iproscan.on.prokka$Seqid)) %>% 
+  mutate(Genome_Start_ipscan = Start, Genome_End_ipscan = End) %>% 
+  mutate(Sort_value = if_else(Strand == "+", Start, End)) -> results.only.from.prokka
+```
+
+Combining the three tables and sorting the table
+```{r}
+# Combining rows and altering columns from attributes ipscan
+bind_rows(results.only.from.prokka, iproscan.on.prokka, iproscan.on.lorfs) %>% 
+  mutate(Strand = if_else(is.na(Strand), word(Seqid, 4, 4, sep = "="), Strand)) %>%
+  mutate(Gene_Ontology_accession = str_remove_all(Gene_Ontology_accession, 
+                                                  pattern = " ")) %>% 
+  mutate(Kegg_pathway_accession = str_remove_all(Kegg_pathway_accession, 
+                                                 pattern = "\"|KEGG:")) %>% 
+  mutate(Gene_Ontology_accession = str_split(Gene_Ontology_accession, 
+                                             pattern = ",")) %>% 
+  mutate(Kegg_pathway_accession = str_split(Kegg_pathway_accession, 
+                                            pattern = ",")) -> Super.GFF
+# sort both columns and rows
+Super.GFF %>%
+  select(Seqid, Source, Source_ipscan, Type, Type_ipscan, Start, End,
+         Start_ipscan, End_ipscan, Genome_Start_ipscan, Genome_End_ipscan,
+         Sort_value, Strand, Interpro_accession, Gene_Ontology_accession,
+         Kegg_pathway_accession, Attributes, Attributes_ipscan) %>% 
+  mutate(Temp_genome = str_remove_all(Seqid, pattern = "Seqid=|;.*")) %>% 
+  arrange(Strand, Temp_genome, Sort_value) -> Sorted.Super.GFF
+
+# This code is used to make the GFF used in the Kallisto index process
+#save(Sorted.Super.GFF, file = "Sorted_Super_GFF.RData")
+```
+
+### Loading in Super GFF, extract annotation information
+```{r}
+# NOT subset
+load("Sub_data/SuperGFF_fixed_seqid_290322.RData") 
+
+# Adding custom gene IDs for simplification
+# Kepping only genes from LMGT4071, extract annotation information
+Super.GFF %>% 
+  mutate(geneID = str_c("SHGENE", str_pad(c(1:nrow(Super.GFF)), 6, pad = "0"))) %>%
+  mutate(Temp_genome = str_remove_all(Seqid, pattern = "Seqid=|;.*")) %>%
+  filter(str_detect(Temp_genome, pattern = "LMGT_4071.*")) %>% 
+  select(Seqid, geneID, Type, Attributes, Attributes_ipscan) %>% 
+  mutate(Prokka_gene = str_remove_all(
+    str_extract(Attributes, pattern = "gene=.*"), pattern = "gene=|;.*")) %>% 
+  mutate(Prokka_product = str_remove_all(
+    str_extract(Attributes, pattern = "product=.*"), pattern = "product=|;.*")) %>%
+  mutate(Ipscan_sign_desc = str_remove_all(
+    str_extract(Attributes_ipscan, pattern = "signature_desc=.*"), pattern = "signature_desc=|;.*")) -> Sub.GFF
+
+Sub.GFF %>% 
+  group_by(Seqid) %>% 
+  mutate(Annotation = paste(c(paste(unique(Prokka_gene), collapse = ", "),
+                              paste(unique(Prokka_product), collapse = ", "),
+                              paste(unique(Ipscan_sign_desc), collapse = ", ")), collapse = ";")) %>% 
+  filter(!duplicated(Seqid)) %>% 
+  select(Seqid, geneID, Type, Annotation) %>% 
+  mutate(Prokka_gene = word(Annotation, 1, 1, sep = ";")) %>% 
+  mutate(Prokka_product = word(Annotation, 2, 2, sep = ";")) %>% 
+  mutate(Ipscan_sign_desc = word(Annotation, 3, 3, sep = ";")) %>% 
+  mutate(Annotation_ = Prokka_gene) %>% 
+  mutate(Annotation_ = if_else(Prokka_gene == "NA", 
+                               str_c(Prokka_product, "; ", Ipscan_sign_desc),
+                               Prokka_gene)) -> gene_meta_data
+
+#save(gene_meta_data, file = "gene_metadata_260622.RData")
+#load("gene_metadata_260622.RData")
+
+# This code is for making the file that corresponds to: meta_data_genes.RData 
+```
+
+
+### Loading in Super GFF, calculating distance to next gene and selecting columns
+```{r}
+# NOT subset
+load("Sub_data/SuperGFF_fixed_seqid_290322.RData")
+
+# Adding custom gene IDs for simplification
+# Keeping only genes from LMGT4071
+Super.GFF %>% 
+  mutate(geneID = str_c("SHGENE", str_pad(c(1:nrow(Super.GFF)), 6, pad = "0"))) %>%
+  filter(str_detect(Seqid, pattern = "Seqid=LMGT_4071")) %>% 
+  filter(!duplicated(Seqid)) %>% 
+  mutate(contig = str_remove_all(Seqid, pattern = "Seqid=LMGT_4071_|;.*")) %>% 
+  select(Seqid, geneID, contig, Start, End, Strand, Sort_value) %>% 
+  mutate(Dist_to_next_gene = NA) -> Selected.GFF
+
+# Calculating the distance to next gene
+for(gene in 1:(nrow(Selected.GFF)-1)){
+  
+  if(Selected.GFF$contig[gene] == Selected.GFF$contig[gene +1]){
+    
+    if(Selected.GFF$Strand[gene] == "-"){
+      Selected.GFF$Dist_to_next_gene[gene] <- 
+    -(Selected.GFF$End[gene + 1] - Selected.GFF$Start[gene]) - 1
+    }
+    else if(Selected.GFF$Strand[gene] == "+"){
+      Selected.GFF$Dist_to_next_gene[gene] <- 
+      (Selected.GFF$Start[gene + 1] - Selected.GFF$End[gene]) -1
+    }
+    }
+}
+
+Selected.GFF %>% 
+  select(-Start, -End, -Strand, Sort_value) -> Selected.GFF
+
+
+# This code is for making the file that corresponds to: GFF_info_LMGT4071_genes.RData
+```
