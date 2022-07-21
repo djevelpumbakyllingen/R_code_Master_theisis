@@ -1,0 +1,556 @@
+---
+title: "Operon clustering/prediction - filtering contigs/transcripts from SPAdes and filtering of BLAST matches"
+author: "Kristin Kleivan Solberg"
+date: '2022-07-18'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Loading packages
+```{r message=FALSE, warning=FALSE}
+# install.packages("tidyverse")
+# install.packages("fossil")
+# install.packages("microseq")
+
+library(tidyverse)
+library(fossil)
+library(microseq)
+```
+
+<br>
+<br>
+<br>
+
+## Checking read coverage from A1 sample (wt control)
+
+```{r message=FALSE}
+# number of reads per sample - data from multiqc
+num.reads.tbl <- read_delim("Sub_data/num_reads_filtered_RNA_reads.txt", delim = "\t")
+
+# getting read length to calculate average read length - - data from multiqc
+length.reads <- read_delim("Sub_data/fastqc_sequence_length_distribution_plot.tsv", delim = "\t")
+
+colnames(length.reads)[1:17] <- c("read_length", str_remove(word(colnames(length.reads)[2:17], 9, 9, sep = "\\|"), pattern = " "))
+
+length.reads %>% 
+  select(A1_1, A1_2) %>% 
+  mutate(num_reads = rowSums(.)) %>% 
+  mutate(read_length = length.reads$read_length) -> length.reads.2
+
+# average read length
+L <- sum(length.reads.2$read_length * length.reads.2$num_reads)/sum(length.reads.2$num_reads)
+# number of reads
+N <- sum(num.reads.tbl$`Unique Reads`[9:10]) + sum(num.reads.tbl$`Duplicate Reads`[9:10])
+# transcriptome size - taken from total number bases in the predicted genes
+#G <- 2632932
+TG <- 2036389
+read.cov <- (L*N)/TG
+```
+
+
+
+## Filtering contigs/transcripts from SPAdes
+
+
+### The contigs from running SPAdes without --careful
+```{r message=FALSE}
+# Subset
+SPAdes.contigs <-readFasta("Sub_data/SPAdes.contigs_subset.fasta")
+
+# contig length 
+SPAdes.contigs %>% 
+  mutate(length = str_length(Sequence)) -> SPAdes.contigs
+
+cat(" Number of contigs:", nrow(SPAdes.contigs), "\n",
+    "Average contig length:", mean(SPAdes.contigs$length), "\n",
+    "Minimum contig length:", min(SPAdes.contigs$length), "\n",
+    "Maximum contig length:", max(SPAdes.contigs$length))
+```
+
+
+Filtering out short contigs/contigs with low Kmer coverage
+```{r message=FALSE}
+# Plotting all contigs
+SPAdes.contigs %>% 
+  mutate(Length = as.numeric(word(Header, 4, 4, sep = "_"))) %>% 
+  mutate(Kmer.cov = as.numeric(word(Header, 6, 6, sep = "_"))) -> SPAdes.contigs.2
+
+SPAdes.contigs.2 %>% 
+  ggplot(aes(x = Kmer.cov, y = Length)) +
+  geom_point() +
+  geom_vline(xintercept = 6) +
+  geom_hline(yintercept = 120) +
+  scale_x_log10() +
+  scale_y_log10()
+
+
+# filter out short contigs (compromise between minimum length of predicted genes (71) and an assumption of generel minimum gene length of 200) and contigs with low kmer coverage
+SPAdes.contigs.2 %>% 
+  filter(Length > 119) %>% 
+  filter(Kmer.cov > 5) -> SPAdes.contigs.filt
+
+SPAdes.contigs.filt %>% 
+  ggplot(aes(Length, Kmer.cov)) +
+  geom_point() +
+  coord_flip() +
+  scale_x_log10() +
+  scale_y_log10()
+
+cat("Number of contigs after filtering:", nrow(SPAdes.contigs.filt))
+
+sum(str_length(SPAdes.contigs.filt$Sequence))
+```
+
+Savning the filtered contigs
+```{r}
+# SPAdes.contigs.filt %>% 
+#   select(Header, Sequence) %>% 
+#   writeFasta(out.file = "/mnt/users/krisolbe/Master/Find_operon_SPAdes_RNA_blast_genes/SPAdes/SPAdes_filtered_contigs_notcareful_270522.fasta")
+```
+
+
+
+### The contigs from running SPAdes with --careful
+```{r message=FALSE}
+# Subset
+carefulSPAdes.contigs <-readFasta("Sub_data/carefulSPAdes.contigs_subset.fasta")
+
+# contig length
+carefulSPAdes.contigs %>% 
+  mutate(length = str_length(Sequence)) -> carefulSPAdes.contigs
+
+cat(" Number of contigs:", nrow(carefulSPAdes.contigs), "\n",
+    "Average contig length:", mean(carefulSPAdes.contigs$length), "\n",
+    "Minimum contig length:", min(carefulSPAdes.contigs$length), "\n",
+    "Maximum contig length:", max(carefulSPAdes.contigs$length))
+```
+
+
+Filtering out short contigs/contigs with low Kmer coverage
+```{r message=FALSE}
+# Plotting all contigs
+carefulSPAdes.contigs %>% 
+  mutate(Length = as.numeric(word(Header, 4, 4, sep = "_"))) %>% 
+  mutate(Kmer.cov = as.numeric(word(Header, 6, 6, sep = "_"))) -> carefulSPAdes.contigs.2
+
+carefulSPAdes.contigs.2 %>% 
+  ggplot(aes(x = Kmer.cov, y = Length)) +
+  geom_point() +
+  geom_vline(xintercept = 6) +
+  geom_hline(yintercept = 120) +
+  scale_x_log10() +
+  scale_y_log10()
+
+
+# filter out short contigs (compromise between minimum length of predicted genes (71) and an assumption of generel minimum gene length of 200) and contigs with low kmer coverage
+carefulSPAdes.contigs.2 %>% 
+  filter(Length > 119) %>% 
+  filter(Kmer.cov > 5) -> carefulSPAdes.contigs.filt
+
+carefulSPAdes.contigs.filt %>% 
+  ggplot(aes(Length, Kmer.cov)) +
+  geom_point() +
+  coord_flip() +
+  scale_x_log10() +
+  scale_y_log10()
+
+cat("Number of contigs after filtering:", nrow(carefulSPAdes.contigs.filt))
+
+sum(str_length(carefulSPAdes.contigs.filt$Sequence))
+```
+
+
+Savning the filtered contigs
+```{r}
+# carefulSPAdes.contigs.filt %>% 
+#   select(Header, Sequence) %>% 
+#   writeFasta(out.file = "/mnt/users/krisolbe/Master/Find_operon_SPAdes_RNA_blast_genes/SPAdes_careful/SPAdes_filtered_contigs_careful_270522.fasta")
+```
+
+
+### The contigs from running metaSPAdes
+```{r message=FALSE}
+# Subset
+metaSPAdes.contigs <-readFasta("Sub_data/metaSPAdes.contigs_subset.fasta")
+
+# contig length
+metaSPAdes.contigs %>% 
+  mutate(length = str_length(Sequence)) -> metaSPAdes.contigs
+
+cat(" Number of contigs:", nrow(metaSPAdes.contigs), "\n",
+    "Average contig length:", mean(metaSPAdes.contigs$length), "\n",
+    "Minimum contig length:", min(metaSPAdes.contigs$length), "\n",
+    "Maximum contig length:", max(metaSPAdes.contigs$length))
+```
+
+
+Filtering out short contigs/contigs with low Kmer coverage
+```{r message=FALSE}
+# Plotting all contigs
+metaSPAdes.contigs %>% 
+  mutate(Length = as.numeric(word(Header, 4, 4, sep = "_"))) %>% 
+  mutate(Kmer.cov = as.numeric(word(Header, 6, 6, sep = "_"))) -> metaSPAdes.contigs.2
+
+metaSPAdes.contigs.2 %>% 
+  ggplot(aes(x = Kmer.cov, y = Length)) +
+  geom_point() +
+  geom_vline(xintercept = 6) +
+  geom_hline(yintercept = 120) +
+  scale_x_log10() +
+  scale_y_log10()
+
+
+# filter out short contigs (compromise between minimum length of predicted genes (71) and an assumption of generel minimum gene length of 200) and contigs with low kmer coverage
+metaSPAdes.contigs.2 %>% 
+  filter(Length > 119) %>% 
+  filter(Kmer.cov > 5) -> metaSPAdes.contigs.filt
+
+metaSPAdes.contigs.filt %>% 
+  ggplot(aes(Length, Kmer.cov)) +
+  geom_point() +
+  coord_flip() +
+  scale_x_log10() +
+  scale_y_log10()
+
+cat("Number of contigs after filtering:", nrow(metaSPAdes.contigs.filt))
+
+sum(str_length(metaSPAdes.contigs.filt$Sequence))
+```
+
+
+Savning the filtered contigs
+```{r}
+# metaSPAdes.contigs.filt %>%
+# select(Header, Sequence) %>%
+# writeFasta(out.file = "/mnt/users/krisolbe/Master/Find_operon_SPAdes_RNA_blast_genes/metaSPAdes/metaSPAdes_filtered_contigs_290522.fasta")
+```
+
+
+### The contigs from running rnaSPAdes with --ss-rf:
+
+"The data set is strand-specific and first read in pair corresponds to reverse gene strand."
+[LINK: rnaSPAdes manual](https://cab.spbu.ru/files/release3.11.1/rnaspades_manual.html)
+
+
+```{r message=FALSE}
+# Subset
+rnaSPAdes.contigs <-readFasta("Sub_data/rnaSPAdes.contigs_subset.fasta")
+
+# contig length
+rnaSPAdes.contigs %>% 
+  mutate(length = str_length(Sequence)) -> rnaSPAdes.contigs
+
+cat(" Number of contigs:", nrow(rnaSPAdes.contigs), "\n",
+    "Average contig length:", mean(rnaSPAdes.contigs$length), "\n",
+    "Minimum contig length:", min(rnaSPAdes.contigs$length), "\n",
+    "Maximum contig length:", max(rnaSPAdes.contigs$length))
+```
+
+
+Filtering out short contigs/contigs with low Kmer coverage
+```{r message=FALSE}
+# Plotting all contigs
+rnaSPAdes.contigs %>% 
+  mutate(Length = as.numeric(word(Header, 4, 4, sep = "_"))) %>% 
+  mutate(Kmer.cov = as.numeric(word(Header, 6, 6, sep = "_"))) -> rnaSPAdes.contigs.2
+
+rnaSPAdes.contigs.2 %>% 
+  ggplot(aes(x = Kmer.cov, y = Length)) +
+  geom_point() +
+  geom_vline(xintercept = 5) +
+  geom_hline(yintercept = 150) +
+  scale_x_log10() +
+  scale_y_log10()
+
+
+# filter out short contigs (compromise between minimum length of predicted genes (71) and an assumption of generel minimum gene length of 200) and contigs with low kmer coverage
+rnaSPAdes.contigs.2 %>% 
+  filter(Length > 149) %>% 
+  filter(Kmer.cov > 4) -> rnaSPAdes.contigs.filt
+
+rnaSPAdes.contigs.filt %>% 
+  ggplot(aes(Length, Kmer.cov)) +
+  geom_point() +
+  coord_flip() +
+  scale_x_log10() +
+  scale_y_log10()
+
+cat("Number of contigs after filtering:", nrow(rnaSPAdes.contigs.filt))
+
+sum(str_length(rnaSPAdes.contigs.filt$Sequence))
+```
+
+
+Savning the filtered contigs
+```{r}
+# rnaSPAdes.contigs.filt %>%
+#   select(Header, Sequence) %>%
+#   writeFasta(out.file = "/mnt/users/krisolbe/Master/Find_operon_SPAdes_RNA_blast_genes/rnaSPAdes/rnaSPAdes_filtered_contigs_270522.fasta")
+```
+
+Filtering and saving the longest isoform of the transcripts
+```{r}
+rnaSPAdes.contigs.filt %>%
+  mutate(gene_number = word(Header, 7, 7, sep = "_")) %>%
+  group_by(gene_number) %>%
+  slice_max(n = 1, Length) -> rnaSPAdes.contigs.filt2
+
+rnaSPAdes.contigs.filt2 %>% 
+  ungroup() %>%
+  select(Header, Sequence) -> rnaSPAdes.contigs.filt2 
+
+cat("Number of contigs after filtering:", nrow(rnaSPAdes.contigs.filt2))
+
+sum(str_length(rnaSPAdes.contigs.filt2$Sequence))
+
+# rnaSPAdes.contigs.filt2 %>%
+#   select(Header, Sequence) %>%
+#   writeFasta(out.file = "/mnt/users/krisolbe/Master/Find_operon_SPAdes_RNA_blast_genes/rnaSPAdes/rnaSPAdes_filtered_contigs_longest_isoforms_270522.fasta")
+```
+
+Table with sum of contig lengths for the 4 different assemblies
+```{r}
+sum.contig.length <- tibble(
+  Assembly_method = c("SPAdes", "SPAdes with --careful", 
+                      "metaSPAdes", "rnaSPAdes", "rnaSPAdes"),
+  Samples_used = c("B1, B2, B3, B4", "B1, B2, B3, B4", 
+                   "Merged B1 and B4","B1, B2, B3, B4", "B1, B2, B3, B4"),
+  Total_num_contigs = c(nrow(SPAdes.contigs), nrow(carefulSPAdes.contigs),
+                        nrow(metaSPAdes.contigs), nrow(rnaSPAdes.contigs),
+                        nrow(rnaSPAdes.contigs)),
+  Kept_contigs = c(nrow(SPAdes.contigs.filt), nrow(carefulSPAdes.contigs.filt),
+                   nrow(metaSPAdes.contigs.filt), nrow(rnaSPAdes.contigs.filt),
+                   nrow(rnaSPAdes.contigs.filt2)),
+  Sum_length_contigs = c(sum(str_length(SPAdes.contigs.filt$Sequence)),
+                         sum(str_length(carefulSPAdes.contigs.filt$Sequence)),
+                         sum(str_length(metaSPAdes.contigs.filt$Sequence)),
+                         sum(str_length(rnaSPAdes.contigs.filt$Sequence)),
+                         sum(str_length(rnaSPAdes.contigs.filt2$Sequence))))
+```
+
+<br>
+<br>
+<br>
+
+## Filtering matches from BLAST: gene sequences matched against the assembled contigs/transcripts
+
+NB: Instead of making subsets of the 10 result files from blast, 4 files are selected:
+  - blastn results from carefulSPAdes contigs and rnaSPAdes longest contigs
+  - blastx results from carefulSPAdes contigs and rnaSPAdes longest contigs
+
+Loading in GFF table for LMGT4071 genes
+```{r}
+load("Sub_data/GFF_info_LMGT4071_genes.RData")
+```
+
+<br>
+<br>
+<br>
+
+#### Function for filtering the blast hits; 
+Problems when filtering:
+Even after filtering based on choosing the match with highest bitscore, keeping matches with percent identity of minimim 80 and percent alignment of the qlen of minimum 50, there still is several matches for some of the genes (Qseqid):
+
+1. Some where the gene is matched to the same transcript twice, either with different values for other columns than the bitscore, or matches where only the start and end is different. 
+    -> Since the operon group number given will be the same for either way, the chosen solution was: pick the one match with the lowest Qstart and Sstart.
+
+2. Genes that match to several different transcripts - most of these from rnaSPAdes with isoforms. In this case, all operon numbers are kept in the same cell. For the similarity measurement with adj.rand.index() all operon numbers from allrnaSPAdes are excluded in addition to the few rows that still gives more than one operon number in at least one of the other cases.
+```{r}
+filterBLASTresults <- function(BLASTres.tbl){
+
+  # For keeping the best matches
+  BLASTres.tbl %>% 
+  group_by(Qseqid) %>% 
+  slice_max(n = 1, Bitscore) %>% 
+  slice_max(n = 1, Palign_of_qlen) %>%
+  slice_max(n = 1, Pident) %>% 
+  ungroup() %>% 
+  filter(Pident >= 80) %>% 
+  filter(Palign_of_qlen >= 50) -> BLASTres.filt.tbl
+
+  # For genes matching twice to the same transcript
+  BLASTres.filt.tbl %>% 
+    group_by(Qseqid, Sseqid) %>% 
+    slice_min(n = 1, Qstart) %>% 
+    slice_min(n = 1, Sstart) %>% 
+    ungroup() -> BLASTres.filt.tbl
+  
+  # For genes matching equally good to several transcripts
+  BLASTres.filt.tbl %>% 
+  group_by(Qseqid) %>% 
+  summarise(transcript_nr = paste0(
+    as.numeric(word(Sseqid, 2, 2, sep = "_")), collapse = ", ")) %>% 
+  ungroup() -> BLASTres.filt.tbl
+  
+  return(BLASTres.filt.tbl)
+}
+```
+
+<br>
+<br>
+<br>
+
+#### blastn results filtered by the filterBLASTresults function
+```{r}
+# Result files from blastn
+blastn_res_files <- list.files(path = "Sub_data/Blast_genes_against_rnaseq_contigs/", pattern = "blastn.*")
+
+blastn_operon.tbl <- Selected.GFF
+
+for (file in blastn_res_files) {
+  
+  file_path <- str_c("Sub_data/Blast_genes_against_rnaseq_contigs/", file)
+  
+  # reading results
+  read_delim(file_path, col_names = c("Qseqid", "Sseqid", "Pident", 
+                                      "Length", "Mismatch", "Gapopen", 
+                                      "Qstart", "Qend", "Sstart", 
+                                      "Send", "Evalue", "Bitscore",
+                                      "qlen"), delim = "\t") %>% 
+  mutate(SPAdes_type = str_remove_all(file, pattern = "blastn_|contigs.*")) %>% 
+  mutate(Palign_of_qlen = (Length/qlen)*100) -> BLAST_res.tbl
+  
+  # filter matches
+  filterBLASTresults(BLAST_res.tbl) %>%  
+    select(Qseqid, transcript_nr) -> BLASTres_filt.tbl
+
+  colnames(BLASTres_filt.tbl)[2] <- str_c("trans_nr_blastn.", str_remove_all(file, pattern = "blastn_|contigs.*"))
+  
+  # combining the tables
+  blastn_operon.tbl %>%
+    left_join(BLASTres_filt.tbl, by = c("Seqid" = "Qseqid")) -> blastn_operon.tbl
+  }
+```
+
+<br>
+<br>
+<br>
+
+#### blastx results filtered by the filterBLASTresults function
+```{r}
+# Result files from tblastx
+tblastx_res_files <- list.files(path = "Sub_data/Blast_genes_against_rnaseq_contigs/", pattern = "tblastx.*")
+
+tblastx_operon.tbl <- Selected.GFF
+
+for (file in tblastx_res_files) {
+  
+  file_path <- str_c("Sub_data/Blast_genes_against_rnaseq_contigs/", file)
+  
+  # reading results
+  read_delim(file_path, col_names = c("Qseqid", "Sseqid", "Pident", 
+                                      "Length", "Mismatch", "Gapopen", 
+                                      "Qstart", "Qend", "Sstart", 
+                                      "Send", "Evalue", "Bitscore",
+                                      "qlen"), delim = "\t") %>% 
+  mutate(SPAdes_type = str_remove_all(file, pattern = "tblastx_|contigs.*")) %>% 
+  mutate(Palign_of_qlen = ((Length*3)/qlen)*100) -> BLAST_res.tbl
+  
+  # filter matches
+  filterBLASTresults(BLAST_res.tbl) %>% 
+    select(Qseqid, transcript_nr) -> BLASTres_filt.tbl 
+  
+  colnames(BLASTres_filt.tbl)[2] <- str_c("trans_nr_tblastx.", str_remove_all(file, pattern = "tblastx_|contigs.*"))
+  
+  # combining the tables
+  tblastx_operon.tbl %>% 
+    left_join(BLASTres_filt.tbl, by = c("Seqid" = "Qseqid")) -> tblastx_operon.tbl
+  }
+```
+
+<br>
+<br>
+<br>
+
+#### Inspecting the similarity bewteen the operon grouping methods
+
+Checked similarity matrix calculated from using NA values vs. 0: equal results. Just in case also checked with NA = 1000000000, also equal. 
+Checked with removing all rows containing NA values: NOT equal
+```{r}
+# 16 rows filtered out due to genes in multiple clusters
+blastn_operon.tbl[, c("trans_nr_blastn.carefulspades",
+                       "trans_nr_blastn.longest_rnaspades")] %>% 
+  bind_cols(tblastx_operon.tbl[, c("trans_nr_tblastx.carefulspades",
+                       "trans_nr_tblastx.longest_rnaspades")]) %>% 
+  mutate_all(~replace(., is.na(.), 1000000000)) %>% 
+  filter(if_all(everything(), ~!str_detect(., ", "))) %>% 
+  mutate_all(~replace(., 0, NA)) -> operon.groups
+
+colnames(operon.groups) <- c("blastn:careful_SPAdes",
+                             "blastn:longest_rnaSPAdes",
+                             "tblastx:careful_SPAdes",
+                             "tblastx:longest_rnaSPAdes")
+  
+grouping_method <- colnames(operon.groups)
+
+sim.matrix <- matrix(data = NA, nrow = 4, ncol = 4)
+rownames(sim.matrix) <- grouping_method
+colnames(sim.matrix) <- grouping_method
+
+# adj.rand.index gives the similarity in clustering
+for (group1 in grouping_method) {
+  for (group2 in grouping_method) {
+    
+    operon.groups %>% 
+      select(group1, group2) -> test
+    
+    sim.matrix[group1, group2] <- adj.rand.index(as.matrix(test[, group1]),
+                                             as.matrix(test[, group2]))
+  }
+}
+
+# Plotting dendrogram
+dist.mat <- as.dist(1 - sim.matrix)
+plot(hclust(dist.mat))
+```
+
+Saving the operon groups
+```{r}
+blastn_operon.tbl %>% 
+  select(-c(3:5)) %>% 
+  full_join(tblastx_operon.tbl[-c(2:5)], by = "Seqid") -> operon_groups.tbl
+#save(operon_groups.tbl, file = "operon_groups_tbl_090622.RData")
+```
+
+
+Number of genes per operon cluster from clustering with method:
+carefulSPAdes assembly and blastn
+
+```{r}
+# Number of genes not assigned to any cluster
+length(which(is.na(operon_groups.tbl$trans_nr_blastn.carefulspades)))
+
+# Select method, filter NA, strand and contig info 
+operon_groups.tbl %>% 
+  select(Seqid, trans_nr_blastn.carefulspades) %>% 
+  filter(!is.na(trans_nr_blastn.carefulspades)) %>% 
+  mutate(trans_nr_blastn.carefulspades_Strand = str_c(trans_nr_blastn.carefulspades, "_", word(Seqid, 5, 5, sep = "="))) -> operon_groups.filt
+
+# For ordering the genes in the plot
+factor.groups <- unique(operon_groups.filt$trans_nr_blastn.carefulspades_Strand)
+
+# Number of genes each cluster
+operon_groups.filt %>% 
+  group_by(trans_nr_blastn.carefulspades_Strand) %>% 
+  summarise(num_genes = n()) %>% 
+  mutate(trans_nr_blastn.carefulspades_Strand = factor(trans_nr_blastn.carefulspades_Strand, levels = factor.groups)) %>% 
+  mutate(Strand = word(trans_nr_blastn.carefulspades_Strand, 2, 2, sep = "_")) -> genes_per_operon
+
+genes_per_operon %>% 
+  ggplot() +
+  geom_col(aes(x = trans_nr_blastn.carefulspades_Strand, y = num_genes, fill = Strand)) +
+  scale_fill_manual(values = c("gray23", "grey53")) +
+  theme_bw() +
+  theme(axis.text.x = element_blank(),
+        axis.text.y = element_text(size = 12),
+        legend.text = element_text(size = 16)) +
+  labs(y = "Number of genes", x = "Operon clusters") + 
+  scale_y_continuous(breaks = seq(0, 150, by = 10)) +
+  ggtitle("Number of genes per operon clusters from blastn of predicted genes against assembled transcriptions") -> fig1
+
+#ggsave(fig1, filename = "Data/genes_per_operon.png", scale = 0.7, width = 14, height = 5)
+```
